@@ -1,0 +1,96 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T23:10:56+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230112",
+    "student_name": "郭雨昕",
+    "assigned_section": "次日2点",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "次日2点",
+    "source": "老师提供",
+    "raw_text": "\n凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。\n",
+    "notes": "句子自由翻译标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 20,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 20,
+      "char_end": 37,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 37,
+      "char_end": 81,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨两点，我躺在床上，不一会儿就睡着了。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“很快就进入了梦乡”中的“进入梦乡”是较为书面或文学化的表达，自由翻译将其改为“睡着了”，更贴近日常口语习惯，同时保留了“凌晨两点”和“躺在床上”的基本信息，使句子更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在梦里看见两个人正在激烈地争吵。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“在梦里，我看到两个人在激烈地争吵”已经比较通顺，但“看到”在中文中略显书面化，改为“看见”更自然口语化；同时将“在梦里”提前，保持原句信息不变，使表达更流畅。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "接着，我梦见了2012年世界末日的情景：滔天巨浪淹没了整个地球，人们纷纷逃往山上避难。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“巨大的海浪”改为“滔天巨浪”更符合中文惯用描述，增强画面感；“淹没了地球”调整为“淹没了整个地球”使范围更明确；“逃到山上”改为“逃往山上”更自然流畅，整体保持原句信息不变，同时提升语言的自然度和文学性。"
+    }
+  ]
+}

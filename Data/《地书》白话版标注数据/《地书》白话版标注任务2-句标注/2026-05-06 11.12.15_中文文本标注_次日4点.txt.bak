@@ -1,0 +1,38 @@
+{
+  "project": {
+    "project_name": "《地书》白话版标注任务",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-05T20:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "1191230410",
+    "student_name": "董珂祎",
+    "assigned_section": "次日4点",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "分配的章节03：次日4点",
+    "source": "作业提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "全文本完整标注版本。"
+  },
+  "units": [
+    {"unit_id": "sent_001", "unit_type": "sentence", "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。", "sentence_index": 1},
+    {"unit_id": "word_001", "unit_type": "word", "text": "凌晨四点", "sentence_id": "sent_001"},
+    {"unit_id": "word_002", "unit_type": "word", "text": "进入了", "sentence_id": "sent_001"},
+    {"unit_id": "word_003", "unit_type": "word", "text": "睡得很香", "sentence_id": "sent_001"}
+  ],
+  "annotations": [
+    {"annotation_id": "a_w001", "target_id": "word_001", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "time_phrase"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w002", "target_id": "word_002", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "aspect_particle"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w003", "target_id": "word_003", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "degree_complement"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+
+    {"annotation_id": "a_s001", "target_id": "sent_001", "target_type": "sentence", "task_id": "free_translation", "value": "到了夜里四点钟，我总算是彻底睡熟了，并且睡得非常香甜。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"}
+  ]
+}

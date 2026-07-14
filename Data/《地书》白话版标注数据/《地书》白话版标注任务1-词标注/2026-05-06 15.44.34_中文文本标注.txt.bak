@@ -1,0 +1,2047 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "1191230216",
+    "student_name": "潘序",
+    "assigned_section": "10点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "《地书》10点",
+    "source": "教师提供",
+    "raw_text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。\n\n我们两人一起下楼，走向星巴克。我看着红衣服的同事，他挥了挥手，我们便坐了下来。\n\n同事和我聊起天来：\"这天气时晴时阴，眼看又要下雨了……\"\n我听着，心里有点无奈，又有点不安。\n我笑着说：\"来杯咖啡和牛角包。\"\n同事笑着回应：\"我来杯绿茶，再加个苹果。\"\n\n我们坐着，有一搭没一搭地聊着天。\n同事端着绿茶说：\"看世界杯，巴西对葡萄牙！\"我忍不住笑了。\n我捧着咖啡说：\"看这球赛的精彩瞬间！\"\n同事又说：\"最近在找房子。\"\n我接话：\"刚看新闻，说房价跌了。\"\n我又补了句：\"不过油价倒是涨了！\"\n同事说：\"我看股票涨了。\"\n同事又吐槽：\"油价涨得离谱，车都快开不起了！\"他看起来有点生气。\n我叹了口气：\"我看的股票跌了。\"\n同事说：\"汇率倒是涨了。\"\n\n我们就这么聊着天。\n我们挥手告别，他下楼，我往楼上走。\n时钟滴答走着，我上了楼，左转右转，朝着洗手间走去。\n我心里想着卫生棉条的事，走进洗手间，看着棉条，拉上了隔间的拉链。\n我看着棉条，发了会儿呆。\n走出隔间，我有点懵，耳边好像响起了音乐，看着不远处的女生，她回头看了我一眼。\n我看着她，想起她整理衣服的样子，心里有点心动。\n时钟继续走着，我往工位走，想起了垃圾分类的事。\n我把垃圾丢了，走回工位，坐了下来。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 28,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008", "word_009", "word_010", "word_011", "word_012"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我们两人一起下楼，走向星巴克。",
+      "sentence_index": 2,
+      "char_start": 30,
+      "char_end": 49,
+      "children": ["word_013", "word_014", "word_015", "word_016", "word_017", "word_018", "word_019", "word_020"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我看着红衣服的同事，他挥了挥手，我们便坐了下来。",
+      "sentence_index": 3,
+      "char_start": 50,
+      "char_end": 79,
+      "children": ["word_021", "word_022", "word_023", "word_024", "word_025", "word_026", "word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "同事和我聊起天来：\"这天气时晴时阴，眼看又要下雨了……\"",
+      "sentence_index": 4,
+      "char_start": 81,
+      "char_end": 119,
+      "children": ["word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040", "word_041", "word_042", "word_043", "word_044", "word_045", "word_046", "word_047", "word_048", "word_049"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我听着，心里有点无奈，又有点不安。",
+      "sentence_index": 5,
+      "char_start": 121,
+      "char_end": 145,
+      "children": ["word_050", "word_051", "word_052", "word_053", "word_054", "word_055", "word_056", "word_057", "word_058", "word_059"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我笑着说：\"来杯咖啡和牛角包。\"",
+      "sentence_index": 6,
+      "char_start": 146,
+      "char_end": 165,
+      "children": ["word_060", "word_061", "word_062", "word_063", "word_064", "word_065", "word_066", "word_067", "word_068"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "同事笑着回应：\"我来杯绿茶，再加个苹果。\"",
+      "sentence_index": 7,
+      "char_start": 166,
+      "char_end": 191,
+      "children": ["word_069", "word_070", "word_071", "word_072", "word_073", "word_074", "word_075", "word_076", "word_077", "word_078", "word_079", "word_080"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我们坐着，有一搭没一搭地聊着天。",
+      "sentence_index": 8,
+      "char_start": 193,
+      "char_end": 215,
+      "children": ["word_081", "word_082", "word_083", "word_084", "word_085", "word_086", "word_087", "word_088"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "同事端着绿茶说：\"看世界杯，巴西对葡萄牙！\"我忍不住笑了。",
+      "sentence_index": 9,
+      "char_start": 216,
+      "char_end": 253,
+      "children": ["word_089", "word_090", "word_091", "word_092", "word_093", "word_094", "word_095", "word_096", "word_097", "word_098", "word_099", "word_100", "word_101", "word_102", "word_103"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我捧着咖啡说：\"看这球赛的精彩瞬间！\"",
+      "sentence_index": 10,
+      "char_start": 254,
+      "char_end": 278,
+      "children": ["word_104", "word_105", "word_106", "word_107", "word_108", "word_109", "word_110", "word_111", "word_112"]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "同事又说：\"最近在找房子。\"",
+      "sentence_index": 11,
+      "char_start": 279,
+      "char_end": 296,
+      "children": ["word_113", "word_114", "word_115", "word_116", "word_117", "word_118", "word_119"]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我接话：\"刚看新闻，说房价跌了。\"",
+      "sentence_index": 12,
+      "char_start": 297,
+      "char_end": 318,
+      "children": ["word_120", "word_121", "word_122", "word_123", "word_124", "word_125", "word_126", "word_127", "word_128"]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我又补了句：\"不过油价倒是涨了！\"",
+      "sentence_index": 13,
+      "char_start": 319,
+      "char_end": 340,
+      "children": ["word_129", "word_130", "word_131", "word_132", "word_133", "word_134", "word_135", "word_136", "word_137"]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "同事说：\"我看股票涨了。\"",
+      "sentence_index": 14,
+      "char_start": 341,
+      "char_end": 357,
+      "children": ["word_138", "word_139", "word_140", "word_141", "word_142", "word_143"]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "同事又吐槽：\"油价涨得离谱，车都快开不起了！\"他看起来有点生气。",
+      "sentence_index": 15,
+      "char_start": 358,
+      "char_end": 402,
+      "children": ["word_144", "word_145", "word_146", "word_147", "word_148", "word_149", "word_150", "word_151", "word_152", "word_153", "word_154", "word_155", "word_156", "word_157", "word_158", "word_159", "word_160", "word_161"]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我叹了口气：\"我看的股票跌了。\"",
+      "sentence_index": 16,
+      "char_start": 403,
+      "char_end": 424,
+      "children": ["word_162", "word_163", "word_164", "word_165", "word_166", "word_167", "word_168", "word_169"]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "同事说：\"汇率倒是涨了。\"",
+      "sentence_index": 17,
+      "char_start": 425,
+      "char_end": 441,
+      "children": ["word_170", "word_171", "word_172", "word_173", "word_174"]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我们就这么聊着天。",
+      "sentence_index": 18,
+      "char_start": 443,
+      "char_end": 456,
+      "children": ["word_175", "word_176", "word_177", "word_178", "word_179"]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我们挥手告别，他下楼，我往楼上走。",
+      "sentence_index": 19,
+      "char_start": 457,
+      "char_end": 482,
+      "children": ["word_180", "word_181", "word_182", "word_183", "word_184", "word_185", "word_186", "word_187", "word_188", "word_189"]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "时钟滴答走着，我上了楼，左转右转，朝着洗手间走去。",
+      "sentence_index": 20,
+      "char_start": 483,
+      "char_end": 517,
+      "children": ["word_190", "word_191", "word_192", "word_193", "word_194", "word_195", "word_196", "word_197", "word_198", "word_199", "word_200", "word_201", "word_202"]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我心里想着卫生棉条的事，走进洗手间，看着棉条，拉上了隔间的拉链。",
+      "sentence_index": 21,
+      "char_start": 518,
+      "char_end": 565,
+      "children": ["word_203", "word_204", "word_205", "word_206", "word_207", "word_208", "word_209", "word_210", "word_211", "word_212", "word_213", "word_214", "word_215", "word_216", "word_217", "word_218", "word_219", "word_220"]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我看着棉条，发了会儿呆。",
+      "sentence_index": 22,
+      "char_start": 566,
+      "char_end": 583,
+      "children": ["word_221", "word_222", "word_223", "word_224", "word_225", "word_226", "word_227"]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "走出隔间，我有点懵，耳边好像响起了音乐，看着不远处的女生，她回头看了我一眼。",
+      "sentence_index": 23,
+      "char_start": 584,
+      "char_end": 637,
+      "children": ["word_228", "word_229", "word_230", "word_231", "word_232", "word_233", "word_234", "word_235", "word_236", "word_237", "word_238", "word_239", "word_240", "word_241", "word_242", "word_243", "word_244"]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我看着她，想起她整理衣服的样子，心里有点心动。",
+      "sentence_index": 24,
+      "char_start": 638,
+      "char_end": 673,
+      "children": ["word_245", "word_246", "word_247", "word_248", "word_249", "word_250", "word_251", "word_252", "word_253", "word_254", "word_255", "word_256", "word_257", "word_258"]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "时钟继续走着，我往工位走，想起了垃圾分类的事。",
+      "sentence_index": 25,
+      "char_start": 674,
+      "char_end": 707,
+      "children": ["word_259", "word_260", "word_261", "word_262", "word_263", "word_264", "word_265", "word_266", "word_267", "word_268", "word_269", "word_270"]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "我把垃圾丢了，走回工位，坐了下来。",
+      "sentence_index": 26,
+      "char_start": 708,
+      "char_end": 734,
+      "children": ["word_271", "word_272", "word_273", "word_274", "word_275", "word_276", "word_277", "word_278", "word_279", "word_280"]
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "word_001",
+      "target_text": "我",
+      "value": "第一人称代词，指说话者/叙述者本人",
+      "confidence": 0.98,
+      "annotator_note": "叙述的主体人物"
+    },
+    {
+      "target_id": "word_002",
+      "target_text": "看了",
+      "value": "用眼睛观察、查看时间的动作",
+      "confidence": 0.95,
+      "annotator_note": "看时钟的动作"
+    },
+    {
+      "target_id": "word_003",
+      "target_text": "眼",
+      "value": "量词，表示看了一眼、短暂地查看",
+      "confidence": 0.9,
+      "annotator_note": "与'看了'连用，表示短暂动作"
+    },
+    {
+      "target_id": "word_004",
+      "target_text": "时钟",
+      "value": "显示时间的工具/计时器",
+      "confidence": 0.98,
+      "annotator_note": "具体物体"
+    },
+    {
+      "target_id": "word_005",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_006",
+      "target_text": "拒绝",
+      "value": "不答应、不愿意接受某项要求",
+      "confidence": 0.95,
+      "annotator_note": "表达否定的态度"
+    },
+    {
+      "target_id": "word_007",
+      "target_text": "了",
+      "value": "助词，表示动作已完成",
+      "confidence": 0.95,
+      "annotator_note": "完成体标记"
+    },
+    {
+      "target_id": "word_008",
+      "target_text": "加班",
+      "value": "超出正常工作时间的工作任务",
+      "confidence": 0.98,
+      "annotator_note": "工作相关概念"
+    },
+    {
+      "target_id": "word_009",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_010",
+      "target_text": "露出",
+      "value": "显现出、表现出某种表情或神态",
+      "confidence": 0.95,
+      "annotator_note": "表情变化的动作"
+    },
+    {
+      "target_id": "word_011",
+      "target_text": "微笑",
+      "value": "不明显的笑容，表示满意或放松的心情",
+      "confidence": 0.98,
+      "annotator_note": "面部表情"
+    },
+    {
+      "target_id": "word_012",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_013",
+      "target_text": "伸手",
+      "value": "伸出手臂去做某个动作",
+      "confidence": 0.95,
+      "annotator_note": "身体动作"
+    },
+    {
+      "target_id": "word_014",
+      "target_text": "关掉",
+      "value": "使机器/电器停止运行",
+      "confidence": 0.95,
+      "annotator_note": "关闭电脑的动作"
+    },
+    {
+      "target_id": "word_015",
+      "target_text": "了",
+      "value": "助词，表示动作已完成",
+      "confidence": 0.95,
+      "annotator_note": "完成体标记"
+    },
+    {
+      "target_id": "word_016",
+      "target_text": "电脑",
+      "value": "电子计算机设备，办公工具",
+      "confidence": 0.98,
+      "annotator_note": "具体物件"
+    },
+    {
+      "target_id": "word_017",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_018",
+      "target_text": "我们",
+      "value": "第一人称复数代词，指说话者和同伴",
+      "confidence": 0.98,
+      "annotator_note": "人物指称"
+    },
+    {
+      "target_id": "word_019",
+      "target_text": "两人",
+      "value": "两个人，数量为二",
+      "confidence": 0.95,
+      "annotator_note": "数量表达"
+    },
+    {
+      "target_id": "word_020",
+      "target_text": "一起",
+      "value": "共同、结伴做某件事",
+      "confidence": 0.95,
+      "annotator_note": "表示伴随关系"
+    },
+    {
+      "target_id": "word_021",
+      "target_text": "下楼",
+      "value": "从楼上往楼下走",
+      "confidence": 0.95,
+      "annotator_note": "空间移动"
+    },
+    {
+      "target_id": "word_022",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_023",
+      "target_text": "走向",
+      "value": "朝着某个方向移动过去",
+      "confidence": 0.95,
+      "annotator_note": "方向性移动"
+    },
+    {
+      "target_id": "word_024",
+      "target_text": "星巴克",
+      "value": "星巴克咖啡连锁店的名称/地点",
+      "confidence": 0.98,
+      "annotator_note": "具体场所名称"
+    },
+    {
+      "target_id": "word_025",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_026",
+      "target_text": "我",
+      "value": "第一人称代词，指向叙述者自己",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_027",
+      "target_text": "看着",
+      "value": "用眼睛注视某人或某物",
+      "confidence": 0.95,
+      "annotator_note": "视觉行为"
+    },
+    {
+      "target_id": "word_028",
+      "target_text": "红衣服",
+      "value": "穿着红色衣服的人，以服饰特征代指人",
+      "confidence": 0.95,
+      "annotator_note": "借代修辞，用衣着指代人"
+    },
+    {
+      "target_id": "word_029",
+      "target_text": "的",
+      "value": "助词，表示所属或修饰关系",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_030",
+      "target_text": "同事",
+      "value": "在同一单位工作的人",
+      "confidence": 0.98,
+      "annotator_note": "社会关系称谓"
+    },
+    {
+      "target_id": "word_031",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_032",
+      "target_text": "他",
+      "value": "第三人称代词，指代那位同事",
+      "confidence": 0.98,
+      "annotator_note": "人物指代"
+    },
+    {
+      "target_id": "word_033",
+      "target_text": "挥了挥手",
+      "value": "举起手来回摆动，表示打招呼或示意",
+      "confidence": 0.95,
+      "annotator_note": "社交手势动作"
+    },
+    {
+      "target_id": "word_034",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_035",
+      "target_text": "我们",
+      "value": "第一人称复数代词，指叙述者和同事",
+      "confidence": 0.98,
+      "annotator_note": "人物指称"
+    },
+    {
+      "target_id": "word_036",
+      "target_text": "便",
+      "value": "副词，表示顺理成章或紧接着发生",
+      "confidence": 0.92,
+      "annotator_note": "承接副词"
+    },
+    {
+      "target_id": "word_037",
+      "target_text": "坐了下来",
+      "value": "从站立状态改为臀部着地的坐姿",
+      "confidence": 0.95,
+      "annotator_note": "姿势变化动作"
+    },
+    {
+      "target_id": "word_038",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_039",
+      "target_text": "同事",
+      "value": "在同一单位共事的人",
+      "confidence": 0.98,
+      "annotator_note": "人物身份"
+    },
+    {
+      "target_id": "word_040",
+      "target_text": "和",
+      "value": "连词，表示并列关系",
+      "confidence": 0.98,
+      "annotator_note": "连接词"
+    },
+    {
+      "target_id": "word_041",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_042",
+      "target_text": "聊起天来",
+      "value": "开始进行非正式的谈话交流",
+      "confidence": 0.95,
+      "annotator_note": "言语行为"
+    },
+    {
+      "target_id": "word_043",
+      "target_text": "：",
+      "value": "冒号，引出下文说话内容",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_044",
+      "target_text": "“",
+      "value": "左双引号，表示直接引用的开始",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_045",
+      "target_text": "这",
+      "value": "指示代词，指代目前的/当前的",
+      "confidence": 0.98,
+      "annotator_note": "指示词"
+    },
+    {
+      "target_id": "word_046",
+      "target_text": "天气",
+      "value": "大气状况，气象条件",
+      "confidence": 0.98,
+      "annotator_note": "自然现象"
+    },
+    {
+      "target_id": "word_047",
+      "target_text": "时晴时阴",
+      "value": "一会儿晴天一会儿阴天，表示天气变化不定",
+      "confidence": 0.95,
+      "annotator_note": "描述天气变化"
+    },
+    {
+      "target_id": "word_048",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_049",
+      "target_text": "眼看",
+      "value": "马上、很快就要发生某种情况",
+      "confidence": 0.92,
+      "annotator_note": "时间副词，表示即将发生"
+    },
+    {
+      "target_id": "word_050",
+      "target_text": "又要下雨了",
+      "value": "很快就要开始下雨了",
+      "confidence": 0.95,
+      "annotator_note": "对天气的预测"
+    },
+    {
+      "target_id": "word_051",
+      "target_text": "……”",
+      "value": "省略号加右引号，表示话未说完，引用结束",
+      "confidence": 0.98,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_052",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_053",
+      "target_text": "听着",
+      "value": "用耳朵接收声音信息",
+      "confidence": 0.95,
+      "annotator_note": "听觉行为"
+    },
+    {
+      "target_id": "word_054",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_055",
+      "target_text": "心里",
+      "value": "内心、内心深处，指思想或情感层面",
+      "confidence": 0.95,
+      "annotator_note": "内心感受的场所"
+    },
+    {
+      "target_id": "word_056",
+      "target_text": "有点",
+      "value": "程度副词，表示稍微、不太强烈",
+      "confidence": 0.92,
+      "annotator_note": "程度修饰"
+    },
+    {
+      "target_id": "word_057",
+      "target_text": "无奈",
+      "value": "没有办法、无可奈何的心情",
+      "confidence": 0.98,
+      "annotator_note": "心理情绪状态"
+    },
+    {
+      "target_id": "word_058",
+      "target_text": "，",
+      "value": "标点符号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_059",
+      "target_text": "又",
+      "value": "副词，表示同时存在多种情况",
+      "confidence": 0.95,
+      "annotator_note": "并列副词"
+    },
+    {
+      "target_id": "word_060",
+      "target_text": "有点",
+      "value": "稍微、一定程度上的",
+      "confidence": 0.92,
+      "annotator_note": "程度修饰"
+    },
+    {
+      "target_id": "word_061",
+      "target_text": "不安",
+      "value": "内心不平静、焦虑或担忧的状态",
+      "confidence": 0.98,
+      "annotator_note": "心理情绪状态"
+    },
+    {
+      "target_id": "word_062",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_063",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_064",
+      "target_text": "笑着说",
+      "value": "带着笑容说话，表示友好的态度",
+      "confidence": 0.95,
+      "annotator_note": "言语伴随的表情动作"
+    },
+    {
+      "target_id": "word_065",
+      "target_text": "：",
+      "value": "冒号，引出话语内容",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_066",
+      "target_text": "“",
+      "value": "左双引号，引用开始",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_067",
+      "target_text": "来杯咖啡和牛角包",
+      "value": "点单：要一杯咖啡和一个牛角包",
+      "confidence": 0.95,
+      "annotator_note": "点餐话语"
+    },
+    {
+      "target_id": "word_068",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_069",
+      "target_text": "”",
+      "value": "右双引号，引用结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_070",
+      "target_text": "同事",
+      "value": "同一单位的共事者",
+      "confidence": 0.98,
+      "annotator_note": "人物身份"
+    },
+    {
+      "target_id": "word_071",
+      "target_text": "笑着回应",
+      "value": "以笑容回应对方的言语",
+      "confidence": 0.95,
+      "annotator_note": "言语反应"
+    },
+    {
+      "target_id": "word_072",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_073",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_074",
+      "target_text": "我来杯绿茶，再加个苹果",
+      "value": "点单：我要一杯绿茶，另外加一个苹果",
+      "confidence": 0.95,
+      "annotator_note": "点餐话语"
+    },
+    {
+      "target_id": "word_075",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_076",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_077",
+      "target_text": "我们",
+      "value": "叙述者和同事两人",
+      "confidence": 0.98,
+      "annotator_note": "人物指称"
+    },
+    {
+      "target_id": "word_078",
+      "target_text": "坐着",
+      "value": "保持坐着的姿态",
+      "confidence": 0.95,
+      "annotator_note": "身体姿势"
+    },
+    {
+      "target_id": "word_079",
+      "target_text": "，",
+      "value": "逗号，停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_080",
+      "target_text": "有一搭没一搭地",
+      "value": "随意地、不连贯地(聊天)，不是认真持续的谈话",
+      "confidence": 0.92,
+      "annotator_note": "形容聊天状态"
+    },
+    {
+      "target_id": "word_081",
+      "target_text": "聊着天",
+      "value": "进行非正式的交谈",
+      "confidence": 0.95,
+      "annotator_note": "言语社交行为"
+    },
+    {
+      "target_id": "word_082",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_083",
+      "target_text": "同事",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_084",
+      "target_text": "端着绿茶",
+      "value": "手里拿着装有绿茶的杯子",
+      "confidence": 0.95,
+      "annotator_note": "手持物品的动作"
+    },
+    {
+      "target_id": "word_085",
+      "target_text": "说",
+      "value": "发出话语、表达",
+      "confidence": 0.98,
+      "annotator_note": "言语行为"
+    },
+    {
+      "target_id": "word_086",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_087",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_088",
+      "target_text": "看世界杯，巴西对葡萄牙！",
+      "value": "正在看世界杯比赛，是巴西对阵葡萄牙的场次(表达兴奋或评论)",
+      "confidence": 0.95,
+      "annotator_note": "对球赛的评论"
+    },
+    {
+      "target_id": "word_089",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_090",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_091",
+      "target_text": "忍不住",
+      "value": "无法控制自己、不由自主地",
+      "confidence": 0.95,
+      "annotator_note": "表示无法抑制"
+    },
+    {
+      "target_id": "word_092",
+      "target_text": "笑了",
+      "value": "发出笑声，表示觉得好笑或开心",
+      "confidence": 0.98,
+      "annotator_note": "情绪表达"
+    },
+    {
+      "target_id": "word_093",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_094",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_095",
+      "target_text": "捧着咖啡",
+      "value": "双手拿着咖啡杯",
+      "confidence": 0.95,
+      "annotator_note": "手持动作"
+    },
+    {
+      "target_id": "word_096",
+      "target_text": "说",
+      "value": "说话",
+      "confidence": 0.98,
+      "annotator_note": "言语"
+    },
+    {
+      "target_id": "word_097",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_098",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_099",
+      "target_text": "看这球赛的精彩瞬间！",
+      "value": "正在观看球赛中令人激动的精彩片段(表示欣赏或兴奋)",
+      "confidence": 0.95,
+      "annotator_note": "对球赛的评论"
+    },
+    {
+      "target_id": "word_100",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_101",
+      "target_text": "同事",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_102",
+      "target_text": "又说",
+      "value": "紧接着继续说话",
+      "confidence": 0.95,
+      "annotator_note": "连续言语"
+    },
+    {
+      "target_id": "word_103",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_104",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_105",
+      "target_text": "最近在找房子",
+      "value": "近期正在寻找出租或出售的房屋",
+      "confidence": 0.98,
+      "annotator_note": "日常生活事项"
+    },
+    {
+      "target_id": "word_106",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_107",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_108",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_109",
+      "target_text": "接话",
+      "value": "接过对方的话继续说下去",
+      "confidence": 0.95,
+      "annotator_note": "言语反应"
+    },
+    {
+      "target_id": "word_110",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_111",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_112",
+      "target_text": "刚看新闻，说房价跌了",
+      "value": "刚才看了新闻报道，里面说房屋价格下降了",
+      "confidence": 0.95,
+      "annotator_note": "分享信息"
+    },
+    {
+      "target_id": "word_113",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_114",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_115",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_116",
+      "target_text": "又补了句",
+      "value": "继续添加一句话，补充说明",
+      "confidence": 0.95,
+      "annotator_note": "补充言语"
+    },
+    {
+      "target_id": "word_117",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_118",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_119",
+      "target_text": "不过油价倒是涨了！",
+      "value": "然而汽油价格反而上涨了(与前一句房价下跌形成对比)",
+      "confidence": 0.95,
+      "annotator_note": "补充对比信息"
+    },
+    {
+      "target_id": "word_120",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_121",
+      "target_text": "同事",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_122",
+      "target_text": "说",
+      "value": "说话",
+      "confidence": 0.98,
+      "annotator_note": "言语"
+    },
+    {
+      "target_id": "word_123",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_124",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_125",
+      "target_text": "我看股票涨了",
+      "value": "我看股票价格上升了",
+      "confidence": 0.98,
+      "annotator_note": "分享金融信息"
+    },
+    {
+      "target_id": "word_126",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_127",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_128",
+      "target_text": "同事",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_129",
+      "target_text": "又吐槽",
+      "value": "再次用抱怨的口吻说话",
+      "confidence": 0.95,
+      "annotator_note": "抱怨性言语"
+    },
+    {
+      "target_id": "word_130",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_131",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_132",
+      "target_text": "油价涨得离谱，车都快开不起了！",
+      "value": "汽油价格上涨得太荒唐、太过度，快要承担不起开车所需的油费了",
+      "confidence": 0.95,
+      "annotator_note": "强烈抱怨油价"
+    },
+    {
+      "target_id": "word_133",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_134",
+      "target_text": "他",
+      "value": "指代那位同事",
+      "confidence": 0.98,
+      "annotator_note": "人物指代"
+    },
+    {
+      "target_id": "word_135",
+      "target_text": "看起来",
+      "value": "从外表或神态判断，给人一种...的感觉",
+      "confidence": 0.95,
+      "annotator_note": "推测判断"
+    },
+    {
+      "target_id": "word_136",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_137",
+      "target_text": "生气",
+      "value": "愤怒、不满的情绪状态",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_138",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_139",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_140",
+      "target_text": "叹了口气",
+      "value": "深深地呼气，表示无奈、疲倦或失望",
+      "confidence": 0.95,
+      "annotator_note": "情绪表达动作"
+    },
+    {
+      "target_id": "word_141",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_142",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_143",
+      "target_text": "我看的股票跌了",
+      "value": "我所持有的/关注的股票价格下跌了",
+      "confidence": 0.98,
+      "annotator_note": "陈述个人损失"
+    },
+    {
+      "target_id": "word_144",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_145",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_146",
+      "target_text": "同事",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_147",
+      "target_text": "说",
+      "value": "说话",
+      "confidence": 0.98,
+      "annotator_note": "言语"
+    },
+    {
+      "target_id": "word_148",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_149",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_150",
+      "target_text": "汇率倒是涨了",
+      "value": "货币兑换比例反而上升了(与前文股票/油价的变化形成对比)",
+      "confidence": 0.95,
+      "annotator_note": "分享汇率信息"
+    },
+    {
+      "target_id": "word_151",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_152",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_153",
+      "target_text": "我们",
+      "value": "叙述者和同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_154",
+      "target_text": "就这么",
+      "value": "就这样、以这种方式",
+      "confidence": 0.92,
+      "annotator_note": "方式描述"
+    },
+    {
+      "target_id": "word_155",
+      "target_text": "聊着天",
+      "value": "进行对话",
+      "confidence": 0.95,
+      "annotator_note": "言语行为"
+    },
+    {
+      "target_id": "word_156",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_157",
+      "target_text": "我们",
+      "value": "叙述者和同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_158",
+      "target_text": "挥手告别",
+      "value": "挥手表示再见、分开",
+      "confidence": 0.95,
+      "annotator_note": "告别动作"
+    },
+    {
+      "target_id": "word_159",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_160",
+      "target_text": "他",
+      "value": "同事",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_161",
+      "target_text": "下楼",
+      "value": "往楼下走",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_162",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_163",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_164",
+      "target_text": "往楼上走",
+      "value": "向楼上方向移动",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_165",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_166",
+      "target_text": "时钟",
+      "value": "计时工具",
+      "confidence": 0.98,
+      "annotator_note": "物体"
+    },
+    {
+      "target_id": "word_167",
+      "target_text": "滴答走着",
+      "value": "时钟发出\"滴答\"声并且指针在转动，表示时间流逝",
+      "confidence": 0.95,
+      "annotator_note": "拟声词+动作"
+    },
+    {
+      "target_id": "word_168",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_169",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_170",
+      "target_text": "上了楼",
+      "value": "通过楼梯来到楼上",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_171",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_172",
+      "target_text": "左转右转",
+      "value": "连续多次向左转和向右转，形容在走廊里绕来绕去",
+      "confidence": 0.95,
+      "annotator_note": "方向变化"
+    },
+    {
+      "target_id": "word_173",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_174",
+      "target_text": "朝着",
+      "value": "面向某个方向移动",
+      "confidence": 0.92,
+      "annotator_note": "方向介词"
+    },
+    {
+      "target_id": "word_175",
+      "target_text": "洗手间",
+      "value": "厕所、卫生间",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_176",
+      "target_text": "走去",
+      "value": "步行过去",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_177",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_178",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_179",
+      "target_text": "心里",
+      "value": "内心思想中",
+      "confidence": 0.95,
+      "annotator_note": "内心层面"
+    },
+    {
+      "target_id": "word_180",
+      "target_text": "想着",
+      "value": "思考、心里盘算",
+      "confidence": 0.95,
+      "annotator_note": "内心活动"
+    },
+    {
+      "target_id": "word_181",
+      "target_text": "卫生棉条",
+      "value": "女性经期使用的卫生用品",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_182",
+      "target_text": "的事",
+      "value": "与...相关的事情",
+      "confidence": 0.95,
+      "annotator_note": "表示内容"
+    },
+    {
+      "target_id": "word_183",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_184",
+      "target_text": "走进",
+      "value": "进入某个空间内部",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_185",
+      "target_text": "洗手间",
+      "value": "卫生间",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_186",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_187",
+      "target_text": "看着",
+      "value": "用眼睛注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_188",
+      "target_text": "棉条",
+      "value": "卫生棉条(指代包装或产品本身)",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_189",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_190",
+      "target_text": "拉上了",
+      "value": "通过拉伸动作闭合/锁上",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_191",
+      "target_text": "隔间",
+      "value": "被隔开的独立小空间(洗手间里的厕位)",
+      "confidence": 0.98,
+      "annotator_note": "空间"
+    },
+    {
+      "target_id": "word_192",
+      "target_text": "的",
+      "value": "所属助词",
+      "confidence": 0.98,
+      "annotator_note": "语法词"
+    },
+    {
+      "target_id": "word_193",
+      "target_text": "拉链",
+      "value": "用于闭合的门帘或门的拉锁/插销",
+      "confidence": 0.95,
+      "annotator_note": "物品部件"
+    },
+    {
+      "target_id": "word_194",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_195",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_196",
+      "target_text": "看着",
+      "value": "注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_197",
+      "target_text": "棉条",
+      "value": "卫生棉条",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_198",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_199",
+      "target_text": "发了会儿呆",
+      "value": "短时间地走神、放空思绪",
+      "confidence": 0.95,
+      "annotator_note": "精神状态"
+    },
+    {
+      "target_id": "word_200",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_201",
+      "target_text": "走出",
+      "value": "从内部移动到外部",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_202",
+      "target_text": "隔间",
+      "value": "厕位空间",
+      "confidence": 0.98,
+      "annotator_note": "空间"
+    },
+    {
+      "target_id": "word_203",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_204",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_205",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_206",
+      "target_text": "懵",
+      "value": "头脑迷糊、反应迟钝的状态",
+      "confidence": 0.98,
+      "annotator_note": "精神状态"
+    },
+    {
+      "target_id": "word_207",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_208",
+      "target_text": "耳边",
+      "value": "耳朵旁边",
+      "confidence": 0.98,
+      "annotator_note": "身体部位"
+    },
+    {
+      "target_id": "word_209",
+      "target_text": "好像",
+      "value": "似乎、仿佛",
+      "confidence": 0.95,
+      "annotator_note": "不确定判断"
+    },
+    {
+      "target_id": "word_210",
+      "target_text": "响起了",
+      "value": "开始发出声音",
+      "confidence": 0.95,
+      "annotator_note": "声音现象"
+    },
+    {
+      "target_id": "word_211",
+      "target_text": "音乐",
+      "value": "旋律声音、歌曲",
+      "confidence": 0.98,
+      "annotator_note": "声音内容"
+    },
+    {
+      "target_id": "word_212",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_213",
+      "target_text": "看着",
+      "value": "注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_214",
+      "target_text": "不远处的",
+      "value": "距离不太远的地方的",
+      "confidence": 0.95,
+      "annotator_note": "空间描述"
+    },
+    {
+      "target_id": "word_215",
+      "target_text": "女生",
+      "value": "年轻女性",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_216",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_217",
+      "target_text": "她",
+      "value": "指那位女生",
+      "confidence": 0.98,
+      "annotator_note": "人物指代"
+    },
+    {
+      "target_id": "word_218",
+      "target_text": "回头",
+      "value": "转过身或转回头",
+      "confidence": 0.95,
+      "annotator_note": "方向动作"
+    },
+    {
+      "target_id": "word_219",
+      "target_text": "看了",
+      "value": "看",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_220",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_221",
+      "target_text": "一眼",
+      "value": "表示看了一次，短暂的动作",
+      "confidence": 0.95,
+      "annotator_note": "动量"
+    },
+    {
+      "target_id": "word_222",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_223",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_224",
+      "target_text": "看着她",
+      "value": "注视那位女生",
+      "confidence": 0.95,
+      "annotator_note": "视觉行为"
+    },
+    {
+      "target_id": "word_225",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_226",
+      "target_text": "想起",
+      "value": "回忆起过去的事情",
+      "confidence": 0.95,
+      "annotator_note": "记忆活动"
+    },
+    {
+      "target_id": "word_227",
+      "target_text": "她",
+      "value": "那位女生",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_228",
+      "target_text": "整理衣服",
+      "value": "用手调整衣服使之整齐",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_229",
+      "target_text": "的样子",
+      "value": "当时的姿态或情景",
+      "confidence": 0.95,
+      "annotator_note": "描述"
+    },
+    {
+      "target_id": "word_230",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_231",
+      "target_text": "心里",
+      "value": "内心",
+      "confidence": 0.98,
+      "annotator_note": "内心"
+    },
+    {
+      "target_id": "word_232",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_233",
+      "target_text": "心动",
+      "value": "内心被触动、产生好感或悸动的感觉",
+      "confidence": 0.98,
+      "annotator_note": "情感反应"
+    },
+    {
+      "target_id": "word_234",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_235",
+      "target_text": "时钟",
+      "value": "计时工具",
+      "confidence": 0.98,
+      "annotator_note": "物体"
+    },
+    {
+      "target_id": "word_236",
+      "target_text": "继续",
+      "value": "持续不停、仍然在",
+      "confidence": 0.95,
+      "annotator_note": "持续副词"
+    },
+    {
+      "target_id": "word_237",
+      "target_text": "走着",
+      "value": "运行着(指时钟的指针转动)",
+      "confidence": 0.95,
+      "annotator_note": "运行状态"
+    },
+    {
+      "target_id": "word_238",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_239",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_240",
+      "target_text": "往工位走",
+      "value": "向自己的工作位置移动",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_241",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_242",
+      "target_text": "想起了",
+      "value": "回忆起来",
+      "confidence": 0.95,
+      "annotator_note": "记忆"
+    },
+    {
+      "target_id": "word_243",
+      "target_text": "垃圾分类",
+      "value": "将垃圾按类别分开处理的环保做法",
+      "confidence": 0.98,
+      "annotator_note": "环保概念"
+    },
+    {
+      "target_id": "word_244",
+      "target_text": "的事",
+      "value": "相关的事情",
+      "confidence": 0.95,
+      "annotator_note": "内容"
+    },
+    {
+      "target_id": "word_245",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_246",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_247",
+      "target_text": "把",
+      "value": "介词，引出处置的对象",
+      "confidence": 0.95,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_248",
+      "target_text": "垃圾",
+      "value": "废弃物",
+      "confidence": 0.98,
+      "annotator_note": "物体"
+    },
+    {
+      "target_id": "word_249",
+      "target_text": "丢了",
+      "value": "扔掉、丢弃",
+      "confidence": 0.98,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_250",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_251",
+      "target_text": "走回",
+      "value": "移动返回",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_252",
+      "target_text": "工位",
+      "value": "工作座位的位置",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_253",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_254",
+      "target_text": "坐了下来",
+      "value": "坐下",
+      "confidence": 0.95,
+      "annotator_note": "姿势动作"
+    },
+    {
+      "target_id": "word_255",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    }
+  ]
+}

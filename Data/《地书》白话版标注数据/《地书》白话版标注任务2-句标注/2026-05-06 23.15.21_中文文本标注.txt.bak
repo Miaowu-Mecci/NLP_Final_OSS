@@ -1,0 +1,404 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T23:12:30+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230112",
+    "student_name": "郭雨昕",
+    "assigned_section": "15点",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "15点",
+    "source": "老师提供",
+    "raw_text": "\n下午三点，我整理好文件，深吸一口气，走向会议室。我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。\n我将 U 盘插入电脑，打开投影仪，准备开始我的汇报。我面带微笑，尽量让自己看起来自信从容。我一边看着电脑上的演示文稿，一边对着麦克风讲解，并时不时地邀请大家提问。\n汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。面对领导们的注视，我感到了不小的压力。我开始解释一些关于汽车、预算的问题，试图说服大家。会议上，大家展开了激烈的讨论，气氛一度有些紧张。我再次感到心跳加速，手心也冒出了汗。\n然而，当我展示完核心内容后，会议室里响起了热烈的掌声。领导们也对我投来了赞许的目光，甚至给我的工作打了满分。他们对我制作的演示文稿感到非常惊讶和满意。我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。\n会议结束后，我感到一阵强烈的便意，赶紧冲向洗手间。在厕所里待了好一会儿，感觉稍微舒服了一些。出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。\n",
+    "notes": "句子自由翻译标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午三点，我整理好文件，深吸一口气，走向会议室。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 24,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。",
+      "sentence_index": 2,
+      "char_start": 24,
+      "char_end": 62,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我将U盘插入电脑，打开投影仪，准备开始我的汇报。",
+      "sentence_index": 3,
+      "char_start": 62,
+      "char_end": 86,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我面带微笑，尽量让自己看起来自信从容。",
+      "sentence_index": 4,
+      "char_start": 86,
+      "char_end": 105,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我一边看着电脑上的演示文稿，一边对着麦克风讲解，并时不时地邀请大家提问。",
+      "sentence_index": 5,
+      "char_start": 105,
+      "char_end": 141,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。",
+      "sentence_index": 6,
+      "char_start": 141,
+      "char_end": 177,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "面对领导们的注视，我感到了不小的压力。",
+      "sentence_index": 7,
+      "char_start": 177,
+      "char_end": 196,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我开始解释一些关于汽车、预算的问题，试图说服大家。",
+      "sentence_index": 8,
+      "char_start": 196,
+      "char_end": 221,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "会议上，大家展开了激烈的讨论，气氛一度有些紧张。",
+      "sentence_index": 9,
+      "char_start": 221,
+      "char_end": 245,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我再次感到心跳加速，手心也冒出了汗。",
+      "sentence_index": 10,
+      "char_start": 245,
+      "char_end": 263,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "然而，当我展示完核心内容后，会议室里响起了热烈的掌声。",
+      "sentence_index": 11,
+      "char_start": 263,
+      "char_end": 290,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "领导们也对我投来了赞许的目光，甚至给我的工作打了满分。",
+      "sentence_index": 12,
+      "char_start": 290,
+      "char_end": 317,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "他们对我制作的演示文稿感到非常惊讶和满意。",
+      "sentence_index": 13,
+      "char_start": 317,
+      "char_end": 338,
+      "children": []
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。",
+      "sentence_index": 14,
+      "char_start": 338,
+      "char_end": 376,
+      "children": []
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "会议结束后，我感到一阵强烈的便意，赶紧冲向洗手间。",
+      "sentence_index": 15,
+      "char_start": 376,
+      "char_end": 401,
+      "children": []
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "在厕所里待了好一会儿，感觉稍微舒服了一些。",
+      "sentence_index": 16,
+      "char_start": 401,
+      "char_end": 422,
+      "children": []
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。",
+      "sentence_index": 17,
+      "char_start": 422,
+      "char_end": 448,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "下午三点，我把文件整理好，深吸了一口气，然后朝会议室走去。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“整理好文件”和“走向会议室”在中文口语中稍显书面化。自由翻译将“整理好”改为“把文件整理好”，更符合日常表达习惯；将“走向”改为“朝……走去”，使动作方向更自然流畅，同时保留了时间、动作顺序和情绪氛围。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我能感觉到自己的心跳在加快，脸上也有些发烫，毕竟马上就要向领导和同事们汇报工作了。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“心跳在加速”和“脸上也微微发烫”在中文口语中更常说“心跳加快”和“脸上发烫”；“毕竟是要向”调整为“毕竟马上就要向”，使时间感和情境更自然连贯，整体更符合日常表达习惯。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我把U盘连接到电脑上，然后打开投影仪，准备开始做汇报。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“插入”在中文日常表达中更常说“连接”或“插上”；“开始我的汇报”调整为“开始做汇报”更符合口语习惯，整体保持原意且更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我脸上挂着微笑，努力让自己显得自信而从容。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“面带微笑”和“尽量让自己看起来”在中文中已较为自然，但“自信从容”可稍作调整为“自信而从容”，使语感更流畅；整体保持原意，未改变信息。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我一边看着电脑上的演示文稿，一边对着麦克风进行讲解，还不时地邀请大家提问。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“对着麦克风讲解”和“时不时地”在中文口语中稍显生硬，调整为“进行讲解”和“不时地”更符合自然表达习惯，同时保留了原句的并列结构和完整信息。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "汇报的过程并不是一帆风顺的，我提出的部分想法得到了认可，但也有一些地方直接被否定了。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“汇报过程并非一帆风顺”略显书面化，调整为“汇报的过程并不是一帆风顺的”更符合口语习惯；“一些观点”改为“部分想法”更自然；“直接否定”保留原意，整体使句子更流畅易懂。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "在领导们的注视下，我感受到了相当大的压力。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“面对领导们的注视”稍显书面化，调整为“在领导们的注视下”更符合日常口语表达习惯；“不小的压力”改为“相当大的压力”，在保持原意的基础上使语气更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我开始向大家说明一些关于汽车和预算的事情，想试着说服他们。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句中的“解释”在中文里更自然的说法是“说明”或“介绍”，“关于汽车、预算的问题”调整为“关于汽车和预算的事情”更符合口语表达习惯，“试图说服大家”改为“想试着说服他们”使语气更流畅自然。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "会议期间，大家进行了非常热烈的讨论，现场气氛一度显得有些紧张。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“展开了激烈的讨论”稍显书面化，调整为“进行了非常热烈的讨论”更符合口语习惯；“气氛一度有些紧张”保留原意，同时使整体表达更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我又一次感觉到心跳加快，连手心都开始出汗了。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“感到心跳加速”和“手心也冒出了汗”在中文口语中稍显书面化。通过调整为“感觉到心跳加快”和“连手心都开始出汗了”，使整体更符合日常自然表达，同时保留了原句的紧张情绪和因果关系。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不过，在我把核心内容展示完之后，会议室里顿时响起了热烈的掌声。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“然而”略显书面化，改为“不过”更符合口语自然节奏；“展示完核心内容”调整为“把核心内容展示完之后”使语序更顺畅；“响起”保留原意，整体表达更通顺自然。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "领导们也用赞赏的眼神看着我，甚至给我工作的表现打了满分。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“投来了赞许的目光”在中文中略显书面化，调整为“用赞赏的眼神看着我”更符合日常口语表达习惯；“给我的工作打了满分”改为“给我工作的表现打了满分”使语义更完整清晰，同时保留了原句的基本信息和情感色彩。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他们对我做的演示文稿感到十分惊讶，也非常满意。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“非常惊讶和满意”在中文中略显并列生硬，自由翻译将其拆分为“十分惊讶，也非常满意”，更符合中文表达习惯，同时保留了原句的基本信息和情感色彩。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我继续播放后面的内容，虽然中间提到了一些关于打印和警告的问题，但整体上还算顺利。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“播放着”略显口语化，改为“播放”更简洁自然；“提到了一些打印和警告的问题”调整为“提到了一些关于打印和警告的问题”，使语义更完整；“整体还算顺利”改为“整体上还算顺利”，增加“上”字使语气更流畅。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "会议一结束，我就突然特别想上厕所，急忙跑向洗手间。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“强烈的便意”在中文口语中略显书面或直接，调整为“特别想上厕所”更符合日常自然表达；“赶紧冲向”改为“急忙跑向”更通顺，同时保留了原句的紧迫感和动作细节。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "在厕所里待了挺长时间，感觉身体稍微好受了一点。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达简洁，但“好一会儿”在口语中更常说“挺长时间”，“舒服了一些”改为“好受了一点”更符合中文日常表达习惯，同时保留了原句的基本信息和语气。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "从里面出来之后，我还是没忍住又看了一眼手机里的照片，整个人陷入了深深的沉思。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达简洁，但“出来后”在中文口语中略显模糊，补充“从里面出来之后”使场景更清晰；“忍不住”保留原意，“又看了一眼”比“看了一眼”更贴合“再次”的意味；“陷入了沉思”前加上“整个人”使语气更自然完整。"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T15:35:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "17：00",
+    "word_task_type": "",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "下班回家记事",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+    "notes": "用于句子级篇章关系标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 18,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 18,
+      "char_end": 62,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 62,
+      "char_end": 90,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "char_start": 90,
+      "char_end": 124,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "char_start": 124,
+      "char_end": 142,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "char_start": 142,
+      "char_end": 166,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "char_start": 166,
+      "char_end": 190,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。",
+      "sentence_index": 8,
+      "char_start": 190,
+      "char_end": 224,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 9,
+      "char_start": 224,
+      "char_end": 256,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我用手机确认了回家的路线，然后上了一辆出租车。",
+      "sentence_index": 10,
+      "char_start": 256,
+      "char_end": 286,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 11,
+      "char_start": 286,
+      "char_end": 318,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "全文首句，交代事件起始：到下班时间。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "顺承下班时间到来，依次做整理文件、处理邮件、关电脑的收尾动作。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "补充细化工作后的身心状态和想回家休息的内心想法。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "正要离开时突发变故，领导突然叫住我，情节发生转折。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "承接上句领导问话，描写自己的情绪反应和应对行为。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "顺承我的回答，接着写领导的态度和放行的决定。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "因领导同意下班，产生放松、开心准备离开的情绪结果。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "按时间顺序，依次描写下楼、去洗手间、走出大楼的连续行动。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "细化走出大楼后在路边的观察，以及选择打车的心理决策过程。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "顺承决定打车，接着做确认路线、乘坐出租车的后续行为。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "存在遇红灯的阻碍情况，却依然顺利到家，形成转折对比关系。"
+    }
+  ]
+}

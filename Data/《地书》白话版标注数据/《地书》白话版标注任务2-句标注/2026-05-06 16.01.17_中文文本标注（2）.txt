@@ -1,0 +1,603 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "日常叙事文本",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "下班后的闲聊与内心独白",
+    "source": "教师提供",
+    "raw_text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。\n\n我们两人一起下楼，走向星巴克。我看着红衣服的同事，他挥了挥手，我们便坐了下来。\n\n同事和我聊起天来：“这天气时晴时阴，眼看又要下雨了……”\n我听着，心里有点无奈，又有点不安。\n我笑着说：“来杯咖啡和牛角包。”\n同事笑着回应：“我来杯绿茶，再加个苹果。”\n\n我们坐着，有一搭没一搭地聊着天。\n同事端着绿茶说：“看世界杯，巴西对葡萄牙！”我忍不住笑了。\n我捧着咖啡说：“看这球赛的精彩瞬间！”\n同事又说：“最近在找房子。”\n我接话：“刚看新闻，说房价跌了。”\n我又补了句：“不过油价倒是涨了！”\n同事说：“我看股票涨了。”\n同事又吐槽：“油价涨得离谱，车都快开不起了！”他看起来有点生气。\n我叹了口气：“我看的股票跌了。”\n同事说：“汇率倒是涨了。”\n\n我们就这么聊着天。\n我们挥手告别，他下楼，我往楼上走。\n时钟滴答走着，我上了楼，左转右转，朝着洗手间走去。\n我心里想着卫生棉条的事，走进洗手间，看着棉条，拉上了隔间的拉链。\n我看着棉条，发了会儿呆。\n走出隔间，我有点懵，耳边好像响起了音乐，看着不远处的女生，她回头看了我一眼。\n我看着她，想起她整理衣服的样子，心里有点心动。\n时钟继续走着，我往工位走，想起了垃圾分类的事。\n我把垃圾丢了，走回工位，坐了下来。",
+    "notes": "包含对话、动作和心理活动的自然段落。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 36,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我们两人一起下楼，走向星巴克。",
+      "sentence_index": 2,
+      "char_start": 38,
+      "char_end": 55,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我看着红衣服的同事，他挥了挥手，我们便坐了下来。",
+      "sentence_index": 3,
+      "char_start": 55,
+      "char_end": 82,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "同事和我聊起天来：“这天气时晴时阴，眼看又要下雨了……”",
+      "sentence_index": 4,
+      "char_start": 84,
+      "char_end": 116,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我听着，心里有点无奈，又有点不安。",
+      "sentence_index": 5,
+      "char_start": 117,
+      "char_end": 138,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我笑着说：“来杯咖啡和牛角包。”",
+      "sentence_index": 6,
+      "char_start": 141,
+      "char_end": 158,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "同事笑着回应：“我来杯绿茶，再加个苹果。”",
+      "sentence_index": 7,
+      "char_start": 161,
+      "char_end": 184,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我们坐着，有一搭没一搭地聊着天。",
+      "sentence_index": 8,
+      "char_start": 186,
+      "char_end": 209,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "同事端着绿茶说：“看世界杯，巴西对葡萄牙！”我忍不住笑了。",
+      "sentence_index": 9,
+      "char_start": 210,
+      "char_end": 242,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我捧着咖啡说：“看这球赛的精彩瞬间！”",
+      "sentence_index": 10,
+      "char_start": 242,
+      "char_end": 265,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "同事又说：“最近在找房子。”",
+      "sentence_index": 11,
+      "char_start": 268,
+      "char_end": 284,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我接话：“刚看新闻，说房价跌了。”",
+      "sentence_index": 12,
+      "char_start": 285,
+      "char_end": 304,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我又补了句：“不过油价倒是涨了！”",
+      "sentence_index": 13,
+      "char_start": 304,
+      "char_end": 323,
+      "children": []
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "同事说：“我看股票涨了。”",
+      "sentence_index": 14,
+      "char_start": 325,
+      "char_end": 340,
+      "children": []
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "同事又吐槽：“油价涨得离谱，车都快开不起了！”他看起来有点生气。",
+      "sentence_index": 15,
+      "char_start": 342,
+      "char_end": 381,
+      "children": []
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我叹了口气：“我看的股票跌了。”",
+      "sentence_index": 16,
+      "char_start": 383,
+      "char_end": 401,
+      "children": []
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "同事说：“汇率倒是涨了。”",
+      "sentence_index": 17,
+      "char_start": 403,
+      "char_end": 418,
+      "children": []
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我们就这么聊着天。",
+      "sentence_index": 18,
+      "char_start": 420,
+      "char_end": 432,
+      "children": []
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我们挥手告别，他下楼，我往楼上走。",
+      "sentence_index": 19,
+      "char_start": 434,
+      "char_end": 456,
+      "children": []
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "时钟滴答走着，我上了楼，左转右转，朝着洗手间走去。",
+      "sentence_index": 20,
+      "char_start": 458,
+      "char_end": 490,
+      "children": []
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我心里想着卫生棉条的事，走进洗手间，看着棉条，拉上了隔间的拉链。",
+      "sentence_index": 21,
+      "char_start": 492,
+      "char_end": 532,
+      "children": []
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我看着棉条，发了会儿呆。",
+      "sentence_index": 22,
+      "char_start": 534,
+      "char_end": 548,
+      "children": []
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "走出隔间，我有点懵，耳边好像响起了音乐，看着不远处的女生，她回头看了我一眼。",
+      "sentence_index": 23,
+      "char_start": 550,
+      "char_end": 598,
+      "children": []
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我看着她，想起她整理衣服的样子，心里有点心动。",
+      "sentence_index": 24,
+      "char_start": 600,
+      "char_end": 628,
+      "children": []
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "时钟继续走着，我往工位走，想起了垃圾分类的事。",
+      "sentence_index": 25,
+      "char_start": 630,
+      "char_end": 658,
+      "children": []
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "我把垃圾丢了，走回工位，坐了下来。",
+      "sentence_index": 26,
+      "char_start": 660,
+      "char_end": 680,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "全文第一个句子，作为整个事件的起始。描述了主角下班时的一系列动作。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在关掉电脑后，两人一起下楼去星巴克，是时间上的顺承关系。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "详细描述了下楼走向星巴克过程中发生的事：看到同事、挥手、坐下。是对前一句“走向星巴克”的具体展开。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在坐下之后，同事开始和我聊天。是坐定后发生的下一个动作，时间顺承。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "听了同事关于天气的话之后，我的心理反应（无奈和不安）。前一句是原因，这一句是结果。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话的继续。在同事说完天气和我内心活动后，我笑着回应并点咖啡和牛角包。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话的持续。同事对我的点单做出回应，他也点了自己的饮品和食物。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对点完单后状态的描述，说明两人开始闲聊，是对前面对话场景的进一步细化。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "具体说明了聊天内容是关于世界杯的，并描述了我的反应（忍不住笑）。是对“有一搭没一搭地聊天”的具体举例。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话的继续。我接着同事关于世界杯的话题进行回应。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "话题转换。在谈论完世界杯后，同事开启了关于“找房子”的新话题。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话的继续。我接上同事关于房子的话题，谈论房价。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "我的补充说明。在说完房价后，我又主动补充了油价上涨的信息。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "同事对我提到的“涨了”这个概念进行具体阐述，说明他关注的股票上涨了。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "同事虽然说了股票涨，但转而强烈吐槽油价上涨的负面影响，并表现出情绪。前后情绪形成对比。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "我的回应与同事之前的乐观（或吐槽）形成对比。同事股票涨了，但我的股票跌了，叹了口气。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话继续，同事转而谈论另一个指标——汇率上涨。"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "summary",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对上文一系列闲聊的总结，说明话题随意、不连贯。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "闲聊结束后，两人开始告别并各自离开。时间上顺承。"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "告别后，我独自上楼，描述上楼的过程。是时间与动作的顺承。"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "具体描述上楼后去洗手间的动作，以及过程中的心理活动和行为。是对“朝着洗手间走去”的详细展开。"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "拉上隔间拉链后，我看着棉条发呆。是动作的顺承。"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "发呆结束后，走出隔间，并描述了出门后的迷茫和所见所闻。时间顺承。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因为看到女生和她回头看我，导致我想起她的样子并感到心动。前一句是原因，这一句是心理结果。"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间流转，描述主角继续走回工位的过程，并想起新的事情。是场景的延续和细化。"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "想起垃圾分类的事情后，执行了丢垃圾、走回工位、坐下的动作。是最后一系列动作的顺承结束。"
+    }
+  ]
+}

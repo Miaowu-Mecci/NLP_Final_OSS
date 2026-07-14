@@ -1,0 +1,140 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T16:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "第6组文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_005",
+    "title": "深度睡眠",
+    "source": "用户提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "描述进入深度睡眠的状态"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "进入",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "深度",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "睡",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "得",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "很香",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨四点钟，我终于睡熟了，进入了深度睡眠状态，睡得特别踏实。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将‘睡得很香’扩展为‘睡熟了’和‘睡得特别踏实’，使表达更自然。"
+    }
+  ]
+}

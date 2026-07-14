@@ -1,0 +1,1140 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini",
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "混合文本1-4段",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_total_001",
+    "title": "职场生活与居家琐事记录",
+    "source": "学生提供",
+    "raw_text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。我们两人一起下楼，走向星巴克...（此处省略全文）",
+    "notes": "包含职场社交、看电视及凌晨灭蚊四个主要生活场景。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。",
+      "sentence_index": 1
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我们两人一起下楼，走向星巴克。",
+      "sentence_index": 2
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我看着红衣服的同事，他挥了挥手，我们便坐了下来。",
+      "sentence_index": 3
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "这天气时晴时阴，眼看又要下雨了。",
+      "sentence_index": 4
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我听着，心里有点无奈，又有点不安。",
+      "sentence_index": 5
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我笑着说来杯咖啡和牛角包。",
+      "sentence_index": 6
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "同事说他要绿茶和苹果。",
+      "sentence_index": 7
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我们随意地聊着天。",
+      "sentence_index": 8
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "他说世界杯巴西对葡萄牙，我笑了。",
+      "sentence_index": 9
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我说比赛很精彩。",
+      "sentence_index": 10
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "他说在找房子。",
+      "sentence_index": 11
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我说房价跌了。",
+      "sentence_index": 12
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我说油价涨了。",
+      "sentence_index": 13
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "他说股票涨了。",
+      "sentence_index": 14
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "他说油价涨得离谱。",
+      "sentence_index": 15
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我说我的股票跌了。",
+      "sentence_index": 16
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "他说汇率涨了。",
+      "sentence_index": 17
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我们聊了一会儿。",
+      "sentence_index": 18
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我们告别后各自离开。",
+      "sentence_index": 19
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "我上楼去了洗手间。",
+      "sentence_index": 20
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我想着卫生棉条的事。",
+      "sentence_index": 21
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我发了一会儿呆。",
+      "sentence_index": 22
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我看到一个女生。",
+      "sentence_index": 23
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我有点心动。",
+      "sentence_index": 24
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "我回到工位。",
+      "sentence_index": 25
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "下午五点终于下班了。",
+      "sentence_index": 26
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "我整理东西关电脑。",
+      "sentence_index": 27
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "我感到非常疲惫。",
+      "sentence_index": 28
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "领导问我安排。",
+      "sentence_index": 29
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "我回答了。",
+      "sentence_index": 30
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "领导让我回家。",
+      "sentence_index": 31
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "我很开心。",
+      "sentence_index": 32
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "我下楼准备回家。",
+      "sentence_index": 33
+    },
+    {
+      "unit_id": "sent_034",
+      "unit_type": "sentence",
+      "text": "我选择打车。",
+      "sentence_index": 34
+    },
+    {
+      "unit_id": "sent_035",
+      "unit_type": "sentence",
+      "text": "我顺利回到家。",
+      "sentence_index": 35
+    },
+    {
+      "unit_id": "sent_036",
+      "unit_type": "sentence",
+      "text": "凌晨一点我看到一只狗。",
+      "sentence_index": 36
+    },
+    {
+      "unit_id": "sent_037",
+      "unit_type": "sentence",
+      "text": "我挥手它回应。",
+      "sentence_index": 37
+    },
+    {
+      "unit_id": "sent_038",
+      "unit_type": "sentence",
+      "text": "我回家看电视。",
+      "sentence_index": 38
+    },
+    {
+      "unit_id": "sent_039",
+      "unit_type": "sentence",
+      "text": "我不断换频道。",
+      "sentence_index": 39
+    },
+    {
+      "unit_id": "sent_040",
+      "unit_type": "sentence",
+      "text": "我看什么都笑。",
+      "sentence_index": 40
+    },
+    {
+      "unit_id": "sent_041",
+      "unit_type": "sentence",
+      "text": "我觉得吵架无聊。",
+      "sentence_index": 41
+    },
+    {
+      "unit_id": "sent_042",
+      "unit_type": "sentence",
+      "text": "我关电视睡觉。",
+      "sentence_index": 42
+    },
+    {
+      "unit_id": "sent_043",
+      "unit_type": "sentence",
+      "text": "凌晨三点我被蚊子吵醒。",
+      "sentence_index": 43
+    },
+    {
+      "unit_id": "sent_044",
+      "unit_type": "sentence",
+      "text": "我很烦躁。",
+      "sentence_index": 44
+    },
+    {
+      "unit_id": "sent_045",
+      "unit_type": "sentence",
+      "text": "我开始打蚊子。",
+      "sentence_index": 45
+    },
+    {
+      "unit_id": "sent_046",
+      "unit_type": "sentence",
+      "text": "蚊子飞来飞去。",
+      "sentence_index": 46
+    },
+    {
+      "unit_id": "sent_047",
+      "unit_type": "sentence",
+      "text": "我继续灭蚊。",
+      "sentence_index": 47
+    },
+    {
+      "unit_id": "sent_048",
+      "unit_type": "sentence",
+      "text": "我累得满头大汗。",
+      "sentence_index": 48
+    },
+    {
+      "unit_id": "sent_049",
+      "unit_type": "sentence",
+      "text": "我终于打死蚊子。",
+      "sentence_index": 49
+    },
+    {
+      "unit_id": "sent_050",
+      "unit_type": "sentence",
+      "text": "我终于可以睡觉。",
+      "sentence_index": 50
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "星巴克",
+      "sentence_id": "sent_002"
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "牛角包",
+      "sentence_id": "sent_006"
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "时晴时阴",
+      "sentence_id": "sent_004"
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "挥了挥",
+      "sentence_id": "sent_003"
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "卫生棉条",
+      "sentence_id": "sent_021"
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "疲惫不堪",
+      "sentence_id": "sent_028"
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "飞来飞去",
+      "sentence_id": "sent_046"
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "满头大汗",
+      "sentence_id": "sent_048"
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "打死",
+      "sentence_id": "sent_049"
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "洗手间",
+      "sentence_id": "sent_020"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_s001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我看了看表，决定拒绝加班，笑着把电脑关机了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们两个结伴下楼，往星巴克走去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我瞧见那位穿红衣服的同事，他招手示意，随后我们坐了下来。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "天色忽明忽暗，感觉马上就要下雨了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我边听边想，心里既觉得没辙又有些打鼓。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我笑着点了一份咖啡和可颂面包。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "同事说他想喝绿茶，再加个苹果。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们有一搭没一搭地闲谈着。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他提到了巴西和葡萄牙的世界杯比赛，我听完乐了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我觉得那场球赛确实挺精彩的。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他告诉我说最近正忙着找房子。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我说我刚看到新闻，房价已经降了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我接话道，不过汽油的价格反倒上涨了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他说他买的股票涨势不错。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他吐槽说油价涨得太夸张了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我叹了口气说，我持有的股票反而跌了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他说最近的汇率倒是涨上去了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s018",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们就那样聊了一小会儿。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s019",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们打招呼道别，随后各自回家了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s020",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我重新回到楼上，去了一趟厕所。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s021",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我脑子里在盘算着关于卫生棉条的事儿。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在那里愣神了好一阵子。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我看见一个女孩子走了过去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我觉得她挺让我心动的。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s025",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我走回了自己的办公位。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s026",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "好不容易挨到下午五点，总算下班了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s027",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我收拾好桌面的东西，把电脑关掉了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s028",
+      "target_id": "sent_028",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我感觉整个人累透了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s029",
+      "target_id": "sent_029",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "上司过来问我晚上有什么活动安排。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s030",
+      "target_id": "sent_030",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我如实告诉了他我的打算。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s031",
+      "target_id": "sent_031",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "老板点头示意让我直接回家休息。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s032",
+      "target_id": "sent_032",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我心里感到挺舒畅的。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s033",
+      "target_id": "sent_033",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我走下楼，准备启程回家。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s034",
+      "target_id": "sent_034",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "最后我决定还是打一辆出租车。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s035",
+      "target_id": "sent_035",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "一路上挺稳当，我顺利到家了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s036",
+      "target_id": "sent_036",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨一点的时候，我在路边看到一只小狗。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s037",
+      "target_id": "sent_037",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我跟它打招呼，它也摇尾巴回应了我。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s038",
+      "target_id": "sent_038",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "回到家里，我打开了电视机。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s039",
+      "target_id": "sent_039",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我手里拿着遥控器不停地切频道。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s040",
+      "target_id": "sent_040",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不管播什么，我都觉得挺好笑的。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s041",
+      "target_id": "sent_041",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我觉得看电视里的人吵架挺没劲的。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s042",
+      "target_id": "sent_042",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我关了电视准备睡觉。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s043",
+      "target_id": "sent_043",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "到了夜里三点，我被蚊子的叫声吵得睡不着了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s044",
+      "target_id": "sent_044",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我心里感到特别急躁。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s045",
+      "target_id": "sent_045",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我起床开始四处打蚊子。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s046",
+      "target_id": "sent_046",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "那些蚊子到处乱窜，很难抓到。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s047",
+      "target_id": "sent_047",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我接着跟蚊子斗智斗勇。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s048",
+      "target_id": "sent_048",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我折腾得满头大汗，非常劳累。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s049",
+      "target_id": "sent_049",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我总算是拍死了一只蚊子。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_s050",
+      "target_id": "sent_050",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "现在我终于能安稳入睡了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "named_entity",
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "idiom_or_fixed_expression"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication",
+        "directional_complement"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "idiom_or_fixed_expression"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word",
+        "directional_complement"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    },
+    {
+      "annotation_id": "ann_w010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini"
+    }
+  ]
+}

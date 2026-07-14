@@ -1,0 +1,95 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "1191230117",
+    "student_name": "陈艺",
+    "assigned_section": "10点对应文本",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "10：00",
+    "title": "与同事在咖啡馆短暂休憩、闲聊",
+    "source": "教师提供",
+    "raw_text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。\n\n我们两人一起下楼，走向星巴克。我看着红衣服的同事，他挥了挥手，我们便坐了下来。",
+    "notes": "用于自然语言文本标注示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我看了眼时钟，拒绝了加班，露出微笑，伸手关掉了电脑。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 26,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我们两人一起下楼，走向星巴克。",
+      "sentence_index": 2,
+      "char_start": 28,
+      "char_end": 43,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我看着红衣服的同事，他挥了挥手，我们便坐了下来。",
+      "sentence_index": 3,
+      "char_start": 43,
+      "char_end": 67,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "全文第一句，描述下班前的动作。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在关掉电脑后，两人下楼走向星巴克，时间上的顺承关系。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "具体描述到达星巴克后与同事的互动，是对前一句的展开说明。"
+    }
+  ]
+}

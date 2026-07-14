@@ -1,0 +1,580 @@
+"project": {
+  "project_name": "《地书》与自然语言文本差异性分析",
+  "data_type": "natural_language_text",
+  "schema_version": "1.0",
+  "annotation_language": "zh-CN",
+  "created_at": "2026-05-06T20:30:00+08:00",
+  "llm_assisted": true,
+  "llm_tools": ["DeepSeek"]
+}
+"student": {
+  "student_id": "1191230125",
+  "student_name": "王超",
+  "assigned_section": "17点对应文本",
+  "word_task_type": "morphological_like_features",
+  "sentence_task_type": "free_translation"
+}
+{
+  "source_text": {
+    "text_id": "17：00",
+    "title": "下班赶回家准备赴约",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+    "notes": "用于自然语言文本标注示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 16,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 16,
+      "char_end": 56,
+      "children": ["word_008", "word_009", "word_010", "word_011", "word_012", "word_013", "word_014", "word_015", "word_016", "word_017", "word_018", "word_019", "word_020", "word_021", "word_022", "word_023", "word_024", "word_025", "word_026"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 56,
+      "char_end": 72,
+      "children": ["word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午五点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "！",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 13,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 16,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "整理好",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 19,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "桌上",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 22,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "文件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 25,
+      "char_end": 27
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "、",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 27,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "书本",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 30,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "计算器",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 31,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 34,
+      "char_end": 35
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "处理完",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 35,
+      "char_end": 38
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 13,
+      "char_start": 38,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "几封",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 14,
+      "char_start": 40,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "邮件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 15,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 16,
+      "char_start": 44,
+      "char_end": 45
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "关上",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 17,
+      "char_start": 45,
+      "char_end": 47
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "电脑",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 18,
+      "char_start": 47,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 19,
+      "char_start": 49,
+      "char_end": 50
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "一整天",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 56,
+      "char_end": 59
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 59,
+      "char_end": 60
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "工作",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 60,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "让",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 62,
+      "char_end": 63
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 63,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 64,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "疲惫不堪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 66,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 70,
+      "char_end": 71
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "只想",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 71,
+      "char_end": 73
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "快点",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 73,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 75,
+      "char_end": 77
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "休息",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 77,
+      "char_end": 79
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 79,
+      "char_end": 80
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类型态特征",
+      "task_label_en": "morphological_like_features",
+      "value": ["time", "setting"],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间名词短语，句首状语，提供时间背景。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类型态特征",
+      "task_label_en": "morphological_like_features",
+      "value": ["modal", "temporal"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“终于”表示期待后的实现，带有如愿、释然的情态。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类型态特征",
+      "task_label_en": "morphological_like_features",
+      "value": ["aspect", "perfective"],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“到了”中的“了”表示动作完成，属于完成体标记。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["time"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示事件发生的时间。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["modality"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表达说话人的主观期待和实现。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["person"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词，指说话人自己。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“整理好”表示对物品进行归置的动作。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action", "completion"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“处理完”表示动作完成。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“关上”表示关闭设备的动作。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["quantity", "time"],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一整天”表示完整的时间长度。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["state", "emotion"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“疲惫不堪”描述身心疲劳的主观状态。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "全文第一句，交代时间背景和事件起始。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "具体描述下班后的准备动作，是对“下班时间到了”的展开说明。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "一整天工作导致疲惫不堪，因此想回家休息，为结果关系。"
+    }
+  ]
+}

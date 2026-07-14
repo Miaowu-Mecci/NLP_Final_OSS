@@ -1,0 +1,95 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T14:00:03+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["豆包大模型"]
+  },
+  "student": {
+    "student_id": "1191230119",
+    "student_name": "程忠凯",
+    "assigned_section": "次日02:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_005",
+    "title": "《地书》白话版次日02:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "句标注任务：自由翻译，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 26,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 27,
+      "char_end": 46,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 47,
+      "char_end": 94,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨两点的时候，我躺到床上，没多久就沉沉睡去做起了梦。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "口语化重述，保留时间与行为逻辑"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "睡梦之中，我恍惚见到有两个人正在发生激烈的争执。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "润色语句，保持梦境叙事氛围"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "随后我又梦到2012世界末日的画面，滔天巨浪席卷整个地球，幸存的人们都往山上奔跑躲避灾难。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "扩充场景描述，语义完整通顺"
+    }
+  ]
+}

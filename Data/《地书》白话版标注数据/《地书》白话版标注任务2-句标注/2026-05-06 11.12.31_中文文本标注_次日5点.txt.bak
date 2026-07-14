@@ -1,0 +1,91 @@
+{
+  "project": {
+    "project_name": "《地书》白话版标注任务",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-05T20:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "1191230410",
+    "student_name": "董珂祎",
+    "assigned_section": "次日5点",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "分配的章节04：次日5点",
+    "source": "作业提供",
+    "raw_text": "凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。",
+    "notes": "全文本完整标注版本。"
+  },
+  "units": [
+    {"unit_id": "sent_001", "unit_type": "sentence", "text": "凌晨五点，我开始做梦。", "sentence_index": 1},
+    {"unit_id": "word_001", "unit_type": "word", "text": "凌晨五点", "sentence_id": "sent_001"},
+
+    {"unit_id": "sent_002", "unit_type": "sentence", "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。", "sentence_index": 2},
+    {"unit_id": "word_002", "unit_type": "word", "text": "走了", "sentence_id": "sent_002"},
+    {"unit_id": "word_003", "unit_type": "word", "text": "一栋", "sentence_id": "sent_002"},
+
+    {"unit_id": "sent_003", "unit_type": "sentence", "text": "我在房子里转来转去，感觉一直在循环往复。", "sentence_index": 3},
+    {"unit_id": "word_004", "unit_type": "word", "text": "转来转去", "sentence_id": "sent_003"},
+
+    {"unit_id": "sent_004", "unit_type": "sentence", "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。", "sentence_index": 4},
+    {"unit_id": "word_005", "unit_type": "word", "text": "飞到了", "sentence_id": "sent_004"},
+
+    {"unit_id": "sent_005", "unit_type": "sentence", "text": "我坐热气球飞向太阳，然后又开始做梦。", "sentence_index": 5},
+    {"unit_id": "word_006", "unit_type": "word", "text": "飞向", "sentence_id": "sent_005"},
+
+    {"unit_id": "sent_006", "unit_type": "sentence", "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。", "sentence_index": 6},
+    {"unit_id": "word_007", "unit_type": "word", "text": "美丽的", "sentence_id": "sent_006"},
+
+    {"unit_id": "sent_007", "unit_type": "sentence", "text": "我和很多人一起看花，然后继续做梦。", "sentence_index": 7},
+    {"unit_id": "word_008", "unit_type": "word", "text": "很多人", "sentence_id": "sent_007"},
+
+    {"unit_id": "sent_008", "unit_type": "sentence", "text": "我变成了超人，拥有钻石和皇冠，还有机器人。", "sentence_index": 8},
+    {"unit_id": "word_009", "unit_type": "word", "text": "变成了", "sentence_id": "sent_008"},
+
+    {"unit_id": "sent_009", "unit_type": "sentence", "text": "我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。", "sentence_index": 9},
+    {"unit_id": "word_010", "unit_type": "word", "text": "掉下来", "sentence_id": "sent_009"},
+
+    {"unit_id": "sent_010", "unit_type": "sentence", "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。", "sentence_index": 10},
+    {"unit_id": "word_011", "unit_type": "word", "text": "激烈地", "sentence_id": "sent_010"},
+
+    {"unit_id": "sent_011", "unit_type": "sentence", "text": "我看到电视和卫生间，电视里的人在不停地移动。", "sentence_index": 11},
+    {"unit_id": "word_012", "unit_type": "word", "text": "不停地", "sentence_id": "sent_011"},
+
+    {"unit_id": "sent_012", "unit_type": "sentence", "text": "我看着电视，感到有些迷茫。", "sentence_index": 12},
+    {"unit_id": "word_013", "unit_type": "word", "text": "看着", "sentence_id": "sent_012"}
+  ],
+  "annotations": [
+    {"annotation_id": "a_w001", "target_id": "word_001", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "time_phrase"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w002", "target_id": "word_002", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "aspect_particle"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w003", "target_id": "word_003", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "numeral_classifier"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w004", "target_id": "word_004", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "reduplication", "directional_complement"], "confidence": 0.90, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w005", "target_id": "word_005", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "directional_complement"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w006", "target_id": "word_006", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "directional_complement"], "confidence": 0.90, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w007", "target_id": "word_007", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "modifier_particle"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w008", "target_id": "word_008", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "quantifier_phrase"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w009", "target_id": "word_009", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "resultative_complement"], "confidence": 0.90, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w010", "target_id": "word_010", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "directional_complement"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w011", "target_id": "word_011", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "adverbial_modifier"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w012", "target_id": "word_012", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "adverbial_modifier"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_w013", "target_id": "word_013", "target_type": "word", "task_id": "morphological_like_features", "value": ["multi_character_word", "aspect_particle"], "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+
+    {"annotation_id": "a_s001", "target_id": "sent_001", "target_type": "sentence", "task_id": "free_translation", "value": "到了清晨五点钟，我陷入了睡梦之中。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s002", "target_id": "sent_002", "target_type": "sentence", "task_id": "free_translation", "value": "在我的梦境里，我徒步走了好远，期间伴随着电闪雷鸣，最后我迈步进入了一幢房屋。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s003", "target_id": "sent_003", "target_type": "sentence", "task_id": "free_translation", "value": "我在那座房子里面到处乱转，觉得好像陷入了无限的死循环一样出不来。", "confidence": 0.92, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s004", "target_id": "sent_004", "target_type": "sentence", "task_id": "free_translation", "value": "紧接着场景一换，我搭乘着一架飞机冲上云霄，望见了漫天的云层以及漂浮的热气球。", "confidence": 0.92, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s005", "target_id": "sent_005", "target_type": "sentence", "task_id": "free_translation", "value": "我换乘热气球朝着太阳的方向飞去，随后梦境又发生了一次嵌套循环。", "confidence": 0.90, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s006", "target_id": "sent_006", "target_type": "sentence", "task_id": "free_translation", "value": "在新的梦里，映入眼帘的有耀眼的太阳、房屋建筑、巨大的城堡、行驶的汽车以及漂亮的鲜花。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s007", "target_id": "sent_007", "target_type": "sentence", "task_id": "free_translation", "value": "我跟一大群人待在一起欣赏那些花，紧接着梦境再次发生了跳转。", "confidence": 0.92, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s008", "target_id": "sent_008", "target_type": "sentence", "task_id": "free_translation", "value": "我突然化身成了拥有超能力的人，手里拿着闪亮的钻石和王冠，身旁还跟着机械人。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s009", "target_id": "sent_009", "target_type": "sentence", "task_id": "free_translation", "value": "我又坐进了火箭里，却碰上了下雨天，随后我不慎从高楼上坠落，这突如其来的失重感让我大吃一惊。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s010", "target_id": "sent_010", "target_type": "sentence", "task_id": "free_translation", "value": "梦境的最后，我目睹了有两人在极其凶悍地吵架，随后我便在一阵惊恐中彻底苏醒过来。", "confidence": 0.92, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s011", "target_id": "sent_011", "target_type": "sentence", "task_id": "free_translation", "value": "醒来后，我首先看到的是家里的电视机和洗手间，电视屏幕里播放着不断来回走动的人影。", "confidence": 0.95, "llm_used": true, "llm_name": "Gemini"},
+    {"annotation_id": "a_s012", "target_id": "sent_012", "target_type": "sentence", "task_id": "free_translation", "value": "我就这样呆呆地盯着电视画面，脑子里一片混乱，觉得很不真实。", "confidence": 0.92, "llm_used": true, "llm_name": "Gemini"}
+  ]
+}

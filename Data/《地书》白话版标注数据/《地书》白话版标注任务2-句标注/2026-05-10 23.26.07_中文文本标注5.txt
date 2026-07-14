@@ -1,0 +1,13 @@
+{
+  "project": "《地书》图形语言 vs 自然语言：计算语言学与自然语言处理多层标注配置",
+  "studentId": "1191230301",
+  "studentName": "汪湘",
+  "annotation_task": "[Text] 自由翻译 / Free Translation",
+  "sentence_list": [
+    {
+      "sentence_id": 1,
+      "original_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "free_translation": "时至凌晨四点时分，我总算安稳进入深层睡眠状态，睡得十分沉稳香甜。"
+    }
+  ]
+}

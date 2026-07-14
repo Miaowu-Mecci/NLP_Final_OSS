@@ -1,0 +1,71 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "你的學號",
+    "student_name": "你的姓名",
+    "assigned_section": "地書白話全文",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "地書白話故事",
+    "source": "教師提供",
+    "raw_text": "晚上八點...（完整原文請參照上方內容）...我看着電視，感到有些迷茫。",
+    "notes": "自由翻譯專項標註"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我接起電話，驚訝地發現是醫院打來的，得知有人發燒住院了。",
+      "sentence_index": 1,
+      "char_start": 62,
+      "char_end": 90
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "凌晨一點，我在回家的路上看到了一隻狗，我向它揮手，它也搖著尾巴回應我。",
+      "sentence_index": 2,
+      "char_start": 234,
+      "char_end": 272
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_t_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻譯",
+      "task_label_en": "Free Translation",
+      "value": "接通電話後，我意外地得知這通電話來自醫院，並被告知有熟人因高燒不退已經辦理了住院手續。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "將碎片化的白話重構為邏輯連貫的敘述句。"
+    },
+    {
+      "annotation_id": "ann_t_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻譯",
+      "task_label_en": "Free Translation",
+      "value": "夜深人靜的一點鐘，在我返家的途中偶遇一隻小狗，我向它招手致意，它也輕快地搖晃著尾巴作為回禮。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "增加了環境描寫（夜深人靜）來提升文學感。"
+    }
+  ]
+}

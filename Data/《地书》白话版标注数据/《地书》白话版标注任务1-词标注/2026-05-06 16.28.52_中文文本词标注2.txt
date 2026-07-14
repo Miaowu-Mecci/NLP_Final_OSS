@@ -1,0 +1,463 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "次日2点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "《地书》次日2点",
+    "source": "教师提供",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025",
+        "word_026",
+        "word_027",
+        "word_028",
+        "word_029"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053",
+        "word_054",
+        "word_055"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "word_001",
+      "target_text": "凌晨",
+      "value": "天快亮之前的时段，大约午夜12点到天亮前",
+      "confidence": 0.98,
+      "annotator_note": "时间词"
+    },
+    {
+      "target_id": "word_002",
+      "target_text": "两点",
+      "value": "凌晨2点钟，具体时间点",
+      "confidence": 0.98,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_003",
+      "target_text": "，",
+      "value": "逗号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_004",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者自己",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_005",
+      "target_text": "躺",
+      "value": "身体平卧，处于休息姿势",
+      "confidence": 0.95,
+      "annotator_note": "身体动作"
+    },
+    {
+      "target_id": "word_006",
+      "target_text": "在",
+      "value": "介词，表示所在位置",
+      "confidence": 0.98,
+      "annotator_note": "位置介词"
+    },
+    {
+      "target_id": "word_007",
+      "target_text": "床上",
+      "value": "睡觉用的床的上面",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_008",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_009",
+      "target_text": "很快",
+      "value": "在很短的时间内",
+      "confidence": 0.95,
+      "annotator_note": "时间副词"
+    },
+    {
+      "target_id": "word_010",
+      "target_text": "就",
+      "value": "表示紧接着发生",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_011",
+      "target_text": "进入",
+      "value": "到达、开始处于某种状态",
+      "confidence": 0.95,
+      "annotator_note": "状态变化"
+    },
+    {
+      "target_id": "word_012",
+      "target_text": "了",
+      "value": "助词，表示动作完成",
+      "confidence": 0.95,
+      "annotator_note": "时态助词"
+    },
+    {
+      "target_id": "word_013",
+      "target_text": "梦乡",
+      "value": "睡梦中、熟睡的状态",
+      "confidence": 0.98,
+      "annotator_note": "状态"
+    },
+    {
+      "target_id": "word_014",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_015",
+      "target_text": "在",
+      "value": "介词",
+      "confidence": 0.98,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_016",
+      "target_text": "梦里",
+      "value": "在梦境当中",
+      "confidence": 0.98,
+      "annotator_note": "场景"
+    },
+    {
+      "target_id": "word_017",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_018",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_019",
+      "target_text": "看到",
+      "value": "用眼睛注意到、观察到",
+      "confidence": 0.95,
+      "annotator_note": "视觉感知"
+    },
+    {
+      "target_id": "word_020",
+      "target_text": "两个",
+      "value": "数量为二",
+      "confidence": 0.98,
+      "annotator_note": "数量"
+    },
+    {
+      "target_id": "word_021",
+      "target_text": "人",
+      "value": "人类、人物",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_022",
+      "target_text": "在",
+      "value": "表示正在做某事",
+      "confidence": 0.98,
+      "annotator_note": "进行体标记"
+    },
+    {
+      "target_id": "word_023",
+      "target_text": "激烈",
+      "value": "强烈的、剧烈的",
+      "confidence": 0.95,
+      "annotator_note": "程度描述"
+    },
+    {
+      "target_id": "word_024",
+      "target_text": "地",
+      "value": "副词后缀，修饰动作",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_025",
+      "target_text": "争吵",
+      "value": "大声争论、吵架",
+      "confidence": 0.98,
+      "annotator_note": "言语行为"
+    },
+    {
+      "target_id": "word_026",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_027",
+      "target_text": "接着",
+      "value": "然后、紧接着",
+      "confidence": 0.95,
+      "annotator_note": "时间连接词"
+    },
+    {
+      "target_id": "word_028",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_029",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_030",
+      "target_text": "梦见",
+      "value": "在梦中经历、看到",
+      "confidence": 0.95,
+      "annotator_note": "梦境活动"
+    },
+    {
+      "target_id": "word_031",
+      "target_text": "了",
+      "value": "助词",
+      "confidence": 0.95,
+      "annotator_note": "完成"
+    },
+    {
+      "target_id": "word_032",
+      "target_text": "2012",
+      "value": "年份数字，公元2012年",
+      "confidence": 0.98,
+      "annotator_note": "年份"
+    },
+    {
+      "target_id": "word_033",
+      "target_text": "年",
+      "value": "年份单位",
+      "confidence": 0.98,
+      "annotator_note": "时间单位"
+    },
+    {
+      "target_id": "word_034",
+      "target_text": "世界末日",
+      "value": "地球毁灭、人类文明终结的灾难性事件",
+      "confidence": 0.98,
+      "annotator_note": "灾难概念"
+    },
+    {
+      "target_id": "word_035",
+      "target_text": "的",
+      "value": "助词，表示所属修饰",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_036",
+      "target_text": "场景",
+      "value": "情景、画面",
+      "confidence": 0.98,
+      "annotator_note": "视觉画面"
+    },
+    {
+      "target_id": "word_037",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_038",
+      "target_text": "巨大",
+      "value": "非常庞大、规模惊人",
+      "confidence": 0.98,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_039",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_040",
+      "target_text": "海浪",
+      "value": "海面上起伏的波浪",
+      "confidence": 0.98,
+      "annotator_note": "自然现象"
+    },
+    {
+      "target_id": "word_041",
+      "target_text": "淹没",
+      "value": "水漫过、覆盖",
+      "confidence": 0.98,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_042",
+      "target_text": "了",
+      "value": "助词",
+      "confidence": 0.95,
+      "annotator_note": "完成"
+    },
+    {
+      "target_id": "word_043",
+      "target_text": "地球",
+      "value": "人类居住的星球",
+      "confidence": 0.98,
+      "annotator_note": "星球"
+    },
+    {
+      "target_id": "word_044",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_045",
+      "target_text": "人们",
+      "value": "人群、大众",
+      "confidence": 0.98,
+      "annotator_note": "人物群体"
+    },
+    {
+      "target_id": "word_046",
+      "target_text": "纷纷",
+      "value": "一个接一个、众多人都做某事",
+      "confidence": 0.95,
+      "annotator_note": "程度副词"
+    },
+    {
+      "target_id": "word_047",
+      "target_text": "逃到",
+      "value": "奔跑躲避到某处",
+      "confidence": 0.95,
+      "annotator_note": "移动动作"
+    },
+    {
+      "target_id": "word_048",
+      "target_text": "山上",
+      "value": "山的地面高处",
+      "confidence": 0.98,
+      "annotator_note": "地点"
+    },
+    {
+      "target_id": "word_049",
+      "target_text": "避难",
+      "value": "躲避灾难、寻求安全",
+      "confidence": 0.98,
+      "annotator_note": "行动目的"
+    },
+    {
+      "target_id": "word_050",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "annotation_id": "ann_001",
+        "target_id": "sent_001",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "start",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "篇章开头句，无前文"
+    },
+    {
+        "annotation_id": "ann_002",
+        "target_id": "sent_002",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "continuation",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "入睡后梦见两人争吵，梦境内容延续"
+    },
+    {
+        "annotation_id": "ann_003",
+        "target_id": "sent_003",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "continuation",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "继续梦见2012世界末日场景，梦境延续展开"
+    }
+]

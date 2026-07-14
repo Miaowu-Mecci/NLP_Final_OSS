@@ -1,0 +1,1965 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T15:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "1191230421",
+    "student_name": "宋德瑄",
+    "assigned_section": "第5组文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "与蚊子的战斗",
+    "source": "用户提供",
+    "raw_text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。\n我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。\n最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "描述半夜被蚊子骚扰及消灭过程"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 1,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008", "word_009", "word_010", "word_011"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 2,
+      "children": ["word_012", "word_013", "word_014", "word_015", "word_016", "word_017", "word_018", "word_019", "word_020", "word_021", "word_022", "word_023", "word_024"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 3,
+      "children": ["word_025", "word_026", "word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040", "word_041", "word_042", "word_043", "word_044", "word_045", "word_046", "word_047", "word_048", "word_049"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 4,
+      "children": ["word_050", "word_051", "word_052", "word_053", "word_054", "word_055", "word_056", "word_057", "word_058", "word_059", "word_060", "word_061", "word_062", "word_063", "word_064", "word_065", "word_066", "word_067", "word_068"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 5,
+      "children": ["word_069", "word_070", "word_071", "word_072", "word_073", "word_074", "word_075", "word_076", "word_077", "word_078", "word_079", "word_080", "word_081", "word_082"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 6,
+      "children": ["word_083", "word_084", "word_085", "word_086", "word_087", "word_088", "word_089", "word_090", "word_091", "word_092", "word_093", "word_094", "word_095", "word_096", "word_097"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 7,
+      "children": ["word_098", "word_099", "word_100", "word_101", "word_102", "word_103", "word_104", "word_105", "word_106", "word_107", "word_108", "word_109", "word_110", "word_111", "word_112"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 8,
+      "children": ["word_113", "word_114", "word_115", "word_116", "word_117", "word_118", "word_119", "word_120", "word_121", "word_122"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨三点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "被",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "嗡嗡声",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "吵醒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "听到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "外面",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "有人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "吵架",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "非常",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "烦躁",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "手",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "拍",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "并",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "喷",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "它们",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "总是",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "飞来飞去",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "很难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 16
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "打到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "关掉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "灯",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "不停地",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "骚扰",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 13
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 14
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "打开",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "台灯",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "继续",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "苍蝇拍",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "消灭",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "追着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "跑",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "上下",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "挥舞",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "累得",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "满头大汗",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_073",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_074",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_075",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_076",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_077",
+      "unit_type": "word",
+      "text": "打死",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_078",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_079",
+      "unit_type": "word",
+      "text": "一只",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_080",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_081",
+      "unit_type": "word",
+      "text": "手上",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_082",
+      "unit_type": "word",
+      "text": "沾满",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_083",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_084",
+      "unit_type": "word",
+      "text": "血",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_085",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_086",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_087",
+      "unit_type": "word",
+      "text": "关掉",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_088",
+      "unit_type": "word",
+      "text": "台灯",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_089",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_090",
+      "unit_type": "word",
+      "text": "可以",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_091",
+      "unit_type": "word",
+      "text": "安心",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_092",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_093",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_094",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 9
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间名词"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "介词（被动标记）"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "结构助词"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "reduplication"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "拟声叠词"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "resultative_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动结复合词"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspect_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "体标记"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "方位名词"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字形容词"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字名词"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字动词"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "三字名词"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字动词"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字代词"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "reduplication"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "A来A去重叠式"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "resultative_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动结复合词"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "directional_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动趋复合词"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字名词"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "word_045",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_046",
+      "target_id": "word_046",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_047",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_048",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "affix_like"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "带后缀的副词"
+    },
+    {
+      "annotation_id": "ann_049",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_050",
+      "target_id": "word_050",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_051",
+      "target_id": "word_051",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_052",
+      "target_id": "word_052",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_053",
+      "target_id": "word_053",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_054",
+      "target_id": "word_054",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_055",
+      "target_id": "word_055",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_056",
+      "target_id": "word_056",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_057",
+      "target_id": "word_057",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "三字名词"
+    },
+    {
+      "annotation_id": "ann_058",
+      "target_id": "word_058",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_059",
+      "target_id": "word_059",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "三字名词"
+    },
+    {
+      "annotation_id": "ann_060",
+      "target_id": "word_060",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_061",
+      "target_id": "word_061",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_062",
+      "target_id": "word_062",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_063",
+      "target_id": "word_063",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_064",
+      "target_id": "word_064",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "aspect_marker"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "V着格式"
+    },
+    {
+      "annotation_id": "ann_065",
+      "target_id": "word_065",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_066",
+      "target_id": "word_066",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字动词"
+    },
+    {
+      "annotation_id": "ann_067",
+      "target_id": "word_067",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字方位词"
+    },
+    {
+      "annotation_id": "ann_068",
+      "target_id": "word_068",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_069",
+      "target_id": "word_069",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspect_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "体标记"
+    },
+    {
+      "annotation_id": "ann_070",
+      "target_id": "word_070",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "三字名词"
+    },
+    {
+      "annotation_id": "ann_071",
+      "target_id": "word_071",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "resultative_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动结复合词"
+    },
+    {
+      "annotation_id": "ann_072",
+      "target_id": "word_072",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "idiom_or_fixed_expression"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "四字成语"
+    },
+    {
+      "annotation_id": "ann_073",
+      "target_id": "word_073",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_074",
+      "target_id": "word_074",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字连词"
+    },
+    {
+      "annotation_id": "ann_075",
+      "target_id": "word_075",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_076",
+      "target_id": "word_076",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_077",
+      "target_id": "word_077",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "resultative_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动结复合词"
+    },
+    {
+      "annotation_id": "ann_078",
+      "target_id": "word_078",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspect_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "体标记"
+    },
+    {
+      "annotation_id": "ann_079",
+      "target_id": "word_079",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "classifier_structure"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "数量短语"
+    },
+    {
+      "annotation_id": "ann_080",
+      "target_id": "word_080",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_081",
+      "target_id": "word_081",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_082",
+      "target_id": "word_082",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_083",
+      "target_id": "word_083",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspect_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "体标记"
+    },
+    {
+      "annotation_id": "ann_084",
+      "target_id": "word_084",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "单字名词"
+    },
+    {
+      "annotation_id": "ann_085",
+      "target_id": "word_085",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    },
+    {
+      "annotation_id": "ann_086",
+      "target_id": "word_086",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "人称代词"
+    },
+    {
+      "annotation_id": "ann_087",
+      "target_id": "word_087",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "directional_complement"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动趋复合词"
+    },
+    {
+      "annotation_id": "ann_088",
+      "target_id": "word_088",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字名词"
+    },
+    {
+      "annotation_id": "ann_089",
+      "target_id": "word_089",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字副词"
+    },
+    {
+      "annotation_id": "ann_090",
+      "target_id": "word_090",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "能愿动词"
+    },
+    {
+      "annotation_id": "ann_091",
+      "target_id": "word_091",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字形容词"
+    },
+    {
+      "annotation_id": "ann_092",
+      "target_id": "word_092",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "双字动词"
+    },
+    {
+      "annotation_id": "ann_093",
+      "target_id": "word_093",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspect_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "体标记"
+    },
+    {
+      "annotation_id": "ann_094",
+      "target_id": "word_094",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["punctuation_or_symbol"],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "句号"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Deepseek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "17:00",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": ""
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "下班日常叙事片段",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+    "notes": "用于中文自然文本类形态特征标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 15,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 2
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "五点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 2,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "下班",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "时间",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 11,
+      "char_end": 13
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“下午”为双字复合名词，属于多字复合词。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“五点”为数词+量词结构，多字组合词汇。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“终于”为双字副词，普通多字词汇。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“到了”含动态助词“了”，表体标记。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“下班”为动宾式复合词。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“时间”为并列式复合名词。"
+    }
+  ]
+}

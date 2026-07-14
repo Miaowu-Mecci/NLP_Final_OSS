@@ -1,0 +1,654 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T15:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["ChatGPT"]
+  },
+  "student": {
+    "student_id": "1191230121",
+    "student_name": "刘博文",
+    "assigned_section": "综合片段（下班、医院、醉酒）",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_merged",
+    "title": "综合片段",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。晚上八点，我正满心欢喜地等待着她，心里充满了爱意。突然，我的手机不停地震动起来。我疑惑地看了看手机，旁边的一个男人提醒我手机在响。我接起电话，惊讶地发现是医院打来的，得知有人发烧住院了。我立刻决定赶往医院，心里想着他。我确认了电话内容，那个男人告诉我详细情况，我感到非常惊讶。她也赶到了医院。我赶紧回家拿了一些药，然后迅速返回医院。在医院里，我四处寻找，终于在卫生间找到了他。我给他打了电话，他接了，我看到他，露出了笑容。我问他是不是发烧了，有没有吃药。他躺在床上，医生正在给他检查。看到他能吃饭了，我为他点赞。我让他安心回家休息，心里充满了对他的关心。确认他可以好好休息后，我放心地笑了。最后，我离开医院，坐电梯下楼，在外面等待。晚上十点，我和刚失恋的老友已经喝了很多酒。他喝醉了，开始胡言乱语，一会儿说他爱的不是那个男人，而是我，一会儿又因为失恋而哭泣，说自己心碎了，需要医生。我禁止他再喝酒，但他还是喝多了，睡着了。我问他有没有钱，他没有，于是我付了账单。然后，我叫了一辆车，准备送他回家。到了他家门口，我按了门铃，然后用他的钥匙打开了门。他喝醉了吐了一地，我帮他收拾干净，找到了他的钱包、手机和钥匙。他的狗看到我们回来了，非常兴奋。我把他扶到床上，他还在说胡话。我照顾了他很久，他又吐了一次。看着他熟睡的样子，我感到既无奈又心疼。最后，我在他家门口喝了一杯酒，看着天上的月亮，心里想着他什么时候才能好起来。",
+    "notes": "合并下班、医院、醉酒三个叙事片段"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 18,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 18,
+      "char_end": 67,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 67,
+      "char_end": 98,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "char_start": 98,
+      "char_end": 135,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "char_start": 135,
+      "char_end": 153,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "char_start": 153,
+      "char_end": 176,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "char_start": 176,
+      "char_end": 201,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。",
+      "sentence_index": 8,
+      "char_start": 201,
+      "char_end": 234,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 9,
+      "char_start": 234,
+      "char_end": 269,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我用手机确认了回家的路线，然后上了一辆出租车。",
+      "sentence_index": 10,
+      "char_start": 269,
+      "char_end": 301,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 11,
+      "char_start": 301,
+      "char_end": 337,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "晚上八点，我正满心欢喜地等待着她，心里充满了爱意。",
+      "sentence_index": 12,
+      "char_start": 337,
+      "char_end": 369,
+      "children": ["word_001","word_002","word_003","word_004","word_005"]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "突然，我的手机不停地震动起来。",
+      "sentence_index": 13,
+      "char_start": 369,
+      "char_end": 386,
+      "children": ["word_006","word_007","word_008"]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我疑惑地看了看手机，旁边的一个男人提醒我手机在响。",
+      "sentence_index": 14,
+      "char_start": 386,
+      "char_end": 420,
+      "children": ["word_009","word_010","word_011","word_012"]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我接起电话，惊讶地发现是医院打来的，得知有人发烧住院了。",
+      "sentence_index": 15,
+      "char_start": 420,
+      "char_end": 462,
+      "children": ["word_013","word_014","word_015","word_016"]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我立刻决定赶往医院，心里想着他。",
+      "sentence_index": 16,
+      "char_start": 462,
+      "char_end": 486,
+      "children": ["word_017","word_018","word_019"]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我确认了电话内容，那个男人告诉我详细情况，我感到非常惊讶。",
+      "sentence_index": 17,
+      "char_start": 486,
+      "char_end": 525,
+      "children": ["word_020","word_021","word_022","word_023"]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "她也赶到了医院。",
+      "sentence_index": 18,
+      "char_start": 525,
+      "char_end": 536,
+      "children": ["word_024"]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我赶紧回家拿了一些药，然后迅速返回医院。",
+      "sentence_index": 19,
+      "char_start": 536,
+      "char_end": 565,
+      "children": ["word_025","word_026","word_027"]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "在医院里，我四处寻找，终于在卫生间找到了他。",
+      "sentence_index": 20,
+      "char_start": 565,
+      "char_end": 597,
+      "children": ["word_028","word_029","word_030"]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我给他打了电话，他接了，我看到他，露出了笑容。",
+      "sentence_index": 21,
+      "char_start": 597,
+      "char_end": 632,
+      "children": ["word_031","word_032","word_033"]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我问他是不是发烧了，有没有吃药。",
+      "sentence_index": 22,
+      "char_start": 632,
+      "char_end": 655,
+      "children": ["word_034"]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "他躺在床上，医生正在给他检查。",
+      "sentence_index": 23,
+      "char_start": 655,
+      "char_end": 678,
+      "children": ["word_035","word_036"]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "看到他能吃饭了，我为他点赞。",
+      "sentence_index": 24,
+      "char_start": 678,
+      "char_end": 698,
+      "children": ["word_037"]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "我让他安心回家休息，心里充满了对他的关心。",
+      "sentence_index": 25,
+      "char_start": 698,
+      "char_end": 727,
+      "children": ["word_038","word_039"]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "确认他可以好好休息后，我放心地笑了。",
+      "sentence_index": 26,
+      "char_start": 727,
+      "char_end": 752,
+      "children": ["word_040"]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "最后，我离开医院，坐电梯下楼，在外面等待。",
+      "sentence_index": 27,
+      "char_start": 752,
+      "char_end": 782,
+      "children": ["word_041","word_042"]
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "晚上十点，我和刚失恋的老友已经喝了很多酒。",
+      "sentence_index": 28,
+      "char_start": 782,
+      "char_end": 811,
+      "children": ["word_043","word_044","word_045"]
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "他喝醉了，开始胡言乱语，一会儿说他爱的不是那个男人，而是我，一会儿又因为失恋而哭泣，说自己心碎了，需要医生。",
+      "sentence_index": 29,
+      "char_start": 811,
+      "char_end": 890,
+      "children": ["word_046","word_047","word_048","word_049"]
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "我禁止他再喝酒，但他还是喝多了，睡着了。",
+      "sentence_index": 30,
+      "char_start": 890,
+      "char_end": 919,
+      "children": ["word_050","word_051"]
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "我问他有没有钱，他没有，于是我付了账单。",
+      "sentence_index": 31,
+      "char_start": 919,
+      "char_end": 947,
+      "children": ["word_052","word_053"]
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "然后，我叫了一辆车，准备送他回家。",
+      "sentence_index": 32,
+      "char_start": 947,
+      "char_end": 970,
+      "children": ["word_054"]
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "到了他家门口，我按了门铃，然后用他的钥匙打开了门。",
+      "sentence_index": 33,
+      "char_start": 970,
+      "char_end": 1006,
+      "children": ["word_055","word_056"]
+    },
+    {
+      "unit_id": "sent_034",
+      "unit_type": "sentence",
+      "text": "他喝醉了吐了一地，我帮他收拾干净，找到了他的钱包、手机和钥匙。",
+      "sentence_index": 34,
+      "char_start": 1006,
+      "char_end": 1050,
+      "children": ["word_057","word_058","word_059"]
+    },
+    {
+      "unit_id": "sent_035",
+      "unit_type": "sentence",
+      "text": "他的狗看到我们回来了，非常兴奋。",
+      "sentence_index": 35,
+      "char_start": 1050,
+      "char_end": 1070,
+      "children": ["word_060"]
+    },
+    {
+      "unit_id": "sent_036",
+      "unit_type": "sentence",
+      "text": "我把他扶到床上，他还在说胡话。",
+      "sentence_index": 36,
+      "char_start": 1070,
+      "char_end": 1091,
+      "children": ["word_061"]
+    },
+    {
+      "unit_id": "sent_037",
+      "unit_type": "sentence",
+      "text": "我照顾了他很久，他又吐了一次。",
+      "sentence_index": 37,
+      "char_start": 1091,
+      "char_end": 1111,
+      "children": ["word_062"]
+    },
+    {
+      "unit_id": "sent_038",
+      "unit_type": "sentence",
+      "text": "看着他熟睡的样子，我感到既无奈又心疼。",
+      "sentence_index": 38,
+      "char_start": 1111,
+      "char_end": 1137,
+      "children": ["word_063"]
+    },
+    {
+      "unit_id": "sent_039",
+      "unit_type": "sentence",
+      "text": "最后，我在他家门口喝了一杯酒，看着天上的月亮，心里想着他什么时候才能好起来。",
+      "sentence_index": 39,
+      "char_start": 1137,
+      "char_end": 1189,
+      "children": ["word_064","word_065"]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件起始：下班时间到。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "下班前的收尾动作。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "cause",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "因工作疲惫，引出想回家。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "interruption",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "准备离开被领导打断。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "contrast",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "紧张但仍回答。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "领导同意下班。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "emotion_result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "情绪释放与积极反应。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "离开公司的行动序列。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "decision",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据环境做出选择。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "打车行动过程。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "contrast_result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "虽有阻碍但顺利到家。",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件开始"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "sudden_event",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "突发变化"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "decision",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "做出行动决策"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "寻找结果"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "end",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件结束"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_028",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件开始"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "sent_029",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "描述醉酒表现"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "sent_030",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "contrast",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "禁止但未成功"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "sent_031",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "付账结果"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "sent_034",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "连续照顾行为"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "sent_037",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "repetition",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "再次发生呕吐"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "sent_039",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "value": "end",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件结束"
+    }
+  ]
+}

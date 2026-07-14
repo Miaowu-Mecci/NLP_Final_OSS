@@ -1,0 +1,178 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T12:35:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "次日 2点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "次日 2点",
+    "title": "梦境与末日",
+    "source": "Student Assignment",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。"
+    },
+    {
+      "unit_id": "sent_002",
+      "type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。"
+    },
+    {
+      "unit_id": "sent_003",
+      "type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+    },
+    {
+      "unit_id": "word_001",
+      "type": "word",
+      "text": "梦乡",
+      "parent_id": "sent_001"
+    },
+    {
+      "unit_id": "word_002",
+      "type": "word",
+      "text": "激烈",
+      "parent_id": "sent_002"
+    },
+    {
+      "unit_id": "word_003",
+      "type": "word",
+      "text": "争吵",
+      "parent_id": "sent_002"
+    },
+    {
+      "unit_id": "word_004",
+      "type": "word",
+      "text": "世界末日",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_005",
+      "type": "word",
+      "text": "淹没",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_006",
+      "type": "word",
+      "text": "纷纷",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_007",
+      "type": "word",
+      "text": "避难",
+      "parent_id": "sent_003"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指睡眠状态，尤指开始做梦的状态。在这里标志着叙事从现实世界转入潜意识/虚幻世界，是现实与梦境的分界线。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "叙事视角的转换点。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "形容动作、言论等剧烈、猛烈。在这里修饰争吵的程度，暗示梦境中的冲突非常尖锐，可能反映了做梦者内心的焦虑或不安。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "强调梦境冲突的强度。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "因意见不合而大声辩驳。在这里作为梦境的第一个意象，可能象征着人际关系的不和或内心的矛盾冲突。",
+      "confidence": 0.90,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "梦境内容的具体描述。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指人类或世界毁灭的灾难性时刻。在这里特指2012年的预言，象征着巨大的恐惧、毁灭和不可逆转的终结。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "梦境的核心主题，宏大且压抑。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "（大水）漫过、盖过。在这里描写海浪吞噬地球的动作，表现出灾难的无情和力量的压倒性。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "描绘灾难的动态。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "接二连三地，多而杂乱地。在这里形容人们在灾难面前慌乱、无序逃生的状态，渲染了恐慌的氛围。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "描写人群的混乱状态。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "躲避灾难或迫害。在这里指人们为了生存而寻求安全地带的本能行为，反映了梦境中强烈的求生欲和恐惧感。",
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "人们在灾难中的具体行动。"
+    }
+  ]
+}

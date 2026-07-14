@@ -1,0 +1,364 @@
+{
+    "studentId": "1191230301",
+    "studentName": "汪湘",
+    "project": "《地书》图形语言 vs 自然语言：计算语言学与自然语言处理多层标注配置",
+    "annotation_task": "[Multi] 类形态特征 / Morphological-like Features",
+    "data": [
+        {
+            "sentence": "我走过斑马线，看着城市定位，从西向东走。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "我在公交与地铁之间犹豫。",
+            "morphological_features": [
+                "现在 / Present"
+            ]
+        },
+        {
+            "sentence": "我看了眼手机信号，路过限速280的路牌，前方有警示标识，路上严重拥堵，公交无法通行。",
+            "morphological_features": [
+                "过去 / Past",
+                "否定 / Negation",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "我选择地铁，下楼进站，看着前方长长的队伍。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "复数/集合 / Plural-Collective"
+            ]
+        },
+        {
+            "sentence": "我排进队伍，打卡进站，看着时钟，额头冒汗。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "时间将近，队伍仍长，我攥紧拳头，前方有领导，不能迟到！",
+            "morphological_features": [
+                "将来 / Future",
+                "否定 / Negation",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "打印文件、整理资料、处理报表，这些事在等着我，看着队伍，再看时钟，我面露惊讶，额头冒汗。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "复数/集合 / Plural-Collective",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "队伍缓慢前移，时钟转动，队伍仍长，时钟再走，我满头大汗，雨势渐大。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "重复/迭代 / Iterative",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "终于轮到我，打卡进站，顺利通过，我露出微笑，快步冲向扶梯，再快步前行。",
+            "morphological_features": [
+                "过去 / Past",
+                "完成体 / Perfect",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "到了地铁口，红灯亮起，车门开启！",
+            "morphological_features": [
+                "过去 / Past",
+                "完成体 / Perfect"
+            ]
+        },
+        {
+            "sentence": "我冲上车门，车门开启，我挤入车厢，地铁关门启动。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "我看着雨，面露轻松，站在车厢里，看着车门上的警示标识。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "有人递给我物品。",
+            "morphological_features": [
+                "过去 / Past"
+            ]
+        },
+        {
+            "sentence": "地铁线路图上，我从起点到换乘站，再到终点。",
+            "morphological_features": [
+                "现在 / Present",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "背着包的人从我身边挤过，一个又一个，我被夹在中间，表情从生气变为难过，愈发沮丧。",
+            "morphological_features": [
+                "过去 / Past",
+                "复数/集合 / Plural-Collective",
+                "程度增强 / Intensified",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "看着线路图，离换乘站越来越近，我盯着座位，快步冲过去抢座。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "比较 / Comparative",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "终于跑到座位前，坐下了。",
+            "morphological_features": [
+                "过去 / Past",
+                "完成体 / Perfect"
+            ]
+        },
+        {
+            "sentence": "地铁从起点开往换乘站，再往终点驶去。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "有人挥手，我闻到异味！",
+            "morphological_features": [
+                "现在 / Present"
+            ]
+        },
+        {
+            "sentence": "有人在旁说话，声音清晰，气味冲来，我恨不得戴上口罩！",
+            "morphological_features": [
+                "现在 / Present",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "地铁禁止饮食标识清晰，车厢内无人进食。",
+            "morphological_features": [
+                "现在 / Present",
+                "否定 / Negation"
+            ]
+        },
+        {
+            "sentence": "我仍面露怒色，有人穿高跟鞋踩了我，我露出震惊的表情！",
+            "morphological_features": [
+                "现在 / Present",
+                "过去 / Past"
+            ]
+        },
+        {
+            "sentence": "地铁到站，红灯亮起，车门开启，我跟着队伍下车。",
+            "morphological_features": [
+                "过去 / Past",
+                "复数/集合 / Plural-Collective"
+            ]
+        },
+        {
+            "sentence": "我又想起座位，跑过去抢，坐下后露出微笑。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "地铁到了下一站，快到终点，我看着空座与有人的座位，一位孕妇站在旁边，我看了看座位，起身让座。",
+            "morphological_features": [
+                "过去 / Past",
+                "现在 / Present",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "地铁到站，停稳。",
+            "morphological_features": [
+                "过去 / Past",
+                "完成体 / Perfect"
+            ]
+        },
+        {
+            "sentence": "我跟着人流下车，跑上扶梯，快步冲向写字楼。",
+            "morphological_features": [
+                "过去 / Past",
+                "复数/集合 / Plural-Collective"
+            ]
+        },
+        {
+            "sentence": "我快步跑进电梯，按下上下键。",
+            "morphological_features": [
+                "过去 / Past"
+            ]
+        },
+        {
+            "sentence": "看了看时钟，又按了一次，电梯终于抵达。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative",
+                "完成体 / Perfect"
+            ]
+        },
+        {
+            "sentence": "我跟着队伍进电梯，按下89楼，电梯门关上，开始上行。",
+            "morphological_features": [
+                "过去 / Past",
+                "复数/集合 / Plural-Collective",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "到了2楼，电梯停下，我面露怒色，想走楼梯，但2楼楼梯口被堵住，只能继续上行至3楼。",
+            "morphological_features": [
+                "过去 / Past",
+                "否定 / Negation",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "到了4楼，电梯又停，我面露惊讶；到了5楼再停，我面露难过，汗水直流。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "电梯一路停靠，我从生气变为愤怒，最终濒临崩溃。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative",
+                "程度增强 / Intensified",
+                "比较 / Comparative"
+            ]
+        },
+        {
+            "sentence": "到了87楼，电梯再次停下，我面露怒色，有人走进电梯，电梯反复开关，上上下下！",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "我按下关门键，再按！",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative",
+                "强调 / Emphasis"
+            ]
+        },
+        {
+            "sentence": "广播响起：“电梯限乘10人！超过10人禁止运行！”",
+            "morphological_features": [
+                "现在 / Present",
+                "否定 / Negation",
+                "强调 / Emphasis"
+            ]
+        },
+        {
+            "sentence": "我看着电梯，面露烦躁。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "看着挤在电梯里的人群，人数堪比木乃伊方阵，我面露怒色。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive",
+                "复数/集合 / Plural-Collective",
+                "比较 / Comparative"
+            ]
+        },
+        {
+            "sentence": "有人指着电梯门，示意里面的人不要出去，我彻底愤怒了！",
+            "morphological_features": [
+                "现在 / Present",
+                "否定 / Negation",
+                "程度增强 / Intensified"
+            ]
+        },
+        {
+            "sentence": "时间到了！",
+            "morphological_features": [
+                "完成体 / Perfect",
+                "强调 / Emphasis"
+            ]
+        },
+        {
+            "sentence": "我走进电梯，开门，快步前行，直行，下楼，再直行，上楼，折返，又下楼，再直行。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "到了88楼，我继续前行，上楼，折返，下楼，再走，到了89楼！",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "我快步跑进电梯。",
+            "morphological_features": [
+                "过去 / Past"
+            ]
+        },
+        {
+            "sentence": "我下楼、直行、再直行，转弯，突然弯腰咳嗽，缓过来后继续直行、转弯、再直行。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "我刷工牌、用手机开门，一路快步走，一边挥手打招呼，再挥手，和一位女士道别。",
+            "morphological_features": [
+                "过去 / Past",
+                "重复/迭代 / Iterative"
+            ]
+        },
+        {
+            "sentence": "我转弯、直行、开门、走到办公桌前坐下。",
+            "morphological_features": [
+                "过去 / Past"
+            ]
+        },
+        {
+            "sentence": "看着时钟，我额头冒汗。",
+            "morphological_features": [
+                "现在 / Present",
+                "进行体 / Progressive"
+            ]
+        },
+        {
+            "sentence": "做出胜利的手势！",
+            "morphological_features": [
+                "现在 / Present",
+                "完成体 / Perfect"
+            ]
+        }
+    ]
+}

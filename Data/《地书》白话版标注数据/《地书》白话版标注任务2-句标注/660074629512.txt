@@ -1,0 +1,72 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "句标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。"
+  },
+  "units": [
+    {
+      "id": "s1",
+      "token": "午夜十二点，我没有开车，而是选择步行回家。"
+    },
+    {
+      "id": "s2",
+      "token": "我看着地图，沿着脚下的脚印，一步步向前走。"
+    },
+    {
+      "id": "s3",
+      "token": "路上很安静，只有我一个人的脚步声。"
+    },
+    {
+      "id": "s4",
+      "token": "我经过了一个门口，又经过了一个警察局门口。"
+    },
+    {
+      "id": "s5",
+      "token": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。"
+    },
+    {
+      "id": "s6",
+      "token": "沿着长长的脚印，我终于走到了家。"
+    }
+  ],
+  "annotations": [
+    {
+      "unit_id": "s1",
+      "discourse_relation": "篇章起点 (Initiation) —— 交代时间背景与核心事件（步行回家）的开始。",
+      "free_translation": "It was midnight; I didn't drive but chose to walk home instead."
+    },
+    {
+      "unit_id": "s2",
+      "discourse_relation": "顺承关系 (Sequential) —— 承接上文，详细描述步行回家的具体动作与方式。",
+      "free_translation": "I looked at the map and followed the footprints beneath my feet, stepping forward one by one."
+    },
+    {
+      "unit_id": "s3",
+      "discourse_relation": "背景描写 (Background/Descriptive) —— 对当前行进环境的静态氛围描写，增强孤独感。",
+      "free_translation": "The road was very quiet; there was only the sound of my own footsteps."
+    },
+    {
+      "unit_id": "s4",
+      "discourse_relation": "顺承关系 (Sequential) —— 描述行进过程中的空间位移，经过具体的物理坐标。",
+      "free_translation": "I passed a doorway, and then another one belonging to a police station."
+    },
+    {
+      "unit_id": "s5",
+      "discourse_relation": "顺承关系 (Sequential) —— 描述步行过程中偶遇的他者行为，推动叙事进程。",
+      "free_translation": "As I walked, I saw a woman who looked up at the sky and then continued on her way."
+    },
+    {
+      "unit_id": "s6",
+      "discourse_relation": "结论/终点 (Conclusion/Result) —— 交代行进动作的最终结果，完成叙事闭环。",
+      "free_translation": "Following the long trail of footprints, I finally reached home."
+    }
+  ]
+}

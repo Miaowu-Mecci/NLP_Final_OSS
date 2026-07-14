@@ -1,0 +1,205 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T01:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "1191230402",
+    "student_name": "邵欣悦",
+    "assigned_section": "凌晨3点",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "凌晨3点",
+    "source": "教师提供",
+    "raw_text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "用于文本标注"
+  },
+ "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 17,
+      "children": ["w001", "w002", "w003", "w004", "w005", "w006", "w007", "w008", "w009", "w010", "w011"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 2,
+      "char_start": 18,
+      "char_end": 39,
+      "children": ["w012", "w013", "w014", "w015", "w016", "w017", "w018", "w019", "w020", "w021", "w022"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 3,
+      "char_start": 40,
+      "char_end": 71,
+      "children": ["w023", "w024", "w025", "w026", "w027", "w028", "w029", "w030", "w031", "w032", "w033", "w034", "w035", "w036", "w037", "w038", "w039", "w040", "w041", "w042"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 4,
+      "char_start": 72,
+      "char_end": 98,
+      "children": ["w043", "w044", "w045", "w046", "w047", "w048", "w049", "w050", "w051", "w052", "w053", "w054", "w055", "w056", "w057", "w058"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 5,
+      "char_start": 99,
+      "char_end": 118,
+      "children": ["w059", "w060", "w061", "w062", "w063", "w064", "w065", "w066", "w067", "w068", "w069", "w070"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 6,
+      "char_start": 119,
+      "char_end": 142,
+      "children": ["w071", "w072", "w073", "w074", "w075", "w076", "w077", "w078", "w079", "w080", "w081", "w082"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 7,
+      "char_start": 143,
+      "char_end": 164,
+      "children": ["w083", "w084", "w085", "w086", "w087", "w088", "w089", "w090", "w091", "w092", "w093", "w094", "w095"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 8,
+      "char_start": 165,
+      "char_end": 180,
+      "children": ["w096", "w097", "w098", "w099", "w100", "w101", "w102", "w103", "w104", "w105"]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_dr_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "全文第一句"
+    },
+    {
+      "annotation_id": "ann_dr_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "被吵醒后听到外面吵架并感到烦躁，状态延续"
+    },
+    {
+      "annotation_id": "ann_dr_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "感到烦躁后开始采取行动拍蚊子、喷杀虫剂"
+    },
+    {
+      "annotation_id": "ann_dr_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因为蚊子很难打到，所以关掉电视和灯准备睡觉"
+    },
+    {
+      "annotation_id": "ann_dr_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "睡觉被骚扰后，转而打开台灯继续灭蚊"
+    },
+    {
+      "annotation_id": "ann_dr_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "具体描述灭蚊的过程：追着跑、挥舞、累得出汗"
+    },
+    {
+      "annotation_id": "ann_dr_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "经过努力后终于打死了一只蚊子"
+    },
+    {
+      "annotation_id": "ann_dr_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "打死蚊子后关灯安心睡觉，动作顺序"
+    }
+  ]
+}

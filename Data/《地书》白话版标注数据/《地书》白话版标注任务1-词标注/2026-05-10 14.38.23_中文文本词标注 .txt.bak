@@ -1,0 +1,190 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-09T14:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini 3.1 Pro"
+    ]
+  },
+  "student": {
+    "student_id": "1191230324",
+    "student_name": "袁久鸿",
+    "assigned_section": "15点；21点；次日1点 (白话文版)",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": ""
+  },
+  "source_text": {
+    "text_id": "text_xubing_003_narrative",
+    "title": "《地书》片段白话文演绎",
+    "source": "学生提供文本",
+    "raw_text": "下午三点，我整理好文件，深吸一口气，走向会议室。我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。我将 U 盘插入电脑，打开投影仪，准备开始我的汇报。我面带微笑，尽量让自己看起来自信从容。我一边看着电脑上的演示文稿，一边对着麦克风讲解，并时不时地邀请大家提问。汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。面对领导们的注视，我感到了不小的压力。我开始解释一些关于汽车、预算的问题，试图说服大家。会议上，大家展开了激烈的讨论，气氛一度有些紧张。我再次感到心跳加速，手心也冒出了汗。然而，当我展示完核心内容后，会议室里响起了热烈的掌声。领导们也对我投来了赞许的目光，甚至给我的工作打了满分。他们对我制作的演示文稿感到非常惊讶和满意。我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。会议结束后，我感到一阵强烈的便意，赶紧冲向洗手间。在厕所里待了好一会儿，感觉稍微舒服了一些。出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。晚上九点，我接到了刚失恋的老友的电话，他让我过去陪他喝酒。我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。我只能无奈地在车里等待，心里非常着急。好不容易回到家，我开始喝酒。不久，老友也来了，他告诉我他失恋了，心里很难过。我笑着安慰他，劝他不要再想那些不开心的事。我们一起喝酒，时间慢慢流逝。后来，老友要坐公交车回家，外面下起了雨。我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。我告诉他是的，并且指向了天上的乌云。他说下雨了，没有太阳，还问我要不要伞。我同意了。我们在雨中等待公交车，他去了趟卫生间。等了很久，他终于出来了，还亲了我一下。我们继续喝酒，我感到非常开心。最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+    "notes": "仅执行词级别的语境实际含义任务。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午三点，我整理好文件，深吸一口气，走向会议室。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 24,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "晚上九点，我接到了刚失恋的老友的电话，他让我过去陪他喝酒。",
+      "sentence_index": 2,
+      "char_start": 444,
+      "char_end": 473,
+      "children": [
+        "word_004",
+        "word_005",
+        "word_006"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。",
+      "sentence_index": 3,
+      "char_start": 844,
+      "char_end": 880,
+      "children": [
+        "word_007",
+        "word_008",
+        "word_009"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午三点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "深吸一口气",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 13,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "会议室",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 21,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "晚上九点",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 444,
+      "char_end": 448
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "失恋",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 455,
+      "char_end": 457
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "喝酒",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 471,
+      "char_end": 473
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "凌晨一点",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 844,
+      "char_end": 848
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "狗",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 859,
+      "char_end": 860
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "回应",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 877,
+      "char_end": 879
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_word_001",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在这里不仅仅是一个呼吸动作，而是体现了主角面对即将到来的工作汇报时，试图平复紧张情绪、给自己进行心理建设的心理状态。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini 3.1 Pro",
+      "annotator_note": "结合后文的心跳加速和脸部发烫得出。"
+    },
+    {
+      "annotation_id": "ann_word_002",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "代表了老友当前脆弱的情感状态，这也是触发主角后续一系列行为（赴约、遭遇堵车、雨中陪伴）的核心动机。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini 3.1 Pro",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_word_003",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指代小狗摇尾巴的动作，在语境中象征着主角在深夜孤独归家时获得的一丝温暖的跨物种情感互动。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Gemini 3.1 Pro",
+      "annotator_note": ""
+    }
+  ]
+}

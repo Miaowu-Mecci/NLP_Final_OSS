@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "句标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+  },
+  "units": [
+    {
+      "id": "s1",
+      "token": "凌晨两点，我躺在床上，很快就进入了梦乡。"
+    },
+    {
+      "id": "s2",
+      "token": "在梦里，我看到两个人在激烈地争吵。"
+    },
+    {
+      "id": "s3",
+      "token": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+    }
+  ],
+  "annotations": [
+    {
+      "unit_id": "s1",
+      "discourse_relation": "篇章起点 (Initiation) —— 交代时间背景、人物状态，并完成从现实到睡眠的过渡。",
+      "free_translation": "At 2:00 AM, I lay in bed and quickly fell asleep."
+    },
+    {
+      "unit_id": "s2",
+      "discourse_relation": "顺承关系 (Sequential) —— 承接上文，叙事视角由现实物理空间顺利转入虚拟的梦境空间。",
+      "free_translation": "In my dream, I saw two people arguing fiercely."
+    },
+    {
+      "unit_id": "s3",
+      "discourse_relation": "顺承与递进 (Sequential & Progression) —— 通过显性连接词“接着”推进梦境的发展，场景由局部的人际冲突放大为宏观的全球灾难。",
+      "free_translation": "Then, I dreamt of a 2012 doomsday scenario: massive waves submerged the Earth, and people fled to the mountains for refuge."
+    }
+  ]
+}

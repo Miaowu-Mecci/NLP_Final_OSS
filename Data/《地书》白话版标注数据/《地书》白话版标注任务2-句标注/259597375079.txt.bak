@@ -1,0 +1,340 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-04-26T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["ChatGPT"]
+  },
+  "student": {
+    "student_id": "20240123",
+    "student_name": "王若行",
+    "assigned_section": "第15组文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "医院探望片段",
+    "source": "教师提供",
+    "raw_text": "晚上八点，我正满心欢喜地等待着她，心里充满了爱意。突然，我的手机不停地震动起来。我疑惑地看了看手机，旁边的一个男人提醒我手机在响。我接起电话，惊讶地发现是医院打来的，得知有人发烧住院了。我立刻决定赶往医院，心里想着他。我确认了电话内容，那个男人告诉我详细情况，我感到非常惊讶。她也赶到了医院。我赶紧回家拿了一些药，然后迅速返回医院。在医院里，我四处寻找，终于在卫生间找到了他。我给他打了电话，他接了，我看到他，露出了笑容。我问他是不是发烧了，有没有吃药。他躺在床上，医生正在给他检查。看到他能吃饭了，我为他点赞。我让他安心回家休息，心里充满了对他的关心。确认他可以好好休息后，我放心地笑了。最后，我离开医院，坐电梯下楼，在外面等待",
+    "notes": "按分句拆分，每个分句为独立的语句单元"
+  },
+  "units": [
+    {
+      "unit_id": "clause_001",
+      "unit_type": "clause",
+      "text": "晚上八点",
+      "clause_index": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "clause_002",
+      "unit_type": "clause",
+      "text": "我正满心欢喜地等待着她",
+      "clause_index": 2,
+      "char_start": 5,
+      "char_end": 16
+    },
+    {
+      "unit_id": "clause_003",
+      "unit_type": "clause",
+      "text": "心里充满了爱意",
+      "clause_index": 3,
+      "char_start": 17,
+      "char_end": 23
+    },
+    {
+      "unit_id": "clause_004",
+      "unit_type": "clause",
+      "text": "突然",
+      "clause_index": 4,
+      "char_start": 24,
+      "char_end": 26
+    },
+    {
+      "unit_id": "clause_005",
+      "unit_type": "clause",
+      "text": "我的手机不停地震动起来",
+      "clause_index": 5,
+      "char_start": 27,
+      "char_end": 38
+    },
+    {
+      "unit_id": "clause_006",
+      "unit_type": "clause",
+      "text": "我疑惑地看了看手机",
+      "clause_index": 6,
+      "char_start": 39,
+      "char_end": 48
+    },
+    {
+      "unit_id": "clause_007",
+      "unit_type": "clause",
+      "text": "旁边的一个男人提醒我手机在响",
+      "clause_index": 7,
+      "char_start": 49,
+      "char_end": 63
+    },
+    {
+      "unit_id": "clause_008",
+      "unit_type": "clause",
+      "text": "我接起电话",
+      "clause_index": 8,
+      "char_start": 64,
+      "char_end": 69
+    },
+    {
+      "unit_id": "clause_009",
+      "unit_type": "clause",
+      "text": "惊讶地发现是医院打来的",
+      "clause_index": 9,
+      "char_start": 70,
+      "char_end": 81
+    },
+    {
+      "unit_id": "clause_010",
+      "unit_type": "clause",
+      "text": "得知有人发烧住院了",
+      "clause_index": 10,
+      "char_start": 82,
+      "char_end": 90
+    },
+    {
+      "unit_id": "clause_011",
+      "unit_type": "clause",
+      "text": "我立刻决定赶往医院",
+      "clause_index": 11,
+      "char_start": 91,
+      "char_end": 100
+    },
+    {
+      "unit_id": "clause_012",
+      "unit_type": "clause",
+      "text": "心里想着他",
+      "clause_index": 12,
+      "char_start": 101,
+      "char_end": 106
+    },
+    {
+      "unit_id": "clause_013",
+      "unit_type": "clause",
+      "text": "我确认了电话内容",
+      "clause_index": 13,
+      "char_start": 107,
+      "char_end": 115
+    },
+    {
+      "unit_id": "clause_014",
+      "unit_type": "clause",
+      "text": "那个男人告诉我详细情况",
+      "clause_index": 14,
+      "char_start": 116,
+      "char_end": 127
+    },
+    {
+      "unit_id": "clause_015",
+      "unit_type": "clause",
+      "text": "我感到非常惊讶",
+      "clause_index": 15,
+      "char_start": 128,
+      "char_end": 135
+    },
+    {
+      "unit_id": "clause_016",
+      "unit_type": "clause",
+      "text": "她也赶到了医院",
+      "clause_index": 16,
+      "char_start": 136,
+      "char_end": 143
+    },
+    {
+      "unit_id": "clause_017",
+      "unit_type": "clause",
+      "text": "我赶紧回家拿了一些药",
+      "clause_index": 17,
+      "char_start": 144,
+      "char_end": 154
+    },
+    {
+      "unit_id": "clause_018",
+      "unit_type": "clause",
+      "text": "然后迅速返回医院",
+      "clause_index": 18,
+      "char_start": 155,
+      "char_end": 163
+    },
+    {
+      "unit_id": "clause_019",
+      "unit_type": "clause",
+      "text": "在医院里",
+      "clause_index": 19,
+      "char_start": 164,
+      "char_end": 168
+    },
+    {
+      "unit_id": "clause_020",
+      "unit_type": "clause",
+      "text": "我四处寻找",
+      "clause_index": 20,
+      "char_start": 169,
+      "char_end": 174
+    },
+    {
+      "unit_id": "clause_021",
+      "unit_type": "clause",
+      "text": "终于在卫生间找到了他",
+      "clause_index": 21,
+      "char_start": 175,
+      "char_end": 185
+    },
+    {
+      "unit_id": "clause_022",
+      "unit_type": "clause",
+      "text": "我给他打了电话",
+      "clause_index": 22,
+      "char_start": 186,
+      "char_end": 193
+    },
+    {
+      "unit_id": "clause_023",
+      "unit_type": "clause",
+      "text": "他接了",
+      "clause_index": 23,
+      "char_start": 194,
+      "char_end": 197
+    },
+    {
+      "unit_id": "clause_024",
+      "unit_type": "clause",
+      "text": "我看到他",
+      "clause_index": 24,
+      "char_start": 198,
+      "char_end": 202
+    },
+    {
+      "unit_id": "clause_025",
+      "unit_type": "clause",
+      "text": "露出了笑容",
+      "clause_index": 25,
+      "char_start": 203,
+      "char_end": 208
+    },
+    {
+      "unit_id": "clause_026",
+      "unit_type": "clause",
+      "text": "我问他是不是发烧了",
+      "clause_index": 26,
+      "char_start": 209,
+      "char_end": 218
+    },
+    {
+      "unit_id": "clause_027",
+      "unit_type": "clause",
+      "text": "有没有吃药",
+      "clause_index": 27,
+      "char_start": 219,
+      "char_end": 224
+    },
+    {
+      "unit_id": "clause_028",
+      "unit_type": "clause",
+      "text": "他躺在床上",
+      "clause_index": 28,
+      "char_start": 225,
+      "char_end": 230
+    },
+    {
+      "unit_id": "clause_029",
+      "unit_type": "clause",
+      "text": "医生正在给他检查",
+      "clause_index": 29,
+      "char_start": 231,
+      "char_end": 239
+    },
+    {
+      "unit_id": "clause_030",
+      "unit_type": "clause",
+      "text": "看到他能吃饭了",
+      "clause_index": 30,
+      "char_start": 240,
+      "char_end": 247
+    },
+    {
+      "unit_id": "clause_031",
+      "unit_type": "clause",
+      "text": "我为他点赞",
+      "clause_index": 31,
+      "char_start": 248,
+      "char_end": 253
+    },
+    {
+      "unit_id": "clause_032",
+      "unit_type": "clause",
+      "text": "我让他安心回家休息",
+      "clause_index": 32,
+      "char_start": 254,
+      "char_end": 263
+    },
+    {
+      "unit_id": "clause_033",
+      "unit_type": "clause",
+      "text": "心里充满了对他的关心",
+      "clause_index": 33,
+      "char_start": 264,
+      "char_end": 274
+    },
+    {
+      "unit_id": "clause_034",
+      "unit_type": "clause",
+      "text": "确认他可以好好休息后",
+      "clause_index": 34,
+      "char_start": 275,
+      "char_end": 285
+    },
+    {
+      "unit_id": "clause_035",
+      "unit_type": "clause",
+      "text": "我放心地笑了",
+      "clause_index": 35,
+      "char_start": 286,
+      "char_end": 292
+    },
+    {
+      "unit_id": "clause_036",
+      "unit_type": "clause",
+      "text": "最后",
+      "clause_index": 36,
+      "char_start": 293,
+      "char_end": 295
+    },
+    {
+      "unit_id": "clause_037",
+      "unit_type": "clause",
+      "text": "我离开医院",
+      "clause_index": 37,
+      "char_start": 296,
+      "char_end": 301
+    },
+    {
+      "unit_id": "clause_038",
+      "unit_type": "clause",
+      "text": "坐电梯下楼",
+      "clause_index": 38,
+      "char_start": 302,
+      "char_end": 307
+    },
+    {
+      "unit_id": "clause_039",
+      "unit_type": "clause",
+      "text": "在外面等待",
+      "clause_index": 39,
+      "char_start": 308,
+      "char_end": 313
+    }
+  ],
+  "annotations": []
+}

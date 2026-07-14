@@ -1,0 +1,15 @@
+[
+    {
+        "annotation_id": "ann_001",
+        "target_id": "sent_001",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "start",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "篇章开头句，无前文"
+    }
+]

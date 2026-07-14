@@ -1,0 +1,5453 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T15:07:56.251716+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "文本素材1",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "文本素材1",
+    "source": "教师提供",
+    "raw_text": "晚上十点，我和刚失恋的老友已经喝了很多酒。他喝醉了，开始胡言乱语，一会儿说他爱的不是那个男人，而是我，一会儿又因为失恋而哭泣，说自己心碎了，需要医生。 我禁止他再喝酒，但他还是喝多了，睡着了。我问他有没有钱，他没有，于是我付了账单。然后，我叫了一辆车，准备送他回家。 到了他家门口，我按了门铃，然后用他的钥匙打开了门。他喝醉了吐了一地，我帮他收拾干净，找到了他的钱包、手机和钥匙。他的狗看到我们回来了，非常兴奋。 我把他扶到床上，他还在说胡话。我照顾了他很久，他又吐了一次。看着他熟睡的样子，我感到既无奈又心疼。最后，我在他家门口喝了一杯酒，看着天上的月亮，心里想着他什么时候才能好起来。",
+    "notes": "用于自然语言文本标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001_w_001",
+      "unit_type": "word",
+      "text": "晚上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 2
+    },
+    {
+      "unit_id": "sent_001_w_002",
+      "unit_type": "word",
+      "text": "十点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 2,
+      "char_end": 4
+    },
+    {
+      "unit_id": "sent_001_w_003",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "sent_001_w_004",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "sent_001_w_005",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 6,
+      "char_end": 7
+    },
+    {
+      "unit_id": "sent_001_w_006",
+      "unit_type": "word",
+      "text": "刚",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 7,
+      "char_end": 8
+    },
+    {
+      "unit_id": "sent_001_w_007",
+      "unit_type": "word",
+      "text": "失恋",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "sent_001_w_008",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "sent_001_w_009",
+      "unit_type": "word",
+      "text": "老友",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "sent_001_w_010",
+      "unit_type": "word",
+      "text": "已经",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 13,
+      "char_end": 15
+    },
+    {
+      "unit_id": "sent_001_w_011",
+      "unit_type": "word",
+      "text": "喝",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 15,
+      "char_end": 16
+    },
+    {
+      "unit_id": "sent_001_w_012",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 16,
+      "char_end": 17
+    },
+    {
+      "unit_id": "sent_001_w_013",
+      "unit_type": "word",
+      "text": "很多",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 13,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "sent_001_w_014",
+      "unit_type": "word",
+      "text": "酒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 14,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "sent_001_w_015",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 15,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "晚上十点，我和刚失恋的老友已经喝了很多酒。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 21,
+      "children": [
+        "sent_001_w_001",
+        "sent_001_w_002",
+        "sent_001_w_003",
+        "sent_001_w_004",
+        "sent_001_w_005",
+        "sent_001_w_006",
+        "sent_001_w_007",
+        "sent_001_w_008",
+        "sent_001_w_009",
+        "sent_001_w_010",
+        "sent_001_w_011",
+        "sent_001_w_012",
+        "sent_001_w_013",
+        "sent_001_w_014",
+        "sent_001_w_015"
+      ]
+    },
+    {
+      "unit_id": "sent_002_w_001",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 21,
+      "char_end": 22
+    },
+    {
+      "unit_id": "sent_002_w_002",
+      "unit_type": "word",
+      "text": "喝醉",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 22,
+      "char_end": 24
+    },
+    {
+      "unit_id": "sent_002_w_003",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "sent_002_w_004",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 25,
+      "char_end": 26
+    },
+    {
+      "unit_id": "sent_002_w_005",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "sent_002_w_006",
+      "unit_type": "word",
+      "text": "胡言乱语",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 28,
+      "char_end": 32
+    },
+    {
+      "unit_id": "sent_002_w_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 32,
+      "char_end": 33
+    },
+    {
+      "unit_id": "sent_002_w_008",
+      "unit_type": "word",
+      "text": "一会儿",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 33,
+      "char_end": 36
+    },
+    {
+      "unit_id": "sent_002_w_009",
+      "unit_type": "word",
+      "text": "说",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 36,
+      "char_end": 37
+    },
+    {
+      "unit_id": "sent_002_w_010",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 37,
+      "char_end": 38
+    },
+    {
+      "unit_id": "sent_002_w_011",
+      "unit_type": "word",
+      "text": "爱",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 38,
+      "char_end": 39
+    },
+    {
+      "unit_id": "sent_002_w_012",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 39,
+      "char_end": 40
+    },
+    {
+      "unit_id": "sent_002_w_013",
+      "unit_type": "word",
+      "text": "不是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 13,
+      "char_start": 40,
+      "char_end": 42
+    },
+    {
+      "unit_id": "sent_002_w_014",
+      "unit_type": "word",
+      "text": "那个",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 14,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "sent_002_w_015",
+      "unit_type": "word",
+      "text": "男人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 15,
+      "char_start": 44,
+      "char_end": 46
+    },
+    {
+      "unit_id": "sent_002_w_016",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 16,
+      "char_start": 46,
+      "char_end": 47
+    },
+    {
+      "unit_id": "sent_002_w_017",
+      "unit_type": "word",
+      "text": "而是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 17,
+      "char_start": 47,
+      "char_end": 49
+    },
+    {
+      "unit_id": "sent_002_w_018",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 18,
+      "char_start": 49,
+      "char_end": 50
+    },
+    {
+      "unit_id": "sent_002_w_019",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 19,
+      "char_start": 50,
+      "char_end": 51
+    },
+    {
+      "unit_id": "sent_002_w_020",
+      "unit_type": "word",
+      "text": "一会儿",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 20,
+      "char_start": 51,
+      "char_end": 54
+    },
+    {
+      "unit_id": "sent_002_w_021",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 21,
+      "char_start": 54,
+      "char_end": 55
+    },
+    {
+      "unit_id": "sent_002_w_022",
+      "unit_type": "word",
+      "text": "因为",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 22,
+      "char_start": 55,
+      "char_end": 57
+    },
+    {
+      "unit_id": "sent_002_w_023",
+      "unit_type": "word",
+      "text": "失恋",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 23,
+      "char_start": 57,
+      "char_end": 59
+    },
+    {
+      "unit_id": "sent_002_w_024",
+      "unit_type": "word",
+      "text": "而",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 24,
+      "char_start": 59,
+      "char_end": 60
+    },
+    {
+      "unit_id": "sent_002_w_025",
+      "unit_type": "word",
+      "text": "哭泣",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 25,
+      "char_start": 60,
+      "char_end": 62
+    },
+    {
+      "unit_id": "sent_002_w_026",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 26,
+      "char_start": 62,
+      "char_end": 63
+    },
+    {
+      "unit_id": "sent_002_w_027",
+      "unit_type": "word",
+      "text": "说",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 27,
+      "char_start": 63,
+      "char_end": 64
+    },
+    {
+      "unit_id": "sent_002_w_028",
+      "unit_type": "word",
+      "text": "自己",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 28,
+      "char_start": 64,
+      "char_end": 66
+    },
+    {
+      "unit_id": "sent_002_w_029",
+      "unit_type": "word",
+      "text": "心碎",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 29,
+      "char_start": 66,
+      "char_end": 68
+    },
+    {
+      "unit_id": "sent_002_w_030",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 30,
+      "char_start": 68,
+      "char_end": 69
+    },
+    {
+      "unit_id": "sent_002_w_031",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 31,
+      "char_start": 69,
+      "char_end": 70
+    },
+    {
+      "unit_id": "sent_002_w_032",
+      "unit_type": "word",
+      "text": "需要",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 32,
+      "char_start": 70,
+      "char_end": 72
+    },
+    {
+      "unit_id": "sent_002_w_033",
+      "unit_type": "word",
+      "text": "医生",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 33,
+      "char_start": 72,
+      "char_end": 74
+    },
+    {
+      "unit_id": "sent_002_w_034",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 34,
+      "char_start": 74,
+      "char_end": 75
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "他喝醉了，开始胡言乱语，一会儿说他爱的不是那个男人，而是我，一会儿又因为失恋而哭泣，说自己心碎了，需要医生。",
+      "sentence_index": 2,
+      "char_start": 21,
+      "char_end": 75,
+      "children": [
+        "sent_002_w_001",
+        "sent_002_w_002",
+        "sent_002_w_003",
+        "sent_002_w_004",
+        "sent_002_w_005",
+        "sent_002_w_006",
+        "sent_002_w_007",
+        "sent_002_w_008",
+        "sent_002_w_009",
+        "sent_002_w_010",
+        "sent_002_w_011",
+        "sent_002_w_012",
+        "sent_002_w_013",
+        "sent_002_w_014",
+        "sent_002_w_015",
+        "sent_002_w_016",
+        "sent_002_w_017",
+        "sent_002_w_018",
+        "sent_002_w_019",
+        "sent_002_w_020",
+        "sent_002_w_021",
+        "sent_002_w_022",
+        "sent_002_w_023",
+        "sent_002_w_024",
+        "sent_002_w_025",
+        "sent_002_w_026",
+        "sent_002_w_027",
+        "sent_002_w_028",
+        "sent_002_w_029",
+        "sent_002_w_030",
+        "sent_002_w_031",
+        "sent_002_w_032",
+        "sent_002_w_033",
+        "sent_002_w_034"
+      ]
+    },
+    {
+      "unit_id": "sent_003_w_001",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 76,
+      "char_end": 77
+    },
+    {
+      "unit_id": "sent_003_w_002",
+      "unit_type": "word",
+      "text": "禁止",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 77,
+      "char_end": 79
+    },
+    {
+      "unit_id": "sent_003_w_003",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 79,
+      "char_end": 80
+    },
+    {
+      "unit_id": "sent_003_w_004",
+      "unit_type": "word",
+      "text": "再",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 80,
+      "char_end": 81
+    },
+    {
+      "unit_id": "sent_003_w_005",
+      "unit_type": "word",
+      "text": "喝酒",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 81,
+      "char_end": 83
+    },
+    {
+      "unit_id": "sent_003_w_006",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 83,
+      "char_end": 84
+    },
+    {
+      "unit_id": "sent_003_w_007",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 84,
+      "char_end": 85
+    },
+    {
+      "unit_id": "sent_003_w_008",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 85,
+      "char_end": 86
+    },
+    {
+      "unit_id": "sent_003_w_009",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 86,
+      "char_end": 88
+    },
+    {
+      "unit_id": "sent_003_w_010",
+      "unit_type": "word",
+      "text": "喝多",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 88,
+      "char_end": 90
+    },
+    {
+      "unit_id": "sent_003_w_011",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 90,
+      "char_end": 91
+    },
+    {
+      "unit_id": "sent_003_w_012",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 91,
+      "char_end": 92
+    },
+    {
+      "unit_id": "sent_003_w_013",
+      "unit_type": "word",
+      "text": "睡着",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 92,
+      "char_end": 94
+    },
+    {
+      "unit_id": "sent_003_w_014",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 94,
+      "char_end": 95
+    },
+    {
+      "unit_id": "sent_003_w_015",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 95,
+      "char_end": 96
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我禁止他再喝酒，但他还是喝多了，睡着了。",
+      "sentence_index": 3,
+      "char_start": 76,
+      "char_end": 96,
+      "children": [
+        "sent_003_w_001",
+        "sent_003_w_002",
+        "sent_003_w_003",
+        "sent_003_w_004",
+        "sent_003_w_005",
+        "sent_003_w_006",
+        "sent_003_w_007",
+        "sent_003_w_008",
+        "sent_003_w_009",
+        "sent_003_w_010",
+        "sent_003_w_011",
+        "sent_003_w_012",
+        "sent_003_w_013",
+        "sent_003_w_014",
+        "sent_003_w_015"
+      ]
+    },
+    {
+      "unit_id": "sent_004_w_001",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 96,
+      "char_end": 97
+    },
+    {
+      "unit_id": "sent_004_w_002",
+      "unit_type": "word",
+      "text": "问",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 97,
+      "char_end": 98
+    },
+    {
+      "unit_id": "sent_004_w_003",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 98,
+      "char_end": 99
+    },
+    {
+      "unit_id": "sent_004_w_004",
+      "unit_type": "word",
+      "text": "有没有",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 99,
+      "char_end": 102
+    },
+    {
+      "unit_id": "sent_004_w_005",
+      "unit_type": "word",
+      "text": "钱",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 102,
+      "char_end": 103
+    },
+    {
+      "unit_id": "sent_004_w_006",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 103,
+      "char_end": 104
+    },
+    {
+      "unit_id": "sent_004_w_007",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 104,
+      "char_end": 105
+    },
+    {
+      "unit_id": "sent_004_w_008",
+      "unit_type": "word",
+      "text": "没有",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 105,
+      "char_end": 107
+    },
+    {
+      "unit_id": "sent_004_w_009",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 107,
+      "char_end": 108
+    },
+    {
+      "unit_id": "sent_004_w_010",
+      "unit_type": "word",
+      "text": "于是",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 108,
+      "char_end": 110
+    },
+    {
+      "unit_id": "sent_004_w_011",
+      "unit_type": "word",
+      "text": "我付",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 11,
+      "char_start": 110,
+      "char_end": 112
+    },
+    {
+      "unit_id": "sent_004_w_012",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 12,
+      "char_start": 112,
+      "char_end": 113
+    },
+    {
+      "unit_id": "sent_004_w_013",
+      "unit_type": "word",
+      "text": "账单",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 13,
+      "char_start": 113,
+      "char_end": 115
+    },
+    {
+      "unit_id": "sent_004_w_014",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 14,
+      "char_start": 115,
+      "char_end": 116
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我问他有没有钱，他没有，于是我付了账单。",
+      "sentence_index": 4,
+      "char_start": 96,
+      "char_end": 116,
+      "children": [
+        "sent_004_w_001",
+        "sent_004_w_002",
+        "sent_004_w_003",
+        "sent_004_w_004",
+        "sent_004_w_005",
+        "sent_004_w_006",
+        "sent_004_w_007",
+        "sent_004_w_008",
+        "sent_004_w_009",
+        "sent_004_w_010",
+        "sent_004_w_011",
+        "sent_004_w_012",
+        "sent_004_w_013",
+        "sent_004_w_014"
+      ]
+    },
+    {
+      "unit_id": "sent_005_w_001",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 116,
+      "char_end": 118
+    },
+    {
+      "unit_id": "sent_005_w_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 118,
+      "char_end": 119
+    },
+    {
+      "unit_id": "sent_005_w_003",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 119,
+      "char_end": 120
+    },
+    {
+      "unit_id": "sent_005_w_004",
+      "unit_type": "word",
+      "text": "叫",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 120,
+      "char_end": 121
+    },
+    {
+      "unit_id": "sent_005_w_005",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 121,
+      "char_end": 122
+    },
+    {
+      "unit_id": "sent_005_w_006",
+      "unit_type": "word",
+      "text": "一辆车",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 122,
+      "char_end": 125
+    },
+    {
+      "unit_id": "sent_005_w_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7,
+      "char_start": 125,
+      "char_end": 126
+    },
+    {
+      "unit_id": "sent_005_w_008",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8,
+      "char_start": 126,
+      "char_end": 128
+    },
+    {
+      "unit_id": "sent_005_w_009",
+      "unit_type": "word",
+      "text": "送",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9,
+      "char_start": 128,
+      "char_end": 129
+    },
+    {
+      "unit_id": "sent_005_w_010",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 10,
+      "char_start": 129,
+      "char_end": 130
+    },
+    {
+      "unit_id": "sent_005_w_011",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 11,
+      "char_start": 130,
+      "char_end": 132
+    },
+    {
+      "unit_id": "sent_005_w_012",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 12,
+      "char_start": 132,
+      "char_end": 133
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "然后，我叫了一辆车，准备送他回家。",
+      "sentence_index": 5,
+      "char_start": 116,
+      "char_end": 133,
+      "children": [
+        "sent_005_w_001",
+        "sent_005_w_002",
+        "sent_005_w_003",
+        "sent_005_w_004",
+        "sent_005_w_005",
+        "sent_005_w_006",
+        "sent_005_w_007",
+        "sent_005_w_008",
+        "sent_005_w_009",
+        "sent_005_w_010",
+        "sent_005_w_011",
+        "sent_005_w_012"
+      ]
+    },
+    {
+      "unit_id": "sent_006_w_001",
+      "unit_type": "word",
+      "text": "到",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 134,
+      "char_end": 135
+    },
+    {
+      "unit_id": "sent_006_w_002",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 135,
+      "char_end": 136
+    },
+    {
+      "unit_id": "sent_006_w_003",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 136,
+      "char_end": 137
+    },
+    {
+      "unit_id": "sent_006_w_004",
+      "unit_type": "word",
+      "text": "家门口",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 137,
+      "char_end": 140
+    },
+    {
+      "unit_id": "sent_006_w_005",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 140,
+      "char_end": 141
+    },
+    {
+      "unit_id": "sent_006_w_006",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 141,
+      "char_end": 142
+    },
+    {
+      "unit_id": "sent_006_w_007",
+      "unit_type": "word",
+      "text": "按",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 142,
+      "char_end": 143
+    },
+    {
+      "unit_id": "sent_006_w_008",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8,
+      "char_start": 143,
+      "char_end": 144
+    },
+    {
+      "unit_id": "sent_006_w_009",
+      "unit_type": "word",
+      "text": "门铃",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 9,
+      "char_start": 144,
+      "char_end": 146
+    },
+    {
+      "unit_id": "sent_006_w_010",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 10,
+      "char_start": 146,
+      "char_end": 147
+    },
+    {
+      "unit_id": "sent_006_w_011",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 11,
+      "char_start": 147,
+      "char_end": 149
+    },
+    {
+      "unit_id": "sent_006_w_012",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 12,
+      "char_start": 149,
+      "char_end": 150
+    },
+    {
+      "unit_id": "sent_006_w_013",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 13,
+      "char_start": 150,
+      "char_end": 151
+    },
+    {
+      "unit_id": "sent_006_w_014",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 14,
+      "char_start": 151,
+      "char_end": 152
+    },
+    {
+      "unit_id": "sent_006_w_015",
+      "unit_type": "word",
+      "text": "钥匙",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 15,
+      "char_start": 152,
+      "char_end": 154
+    },
+    {
+      "unit_id": "sent_006_w_016",
+      "unit_type": "word",
+      "text": "打开",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 16,
+      "char_start": 154,
+      "char_end": 156
+    },
+    {
+      "unit_id": "sent_006_w_017",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 17,
+      "char_start": 156,
+      "char_end": 157
+    },
+    {
+      "unit_id": "sent_006_w_018",
+      "unit_type": "word",
+      "text": "门",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 18,
+      "char_start": 157,
+      "char_end": 158
+    },
+    {
+      "unit_id": "sent_006_w_019",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 19,
+      "char_start": 158,
+      "char_end": 159
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "到了他家门口，我按了门铃，然后用他的钥匙打开了门。",
+      "sentence_index": 6,
+      "char_start": 134,
+      "char_end": 159,
+      "children": [
+        "sent_006_w_001",
+        "sent_006_w_002",
+        "sent_006_w_003",
+        "sent_006_w_004",
+        "sent_006_w_005",
+        "sent_006_w_006",
+        "sent_006_w_007",
+        "sent_006_w_008",
+        "sent_006_w_009",
+        "sent_006_w_010",
+        "sent_006_w_011",
+        "sent_006_w_012",
+        "sent_006_w_013",
+        "sent_006_w_014",
+        "sent_006_w_015",
+        "sent_006_w_016",
+        "sent_006_w_017",
+        "sent_006_w_018",
+        "sent_006_w_019"
+      ]
+    },
+    {
+      "unit_id": "sent_007_w_001",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 159,
+      "char_end": 160
+    },
+    {
+      "unit_id": "sent_007_w_002",
+      "unit_type": "word",
+      "text": "喝醉",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 160,
+      "char_end": 162
+    },
+    {
+      "unit_id": "sent_007_w_003",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 162,
+      "char_end": 163
+    },
+    {
+      "unit_id": "sent_007_w_004",
+      "unit_type": "word",
+      "text": "吐",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 163,
+      "char_end": 164
+    },
+    {
+      "unit_id": "sent_007_w_005",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5,
+      "char_start": 164,
+      "char_end": 165
+    },
+    {
+      "unit_id": "sent_007_w_006",
+      "unit_type": "word",
+      "text": "一地",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6,
+      "char_start": 165,
+      "char_end": 167
+    },
+    {
+      "unit_id": "sent_007_w_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7,
+      "char_start": 167,
+      "char_end": 168
+    },
+    {
+      "unit_id": "sent_007_w_008",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8,
+      "char_start": 168,
+      "char_end": 169
+    },
+    {
+      "unit_id": "sent_007_w_009",
+      "unit_type": "word",
+      "text": "帮",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9,
+      "char_start": 169,
+      "char_end": 170
+    },
+    {
+      "unit_id": "sent_007_w_010",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 10,
+      "char_start": 170,
+      "char_end": 171
+    },
+    {
+      "unit_id": "sent_007_w_011",
+      "unit_type": "word",
+      "text": "收拾",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 11,
+      "char_start": 171,
+      "char_end": 173
+    },
+    {
+      "unit_id": "sent_007_w_012",
+      "unit_type": "word",
+      "text": "干净",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 12,
+      "char_start": 173,
+      "char_end": 175
+    },
+    {
+      "unit_id": "sent_007_w_013",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 13,
+      "char_start": 175,
+      "char_end": 176
+    },
+    {
+      "unit_id": "sent_007_w_014",
+      "unit_type": "word",
+      "text": "找到",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 14,
+      "char_start": 176,
+      "char_end": 178
+    },
+    {
+      "unit_id": "sent_007_w_015",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 15,
+      "char_start": 178,
+      "char_end": 179
+    },
+    {
+      "unit_id": "sent_007_w_016",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 16,
+      "char_start": 179,
+      "char_end": 180
+    },
+    {
+      "unit_id": "sent_007_w_017",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 17,
+      "char_start": 180,
+      "char_end": 181
+    },
+    {
+      "unit_id": "sent_007_w_018",
+      "unit_type": "word",
+      "text": "钱包",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 18,
+      "char_start": 181,
+      "char_end": 183
+    },
+    {
+      "unit_id": "sent_007_w_019",
+      "unit_type": "word",
+      "text": "、",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 19,
+      "char_start": 183,
+      "char_end": 184
+    },
+    {
+      "unit_id": "sent_007_w_020",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 20,
+      "char_start": 184,
+      "char_end": 186
+    },
+    {
+      "unit_id": "sent_007_w_021",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 21,
+      "char_start": 186,
+      "char_end": 187
+    },
+    {
+      "unit_id": "sent_007_w_022",
+      "unit_type": "word",
+      "text": "钥匙",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 22,
+      "char_start": 187,
+      "char_end": 189
+    },
+    {
+      "unit_id": "sent_007_w_023",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 23,
+      "char_start": 189,
+      "char_end": 190
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "他喝醉了吐了一地，我帮他收拾干净，找到了他的钱包、手机和钥匙。",
+      "sentence_index": 7,
+      "char_start": 159,
+      "char_end": 190,
+      "children": [
+        "sent_007_w_001",
+        "sent_007_w_002",
+        "sent_007_w_003",
+        "sent_007_w_004",
+        "sent_007_w_005",
+        "sent_007_w_006",
+        "sent_007_w_007",
+        "sent_007_w_008",
+        "sent_007_w_009",
+        "sent_007_w_010",
+        "sent_007_w_011",
+        "sent_007_w_012",
+        "sent_007_w_013",
+        "sent_007_w_014",
+        "sent_007_w_015",
+        "sent_007_w_016",
+        "sent_007_w_017",
+        "sent_007_w_018",
+        "sent_007_w_019",
+        "sent_007_w_020",
+        "sent_007_w_021",
+        "sent_007_w_022",
+        "sent_007_w_023"
+      ]
+    },
+    {
+      "unit_id": "sent_008_w_001",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 190,
+      "char_end": 191
+    },
+    {
+      "unit_id": "sent_008_w_002",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 191,
+      "char_end": 192
+    },
+    {
+      "unit_id": "sent_008_w_003",
+      "unit_type": "word",
+      "text": "狗",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 192,
+      "char_end": 193
+    },
+    {
+      "unit_id": "sent_008_w_004",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 193,
+      "char_end": 195
+    },
+    {
+      "unit_id": "sent_008_w_005",
+      "unit_type": "word",
+      "text": "我们",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5,
+      "char_start": 195,
+      "char_end": 197
+    },
+    {
+      "unit_id": "sent_008_w_006",
+      "unit_type": "word",
+      "text": "回来",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6,
+      "char_start": 197,
+      "char_end": 199
+    },
+    {
+      "unit_id": "sent_008_w_007",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 7,
+      "char_start": 199,
+      "char_end": 200
+    },
+    {
+      "unit_id": "sent_008_w_008",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 8,
+      "char_start": 200,
+      "char_end": 201
+    },
+    {
+      "unit_id": "sent_008_w_009",
+      "unit_type": "word",
+      "text": "非常",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 9,
+      "char_start": 201,
+      "char_end": 203
+    },
+    {
+      "unit_id": "sent_008_w_010",
+      "unit_type": "word",
+      "text": "兴奋",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 10,
+      "char_start": 203,
+      "char_end": 205
+    },
+    {
+      "unit_id": "sent_008_w_011",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 11,
+      "char_start": 205,
+      "char_end": 206
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "他的狗看到我们回来了，非常兴奋。",
+      "sentence_index": 8,
+      "char_start": 190,
+      "char_end": 206,
+      "children": [
+        "sent_008_w_001",
+        "sent_008_w_002",
+        "sent_008_w_003",
+        "sent_008_w_004",
+        "sent_008_w_005",
+        "sent_008_w_006",
+        "sent_008_w_007",
+        "sent_008_w_008",
+        "sent_008_w_009",
+        "sent_008_w_010",
+        "sent_008_w_011"
+      ]
+    },
+    {
+      "unit_id": "sent_009_w_001",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 207,
+      "char_end": 208
+    },
+    {
+      "unit_id": "sent_009_w_002",
+      "unit_type": "word",
+      "text": "把",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 208,
+      "char_end": 209
+    },
+    {
+      "unit_id": "sent_009_w_003",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3,
+      "char_start": 209,
+      "char_end": 210
+    },
+    {
+      "unit_id": "sent_009_w_004",
+      "unit_type": "word",
+      "text": "扶",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 4,
+      "char_start": 210,
+      "char_end": 211
+    },
+    {
+      "unit_id": "sent_009_w_005",
+      "unit_type": "word",
+      "text": "到",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5,
+      "char_start": 211,
+      "char_end": 212
+    },
+    {
+      "unit_id": "sent_009_w_006",
+      "unit_type": "word",
+      "text": "床上",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6,
+      "char_start": 212,
+      "char_end": 214
+    },
+    {
+      "unit_id": "sent_009_w_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 7,
+      "char_start": 214,
+      "char_end": 215
+    },
+    {
+      "unit_id": "sent_009_w_008",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 8,
+      "char_start": 215,
+      "char_end": 216
+    },
+    {
+      "unit_id": "sent_009_w_009",
+      "unit_type": "word",
+      "text": "还",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 9,
+      "char_start": 216,
+      "char_end": 217
+    },
+    {
+      "unit_id": "sent_009_w_010",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 10,
+      "char_start": 217,
+      "char_end": 218
+    },
+    {
+      "unit_id": "sent_009_w_011",
+      "unit_type": "word",
+      "text": "说胡话",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 11,
+      "char_start": 218,
+      "char_end": 221
+    },
+    {
+      "unit_id": "sent_009_w_012",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 12,
+      "char_start": 221,
+      "char_end": 222
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我把他扶到床上，他还在说胡话。",
+      "sentence_index": 9,
+      "char_start": 207,
+      "char_end": 222,
+      "children": [
+        "sent_009_w_001",
+        "sent_009_w_002",
+        "sent_009_w_003",
+        "sent_009_w_004",
+        "sent_009_w_005",
+        "sent_009_w_006",
+        "sent_009_w_007",
+        "sent_009_w_008",
+        "sent_009_w_009",
+        "sent_009_w_010",
+        "sent_009_w_011",
+        "sent_009_w_012"
+      ]
+    },
+    {
+      "unit_id": "sent_010_w_001",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 222,
+      "char_end": 223
+    },
+    {
+      "unit_id": "sent_010_w_002",
+      "unit_type": "word",
+      "text": "照顾",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2,
+      "char_start": 223,
+      "char_end": 225
+    },
+    {
+      "unit_id": "sent_010_w_003",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3,
+      "char_start": 225,
+      "char_end": 226
+    },
+    {
+      "unit_id": "sent_010_w_004",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4,
+      "char_start": 226,
+      "char_end": 227
+    },
+    {
+      "unit_id": "sent_010_w_005",
+      "unit_type": "word",
+      "text": "很",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 5,
+      "char_start": 227,
+      "char_end": 228
+    },
+    {
+      "unit_id": "sent_010_w_006",
+      "unit_type": "word",
+      "text": "久",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 6,
+      "char_start": 228,
+      "char_end": 229
+    },
+    {
+      "unit_id": "sent_010_w_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 7,
+      "char_start": 229,
+      "char_end": 230
+    },
+    {
+      "unit_id": "sent_010_w_008",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 8,
+      "char_start": 230,
+      "char_end": 231
+    },
+    {
+      "unit_id": "sent_010_w_009",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 9,
+      "char_start": 231,
+      "char_end": 232
+    },
+    {
+      "unit_id": "sent_010_w_010",
+      "unit_type": "word",
+      "text": "吐",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 10,
+      "char_start": 232,
+      "char_end": 233
+    },
+    {
+      "unit_id": "sent_010_w_011",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 11,
+      "char_start": 233,
+      "char_end": 234
+    },
+    {
+      "unit_id": "sent_010_w_012",
+      "unit_type": "word",
+      "text": "一次",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 12,
+      "char_start": 234,
+      "char_end": 236
+    },
+    {
+      "unit_id": "sent_010_w_013",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 13,
+      "char_start": 236,
+      "char_end": 237
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我照顾了他很久，他又吐了一次。",
+      "sentence_index": 10,
+      "char_start": 222,
+      "char_end": 237,
+      "children": [
+        "sent_010_w_001",
+        "sent_010_w_002",
+        "sent_010_w_003",
+        "sent_010_w_004",
+        "sent_010_w_005",
+        "sent_010_w_006",
+        "sent_010_w_007",
+        "sent_010_w_008",
+        "sent_010_w_009",
+        "sent_010_w_010",
+        "sent_010_w_011",
+        "sent_010_w_012",
+        "sent_010_w_013"
+      ]
+    },
+    {
+      "unit_id": "sent_011_w_001",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 237,
+      "char_end": 239
+    },
+    {
+      "unit_id": "sent_011_w_002",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 239,
+      "char_end": 240
+    },
+    {
+      "unit_id": "sent_011_w_003",
+      "unit_type": "word",
+      "text": "熟睡",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 3,
+      "char_start": 240,
+      "char_end": 242
+    },
+    {
+      "unit_id": "sent_011_w_004",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 4,
+      "char_start": 242,
+      "char_end": 243
+    },
+    {
+      "unit_id": "sent_011_w_005",
+      "unit_type": "word",
+      "text": "样子",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 5,
+      "char_start": 243,
+      "char_end": 245
+    },
+    {
+      "unit_id": "sent_011_w_006",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 6,
+      "char_start": 245,
+      "char_end": 246
+    },
+    {
+      "unit_id": "sent_011_w_007",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 7,
+      "char_start": 246,
+      "char_end": 247
+    },
+    {
+      "unit_id": "sent_011_w_008",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 8,
+      "char_start": 247,
+      "char_end": 249
+    },
+    {
+      "unit_id": "sent_011_w_009",
+      "unit_type": "word",
+      "text": "既",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 9,
+      "char_start": 249,
+      "char_end": 250
+    },
+    {
+      "unit_id": "sent_011_w_010",
+      "unit_type": "word",
+      "text": "无奈",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 10,
+      "char_start": 250,
+      "char_end": 252
+    },
+    {
+      "unit_id": "sent_011_w_011",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 11,
+      "char_start": 252,
+      "char_end": 253
+    },
+    {
+      "unit_id": "sent_011_w_012",
+      "unit_type": "word",
+      "text": "心疼",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 12,
+      "char_start": 253,
+      "char_end": 255
+    },
+    {
+      "unit_id": "sent_011_w_013",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 13,
+      "char_start": 255,
+      "char_end": 256
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "看着他熟睡的样子，我感到既无奈又心疼。",
+      "sentence_index": 11,
+      "char_start": 237,
+      "char_end": 256,
+      "children": [
+        "sent_011_w_001",
+        "sent_011_w_002",
+        "sent_011_w_003",
+        "sent_011_w_004",
+        "sent_011_w_005",
+        "sent_011_w_006",
+        "sent_011_w_007",
+        "sent_011_w_008",
+        "sent_011_w_009",
+        "sent_011_w_010",
+        "sent_011_w_011",
+        "sent_011_w_012",
+        "sent_011_w_013"
+      ]
+    },
+    {
+      "unit_id": "sent_012_w_001",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1,
+      "char_start": 256,
+      "char_end": 258
+    },
+    {
+      "unit_id": "sent_012_w_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2,
+      "char_start": 258,
+      "char_end": 259
+    },
+    {
+      "unit_id": "sent_012_w_003",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 3,
+      "char_start": 259,
+      "char_end": 260
+    },
+    {
+      "unit_id": "sent_012_w_004",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 4,
+      "char_start": 260,
+      "char_end": 261
+    },
+    {
+      "unit_id": "sent_012_w_005",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 5,
+      "char_start": 261,
+      "char_end": 262
+    },
+    {
+      "unit_id": "sent_012_w_006",
+      "unit_type": "word",
+      "text": "家门口",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 6,
+      "char_start": 262,
+      "char_end": 265
+    },
+    {
+      "unit_id": "sent_012_w_007",
+      "unit_type": "word",
+      "text": "喝",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 7,
+      "char_start": 265,
+      "char_end": 266
+    },
+    {
+      "unit_id": "sent_012_w_008",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 8,
+      "char_start": 266,
+      "char_end": 267
+    },
+    {
+      "unit_id": "sent_012_w_009",
+      "unit_type": "word",
+      "text": "一",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 9,
+      "char_start": 267,
+      "char_end": 268
+    },
+    {
+      "unit_id": "sent_012_w_010",
+      "unit_type": "word",
+      "text": "杯酒",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 10,
+      "char_start": 268,
+      "char_end": 270
+    },
+    {
+      "unit_id": "sent_012_w_011",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 11,
+      "char_start": 270,
+      "char_end": 271
+    },
+    {
+      "unit_id": "sent_012_w_012",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 12,
+      "char_start": 271,
+      "char_end": 273
+    },
+    {
+      "unit_id": "sent_012_w_013",
+      "unit_type": "word",
+      "text": "天上",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 13,
+      "char_start": 273,
+      "char_end": 275
+    },
+    {
+      "unit_id": "sent_012_w_014",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 14,
+      "char_start": 275,
+      "char_end": 276
+    },
+    {
+      "unit_id": "sent_012_w_015",
+      "unit_type": "word",
+      "text": "月亮",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 15,
+      "char_start": 276,
+      "char_end": 278
+    },
+    {
+      "unit_id": "sent_012_w_016",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 16,
+      "char_start": 278,
+      "char_end": 279
+    },
+    {
+      "unit_id": "sent_012_w_017",
+      "unit_type": "word",
+      "text": "心里",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 17,
+      "char_start": 279,
+      "char_end": 281
+    },
+    {
+      "unit_id": "sent_012_w_018",
+      "unit_type": "word",
+      "text": "想着",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 18,
+      "char_start": 281,
+      "char_end": 283
+    },
+    {
+      "unit_id": "sent_012_w_019",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 19,
+      "char_start": 283,
+      "char_end": 284
+    },
+    {
+      "unit_id": "sent_012_w_020",
+      "unit_type": "word",
+      "text": "什么",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 20,
+      "char_start": 284,
+      "char_end": 286
+    },
+    {
+      "unit_id": "sent_012_w_021",
+      "unit_type": "word",
+      "text": "时候",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 21,
+      "char_start": 286,
+      "char_end": 288
+    },
+    {
+      "unit_id": "sent_012_w_022",
+      "unit_type": "word",
+      "text": "才能",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 22,
+      "char_start": 288,
+      "char_end": 290
+    },
+    {
+      "unit_id": "sent_012_w_023",
+      "unit_type": "word",
+      "text": "好",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 23,
+      "char_start": 290,
+      "char_end": 291
+    },
+    {
+      "unit_id": "sent_012_w_024",
+      "unit_type": "word",
+      "text": "起来",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 24,
+      "char_start": 291,
+      "char_end": 293
+    },
+    {
+      "unit_id": "sent_012_w_025",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 25,
+      "char_start": 293,
+      "char_end": 294
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "最后，我在他家门口喝了一杯酒，看着天上的月亮，心里想着他什么时候才能好起来。",
+      "sentence_index": 12,
+      "char_start": 256,
+      "char_end": 294,
+      "children": [
+        "sent_012_w_001",
+        "sent_012_w_002",
+        "sent_012_w_003",
+        "sent_012_w_004",
+        "sent_012_w_005",
+        "sent_012_w_006",
+        "sent_012_w_007",
+        "sent_012_w_008",
+        "sent_012_w_009",
+        "sent_012_w_010",
+        "sent_012_w_011",
+        "sent_012_w_012",
+        "sent_012_w_013",
+        "sent_012_w_014",
+        "sent_012_w_015",
+        "sent_012_w_016",
+        "sent_012_w_017",
+        "sent_012_w_018",
+        "sent_012_w_019",
+        "sent_012_w_020",
+        "sent_012_w_021",
+        "sent_012_w_022",
+        "sent_012_w_023",
+        "sent_012_w_024",
+        "sent_012_w_025"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_0001",
+      "target_id": "sent_001_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“晚上”由两个汉字组成，是一个多字词；同时，“晚”和“上”组合成复合词，表示特定时间段。"
+    },
+    {
+      "annotation_id": "ann_0002",
+      "target_id": "sent_001_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "十点由两个语素组成，是复合词，且包含数词十和量词点，构成数量结构。"
+    },
+    {
+      "annotation_id": "ann_0003",
+      "target_id": "sent_001_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0004",
+      "target_id": "sent_001_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0005",
+      "target_id": "sent_001_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“和”是单字词，可作连词、介词、名词或形容词，不属于其他特定形态类别。"
+    },
+    {
+      "annotation_id": "ann_0006",
+      "target_id": "sent_001_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“刚”是单字词，可作副词（如‘刚来’）表时间，类似词缀；在‘刚强’中为形容词性；在‘刚…就…’结构中表动作衔接，类似体标记；在‘刚走’中可视为方向补语的引申用法。"
+    },
+    {
+      "annotation_id": "ann_0007",
+      "target_id": "sent_001_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "失恋由两个语素'失'和'恋'组成，是一个双音节复合词，表示失去恋爱关系。"
+    },
+    {
+      "annotation_id": "ann_0008",
+      "target_id": "sent_001_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为结构助词附着在定语后，具有类似词缀的语法功能。"
+    },
+    {
+      "annotation_id": "ann_0009",
+      "target_id": "sent_001_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "老友由两个汉字组成，属于多字词；且由语素'老'和'友'复合而成，表示老朋友，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0010",
+      "target_id": "sent_001_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“已经”是一个双音节词，表示动作或状态已完成，属于体标记。"
+    },
+    {
+      "annotation_id": "ann_0011",
+      "target_id": "sent_001_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“喝”是一个单字词，表示饮用动作，不涉及多字、复合、重叠等形态特征。"
+    },
+    {
+      "annotation_id": "ann_0012",
+      "target_id": "sent_001_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0013",
+      "target_id": "sent_001_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“很多”由两个汉字组成，属于多字词；且“很”和“多”组合成复合词，表示数量大。"
+    },
+    {
+      "annotation_id": "ann_0014",
+      "target_id": "sent_001_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“酒”是一个单字词，表示一种含酒精的饮品。"
+    },
+    {
+      "annotation_id": "ann_0015",
+      "target_id": "sent_001_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态特征。"
+    },
+    {
+      "annotation_id": "ann_0017",
+      "target_id": "sent_002_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0018",
+      "target_id": "sent_002_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "喝醉由两个汉字组成，是复合词，表示饮酒后神志不清的状态。"
+    },
+    {
+      "annotation_id": "ann_0019",
+      "target_id": "sent_002_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0020",
+      "target_id": "sent_002_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0021",
+      "target_id": "sent_002_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“开始”是一个由两个语素组成的双音节复合词，表示起始或发起，属于多字词和复合词。"
+    },
+    {
+      "annotation_id": "ann_0022",
+      "target_id": "sent_002_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "idiom_or_fixed_expression"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "胡言乱语是一个四字成语，属于多字词和固定表达。"
+    },
+    {
+      "annotation_id": "ann_0023",
+      "target_id": "sent_002_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0024",
+      "target_id": "sent_002_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "reduplication"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一会儿”由两个汉字组成，属于多字词；其中“一”和“会儿”构成重叠形式，表示短暂的时间，属于重叠词。"
+    },
+    {
+      "annotation_id": "ann_0025",
+      "target_id": "sent_002_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“说”是一个单字词，表示说话或表达意思的动词。"
+    },
+    {
+      "annotation_id": "ann_0026",
+      "target_id": "sent_002_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0027",
+      "target_id": "sent_002_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“爱”是一个单字词，表示情感或喜好，不涉及多字、重叠、复合等结构。"
+    },
+    {
+      "annotation_id": "ann_0028",
+      "target_id": "sent_002_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为结构助词附着在其他词语后，具有类似词缀的语法功能。"
+    },
+    {
+      "annotation_id": "ann_0029",
+      "target_id": "sent_002_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "negation_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“不是”是一个双音节词，常用于否定判断或强调，属于否定标记。"
+    },
+    {
+      "annotation_id": "ann_0030",
+      "target_id": "sent_002_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“那个”由两个汉字组成，是一个多字词；它由指示代词“那”和量词“个”复合而成，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0031",
+      "target_id": "sent_002_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "男人由两个汉字组成，属于多字词；且由‘男’和‘人’两个语素复合而成，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0032",
+      "target_id": "sent_002_w_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征分类。"
+    },
+    {
+      "annotation_id": "ann_0033",
+      "target_id": "sent_002_w_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "而是是一个由两个汉字组成的双音节词，属于复合词，用于连接转折关系。"
+    },
+    {
+      "annotation_id": "ann_0034",
+      "target_id": "sent_002_w_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0035",
+      "target_id": "sent_002_w_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0036",
+      "target_id": "sent_002_w_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "reduplication"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一会儿”由两个汉字组成，属于多字词；其中“一”和“会儿”构成重叠形式，表示短暂的时间，属于重叠词。"
+    },
+    {
+      "annotation_id": "ann_0037",
+      "target_id": "sent_002_w_021",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“又”是一个单字词，表示重复或并列关系，没有其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0038",
+      "target_id": "sent_002_w_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因为是由两个汉字组成的双音节词，属于复合词，表示原因或理由。"
+    },
+    {
+      "annotation_id": "ann_0039",
+      "target_id": "sent_002_w_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "失恋由两个语素'失'和'恋'组成，是一个双音节复合词，表示失去恋爱关系。"
+    },
+    {
+      "annotation_id": "ann_0040",
+      "target_id": "sent_002_w_024",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“而”是一个单字词，作为连词使用，表示转折或并列关系。"
+    },
+    {
+      "annotation_id": "ann_0041",
+      "target_id": "sent_002_w_025",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "哭泣由两个语素组成，是一个双音节复合词，表示哭的动作。"
+    },
+    {
+      "annotation_id": "ann_0042",
+      "target_id": "sent_002_w_026",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0043",
+      "target_id": "sent_002_w_027",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“说”是一个单字词，表示说话、表达等含义，不涉及多字、复合、重叠或其他复杂结构。"
+    },
+    {
+      "annotation_id": "ann_0044",
+      "target_id": "sent_002_w_028",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“自己”由两个汉字组成，属于多字词；且“自”和“己”均为语素，组合成复合词，表示自身。不适用其他标签如单字词、重叠、类词缀等。"
+    },
+    {
+      "annotation_id": "ann_0045",
+      "target_id": "sent_002_w_029",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "心碎由两个汉字组成，属于多字词；且为联合式复合词，表示内心破碎的情感状态。"
+    },
+    {
+      "annotation_id": "ann_0046",
+      "target_id": "sent_002_w_030",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0047",
+      "target_id": "sent_002_w_031",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0048",
+      "target_id": "sent_002_w_032",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“需要”是一个由两个汉字组成的双音节词，且“需”和“要”各自有独立意义，组合后表示“应该有或必须有”，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0049",
+      "target_id": "sent_002_w_033",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "named_entity"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "医生由两个汉字组成，是多字词；由医和生两个语素复合而成，是复合词；通常指代职业，属于专有名词中的职业名称。"
+    },
+    {
+      "annotation_id": "ann_0050",
+      "target_id": "sent_002_w_034",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态特征。"
+    },
+    {
+      "annotation_id": "ann_0052",
+      "target_id": "sent_003_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0053",
+      "target_id": "sent_003_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "negation_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "禁止由两个汉字组成，是多字词；由'禁'和'止'两个语素复合而成，是复合词；在句中常表示否定或禁止意义，属于否定标记。"
+    },
+    {
+      "annotation_id": "ann_0054",
+      "target_id": "sent_003_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0055",
+      "target_id": "sent_003_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“再”是单字词，表示重复或继续，不属于复合词、重叠、类词缀等典型形态特征，因此归为‘other’。"
+    },
+    {
+      "annotation_id": "ann_0056",
+      "target_id": "sent_003_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "喝酒是由两个汉字组成的双音节词，且由动词'喝'和名词'酒'复合而成，表示一个动作行为。"
+    },
+    {
+      "annotation_id": "ann_0057",
+      "target_id": "sent_003_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0058",
+      "target_id": "sent_003_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“但”是一个单字词，表示转折关系，属于单音节词。"
+    },
+    {
+      "annotation_id": "ann_0059",
+      "target_id": "sent_003_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0060",
+      "target_id": "sent_003_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“还是”由两个汉字组成，属于多字词；它由“还”和“是”两个语素复合而成，表示选择或转折，因此是复合词。"
+    },
+    {
+      "annotation_id": "ann_0061",
+      "target_id": "sent_003_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "'喝多'由两个汉字组成，是复合词，表示饮酒过量的意思。"
+    },
+    {
+      "annotation_id": "ann_0062",
+      "target_id": "sent_003_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0063",
+      "target_id": "sent_003_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0064",
+      "target_id": "sent_003_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“睡着”由两个汉字组成，是多字词；它由动词“睡”和趋向补语“着”复合而成，表示动作达到结果或状态，因此是复合词和趋向补语。"
+    },
+    {
+      "annotation_id": "ann_0065",
+      "target_id": "sent_003_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0066",
+      "target_id": "sent_003_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态类别。"
+    },
+    {
+      "annotation_id": "ann_0068",
+      "target_id": "sent_004_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0069",
+      "target_id": "sent_004_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“问”是一个单字词，表示询问或提问的意思。"
+    },
+    {
+      "annotation_id": "ann_0070",
+      "target_id": "sent_004_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0071",
+      "target_id": "sent_004_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "reduplication",
+        "negation_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“有没有”是一个多字词，由“有”和“没有”复合而成，包含否定标记“没”，且“有”重复出现形成重叠结构。"
+    },
+    {
+      "annotation_id": "ann_0072",
+      "target_id": "sent_004_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“钱”是一个单字词，表示货币或财富，不涉及复合、重叠或其他复杂结构。"
+    },
+    {
+      "annotation_id": "ann_0073",
+      "target_id": "sent_004_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0074",
+      "target_id": "sent_004_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0075",
+      "target_id": "sent_004_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "negation_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“没有”是一个双音节词，常用于否定存在或完成，属于否定标记。"
+    },
+    {
+      "annotation_id": "ann_0076",
+      "target_id": "sent_004_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0077",
+      "target_id": "sent_004_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "于是是一个双音节复合词，由介词'于'和代词'是'组合而成，表示承接关系。"
+    },
+    {
+      "annotation_id": "ann_0078",
+      "target_id": "sent_004_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我付”由两个汉字组成，是一个多字词；且“我”和“付”组合成动宾结构，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0079",
+      "target_id": "sent_004_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0080",
+      "target_id": "sent_004_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "账单由两个汉字组成，属于多字词；且由'账'和'单'两个语素复合而成，表示账目单据，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0081",
+      "target_id": "sent_004_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0083",
+      "target_id": "sent_005_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“然后”是一个双音节词，属于多字词；它主要用作连词，表示时间或逻辑上的承接关系，不属于其他特定形态类别，因此标注为‘other’。"
+    },
+    {
+      "annotation_id": "ann_0084",
+      "target_id": "sent_005_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0085",
+      "target_id": "sent_005_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，属于基本词汇。"
+    },
+    {
+      "annotation_id": "ann_0086",
+      "target_id": "sent_005_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“叫”是单字词，常作为动词使用，也可在口语中作为类似后缀的成分（如‘叫做’），但本身不是典型词缀。"
+    },
+    {
+      "annotation_id": "ann_0087",
+      "target_id": "sent_005_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0088",
+      "target_id": "sent_005_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一辆车”由数词“一”、量词“辆”和名词“车”组成，属于多字词，且是典型的数量名结构（分类词结构）。"
+    },
+    {
+      "annotation_id": "ann_0089",
+      "target_id": "sent_005_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0090",
+      "target_id": "sent_005_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "准备由两个语素组成，是一个双音节复合词，属于多字词。"
+    },
+    {
+      "annotation_id": "ann_0091",
+      "target_id": "sent_005_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“送”是单字词，常作为趋向补语使用，如‘送去’、‘送来’。"
+    },
+    {
+      "annotation_id": "ann_0092",
+      "target_id": "sent_005_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0093",
+      "target_id": "sent_005_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "回家由两个汉字组成，是多字词；且由动词‘回’和名词‘家’组合成动宾结构的复合词。"
+    },
+    {
+      "annotation_id": "ann_0094",
+      "target_id": "sent_005_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态特征。"
+    },
+    {
+      "annotation_id": "ann_0096",
+      "target_id": "sent_006_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“到”是单字词，常作为趋向补语表示动作达到目的或结果。"
+    },
+    {
+      "annotation_id": "ann_0097",
+      "target_id": "sent_006_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0098",
+      "target_id": "sent_006_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0099",
+      "target_id": "sent_006_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“家门口”由“家”和“门口”两个语素组合而成，是一个多字复合词，表示家的大门附近。"
+    },
+    {
+      "annotation_id": "ann_0100",
+      "target_id": "sent_006_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0101",
+      "target_id": "sent_006_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0102",
+      "target_id": "sent_006_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“按”是单字词，常作为动词使用，也可作趋向补语（如‘按下去’）。"
+    },
+    {
+      "annotation_id": "ann_0103",
+      "target_id": "sent_006_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0104",
+      "target_id": "sent_006_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "门铃由两个汉字组成，属于多字词；且由‘门’和‘铃’两个语素复合而成，表示一种装置，因此是复合词。"
+    },
+    {
+      "annotation_id": "ann_0105",
+      "target_id": "sent_006_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0106",
+      "target_id": "sent_006_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“然后”是一个由两个汉字组成的双音节词，属于多字词。"
+    },
+    {
+      "annotation_id": "ann_0107",
+      "target_id": "sent_006_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "解析失败或未提供说明"
+    },
+    {
+      "annotation_id": "ann_0108",
+      "target_id": "sent_006_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0109",
+      "target_id": "sent_006_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为定语标记或结构助词，具有类似词缀的附着性。"
+    },
+    {
+      "annotation_id": "ann_0110",
+      "target_id": "sent_006_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "钥匙由两个汉字组成，属于多字词；且由'钥'和'匙'两个语素复合而成，表示开锁的工具，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0111",
+      "target_id": "sent_006_w_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“打开”是由两个语素“打”和“开”组成的双音节复合词，属于多字词。"
+    },
+    {
+      "annotation_id": "ann_0112",
+      "target_id": "sent_006_w_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0113",
+      "target_id": "sent_006_w_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "compound_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“门”是单字词，可作复合词成分（如“门口”），也可作为量词（如“一门技术”）。"
+    },
+    {
+      "annotation_id": "ann_0114",
+      "target_id": "sent_006_w_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0116",
+      "target_id": "sent_007_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0117",
+      "target_id": "sent_007_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "喝醉由两个汉字组成，是一个多字词；同时它由动词'喝'和形容词'醉'复合而成，表示因饮酒过量而醉的状态，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0118",
+      "target_id": "sent_007_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0119",
+      "target_id": "sent_007_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“吐”是一个单字词，表示从口中排出东西或说出话语，如“吐痰”、“吐露”。"
+    },
+    {
+      "annotation_id": "ann_0120",
+      "target_id": "sent_007_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0121",
+      "target_id": "sent_007_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一地”由两个汉字组成，是多字词；它由数词“一”和量词“地”组合而成，属于复合词；同时，“一”+“地”构成数量结构，表示“满地的”意思，因此也属于量词结构。"
+    },
+    {
+      "annotation_id": "ann_0122",
+      "target_id": "sent_007_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0123",
+      "target_id": "sent_007_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，没有其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0124",
+      "target_id": "sent_007_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“帮”是单字词，常作为后缀（如‘帮手’）或动词（如‘帮忙’），具有类词缀特征。"
+    },
+    {
+      "annotation_id": "ann_0125",
+      "target_id": "sent_007_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0126",
+      "target_id": "sent_007_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“收拾”是一个由两个汉字组成的双音节词，属于复合词，由“收”和“拾”两个语素构成，表示整理、整顿等含义。"
+    },
+    {
+      "annotation_id": "ann_0127",
+      "target_id": "sent_007_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "干净由两个语素组成，是多字词，且为联合式复合词。"
+    },
+    {
+      "annotation_id": "ann_0128",
+      "target_id": "sent_007_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0129",
+      "target_id": "sent_007_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“找到”是一个双音节复合词，由动词“找”和趋向补语“到”组成，表示通过寻找而获得或发现目标。"
+    },
+    {
+      "annotation_id": "ann_0130",
+      "target_id": "sent_007_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0131",
+      "target_id": "sent_007_w_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，表示第三人称代词，不涉及复合、重叠或其他复杂结构。"
+    },
+    {
+      "annotation_id": "ann_0132",
+      "target_id": "sent_007_w_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为结构助词附着在定语后，具有类似词缀的语法功能。"
+    },
+    {
+      "annotation_id": "ann_0133",
+      "target_id": "sent_007_w_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "钱包由两个汉字组成，属于多字词；且由'钱'和'包'两个语素复合而成，表示装钱的包，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0134",
+      "target_id": "sent_007_w_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“、”是中文标点符号中的顿号，用于分隔并列词语，不属于词汇形态特征中的任何一类。"
+    },
+    {
+      "annotation_id": "ann_0135",
+      "target_id": "sent_007_w_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“手机”由两个汉字组成，属于多字词；且由“手”和“机”两个语素复合而成，表示手持式通信设备，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0136",
+      "target_id": "sent_007_w_021",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“和”是一个单字词，作为连词或介词使用，表示并列、联合或伴随关系。"
+    },
+    {
+      "annotation_id": "ann_0137",
+      "target_id": "sent_007_w_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "钥匙由两个语素组成，是一个双音节复合词，表示开锁的工具。"
+    },
+    {
+      "annotation_id": "ann_0138",
+      "target_id": "sent_007_w_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇或语法形态特征。"
+    },
+    {
+      "annotation_id": "ann_0140",
+      "target_id": "sent_008_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0141",
+      "target_id": "sent_008_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为结构助词附着在定语后，具有类似词缀的语法功能。"
+    },
+    {
+      "annotation_id": "ann_0142",
+      "target_id": "sent_008_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "named_entity"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "狗是单字词，且常作为指代动物的专有名词使用。"
+    },
+    {
+      "annotation_id": "ann_0143",
+      "target_id": "sent_008_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看到”是一个多字复合词，由动词“看”和趋向补语“到”组成，表示动作的结果或完成，属于动补结构中的趋向补语用法。"
+    },
+    {
+      "annotation_id": "ann_0144",
+      "target_id": "sent_008_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我们”是一个由两个汉字组成的多字词，且由代词“我”和表示复数的后缀“们”复合而成，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0145",
+      "target_id": "sent_008_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "回来是一个双音节复合词，由动词‘回’和趋向动词‘来’组成，常作为趋向补语使用，表示动作的方向。"
+    },
+    {
+      "annotation_id": "ann_0146",
+      "target_id": "sent_008_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0147",
+      "target_id": "sent_008_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0148",
+      "target_id": "sent_008_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“非常”由两个汉字组成，属于多字词；且“非”作为否定语素与“常”结合，构成复合词，表示程度极高。"
+    },
+    {
+      "annotation_id": "ann_0149",
+      "target_id": "sent_008_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "兴奋由两个汉字组成，属于多字词；且为联合式复合词，由两个语素‘兴’和‘奋’并列构成。"
+    },
+    {
+      "annotation_id": "ann_0150",
+      "target_id": "sent_008_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征中的任何一类。"
+    },
+    {
+      "annotation_id": "ann_0152",
+      "target_id": "sent_009_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0153",
+      "target_id": "sent_009_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“把”是单字词，常用作介词构成把字句，也可作为量词用于分类结构。"
+    },
+    {
+      "annotation_id": "ann_0154",
+      "target_id": "sent_009_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0155",
+      "target_id": "sent_009_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“扶”是一个单字词，表示用手支撑或帮助的意思。"
+    },
+    {
+      "annotation_id": "ann_0156",
+      "target_id": "sent_009_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“到”是单字词，常作为趋向补语表示动作达到某处或某时。"
+    },
+    {
+      "annotation_id": "ann_0157",
+      "target_id": "sent_009_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "床上'是一个由两个汉字组成的复合词，表示'床的上面'，属于多字词和复合词。"
+    },
+    {
+      "annotation_id": "ann_0158",
+      "target_id": "sent_009_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0159",
+      "target_id": "sent_009_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，表示第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0160",
+      "target_id": "sent_009_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“还”是单字词，常作为语气副词表示转折、强调或未完成等语气，属于语气标记。"
+    },
+    {
+      "annotation_id": "ann_0161",
+      "target_id": "sent_009_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“在”是单字词，可作趋向补语（如‘放在桌上’），也可作进行体标记（如‘在吃饭’）。"
+    },
+    {
+      "annotation_id": "ann_0162",
+      "target_id": "sent_009_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "idiom_or_fixed_expression"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "说胡话由两个语素组成，是一个多字复合词，且作为固定表达使用，意为说荒谬或不清醒的话。"
+    },
+    {
+      "annotation_id": "ann_0163",
+      "target_id": "sent_009_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征中的任何一类。"
+    },
+    {
+      "annotation_id": "ann_0165",
+      "target_id": "sent_010_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0166",
+      "target_id": "sent_010_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "照顾由两个汉字组成，是多字词；且由'照'和'顾'两个语素复合而成，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0167",
+      "target_id": "sent_010_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0168",
+      "target_id": "sent_010_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0169",
+      "target_id": "sent_010_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“很”是一个单字词，表示程度副词，没有其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0170",
+      "target_id": "sent_010_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“久”是一个单字词，表示时间长的意思，不涉及多字、复合、重叠等结构。"
+    },
+    {
+      "annotation_id": "ann_0171",
+      "target_id": "sent_010_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0172",
+      "target_id": "sent_010_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0173",
+      "target_id": "sent_010_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“又”是一个单字词，表示重复或并列关系，没有其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0174",
+      "target_id": "sent_010_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“吐”是一个单字词，表示从口中排出或说出等动作，不涉及多字、复合、重叠等结构。"
+    },
+    {
+      "annotation_id": "ann_0175",
+      "target_id": "sent_010_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0176",
+      "target_id": "sent_010_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一次”由两个汉字组成，是多字词；它由数词“一”和量词“次”构成，属于数量结构，常用于表示动作的次数。"
+    },
+    {
+      "annotation_id": "ann_0177",
+      "target_id": "sent_010_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征中的任何一类。"
+    },
+    {
+      "annotation_id": "ann_0179",
+      "target_id": "sent_011_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看着”是一个多字词，由动词“看”和趋向补语“着”组成，表示动作的持续或进行，同时“着”也是体标记。"
+    },
+    {
+      "annotation_id": "ann_0180",
+      "target_id": "sent_011_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，由单个汉字构成，表示第三人称代词。"
+    },
+    {
+      "annotation_id": "ann_0181",
+      "target_id": "sent_011_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "熟睡由两个汉字组成，是一个多字词；且由形容词性语素'熟'和动词性语素'睡'复合而成，表示深沉地睡眠，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0182",
+      "target_id": "sent_011_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为结构助词附着在定语后，具有类似词缀的语法功能。"
+    },
+    {
+      "annotation_id": "ann_0183",
+      "target_id": "sent_011_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“样子”是一个双音节复合词，由“样”和“子”组成，表示形状、模样或情形。"
+    },
+    {
+      "annotation_id": "ann_0184",
+      "target_id": "sent_011_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_0185",
+      "target_id": "sent_011_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或特殊语法标记。"
+    },
+    {
+      "annotation_id": "ann_0186",
+      "target_id": "sent_011_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "感到是由两个语素组成的双音节复合词，表示感觉或知觉到某种状态。"
+    },
+    {
+      "annotation_id": "ann_0187",
+      "target_id": "sent_011_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“既”是一个单字词，表示“已经”或“既然”等含义，不涉及多字、复合、重叠等形态特征。"
+    },
+    {
+      "annotation_id": "ann_0188",
+      "target_id": "sent_011_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“无奈”由两个汉字组成，属于多字词；且“无”和“奈”组合成复合词，表示“没有办法”的意思。"
+    },
+    {
+      "annotation_id": "ann_0189",
+      "target_id": "sent_011_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“又”是一个单字词，表示重复或并列关系，没有其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0190",
+      "target_id": "sent_011_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "心疼由两个汉字组成，属于多字词；且由‘心’和‘疼’两个语素复合而成，表示一种情感状态，是复合词。"
+    },
+    {
+      "annotation_id": "ann_0191",
+      "target_id": "sent_011_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征中的任何一类。"
+    },
+    {
+      "annotation_id": "ann_0193",
+      "target_id": "sent_012_w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“最后”由两个汉字组成，是一个多字词；同时它是由“最”和“后”组合而成的复合词，表示时间或顺序上的末端。"
+    },
+    {
+      "annotation_id": "ann_0194",
+      "target_id": "sent_012_w_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0195",
+      "target_id": "sent_012_w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是一个单字词，表示第一人称代词，不涉及复合、重叠或其他复杂结构。"
+    },
+    {
+      "annotation_id": "ann_0196",
+      "target_id": "sent_012_w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "解析失败或未提供说明"
+    },
+    {
+      "annotation_id": "ann_0197",
+      "target_id": "sent_012_w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，不涉及复合、重叠或特殊结构。"
+    },
+    {
+      "annotation_id": "ann_0198",
+      "target_id": "sent_012_w_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“家门口”由“家”和“门口”两个语素组合而成，是一个多字复合词，表示家门前或家附近的意思。"
+    },
+    {
+      "annotation_id": "ann_0199",
+      "target_id": "sent_012_w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“喝”是一个单字词，表示饮用动作，不涉及多字、复合、重叠等形态特征。"
+    },
+    {
+      "annotation_id": "ann_0200",
+      "target_id": "sent_012_w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "aspect_marker",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”是单字词，常作为动态助词表示动作完成（aspect_marker），也可作为语气助词表示变化或新情况（modal_marker）。"
+    },
+    {
+      "annotation_id": "ann_0201",
+      "target_id": "sent_012_w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一”是单字词，常作为数词或量词结构的一部分使用，如“一个”。"
+    },
+    {
+      "annotation_id": "ann_0202",
+      "target_id": "sent_012_w_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "杯酒是由两个汉字组成的复合词，表示一杯酒，属于多字词和复合词。"
+    },
+    {
+      "annotation_id": "ann_0203",
+      "target_id": "sent_012_w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0204",
+      "target_id": "sent_012_w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看着”是一个多字词，由动词“看”和趋向补语“着”组成，表示动作的持续或进行，同时“着”也是体标记。"
+    },
+    {
+      "annotation_id": "ann_0205",
+      "target_id": "sent_012_w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“天上”由两个汉字组成，属于多字词；且“天”和“上”组合成复合词，表示天空之上。"
+    },
+    {
+      "annotation_id": "ann_0206",
+      "target_id": "sent_012_w_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，常作为定语标记或结构助词，具有类似词缀的附着性。"
+    },
+    {
+      "annotation_id": "ann_0207",
+      "target_id": "sent_012_w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "月亮由两个汉字组成，属于多字词；且‘月’和‘亮’组合成复合词，表示天体名称。"
+    },
+    {
+      "annotation_id": "ann_0208",
+      "target_id": "sent_012_w_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词汇形态特征。"
+    },
+    {
+      "annotation_id": "ann_0209",
+      "target_id": "sent_012_w_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“心里”是由两个汉字组成的双音节词，属于复合词，由方位词“里”附着在名词“心”后构成，表示内心或心中。"
+    },
+    {
+      "annotation_id": "ann_0210",
+      "target_id": "sent_012_w_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“想着”是一个多字词，由“想”和“着”复合而成，其中“着”作为持续体标记，表示动作或状态的持续。"
+    },
+    {
+      "annotation_id": "ann_0211",
+      "target_id": "sent_012_w_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“他”是一个单字词，属于第三人称代词，没有复合、重叠或附加成分等特征。"
+    },
+    {
+      "annotation_id": "ann_0212",
+      "target_id": "sent_012_w_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“什么”是一个由两个汉字组成的疑问代词，属于多字词，不涉及其他形态特征。"
+    },
+    {
+      "annotation_id": "ann_0213",
+      "target_id": "sent_012_w_021",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时候是由两个汉字组成的双音节词，且‘时’和‘候’各自有独立意义，组合后表示时间概念，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_0214",
+      "target_id": "sent_012_w_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“才能”是一个由两个汉字组成的双音节词，属于多字词；同时它由“才”和“能”两个语素复合而成，表示“才干、能力”，因此也是复合词。"
+    },
+    {
+      "annotation_id": "ann_0215",
+      "target_id": "sent_012_w_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like",
+        "directional_complement",
+        "modal_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "好是单字词，可作形容词（如好人）、动词后缀（如做好）、补语（如做好）、语气词（如好了）。"
+    },
+    {
+      "annotation_id": "ann_0216",
+      "target_id": "sent_012_w_024",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“起来”是一个双音节词，常作为趋向补语表示动作向上或开始，也可作为体标记表示动作或状态的起始。"
+    },
+    {
+      "annotation_id": "ann_0217",
+      "target_id": "sent_012_w_025",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号是标点符号，不属于词汇形态特征中的任何一类。"
+    }
+  ]
+}

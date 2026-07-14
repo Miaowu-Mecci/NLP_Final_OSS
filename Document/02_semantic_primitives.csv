@@ -1,0 +1,196 @@
+﻿primitive,dishu_count,baihua_count
++ 人类 / Human,526,0
++ 人造物 / Artifact,384,0
++ 危险 / Danger,64,0
++ 情感 / Emotion,238,0
++ 时间 / Time,113,0
++ 有生命 / Animate,172,0
++ 生理需求 / Bodily Need,21,0
++ 社会关系 / Social Relation,102,0
++ 空间 / Space,221,0
++ 自然物 / Natural Object,73,0
++ 认知 / Cognition,349,0
++ 运动 / Motion,542,0
+absence,0,2
+abstract,0,2
+action,0,283
+agreement,0,3
+arrival,0,4
+aspect,0,5
+attach,0,1
+attribute,0,1
+auditory,0,1
+behavior,0,1
+blood,0,1
+bodily_need,0,8
+body_fluid,0,1
+body_part,0,2
+body_state,0,1
+building,0,2
+cause,0,3
+celestial,0,1
+change,0,1
+character,0,4
+chase,0,1
+chemical,0,1
+choice,0,2
+close,0,1
+cognition,0,45
+communication,0,77
+complex,0,1
+confirmation,0,3
+conflict,0,2
+conjunction,0,6
+connect,0,1
+connection,0,1
+consent,0,1
+consumption,0,5
+contact,0,1
+continuation,0,2
+contrast,0,1
+control,0,1
+cover,0,1
+creation,0,1
+creature,0,1
+danger,0,2
+decision,0,1
+degree,0,26
+departure,0,1
+desk_lamp,0,1
+device,0,1
+difficulty,0,1
+direction,0,45
+disaster,0,1
+discourse,0,7
+disturb,0,1
+document,0,1
+duration,0,4
+electric_device,0,1
+eliminate,0,1
+emotion,0,70
+entertainment,0,1
+entity,0,89
+escape,0,1
+evaluation,0,8
+event,0,27
+express,0,1
+expression,0,2
+female,0,1
+gesture,0,1
+group,0,1
+health,0,7
+hearing,0,1
+hit,0,1
+idiom,0,1
+inform,0,1
+information,0,1
+inquiry,0,1
+insect,0,1
+interaction,0,3
+invite,0,1
+kill,0,1
+kill_tool,0,1
+lighting_tool,0,1
+limb,0,1
+living_thing,0,1
+location,0,1
+manner,0,23
+mass,0,1
+meet,0,1
+mental,0,1
+mood,0,1
+motion,0,71
+mountain,0,1
+move,0,1
+natural_object,0,4
+natural_phenomenon,0,12
+nature,0,1
+negation,0,2
+negative,0,1
+number,0,6
+object,0,139
+open,0,1
+organization,0,6
+other,0,785
+particle,0,2
+peace,0,1
+perception,0,32
+period,0,1
+person,0,233
+person_other,0,2
+physical_contact,0,2
+physical_tire,0,1
+physiological,0,2
+place,0,65
+planet,0,1
+pleasure,0,1
+point,0,1
+positive,0,3
+posture,0,4
+process,0,42
+punctuation,0,83
+purpose,0,4
+quality,0,2
+quantity,0,27
+question,0,8
+reach,0,1
+reference,0,72
+relation,0,26
+repetition,0,2
+rest,0,2
+result,0,1
+run,0,1
+scene,0,1
+schedule,0,1
+sequence,0,16
+social,0,7
+social_interaction,0,4
+social_relation,0,22
+social_support,0,2
+sound,0,5
+space,0,16
+spatial,0,13
+spray,0,1
+state,0,67
+state_change,0,1
+structure,0,1
+survive,0,1
+sweat,0,1
+symbol,0,2
+time,0,59
+tool,0,6
+traffic,0,1
+transport,0,7
+unit,0,1
+view,0,1
+vision,0,1
+waiting,0,8
+water,0,1
+wave,0,1
+weather,0,6
+work,0,4
+"{'token': '了', 'label': 'state'}",0,1
+"{'word': '她', 'label': 'person'}",0,2
+"{'word': '心情', 'label': 'emotion'}",0,1
+"{'word': '愉快', 'semantic_primitive': 'emotion'}",0,1
+"{'word': '我', 'label': 'person'}",0,1
+"{'word': '我', 'semantic_primitive': 'person'}",0,1
+"{'word': '手机', 'tag': 'object'}",0,1
+"{'word': '时间', 'tag': 'time'}",0,1
+"{'word': '更', 'sememe': 'evaluation'}",0,1
+"{'word': '有人', 'label': 'state'}",0,1
+"{'word': '电话', 'label': 'object'}",0,1
+"{'word': '约', 'semantic': 'quantity'}",0,1
+"{'word': '表情', 'label': 'emotion'}",0,1
+"{'word': '里', 'label': 'place'}",0,1
+人类 / Human,0,100
+人造物 / Artifact,0,79
+危险 / Danger,0,28
+情感 / Emotion,0,36
+时间 / Time,0,10
+有生命 / Animate,0,93
+社会关系 / Social Relation,0,34
+空间 / Space,0,59
+自然物 / Natural Object,0,2
+认知 / Cognition,0,46
+运动 / Motion,0,68

@@ -1,0 +1,44 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "1191230216",
+    "student_name": "潘序",
+    "assigned_section": "次日4点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "《地书》次日4点",
+    "source": "教师提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 0,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "sent_001",
+      "target_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "value": "到了凌晨四点钟，我总算进入了沉睡状态，睡得非常踏实舒适。",
+      "confidence": 0.95,
+      "annotator_note": "描述终于获得高质量睡眠"
+    }
+  ]
+}

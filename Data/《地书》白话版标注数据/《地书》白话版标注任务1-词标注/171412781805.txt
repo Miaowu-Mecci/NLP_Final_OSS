@@ -1,0 +1,207 @@
+{
+  "project": {
+    "project_name": "《地书》白话版标注任务1",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "Full Text (15:00 - 2:00 day 2)",
+    "word_task_type": "[Text] 语境实际含义 / Pragmatic Meaning",
+    "sentence_task_type": null
+  },
+  "source_text": {
+    "text_id": "diary_01",
+    "title": "职场日记片段",
+    "source": "Provided Text Material",
+    "raw_text": "下午三点，我整理好文件，深吸一口气，走向会议室。我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。我将U盘插入电脑，打开投影仪，准备开始我的汇报。我面带微笑，尽量让自己看起来自信从容。我一边看着电脑上的演示文稿，一边对着麦克风讲解，并不时地邀请大家提问。汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。面对领导们的注视，我感到了不小的压力。我开始解释一些关于汽车、预算的问题，试图说服大家。会议上，大家展开了激烈的讨论，气氛一度有些紧张。我再次感到心跳加速，手心也冒出了汗。然而，当我展示完核心内容后，会议室里响起了热烈的掌声。领导们也对我投来了赞许的目光，甚至给我的工作打了满分。他们对我制作的演示文稿感到非常惊讶和满意。我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。会议结束后，我感到一阵强烈的疲惫，赶紧冲向洗手间。在厕所里待了好一会儿，感觉稍微舒服了一些。出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在Twitter上为我点赞，还有人在Facebook上给我发了大笑的表情，更有人在MSN上约我晚上一起喝酒。我心情愉快地在MSN上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我是谁，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个OK手势，开心地说：“好的，没问题！”凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "Text segmented for word-level annotation."
+  },
+  "units": [
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "心跳在加速",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 25,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "自信从容",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 95,
+      "char_end": 99
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "一帆风顺",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 155,
+      "char_end": 159
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "注视",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 195,
+      "char_end": 197
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "满分",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 12,
+      "char_start": 320,
+      "char_end": 322
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "疲惫",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4,
+      "char_start": 445,
+      "char_end": 447
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "陷入沉思",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 7,
+      "char_start": 510,
+      "char_end": 514
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 13,
+      "char_start": 760,
+      "char_end": 762
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_w001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "形容极度紧张和焦虑的生理反应。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "对应文本中汇报前的紧张状态。"
+    },
+    {
+      "annotation_id": "ann_w002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表面上装作镇定、不慌不忙的样子。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "这是一种职场伪装。"
+    },
+    {
+      "annotation_id": "ann_w003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "比喻事情进行得非常顺利，没有任何阻碍。此处用作否定，指过程有波折。",
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "成语的实际语用。"
+    },
+    {
+      "annotation_id": "ann_w004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "带有审视、评估意味的看，给人带来心理压迫感。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "上下级关系中的凝视。"
+    },
+    {
+      "annotation_id": "ann_w005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "最高评价，表示完全满意和认可。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "职场绩效评价。"
+    },
+    {
+      "annotation_id": "ann_w006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "精神和身体上的极度劳累，通常指压力释放后的虚脱感。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "紧张过后的生理反应。"
+    },
+    {
+      "annotation_id": "ann_w007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "陷入深沉的思考或回忆，通常伴随着沉默和发呆。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "情绪状态的描写。"
+    },
+    {
+      "annotation_id": "ann_w008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "task_word_01",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "逃离危险寻求安全的地方。",
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "末日场景下的生存行为。"
+    }
+  ]
+}

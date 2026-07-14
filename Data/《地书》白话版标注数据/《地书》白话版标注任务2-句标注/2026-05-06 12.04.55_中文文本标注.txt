@@ -1,0 +1,2664 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T11:31:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT5.5"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "16点；23点；24点/0点；次日2点",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "book_from_the_ground_16_23_00_02",
+    "title": "《地书》白话版：16点、23点、24点/0点、次日2点",
+    "source": "教师提供",
+    "raw_text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。我心情愉快地在 MSN 上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”\n晚上十一点，我在回家的路上，看到前面发生了一起车祸。两辆车撞在了一起，车主们正在激烈地争吵，互相指责对方的过错。我感到非常惊讶，停下脚步观看。很快，警察赶到了现场。他们介入调查，询问了两位车主的情况。警察也向我询问了事情的经过，我笑着配合调查，给他们看了我的手机和电脑记录，证明我与此事无关。警察对我的说法感到有些疑惑，我紧张得流了汗。他们查看了我的手机记录后，让我先在一旁等待，然后继续调查另一位车主。我站在那里，看着警察忙碌的身影，心里想着这场车祸到底是谁的责任。\n午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。\n凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "按分配章节抽取并合并为一份中文自然文本标注文件。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。",
+      "sentence_index": 1,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。",
+      "sentence_index": 2,
+      "children": [
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025",
+        "word_026"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在 MSN 上和一位女士聊了起来。",
+      "sentence_index": 3,
+      "children": [
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "很快就到了下班时间，我打印完最后一点文件，准备离开公司。",
+      "sentence_index": 4,
+      "children": [
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。",
+      "sentence_index": 5,
+      "children": [
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "电话接通后，她笑着问是谁。",
+      "sentence_index": 6,
+      "children": [
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053",
+        "word_054"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我笑着告诉她是我，并邀请她晚上一起见面。",
+      "sentence_index": 7,
+      "children": [
+        "word_055",
+        "word_056",
+        "word_057",
+        "word_058",
+        "word_059",
+        "word_060",
+        "word_061",
+        "word_062",
+        "word_063"
+      ]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "她在电话那头确认了时间，我高兴地答应了。",
+      "sentence_index": 8,
+      "children": [
+        "word_064",
+        "word_065",
+        "word_066",
+        "word_067",
+        "word_068",
+        "word_069",
+        "word_070"
+      ]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+      "sentence_index": 9,
+      "children": [
+        "word_071",
+        "word_072",
+        "word_073",
+        "word_074",
+        "word_075",
+        "word_076",
+        "word_077",
+        "word_078",
+        "word_079",
+        "word_080"
+      ]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "晚上十一点，我在回家的路上，看到前面发生了一起车祸。",
+      "sentence_index": 10,
+      "children": [
+        "word_081",
+        "word_082",
+        "word_083",
+        "word_084",
+        "word_085",
+        "word_086",
+        "word_087"
+      ]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "两辆车撞在了一起，车主们正在激烈地争吵，互相指责对方的过错。",
+      "sentence_index": 11,
+      "children": [
+        "word_088",
+        "word_089",
+        "word_090",
+        "word_091",
+        "word_092",
+        "word_093",
+        "word_094",
+        "word_095",
+        "word_096"
+      ]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我感到非常惊讶，停下脚步观看。",
+      "sentence_index": 12,
+      "children": [
+        "word_097",
+        "word_098",
+        "word_099",
+        "word_100",
+        "word_101"
+      ]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "很快，警察赶到了现场。",
+      "sentence_index": 13,
+      "children": [
+        "word_102",
+        "word_103",
+        "word_104",
+        "word_105"
+      ]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "他们介入调查，询问了两位车主的情况。",
+      "sentence_index": 14,
+      "children": [
+        "word_106",
+        "word_107",
+        "word_108",
+        "word_109",
+        "word_110"
+      ]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "警察也向我询问了事情的经过，我笑着配合调查，给他们看了我的手机和电脑记录，证明我与此事无关。",
+      "sentence_index": 15,
+      "children": [
+        "word_111",
+        "word_112",
+        "word_113",
+        "word_114",
+        "word_115",
+        "word_116",
+        "word_117",
+        "word_118",
+        "word_119",
+        "word_120",
+        "word_121",
+        "word_122",
+        "word_123",
+        "word_124",
+        "word_125",
+        "word_126"
+      ]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "警察对我的说法感到有些疑惑，我紧张得流了汗。",
+      "sentence_index": 16,
+      "children": [
+        "word_127",
+        "word_128",
+        "word_129",
+        "word_130",
+        "word_131",
+        "word_132",
+        "word_133"
+      ]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "他们查看了我的手机记录后，让我先在一旁等待，然后继续调查另一位车主。",
+      "sentence_index": 17,
+      "children": [
+        "word_134",
+        "word_135",
+        "word_136",
+        "word_137",
+        "word_138",
+        "word_139",
+        "word_140",
+        "word_141",
+        "word_142",
+        "word_143",
+        "word_144"
+      ]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我站在那里，看着警察忙碌的身影，心里想着这场车祸到底是谁的责任。",
+      "sentence_index": 18,
+      "children": [
+        "word_145",
+        "word_146",
+        "word_147",
+        "word_148",
+        "word_149",
+        "word_150",
+        "word_151",
+        "word_152",
+        "word_153",
+        "word_154"
+      ]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 19,
+      "children": [
+        "word_155",
+        "word_156",
+        "word_157",
+        "word_158",
+        "word_159",
+        "word_160"
+      ]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 20,
+      "children": [
+        "word_161",
+        "word_162",
+        "word_163",
+        "word_164",
+        "word_165",
+        "word_166"
+      ]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 21,
+      "children": [
+        "word_167",
+        "word_168",
+        "word_169",
+        "word_170",
+        "word_171"
+      ]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 22,
+      "children": [
+        "word_172",
+        "word_173",
+        "word_174",
+        "word_175",
+        "word_176",
+        "word_177",
+        "word_178"
+      ]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 23,
+      "children": [
+        "word_179",
+        "word_180",
+        "word_181",
+        "word_182",
+        "word_183",
+        "word_184",
+        "word_185",
+        "word_186"
+      ]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 24,
+      "children": [
+        "word_187",
+        "word_188",
+        "word_189",
+        "word_190",
+        "word_191"
+      ]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 25,
+      "children": [
+        "word_192",
+        "word_193",
+        "word_194",
+        "word_195",
+        "word_196",
+        "word_197"
+      ]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 26,
+      "children": [
+        "word_198",
+        "word_199",
+        "word_200",
+        "word_201",
+        "word_202",
+        "word_203"
+      ]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 27,
+      "children": [
+        "word_204",
+        "word_205",
+        "word_206",
+        "word_207",
+        "word_208",
+        "word_209",
+        "word_210",
+        "word_211",
+        "word_212",
+        "word_213",
+        "word_214",
+        "word_215",
+        "word_216"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "会议结束后",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "受到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "大家",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "掌声鼓励",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "心情非常不错",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "拿出",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "翻看",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "一下",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "社交软件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "有人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "Twitter",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "为我点赞",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "还有人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "Facebook",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "给我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 13
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "发了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 14
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "大笑的表情",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 15
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "更有人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 16
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "MSN",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 17
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "约我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 18
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "晚上一起",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 19
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "喝酒",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 20
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "心情愉快地",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "MSN",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "上和",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "一位女士",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "聊了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "起来",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "就到了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "打印完",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "最后一点",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "文件",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "准备离开公司",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "走出公司大楼",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "拿出手机",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "找到",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "那位女士的",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "电话号码",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "拨了过去",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "电话接通后",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "她",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "问",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "是谁",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "告诉",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "她",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "是我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "并",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "邀请",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "她",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "晚上一起见面",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "她",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "在电话那头",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "确认了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "时间",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "高兴地",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "答应了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "她",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_073",
+      "unit_type": "word",
+      "text": "在电话里",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_074",
+      "unit_type": "word",
+      "text": "比了个",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_075",
+      "unit_type": "word",
+      "text": "OK 手势",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_076",
+      "unit_type": "word",
+      "text": "开心地",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_077",
+      "unit_type": "word",
+      "text": "说",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_078",
+      "unit_type": "word",
+      "text": "好的",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_079",
+      "unit_type": "word",
+      "text": "没问题",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_080",
+      "unit_type": "word",
+      "text": "！",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_081",
+      "unit_type": "word",
+      "text": "晚上十一点",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_082",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_083",
+      "unit_type": "word",
+      "text": "在回家的路上",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_084",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_085",
+      "unit_type": "word",
+      "text": "前面",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_086",
+      "unit_type": "word",
+      "text": "发生了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_087",
+      "unit_type": "word",
+      "text": "一起车祸",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_088",
+      "unit_type": "word",
+      "text": "两辆车",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_089",
+      "unit_type": "word",
+      "text": "撞在了一起",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_090",
+      "unit_type": "word",
+      "text": "车主们",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_091",
+      "unit_type": "word",
+      "text": "正在",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_092",
+      "unit_type": "word",
+      "text": "激烈地",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_093",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_094",
+      "unit_type": "word",
+      "text": "互相",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_095",
+      "unit_type": "word",
+      "text": "指责对方的",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_096",
+      "unit_type": "word",
+      "text": "过错",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_097",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_098",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_099",
+      "unit_type": "word",
+      "text": "非常惊讶",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_100",
+      "unit_type": "word",
+      "text": "停下",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_101",
+      "unit_type": "word",
+      "text": "脚步观看",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_102",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_103",
+      "unit_type": "word",
+      "text": "警察",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_104",
+      "unit_type": "word",
+      "text": "赶到了",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_105",
+      "unit_type": "word",
+      "text": "现场",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_106",
+      "unit_type": "word",
+      "text": "他们",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_107",
+      "unit_type": "word",
+      "text": "介入",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_108",
+      "unit_type": "word",
+      "text": "调查",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_109",
+      "unit_type": "word",
+      "text": "询问了",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_110",
+      "unit_type": "word",
+      "text": "两位车主的情况",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_111",
+      "unit_type": "word",
+      "text": "警察",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_112",
+      "unit_type": "word",
+      "text": "也",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_113",
+      "unit_type": "word",
+      "text": "向我",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_114",
+      "unit_type": "word",
+      "text": "询问了",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_115",
+      "unit_type": "word",
+      "text": "事情的经过",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_116",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_117",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_118",
+      "unit_type": "word",
+      "text": "配合调查",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_119",
+      "unit_type": "word",
+      "text": "给他们",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_120",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_121",
+      "unit_type": "word",
+      "text": "我的",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_122",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_123",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 13
+    },
+    {
+      "unit_id": "word_124",
+      "unit_type": "word",
+      "text": "电脑记录",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 14
+    },
+    {
+      "unit_id": "word_125",
+      "unit_type": "word",
+      "text": "证明",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 15
+    },
+    {
+      "unit_id": "word_126",
+      "unit_type": "word",
+      "text": "我与此事无关",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 16
+    },
+    {
+      "unit_id": "word_127",
+      "unit_type": "word",
+      "text": "警察",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_128",
+      "unit_type": "word",
+      "text": "对我的说法",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_129",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_130",
+      "unit_type": "word",
+      "text": "有些疑惑",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_131",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_132",
+      "unit_type": "word",
+      "text": "紧张得",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_133",
+      "unit_type": "word",
+      "text": "流了汗",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_134",
+      "unit_type": "word",
+      "text": "他们",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_135",
+      "unit_type": "word",
+      "text": "查看了",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_136",
+      "unit_type": "word",
+      "text": "我的",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_137",
+      "unit_type": "word",
+      "text": "手机记录后",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_138",
+      "unit_type": "word",
+      "text": "让",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_139",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_140",
+      "unit_type": "word",
+      "text": "先在一旁",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_141",
+      "unit_type": "word",
+      "text": "等待",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_142",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_143",
+      "unit_type": "word",
+      "text": "继续调查",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_144",
+      "unit_type": "word",
+      "text": "另一位车主",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_145",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_146",
+      "unit_type": "word",
+      "text": "站在那里",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_147",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_148",
+      "unit_type": "word",
+      "text": "警察",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_149",
+      "unit_type": "word",
+      "text": "忙碌的身影",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_150",
+      "unit_type": "word",
+      "text": "心里",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_151",
+      "unit_type": "word",
+      "text": "想着",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_152",
+      "unit_type": "word",
+      "text": "这场车祸",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_153",
+      "unit_type": "word",
+      "text": "到底是谁的",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_154",
+      "unit_type": "word",
+      "text": "责任",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_155",
+      "unit_type": "word",
+      "text": "午夜十二点",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_156",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_157",
+      "unit_type": "word",
+      "text": "没有开车",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_158",
+      "unit_type": "word",
+      "text": "而是",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_159",
+      "unit_type": "word",
+      "text": "选择",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_160",
+      "unit_type": "word",
+      "text": "步行回家",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_161",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_162",
+      "unit_type": "word",
+      "text": "看着地图",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_163",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_164",
+      "unit_type": "word",
+      "text": "脚下的",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_165",
+      "unit_type": "word",
+      "text": "脚印",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_166",
+      "unit_type": "word",
+      "text": "一步步向前走",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_167",
+      "unit_type": "word",
+      "text": "路上",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_168",
+      "unit_type": "word",
+      "text": "很安静",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_169",
+      "unit_type": "word",
+      "text": "只有",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_170",
+      "unit_type": "word",
+      "text": "我一个人的",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_171",
+      "unit_type": "word",
+      "text": "脚步声",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_172",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_173",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_174",
+      "unit_type": "word",
+      "text": "一个门口",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_175",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_176",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_177",
+      "unit_type": "word",
+      "text": "一个警察局",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_178",
+      "unit_type": "word",
+      "text": "门口",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_179",
+      "unit_type": "word",
+      "text": "走着走着",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_180",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_181",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_182",
+      "unit_type": "word",
+      "text": "一个女人",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_183",
+      "unit_type": "word",
+      "text": "抬头看了看",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_184",
+      "unit_type": "word",
+      "text": "天空",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_185",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_186",
+      "unit_type": "word",
+      "text": "继续往前走",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_187",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_188",
+      "unit_type": "word",
+      "text": "长长的脚印",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_189",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_190",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_191",
+      "unit_type": "word",
+      "text": "走到了家",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_192",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_193",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_194",
+      "unit_type": "word",
+      "text": "躺在床上",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_195",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_196",
+      "unit_type": "word",
+      "text": "就进入了",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_197",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_198",
+      "unit_type": "word",
+      "text": "在梦里",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_199",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_200",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_201",
+      "unit_type": "word",
+      "text": "两个人",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_202",
+      "unit_type": "word",
+      "text": "在激烈地",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_203",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_204",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_205",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_206",
+      "unit_type": "word",
+      "text": "梦见了",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_207",
+      "unit_type": "word",
+      "text": "2012 年",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_208",
+      "unit_type": "word",
+      "text": "世界末日的",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 5
+    },
+    {
+      "unit_id": "word_209",
+      "unit_type": "word",
+      "text": "场景",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 6
+    },
+    {
+      "unit_id": "word_210",
+      "unit_type": "word",
+      "text": "巨大的海浪",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 7
+    },
+    {
+      "unit_id": "word_211",
+      "unit_type": "word",
+      "text": "淹没了",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 8
+    },
+    {
+      "unit_id": "word_212",
+      "unit_type": "word",
+      "text": "地球",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 9
+    },
+    {
+      "unit_id": "word_213",
+      "unit_type": "word",
+      "text": "人们",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 10
+    },
+    {
+      "unit_id": "word_214",
+      "unit_type": "word",
+      "text": "纷纷逃到",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 11
+    },
+    {
+      "unit_id": "word_215",
+      "unit_type": "word",
+      "text": "山上",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 12
+    },
+    {
+      "unit_id": "word_216",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 13
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "会议结束之后",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": "表示汇报或会议已经完成后的时间。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "自己；叙述者",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "接受到；得到",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "众人；在场的人",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "用掌声表示鼓励",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "感觉很好；情绪愉快",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "自己；叙述者",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "取出；拿起来",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "移动电话",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "翻阅查看",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "短暂地；稍微",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "用于社交交流的应用程序",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "看见；发现",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "某个人",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "推特社交平台",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": "平台名保留英文。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "给我点喜欢或赞同",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "另外还有人",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "脸书社交平台",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": "平台名保留英文。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "发送给我",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "已经发送",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "表示大笑的表情符号",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "甚至还有人",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "MSN 即时通讯平台",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": "平台名保留英文。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "邀请我",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "夜晚共同进行",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "饮酒",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "会议结束以后，我得到了大家的掌声和鼓励，因此心情很好。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我拿出手机查看社交软件，看到有人在不同平台上点赞、发笑脸，还有人约我晚上一起去喝酒。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我心情很好，于是在 MSN 上和一位女士聊了起来。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不久就到了下班时间，我把最后一些文件打印完，准备离开公司。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我走出公司大楼，拿出手机找到那位女士的号码并拨打过去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "电话接通后，她笑着询问打电话的人是谁。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我笑着告诉她是我，并邀请她晚上一起见面。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她在电话中确认了见面的时间，我很高兴地答应了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "最后，她在电话里做出 OK 的手势，并开心地表示没有问题。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "晚上十一点，我在回家途中看到前方发生了一起车祸。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "两辆车撞到一起后，车主们激烈争吵，互相指责对方有错。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我非常惊讶，于是停下脚步观看现场情况。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "没过多久，警察赶到了事故现场。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "警察开始调查，并询问两位车主的情况。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "警察也向我了解事情经过，我配合调查并出示手机和电脑记录，说明自己与事故无关。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "警察对我的解释有些怀疑，我因此紧张得出汗。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他们查看我的手机记录后，让我先在旁边等待，然后继续调查另一位车主。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我站在一旁看着警察忙碌，心里思考这起车祸究竟是谁的责任。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "午夜十二点，我没有开车，而是决定步行回家。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_046",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我看着地图，沿着脚印一步一步向前走。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_047",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "路上非常安静，只能听到我一个人的脚步声。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_048",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我经过一个门口，又经过一个警察局门口。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_049",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "走着走着，我看到一个女人抬头看天空，然后继续向前走。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_050",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我沿着长长的脚印继续走，最后终于到家了。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_051",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨两点，我躺在床上，很快睡着并进入梦乡。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_052",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "在梦中，我看见两个人正在激烈争吵。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_053",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "接着，我梦到 2012 年世界末日的场景：巨浪淹没地球，人们逃到山上躲避灾难。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT5.5",
+      "annotator_note": ""
+    }
+  ]
+}

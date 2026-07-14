@@ -1,0 +1,76 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "次日2点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "《地书》次日2点",
+    "source": "教师提供",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 0,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 0,
+      "char_end": 0,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 0,
+      "char_end": 0,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "sent_001",
+      "target_text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "value": "半夜两点钟的时候，我躺在床铺上，没过多久就沉沉地睡熟了。",
+      "confidence": 0.95,
+      "annotator_note": "描述入睡的时间和过程"
+    },
+    {
+      "target_id": "sent_002",
+      "target_text": "在梦里，我看到两个人在激烈地争吵。",
+      "value": "在梦境当中，我看见有两个人正在非常激烈地吵架。",
+      "confidence": 0.95,
+      "annotator_note": "描述梦到的第一个场景"
+    },
+    {
+      "target_id": "sent_003",
+      "target_text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "value": "紧接着，我又梦到了2012年世界末日来临时的景象：巨大的海啸将整个地球都淹没了，人们都争相逃到山顶上去躲避灾难。",
+      "confidence": 0.95,
+      "annotator_note": "描述末日灾难的梦境画面"
+    }
+  ]
+}

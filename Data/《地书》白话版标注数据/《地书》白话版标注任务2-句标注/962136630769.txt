@@ -1,0 +1,185 @@
+{
+  "project": {
+    "project_name": "《地书》白话版标注任务2",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "Full Text (15:00 - 2:00 day 2)",
+    "word_task_type": null,
+    "sentence_task_type": "[Text] 自由翻译 / Free Translation"
+  },
+  "source_text": {
+    "text_id": "diary_01",
+    "title": "职场日记片段",
+    "source": "Provided Text Material",
+    "raw_text": "下午三点，我整理好文件，深吸一口气，走向会议室。我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。我将U盘插入电脑，打开投影仪，准备开始我的汇报。我面带微笑，尽量让自己看起来自信从容。我一边看着电脑上的演示文稿，一边对着麦克风讲解，并不时地邀请大家提问。汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。面对领导们的注视，我感到了不小的压力。我开始解释一些关于汽车、预算的问题，试图说服大家。会议上，大家展开了激烈的讨论，气氛一度有些紧张。我再次感到心跳加速，手心也冒出了汗。然而，当我展示完核心内容后，会议室里响起了热烈的掌声。领导们也对我投来了赞许的目光，甚至给我的工作打了满分。他们对我制作的演示文稿感到非常惊讶和满意。我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。会议结束后，我感到一阵强烈的疲惫，赶紧冲向洗手间。在厕所里待了好一会儿，感觉稍微舒服了一些。出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在Twitter上为我点赞，还有人在Facebook上给我发了大笑的表情，更有人在MSN上约我晚上一起喝酒。我心情愉快地在MSN上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我是谁，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个OK手势，开心地说：“好的，没问题！”凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "Text segmented for sentence-level annotation."
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午三点，我整理好文件，深吸一口气，走向会议室。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 24,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。",
+      "sentence_index": 5,
+      "char_start": 148,
+      "char_end": 188,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "领导们也对我投来了赞许的目光，甚至给我的工作打了满分。",
+      "sentence_index": 8,
+      "char_start": 295,
+      "char_end": 323,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "会议结束后，我感到一阵强烈的疲惫，赶紧冲向洗手间。",
+      "sentence_index": 10,
+      "char_start": 428,
+      "char_end": 455,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在MSN上和一位女士聊了起来。",
+      "sentence_index": 13,
+      "char_start": 565,
+      "char_end": 586,
+      "children": []
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "最后，她在电话里比了个OK手势，开心地说：“好的，没问题！”",
+      "sentence_index": 16,
+      "char_start": 700,
+      "char_end": 736,
+      "children": []
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 18,
+      "char_start": 765,
+      "char_end": 806,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_s001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "At 3 PM, I organized my documents, took a deep breath, and headed towards the conference room.",
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "描述动作的连贯性。"
+    },
+    {
+      "annotation_id": "ann_s002",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "The presentation didn't go smoothly; while some of my points were accepted, others were directly rejected.",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "转折关系的翻译。"
+    },
+    {
+      "annotation_id": "ann_s003",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "The leaders gave me approving looks, and even gave my work a perfect score.",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "表达高度认可。"
+    },
+    {
+      "annotation_id": "ann_s004",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "After the meeting, I felt an overwhelming sense of exhaustion and rushed to the restroom.",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "情绪释放后的生理反应描述。"
+    },
+    {
+      "annotation_id": "ann_s005",
+      "target_id": "sent_013",
+      "unit_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "I happily chatted with a lady on MSN.",
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "简单的情绪表达。"
+    },
+    {
+      "annotation_id": "ann_s006",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "Finally, she made an OK sign over the phone and said happily, 'Okay, no problem!'",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "包含非语言动作（OK手势）的描述。"
+    },
+    {
+      "annotation_id": "ann_s007",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "task_sent_02",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "Then, I dreamed of the 2012 doomsday scenario, where huge waves submerged the earth, and people fled to the mountains for refuge.",
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "梦境场景的翻译。"
+    }
+  ]
+}

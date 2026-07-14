@@ -1,0 +1,796 @@
+{
+  "project": {
+    "project_name": "《地书》自然语言处理课程人工标注",
+    "task_scope": "42R-44L, 51R, 52R-53R",
+    "school_version": "数据标注规范V1.0",
+    "annotation_language": "zh-CN",
+    "student": {
+      "student_id": "1191230221",
+      "student_name": "白尚明"
+    },
+    "assigned_tasks": [
+      {
+        "task_id": "morphological_like_features",
+        "task_label_zh": "类形态特征",
+        "task_label_en": "Morphological-like Features",
+        "target_type": "word",
+        "value_type": "array"
+      },
+      {
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "target_type": "sentence",
+        "value_type": "string"
+      }
+    ],
+    "llm_assisted": true,
+    "llm_name": "ChatGPT"
+  },
+  "student": {
+    "student_id": "",
+    "student_name": ""
+  },
+  "source_text": [
+    {
+      "sentence_id": "42R_01",
+      "section": "21:00",
+      "text": "晚上九点。"
+    },
+    {
+      "sentence_id": "42R_02",
+      "section": "21:00",
+      "text": "我接到了刚失恋的老友的电话，他让我过去陪他喝酒。"
+    },
+    {
+      "sentence_id": "42R_03",
+      "section": "21:00",
+      "text": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。"
+    },
+    {
+      "sentence_id": "42R_04",
+      "section": "21:00",
+      "text": "我只能无奈地在车里等待，心里非常着急。"
+    },
+    {
+      "sentence_id": "43L_01",
+      "section": "21:00",
+      "text": "好不容易回到家，我开始喝酒。"
+    },
+    {
+      "sentence_id": "43L_02",
+      "section": "21:00",
+      "text": "不久，老友也来了，他告诉我他失恋了，心里很难过。"
+    },
+    {
+      "sentence_id": "43L_03",
+      "section": "21:00",
+      "text": "我笑着安慰他，劝他不要再想那些不开心的事。"
+    },
+    {
+      "sentence_id": "43L_04",
+      "section": "21:00",
+      "text": "我们一起喝酒，时间慢慢流逝。"
+    },
+    {
+      "sentence_id": "44L_01",
+      "section": "21:00",
+      "text": "后来，老友要坐公交车回家，外面下起了雨。"
+    },
+    {
+      "sentence_id": "44L_02",
+      "section": "21:00",
+      "text": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。"
+    },
+    {
+      "sentence_id": "44L_03",
+      "section": "21:00",
+      "text": "我告诉他是的，并且指向了天上的乌云。"
+    },
+    {
+      "sentence_id": "44L_04",
+      "section": "21:00",
+      "text": "他说下雨了，没有太阳，还问我要不要伞。"
+    },
+    {
+      "sentence_id": "44L_05",
+      "section": "21:00",
+      "text": "我同意了。"
+    },
+    {
+      "sentence_id": "44L_06",
+      "section": "21:00",
+      "text": "我们在雨中等待公交车，他去了趟卫生间。"
+    },
+    {
+      "sentence_id": "44L_07",
+      "section": "21:00",
+      "text": "等了很久，他终于出来了，还亲了我一下。"
+    },
+    {
+      "sentence_id": "44L_08",
+      "section": "21:00",
+      "text": "我们继续喝酒，我感到非常开心。"
+    },
+    {
+      "sentence_id": "44L_09",
+      "section": "21:00",
+      "text": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。"
+    },
+    {
+      "sentence_id": "51R_01",
+      "section": "2:00 day 2",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。"
+    },
+    {
+      "sentence_id": "51R_02",
+      "section": "2:00 day 2",
+      "text": "在梦里，我看到两个人在激烈地争吵。"
+    },
+    {
+      "sentence_id": "51R_03",
+      "section": "2:00 day 2",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+    },
+    {
+      "sentence_id": "52R_01",
+      "section": "3:00 day 2",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。"
+    },
+    {
+      "sentence_id": "52R_02",
+      "section": "3:00 day 2",
+      "text": "我听到外面有人在吵架，感到非常烦躁。"
+    },
+    {
+      "sentence_id": "52R_03",
+      "section": "3:00 day 2",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。"
+    },
+    {
+      "sentence_id": "52R_04",
+      "section": "3:00 day 2",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。"
+    },
+    {
+      "sentence_id": "53R_01",
+      "section": "3:00 day 2",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。"
+    },
+    {
+      "sentence_id": "53R_02",
+      "section": "3:00 day 2",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。"
+    },
+    {
+      "sentence_id": "53R_03",
+      "section": "3:00 day 2",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。"
+    },
+    {
+      "sentence_id": "53R_04",
+      "section": "3:00 day 2",
+      "text": "我关掉台灯，终于可以安心睡觉了。"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "s_42R_01",
+      "unit_type": "sentence",
+      "sentence_id": "42R_01",
+      "text": "晚上九点。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_42R_02",
+      "unit_type": "sentence",
+      "sentence_id": "42R_02",
+      "text": "我接到了刚失恋的老友的电话，他让我过去陪他喝酒。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_42R_03",
+      "unit_type": "sentence",
+      "sentence_id": "42R_03",
+      "text": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_42R_04",
+      "unit_type": "sentence",
+      "sentence_id": "42R_04",
+      "text": "我只能无奈地在车里等待，心里非常着急。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_43L_01",
+      "unit_type": "sentence",
+      "sentence_id": "43L_01",
+      "text": "好不容易回到家，我开始喝酒。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_43L_02",
+      "unit_type": "sentence",
+      "sentence_id": "43L_02",
+      "text": "不久，老友也来了，他告诉我他失恋了，心里很难过。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_43L_03",
+      "unit_type": "sentence",
+      "sentence_id": "43L_03",
+      "text": "我笑着安慰他，劝他不要再想那些不开心的事。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_43L_04",
+      "unit_type": "sentence",
+      "sentence_id": "43L_04",
+      "text": "我们一起喝酒，时间慢慢流逝。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_01",
+      "unit_type": "sentence",
+      "sentence_id": "44L_01",
+      "text": "后来，老友要坐公交车回家，外面下起了雨。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_02",
+      "unit_type": "sentence",
+      "sentence_id": "44L_02",
+      "text": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_03",
+      "unit_type": "sentence",
+      "sentence_id": "44L_03",
+      "text": "我告诉他是的，并且指向了天上的乌云。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_04",
+      "unit_type": "sentence",
+      "sentence_id": "44L_04",
+      "text": "他说下雨了，没有太阳，还问我要不要伞。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_05",
+      "unit_type": "sentence",
+      "sentence_id": "44L_05",
+      "text": "我同意了。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_06",
+      "unit_type": "sentence",
+      "sentence_id": "44L_06",
+      "text": "我们在雨中等待公交车，他去了趟卫生间。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_07",
+      "unit_type": "sentence",
+      "sentence_id": "44L_07",
+      "text": "等了很久，他终于出来了，还亲了我一下。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_08",
+      "unit_type": "sentence",
+      "sentence_id": "44L_08",
+      "text": "我们继续喝酒，我感到非常开心。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_44L_09",
+      "unit_type": "sentence",
+      "sentence_id": "44L_09",
+      "text": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。",
+      "section": "21:00",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_51R_01",
+      "unit_type": "sentence",
+      "sentence_id": "51R_01",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "section": "2:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_51R_02",
+      "unit_type": "sentence",
+      "sentence_id": "51R_02",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "section": "2:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_51R_03",
+      "unit_type": "sentence",
+      "sentence_id": "51R_03",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "section": "2:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_52R_01",
+      "unit_type": "sentence",
+      "sentence_id": "52R_01",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_52R_02",
+      "unit_type": "sentence",
+      "sentence_id": "52R_02",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_52R_03",
+      "unit_type": "sentence",
+      "sentence_id": "52R_03",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_52R_04",
+      "unit_type": "sentence",
+      "sentence_id": "52R_04",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_53R_01",
+      "unit_type": "sentence",
+      "sentence_id": "53R_01",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_53R_02",
+      "unit_type": "sentence",
+      "sentence_id": "53R_02",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_53R_03",
+      "unit_type": "sentence",
+      "sentence_id": "53R_03",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "unit_id": "s_53R_04",
+      "unit_type": "sentence",
+      "sentence_id": "53R_04",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "section": "3:00 day 2",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_sent_0001_free_translation",
+      "target_id": "s_42R_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "晚上九点。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0002_free_translation",
+      "target_id": "s_42R_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我接到了刚失恋的老友的电话，他让我过去陪他喝酒。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0003_free_translation",
+      "target_id": "s_42R_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0004_free_translation",
+      "target_id": "s_42R_04",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我只能无奈地在车里等待，心里非常着急。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0005_free_translation",
+      "target_id": "s_43L_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "好不容易回到家，我开始喝酒。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0006_free_translation",
+      "target_id": "s_43L_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不久，老友也来了，他告诉我他失恋了，心里很难过。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0007_free_translation",
+      "target_id": "s_43L_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我笑着安慰他，劝他不要再想那些不开心的事。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0008_free_translation",
+      "target_id": "s_43L_04",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们一起喝酒，时间慢慢流逝。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0009_free_translation",
+      "target_id": "s_44L_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "后来，老友要坐公交车回家，外面下起了雨。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0010_free_translation",
+      "target_id": "s_44L_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0011_free_translation",
+      "target_id": "s_44L_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我告诉他是的，并且指向了天上的乌云。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0012_free_translation",
+      "target_id": "s_44L_04",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "他说下雨了，没有太阳，还问我要不要伞。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0013_free_translation",
+      "target_id": "s_44L_05",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我同意了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0014_free_translation",
+      "target_id": "s_44L_06",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们在雨中等待公交车，他去了趟卫生间。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0015_free_translation",
+      "target_id": "s_44L_07",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "等了很久，他终于出来了，还亲了我一下。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0016_free_translation",
+      "target_id": "s_44L_08",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们继续喝酒，我感到非常开心。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0017_free_translation",
+      "target_id": "s_44L_09",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0018_free_translation",
+      "target_id": "s_51R_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0019_free_translation",
+      "target_id": "s_51R_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "在梦里，我看到两个人在激烈地争吵。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0020_free_translation",
+      "target_id": "s_51R_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0021_free_translation",
+      "target_id": "s_52R_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0022_free_translation",
+      "target_id": "s_52R_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我听到外面有人在吵架，感到非常烦躁。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0023_free_translation",
+      "target_id": "s_52R_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0024_free_translation",
+      "target_id": "s_52R_04",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0025_free_translation",
+      "target_id": "s_53R_01",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0026_free_translation",
+      "target_id": "s_53R_02",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0027_free_translation",
+      "target_id": "s_53R_03",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    },
+    {
+      "annotation_id": "ann_sent_0028_free_translation",
+      "target_id": "s_53R_04",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我关掉台灯，终于可以安心睡觉了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据提供的白话文材料与图形语句边界整理为自然中文。"
+    }
+  ]
+}

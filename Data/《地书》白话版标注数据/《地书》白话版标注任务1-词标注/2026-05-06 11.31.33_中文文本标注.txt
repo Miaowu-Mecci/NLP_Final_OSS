@@ -1,0 +1,390 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "本段叙事文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "日常叙事文本",
+    "source": "教师提供",
+    "raw_text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。我心情愉快地在 MSN 上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。凌晨六点，我从睡梦中醒来，再也睡不着，干脆坐起身，拿起手机解锁，打开了游戏。",
+    "notes": "长叙事文本示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 33,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件。",
+      "sentence_index": 2,
+      "char_start": 33,
+      "char_end": 55,
+      "children": [
+        "word_005",
+        "word_006",
+        "word_007"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在MSN上和一位女士聊了起来。",
+      "sentence_index": 3,
+      "char_start": 55,
+      "char_end": 85,
+      "children": [
+        "word_008",
+        "word_009",
+        "word_010"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "很快就到了下班时间，我准备离开公司。",
+      "sentence_index": 4,
+      "char_start": 85,
+      "char_end": 115,
+      "children": [
+        "word_011",
+        "word_012",
+        "word_013"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我选择步行回家。",
+      "sentence_index": 5,
+      "char_start": 115,
+      "char_end": 140,
+      "children": [
+        "word_014",
+        "word_015",
+        "word_016"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我看着地图，一步步向前走。",
+      "sentence_index": 6,
+      "char_start": 140,
+      "char_end": 165,
+      "children": [
+        "word_017",
+        "word_018",
+        "word_019"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我进入了梦乡。",
+      "sentence_index": 7,
+      "char_start": 165,
+      "char_end": 190,
+      "children": [
+        "word_020",
+        "word_021"
+      ]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我梦见了世界末日的场景。",
+      "sentence_index": 8,
+      "char_start": 190,
+      "char_end": 215,
+      "children": [
+        "word_022",
+        "word_023"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "会议结束后",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "掌声鼓励",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "心情不错",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "拿出手机",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "翻看",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "社交软件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "心情愉快",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "聊天",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "女士",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "公司",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "午夜十二点",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "步行",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "看地图",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "向前走",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "一步步",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "梦见",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "世界末日",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "event",
+        "time"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": [
+        "person"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": [
+        "event",
+        "emotion"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": [
+        "action",
+        "object"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_101",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "会议结束后，我得到了大家的鼓掌支持，因此心情很好。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_102",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "value": "我拿出手机浏览了一下社交平台。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_103",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "value": "我心情很好，在MSN上和一位女士聊了起来。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    },
+    {
+      "annotation_id": "ann_104",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "value": "到了午夜，我选择步行回家而不是开车。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT"
+    }
+  ]
+}

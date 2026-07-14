@@ -1,0 +1,270 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T14:42:24.526857",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "第3组文本",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": ""
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "梦境片段",
+    "source": "教师提供",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "中文自然文本词标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 20,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4,
+      "children": [
+        "word_004",
+        "word_005"
+      ]
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我躺在床上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 10,
+      "children": [
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009"
+      ]
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "很快就进入了梦乡",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 11,
+      "char_end": 19
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 21,
+      "char_end": 38,
+      "children": []
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "在梦里",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 21,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "我看到两个人在激烈地争吵",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 25,
+      "char_end": 37
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 39,
+      "char_end": 81,
+      "children": []
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 39,
+      "char_end": 41
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "我梦见了2012年世界末日的场景",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 42,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "巨大的海浪淹没了地球",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 59,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "人们纷纷逃到山上避难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 70,
+      "char_end": 80
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "凌晨两点",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "我躺在床上",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "很快就进入了梦乡",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "在梦里",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "我看到两个人在激烈地争吵",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "接着",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "我梦见了2012年世界末日的场景",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "巨大的海浪淹没了地球",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "literal_gloss",
+      "task_label_zh": "字面对应词",
+      "task_label_en": "Literal Gloss",
+      "value": "人们纷纷逃到山上避难",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T22:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT",
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "第3组文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "午夜步行回家",
+    "source": "教师提供",
+    "raw_text": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。\n我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。\n沿着长长的脚印，我终于走到了家。",
+    "notes": "叙事文本，描述午夜步行回家的过程"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 21,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 2,
+      "char_start": 22,
+      "char_end": 43,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 3,
+      "char_start": 44,
+      "char_end": 58,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 4,
+      "char_start": 59,
+      "char_end": 83,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 5,
+      "char_start": 85,
+      "char_end": 114,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 6,
+      "char_start": 116,
+      "char_end": 132,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "全文第一句，交代时间（午夜十二点）和行动选择（步行回家）。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "详细描述步行回家的具体动作：看地图、沿着脚印走。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "background",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "描写环境背景（安静、只有脚步声），烘托氛围。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "temporal",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间顺序：沿途经过两个门口。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "temporal",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "继续往前走的过程中看到女人并抬头看天空，时间顺序。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "沿着脚印走的结果——终于走到家，是终点和结局。"
+    }
+  ]
+}

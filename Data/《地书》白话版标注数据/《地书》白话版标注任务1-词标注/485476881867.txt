@@ -1,0 +1,214 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "0点",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": ""
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "午夜步行回家",
+    "source": "教师提供",
+    "raw_text": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。",
+    "notes": "按语义基元标注，每句话标注整体属性"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 21,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走",
+      "sentence_index": 2,
+      "char_start": 22,
+      "char_end": 44,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声",
+      "sentence_index": 3,
+      "char_start": 45,
+      "char_end": 61,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口",
+      "sentence_index": 4,
+      "char_start": 62,
+      "char_end": 84,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走",
+      "sentence_index": 5,
+      "char_start": 85,
+      "char_end": 115,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家",
+      "sentence_index": 6,
+      "char_start": 116,
+      "char_end": 135,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "time",
+        "person",
+        "action",
+        "motion",
+        "direction",
+        "place",
+        "negation",
+        "choice"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "午夜十二点交代时间，没有开车表示否定，选择步行回家表示移动和方向"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "person",
+        "cognition",
+        "action",
+        "motion",
+        "direction",
+        "object",
+        "place",
+        "tool"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "看地图使用工具，沿着脚印、一步步向前走表示移动和方向"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "place",
+        "state",
+        "sound",
+        "person",
+        "quantity",
+        "perception"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "路上很安静描述环境状态，只有一个人的脚步声强调孤独"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "person",
+        "action",
+        "motion",
+        "place",
+        "object",
+        "sequence",
+        "repetition"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "经过门口和警察局门口，表示移动经过多个地点"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "person",
+        "action",
+        "motion",
+        "direction",
+        "perception",
+        "time",
+        "sequence",
+        "person_other"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "边走边看到女人，抬头看天空，然后继续往前走，包含移动、感知和时序"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "person",
+        "action",
+        "motion",
+        "direction",
+        "place",
+        "space",
+        "time",
+        "arrival"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "沿着长长的脚印，终于走到家，表示终点到达"
+    }
+  ]
+}

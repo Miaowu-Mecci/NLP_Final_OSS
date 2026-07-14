@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "词标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。"
+  },
+  "units": [
+    { "id": "u1", "token": "摇着" },
+    { "id": "u2", "token": "看到了" },
+    { "id": "u3", "token": "笑了" },
+    { "id": "u4", "token": "有些" },
+    { "id": "u5", "token": "关掉了" }
+  ],
+  "annotations": [
+    {
+      "unit_id": "u1",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["持续体", "动态助词标记"],
+      "semantic_primitives": ["动作", "躯体", "延续"],
+      "pragmatic_meaning": "狗摇动尾巴的动作处于持续发生的状态，表现出友好的回应",
+      "literal_gloss": "摇(wag/shake) + 着(PROG/持续)"
+    },
+    {
+      "unit_id": "u2",
+      "pos_like_category": ["动词", "补语", "助词"],
+      "morphological_like_features": ["结果形态", "完成体", "动作到达终点"],
+      "semantic_primitives": ["视觉", "达成", "终结"],
+      "pragmatic_meaning": "视觉上捕捉到了特定的对象（狗或电视画面）并完成了这一动作",
+      "literal_gloss": "看(look/see) + 到(arrive/result) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u3",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["完成体", "状态变化标记"],
+      "semantic_primitives": ["表情", "情绪", "发生"],
+      "pragmatic_meaning": "发出了笑的动作，表示由于电视内容引发的情绪反应已然发生",
+      "literal_gloss": "笑(smile/laugh) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u4",
+      "pos_like_category": ["副词"],
+      "morphological_like_features": ["微量程度修饰"],
+      "semantic_primitives": ["程度", "微小"],
+      "pragmatic_meaning": "感受到轻微的无聊与倦怠情绪",
+      "literal_gloss": "有(have) + 些(some/a little)"
+    },
+    {
+      "unit_id": "u5",
+      "pos_like_category": ["动词", "补语", "助词"],
+      "morphological_like_features": ["结果形态", "完成体", "动作穷尽"],
+      "semantic_primitives": ["动作", "停止", "终结"],
+      "pragmatic_meaning": "彻底切断了电视的电源或画面状态，结束了观看行为",
+      "literal_gloss": "关(turn off/close) + 掉(drop/away/result) + 了(PERF/完成)"
+    }
+  ]
+}

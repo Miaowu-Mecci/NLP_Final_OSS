@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "词标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。"
+  },
+  "units": [
+    { "id": "u1", "token": "看着" },
+    { "id": "u2", "token": "经过了" },
+    { "id": "u3", "token": "走着走着" },
+    { "id": "u4", "token": "看了看" },
+    { "id": "u5", "token": "走到了" }
+  ],
+  "annotations": [
+    {
+      "unit_id": "u1",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["持续体", "动态助词标记"],
+      "semantic_primitives": ["视觉", "延续"],
+      "pragmatic_meaning": "目光停留在地图上的持续状态，作为步行的背景",
+      "literal_gloss": "看(look) + 着(PROG/持续)"
+    },
+    {
+      "unit_id": "u2",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["完成体", "动态助词标记"],
+      "semantic_primitives": ["位移", "终结"],
+      "pragmatic_meaning": "已经越过了特定的物理地标（门口/警察局）",
+      "literal_gloss": "经过(pass) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u3",
+      "pos_like_category": ["动词"],
+      "morphological_like_features": ["动词重叠式", "演进体", "背景动作延长"],
+      "semantic_primitives": ["位移", "重复", "过程"],
+      "pragmatic_meaning": "在步行的持续过程中，自然引出了后续的视觉发现",
+      "literal_gloss": "走(walk) + 着(PROG) + 走(walk) + 着(PROG)"
+    },
+    {
+      "unit_id": "u4",
+      "pos_like_category": ["动词"],
+      "morphological_like_features": ["动词重叠式", "短促体", "尝试态"],
+      "semantic_primitives": ["视觉", "短暂"],
+      "pragmatic_meaning": "快速地、短时间地朝天空瞥了一眼",
+      "literal_gloss": "看(look) + 了(PERF) + 看(look)"
+    },
+    {
+      "unit_id": "u5",
+      "pos_like_category": ["动词", "补语", "助词"],
+      "morphological_like_features": ["结果形态", "完成体", "动作到达终点"],
+      "semantic_primitives": ["位移", "抵达", "结束"],
+      "pragmatic_meaning": "步行的动作最终到达了物理目的地并完成了状态改变",
+      "literal_gloss": "走(walk) + 到(arrive/to) + 了(PERF/完成)"
+    }
+  ]
+}

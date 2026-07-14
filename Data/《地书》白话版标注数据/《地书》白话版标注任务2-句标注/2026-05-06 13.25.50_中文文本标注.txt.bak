@@ -1,0 +1,246 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T13:40:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "18点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "units": [
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。",
+      "sentence_index": 12,
+      "char_start": 248,
+      "char_end": 278
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我从冰箱里拿出饮料，惬意地喝了一口。",
+      "sentence_index": 13,
+      "char_start": 278,
+      "char_end": 296
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。",
+      "sentence_index": 14,
+      "char_start": 296,
+      "char_end": 346
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "与此同时，她也在家忙碌着。",
+      "sentence_index": 15,
+      "char_start": 346,
+      "char_end": 360
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。",
+      "sentence_index": 16,
+      "char_start": 360,
+      "char_end": 399
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "刚出门不久，她的电话就打了过来，我有点紧张地接了电话。",
+      "sentence_index": 17,
+      "char_start": 399,
+      "char_end": 427
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我拿着花，心里想着她，想象着她收到花时开心的样子。",
+      "sentence_index": 18,
+      "char_start": 427,
+      "char_end": 453
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "终于，我见到了她，把花递给了她。",
+      "sentence_index": 19,
+      "char_start": 453,
+      "char_end": 469
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "我们一起去了约定的酒吧。",
+      "sentence_index": 20,
+      "char_start": 469,
+      "char_end": 481
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "突然，我看到一些奇怪的东西，感到有些惊讶。",
+      "sentence_index": 21,
+      "char_start": 481,
+      "char_end": 503
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "惬意",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 5,
+      "char_start": 288,
+      "char_end": 290
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "精心",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 8,
+      "char_start": 313,
+      "char_end": 315
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "直奔",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 12,
+      "char_start": 412,
+      "char_end": 414
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "承接上文到家后的自然动作流。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "描述回家后的第二个动作序列。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "视角从‘我’切换到‘她’，描述并行发生的另一场景。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "对买花行为后的心理活动进行具体展开描述。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "漫长准备和想象后的最终交汇结果。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "酒吧愉快的氛围中出现了令人惊讶的意外因素。"
+    },
+    {
+      "annotation_id": "ann_w011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "不仅仅是身体上的舒适，更暗示了一种即将开始美好夜晚的心理放松感。冷饮的凉爽与内心的期待交织在一起。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "形容词点明情绪基调"
+    },
+    {
+      "annotation_id": "ann_w012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "通过‘挑选’这一动作，体现了主人公对这次约会的极度重视。暗示了对方在自己心中的地位，以及由于重视而产生的轻微焦虑感。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状语强调行为的投入程度"
+    },
+    {
+      "annotation_id": "ann_w013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "体现了动作的直接性和目的性。暗示了主人公此刻心无旁骛，买花不仅仅是任务，更是一种急于表达情感的行为冲动。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动词体现叙事节奏的加快"
+    }
+  ]
+}

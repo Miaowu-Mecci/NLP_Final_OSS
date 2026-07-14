@@ -1,0 +1,50 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:15:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "20250001",
+    "student_name": "张明",
+    "assigned_section": "用户提供的第四段语料",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "深度睡眠",
+    "source": "用户提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "单个句子。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 25
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨四点，我终于沉沉地睡熟了，睡得很踏实。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    }
+  ]
+}

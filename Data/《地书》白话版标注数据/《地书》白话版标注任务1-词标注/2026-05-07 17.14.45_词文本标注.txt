@@ -1,0 +1,1008 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T11:42:01+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["豆包大模型"]
+  },
+  "student": {
+    "student_id": "1191230119",
+    "student_name": "程忠凯",
+    "assigned_section": "凌晨五点梦境完整文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_009",
+    "title": "《地书》白话版凌晨五点梦境时段",
+    "source": "课程自制叙事文本",
+    "raw_text": "凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。",
+    "notes": "词标注任务：语义基元，严格沿用前文格式规范"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨五点，我开始做梦。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 14,
+      "children": ["word_001","word_002","word_003","word_004"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。",
+      "sentence_index": 2,
+      "char_start": 15,
+      "char_end": 46,
+      "children": ["word_005","word_006","word_007","word_008","word_009","word_010","word_011","word_012"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我在房子里转来转去，感觉一直在循环往复。",
+      "sentence_index": 3,
+      "char_start": 47,
+      "char_end": 70,
+      "children": ["word_013","word_014","word_015","word_016","word_017"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。",
+      "sentence_index": 4,
+      "char_start": 71,
+      "char_end": 98,
+      "children": ["word_018","word_019","word_020","word_021","word_022","word_023","word_024"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我坐热气球飞向太阳，然后又开始做梦。",
+      "sentence_index": 5,
+      "char_start": 99,
+      "char_end": 120,
+      "children": ["word_025","word_026","word_027","word_028","word_029"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。",
+      "sentence_index": 6,
+      "char_start": 121,
+      "char_end": 150,
+      "children": ["word_030","word_031","word_032","word_033","word_034","word_035","word_036"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我和很多人一起看花，然后继续做梦。",
+      "sentence_index": 7,
+      "char_start": 151,
+      "char_end": 172,
+      "children": ["word_037","word_038","word_039","word_040"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我变成了超人，拥有钻石和皇冠，还有机器人。",
+      "sentence_index": 8,
+      "char_start": 173,
+      "char_end": 198,
+      "children": ["word_041","word_042","word_043","word_044","word_045"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。",
+      "sentence_index": 9,
+      "char_start": 199,
+      "char_end": 234,
+      "children": ["word_046","word_047","word_048","word_049","word_050","word_051"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。",
+      "sentence_index": 10,
+      "char_start": 235,
+      "char_end": 262,
+      "children": ["word_052","word_053","word_054","word_055","word_056"]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我看到电视和卫生间，电视里的人在不停地移动。",
+      "sentence_index": 11,
+      "char_start": 263,
+      "char_end": 288,
+      "children": ["word_057","word_058","word_059","word_060"]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我看着电视，感到有些迷茫。",
+      "sentence_index": 12,
+      "char_start": 289,
+      "char_end": 304,
+      "children": ["word_061","word_062","word_063"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨五点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "做梦",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 10,
+      "char_end": 12
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "梦里",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "走",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "很长",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 24,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "路",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 27,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "闪电",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "走进",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 37,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "一栋",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 40,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "房子",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 43,
+      "char_end": 45
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "房子里",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 49,
+      "char_end": 52
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "转来转去",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 53,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "感觉",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 59,
+      "char_end": 61
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "一直",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 62,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "循环往复",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 65,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 71,
+      "char_end": 73
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "坐上",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "飞机",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 81,
+      "char_end": 83
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "天上",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 86,
+      "char_end": 88
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "云朵",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 92,
+      "char_end": 94
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "热气球",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 95,
+      "char_end": 98
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "飞向",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 103,
+      "char_end": 105
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "太阳",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 106,
+      "char_end": 108
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 112,
+      "char_end": 113
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "太阳",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 126,
+      "char_end": 128
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "城堡",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 133,
+      "char_end": 135
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "汽车",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 136,
+      "char_end": 138
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "美丽",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 139,
+      "char_end": 141
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "花朵",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 142,
+      "char_end": 144
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "很多人",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 154,
+      "char_end": 157
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "看花",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 160,
+      "char_end": 162
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "继续",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 166,
+      "char_end": 168
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "变成",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 176,
+      "char_end": 178
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "超人",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 179,
+      "char_end": 181
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "钻石",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 184,
+      "char_end": 186
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "皇冠",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5,
+      "char_start": 187,
+      "char_end": 189
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "机器人",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6,
+      "char_start": 193,
+      "char_end": 196
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "火箭",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 202,
+      "char_end": 204
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "下雨",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3,
+      "char_start": 207,
+      "char_end": 209
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "大楼",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 4,
+      "char_start": 213,
+      "char_end": 215
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "掉下来",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5,
+      "char_start": 216,
+      "char_end": 220
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "非常",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6,
+      "char_start": 224,
+      "char_end": 226
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "惊讶",
+      "sentence_id": "sent_009",
+      word_index_in_sentence: 7,
+      "char_start": 227,
+      "char_end": 229
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "两个人",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3,
+      "char_start": 240,
+      "char_end": 243
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "激烈",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4,
+      "char_start": 246,
+      "char_end": 248
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 5,
+      "char_start": 249,
+      "char_end": 251
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "醒来",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 6,
+      "char_start": 256,
+      "char_end": 258
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 266,
+      "char_end": 268
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "卫生间",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 3,
+      "char_start": 269,
+      "char_end": 272
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "移动",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 4,
+      "char_start": 283,
+      "char_end": 285
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2,
+      "char_start": 292,
+      "char_end": 294
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "有些",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 3,
+      "char_start": 297,
+      "char_end": 299
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "迷茫",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 4,
+      "char_start": 300,
+      "char_end": 302
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["time"],
+      "annotator_note": "时间节点"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["person"],
+      "annotator_note": "叙事主体人物"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","begin"],
+      "annotator_note": "行为起始动作"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["state","mental"],
+      "annotator_note": "睡眠梦境心理状态"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["space","virtual"],
+      "annotator_note": "虚拟梦境空间"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","move"],
+      "annotator_note": "行走移动动作"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree","length"],
+      "annotator_note": "距离长度程度"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["nature","weather"],
+      "annotator_note": "自然天气现象"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","enter"],
+      "annotator_note": "进入空间动作"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","building"],
+      "annotator_note": "房屋建筑客体"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["space","indoor"],
+      "annotator_note": "建筑内部空间"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["motion","circular"],
+      "annotator_note": "来回往复移动"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["mental","perception"],
+      "annotator_note": "内心感知心理活动"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["state","loop"],
+      "annotator_note": "循环重复状态"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","ride"],
+      "annotator_note": "乘坐交通工具"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["tool","aircraft"],
+      "annotator_note": "空中交通工具"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["space","sky"],
+      "annotator_note": "高空天空空间"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["nature","cloud"],
+      "annotator_note": "自然云朵物象"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["tool","float_device"],
+      "annotator_note": "空中浮空器具"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["nature","sun"],
+      "annotator_note": "太阳天体物象"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["building","castle"],
+      "annotator_note": "城堡特色建筑"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["tool","traffic"],
+      "annotator_note": "陆地交通工具"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["attribute","beauty"],
+      "annotator_note": "外观美好属性"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["nature","plant_flower"],
+      "annotator_note": "花卉植物"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["person","group"],
+      "annotator_note": "多人群体人物"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","watch"],
+      "annotator_note": "观赏观看动作"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["state","transform"],
+      "annotator_note": "身份形态转变"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["role","fiction"],
+      "annotator_note": "虚构超人角色"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","jewel"],
+      "annotator_note": "珠宝玉石器物"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","ornament"],
+      "annotator_note": "皇冠装饰器物"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["machine","robot"],
+      "annotator_note": "智能机器人设备"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["tool","spacecraft"],
+      "annotator_note": "航天火箭工具"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["nature","rain"],
+      "annotator_note": "降雨天气现象"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["building","high_building"],
+      "annotator_note": "高层大楼建筑"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["motion","fall_down"],
+      "annotator_note": "向下坠落动作"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree","intensify"],
+      "annotator_note": "程度加强修饰"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_045",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["emotion","surprise"],
+      "annotator_note": "意外惊讶情绪"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "word_046",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["person","double"],
+      "annotator_note": "两个人物对象"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree","fierce"],
+      "annotator_note": "行为激烈程度"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","quarrel"],
+      "annotator_note": "言语争执冲突"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","wake_up"],
+      "annotator_note": "从梦境苏醒动作"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "word_050",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["electric","device"],
+      "annotator_note": "电视电子设备"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "word_051",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["space","wash_room"],
+      "annotator_note": "卫生间室内空间"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "word_052",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["motion","move_continuous"],
+      "annotator_note": "持续移动状态"
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "word_053",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","look"],
+      "annotator_note": "注视观看动作"
+    },
+    {
+      "annotation_id": "ann_046",
+      "target_id": "word_054",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree","slight"],
+      "annotator_note": "轻微程度修饰"
+    },
+    {
+      "annotation_id": "ann_047",
+      "target_id": "word_055",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["mental","confuse"],
+      "annotator_note": "内心迷茫困惑心理"
+    }
+  ]
+}

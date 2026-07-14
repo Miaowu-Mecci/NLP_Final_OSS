@@ -1,0 +1,280 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T12:07:00",
+    "llm_assisted": true,
+    "llm_tools": [ "豆包" ]
+  },
+  "student": {
+    "student_id": "1191230408",
+    "student_name": "王靓颖",
+    "assigned_section": "5:00  day 2",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "凌晨做梦，梦中多重场景循环与惊醒",
+    "source": "教师提供",
+    "raw_text": "凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。 在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。 我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。",
+    "notes": "用于自然语言文本标注示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨五点，我开始做梦。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 15,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。",
+      "sentence_index": 2,
+      "char_start": 16,
+      "char_end": 77,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我在房子里转来转去，感觉一直在循环往复。",
+      "sentence_index": 3,
+      "char_start": 78,
+      "char_end": 126,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。",
+      "sentence_index": 4,
+      "char_start": 127,
+      "char_end": 192,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我坐热气球飞向太阳，然后又开始做梦。",
+      "sentence_index": 5,
+      "char_start": 193,
+      "char_end": 242,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。",
+      "sentence_index": 6,
+      "char_start": 243,
+      "char_end": 314,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我和很多人一起看花，然后继续做梦。",
+      "sentence_index": 7,
+      "char_start": 315,
+      "char_end": 358,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我变成了超人，拥有钻石和皇冠，还有机器人。",
+      "sentence_index": 8,
+      "char_start": 359,
+      "char_end": 414,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。",
+      "sentence_index": 9,
+      "char_start": 415,
+      "char_end": 498,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。",
+      "sentence_index": 10,
+      "char_start": 499,
+      "char_end": 564,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我看到电视和卫生间，电视里的人在不停地移动。",
+      "sentence_index": 11,
+      "char_start": 565,
+      "char_end": 622,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我看着电视，感到有些迷茫。",
+      "sentence_index": 12,
+      "char_start": 623,
+      "char_end": 658,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_001）为顺承，开始做梦后进入梦境初始场景",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_002）为顺承，进入房子后在其中循环走动",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_003）为顺承，结束室内循环后切换至空中飞行场景",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_004）为顺承，看到热气球后乘坐并再次入梦",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_005）为顺承，再次入梦后看到新的梦境景物",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_006）为顺承，看到花朵后与人同赏并继续做梦",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_007）为顺承，继续做梦后变身超人并获得物品",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_008）为顺承，变身超人后经历火箭、下雨、坠落等连续事件",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_009）为顺承，坠落惊讶后目睹争吵并惊醒",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "顺承关系",
+      "task_label_en": "Sequence",
+      "value": "与前句（sent_010）为顺承，惊醒后看到现实环境中的电视与卫生间",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为顺承"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "task_discourse_relation",
+      "task_label_zh": "评述关系",
+      "task_label_en": "Commentary",
+      "value": "与前句（sent_011）为评述，观察电视后抒发迷茫的内心感受",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "豆包",
+      "annotator_note": "Single类型，篇章关系为评述"
+    }
+  ]
+}

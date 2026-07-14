@@ -1,0 +1,1162 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "四个中文自然文本",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "梦见世界末日片段",
+    "source": "教师提供",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "用于中文自然文本标注；本文件按指定任务生成。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 20,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 20,
+      "char_end": 37,
+      "children": [
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 37,
+      "char_end": 81,
+      "children": [
+        "word_024",
+        "word_025",
+        "word_026",
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "躺在",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 6,
+      "char_end": 8
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "床上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "就",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 13,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "进入了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 14,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "梦里",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 21,
+      "char_end": 23
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 23,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 25,
+      "char_end": 27
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "两",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 27,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "个",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 28,
+      "char_end": 29
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 29,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 30,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "激烈地",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 31,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 34,
+      "char_end": 36
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 36,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 37,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 39,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 40,
+      "char_end": 41
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "梦见了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 41,
+      "char_end": 44
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "2012",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 45,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "年",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 50,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "世界末日",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 51,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 55,
+      "char_end": 56
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "场景",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 56,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 58,
+      "char_end": 59
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "巨大的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 59,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "海浪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 62,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "淹没了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 64,
+      "char_end": 67
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "地球",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 69,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "人们",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 16,
+      "char_start": 70,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "纷纷",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17,
+      "char_start": 72,
+      "char_end": 74
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "逃到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18,
+      "char_start": 74,
+      "char_end": 76
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "山上",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 19,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 20,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 21,
+      "char_start": 80,
+      "char_end": 81
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为代词类。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为副词类。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为副词类。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为介词类。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为代词类。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为数词类。"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "classifier_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为量词类。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为介词类。"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为副词类。"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为连词类、副词类。"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为代词类。"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为数词类。"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "classifier_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为量词类。"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "particle_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为助词类。"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adjective_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为形容词类。"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为副词类。"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为名词类。"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "根据该片段在句中的语法功能，标为动词类。"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "该单位为标点符号，用于断句或连接成分。"
+    }
+  ]
+}

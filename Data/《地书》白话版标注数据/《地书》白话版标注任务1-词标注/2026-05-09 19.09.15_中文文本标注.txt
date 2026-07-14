@@ -1,0 +1,179 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-1T13:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "10点;次日 2点;次日 3点;次日 4点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "4",
+    "title": "次日 4点",
+    "source": "教师提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "用于自然语言文本标注示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 20,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "我终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 8
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "进入了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 8,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "深度睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 11,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "，睡得很香。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 15,
+      "char_end": 20
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "凌晨4:00的时间点，表示事件发生的具体时刻。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "逗号，表示语流停顿。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表示经过一番波折或等待之后，最终达到了某种状态。这里暗示之前可能难以入睡或经历了干扰。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“终于”带有明显的完成感和如释重负的意味。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "从一种状态转变到另一种状态，此处指从浅睡或清醒状态进入深睡阶段。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "睡眠周期中不易被叫醒、大脑和身体充分休息的阶段。此处表示高质量的睡眠状态。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "补充说明睡眠的质量很好，令人感到舒适和满足。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    }
+  ]
+}

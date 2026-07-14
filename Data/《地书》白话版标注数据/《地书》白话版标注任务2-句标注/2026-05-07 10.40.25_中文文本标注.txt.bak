@@ -1,0 +1,361 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T10:01:55+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230305",
+    "student_name": "杨玲",
+    "assigned_section": "23点；24点；次日3点",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "24点步行回家",
+    "source": "教师提供",
+    "raw_text": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。\n我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。\n沿着长长的脚印，我终于走到了家。",
+    "notes": "24:00时间段文本 - 任务2：语句划分及篇章关系标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "午夜十二点，",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 6,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我没有开车，",
+      "sentence_index": 2,
+      "char_start": 6,
+      "char_end": 12,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "而是选择步行回家。",
+      "sentence_index": 3,
+      "char_start": 12,
+      "char_end": 22,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我看着地图，",
+      "sentence_index": 4,
+      "char_start": 22,
+      "char_end": 28,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "沿着脚下的脚印，",
+      "sentence_index": 5,
+      "char_start": 28,
+      "char_end": 37,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "一步步向前走。",
+      "sentence_index": 6,
+      "char_start": 37,
+      "char_end": 45,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "路上很安静，",
+      "sentence_index": 7,
+      "char_start": 45,
+      "char_end": 51,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "只有我一个人的脚步声。",
+      "sentence_index": 8,
+      "char_start": 51,
+      "char_end": 64,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，",
+      "sentence_index": 9,
+      "char_start": 60,
+      "char_end": 69,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "又经过了一个警察局门口。",
+      "sentence_index": 10,
+      "char_start": 69,
+      "char_end": 83,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "走着走着，",
+      "sentence_index": 11,
+      "char_start": 83,
+      "char_end": 88,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我看到一个女人，",
+      "sentence_index": 12,
+      "char_start": 88,
+      "char_end": 96,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "抬头看了看天空，",
+      "sentence_index": 13,
+      "char_start": 96,
+      "char_end": 105,
+      "children": []
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "然后继续往前走。",
+      "sentence_index": 14,
+      "char_start": 105,
+      "char_end": 113,
+      "children": []
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 15,
+      "char_start": 111,
+      "char_end": 128,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "全文第一句，作为起始"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前句时间背景，继续描述行为"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "与前句形成转折对比，强调选择步行而非开车"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上顺承前句步行行为，开始新动作"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对前句看地图的行为进行细化说明"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前句，继续描述行走动作"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对前句行走的环境进行补充说明"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "进一步细化安静的具体表现"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前文，继续叙述事件"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上先后顺序，继续经过另一个地点"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上继续推进，描述行走过程"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在行走过程中看到新的人物"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "女人抬头看天空的动作，时间上承接"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "女人继续前进，时间顺序"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前文，继续描述沿着脚印走到家的动作"
+    }
+  ]
+}

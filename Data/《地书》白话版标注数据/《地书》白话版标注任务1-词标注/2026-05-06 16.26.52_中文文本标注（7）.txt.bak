@@ -1,0 +1,322 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T21:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "20240007",
+    "student_name": "示例学生",
+    "assigned_section": "梦境描述文本",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "世界末日的梦境",
+    "source": "教师提供",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "包含入睡过程和末日梦境描述。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 23,
+      "children": [
+        "word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008", "word_009", "word_010", "word_011", "word_012"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 23,
+      "char_end": 41,
+      "children": [
+        "word_013", "word_014", "word_015", "word_016", "word_017", "word_018", "word_019", "word_020", "word_021"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 41,
+      "char_end": 84,
+      "children": [
+        "word_022", "word_023", "word_024", "word_025", "word_026", "word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040", "word_041", "word_042", "word_043"
+      ]
+    },
+    {
+      "unit_id": "word_001", "unit_type": "word", "text": "凌晨", "sentence_id": "sent_001", "word_index_in_sentence": 1, "char_start": 0, "char_end": 2
+    },
+    {
+      "unit_id": "word_002", "unit_type": "word", "text": "两点", "sentence_id": "sent_001", "word_index_in_sentence": 2, "char_start": 2, "char_end": 4
+    },
+    {
+      "unit_id": "word_003", "unit_type": "word", "text": "，", "sentence_id": "sent_001", "word_index_in_sentence": 3, "char_start": 4, "char_end": 5
+    },
+    {
+      "unit_id": "word_004", "unit_type": "word", "text": "我", "sentence_id": "sent_001", "word_index_in_sentence": 4, "char_start": 5, "char_end": 6
+    },
+    {
+      "unit_id": "word_005", "unit_type": "word", "text": "躺", "sentence_id": "sent_001", "word_index_in_sentence": 5, "char_start": 6, "char_end": 7
+    },
+    {
+      "unit_id": "word_006", "unit_type": "word", "text": "在", "sentence_id": "sent_001", "word_index_in_sentence": 6, "char_start": 7, "char_end": 8
+    },
+    {
+      "unit_id": "word_007", "unit_type": "word", "text": "床上", "sentence_id": "sent_001", "word_index_in_sentence": 7, "char_start": 8, "char_end": 10
+    },
+    {
+      "unit_id": "word_008", "unit_type": "word", "text": "，", "sentence_id": "sent_001", "word_index_in_sentence": 8, "char_start": 10, "char_end": 11
+    },
+    {
+      "unit_id": "word_009", "unit_type": "word", "text": "很快", "sentence_id": "sent_001", "word_index_in_sentence": 9, "char_start": 11, "char_end": 13
+    },
+    {
+      "unit_id": "word_010", "unit_type": "word", "text": "就", "sentence_id": "sent_001", "word_index_in_sentence": 10, "char_start": 13, "char_end": 14
+    },
+    {
+      "unit_id": "word_011", "unit_type": "word", "text": "进入", "sentence_id": "sent_001", "word_index_in_sentence": 11, "char_start": 14, "char_end": 16
+    },
+    {
+      "unit_id": "word_012", "unit_type": "word", "text": "了梦乡。", "sentence_id": "sent_001", "word_index_in_sentence": 12, "char_start": 16, "char_end": 21
+    },
+    {
+      "unit_id": "word_013", "unit_type": "word", "text": "在", "sentence_id": "sent_002", "word_index_in_sentence": 1, "char_start": 23, "char_end": 24
+    },
+    {
+      "unit_id": "word_014", "unit_type": "word", "text": "梦里", "sentence_id": "sent_002", "word_index_in_sentence": 2, "char_start": 24, "char_end": 26
+    },
+    {
+      "unit_id": "word_015", "unit_type": "word", "text": "，", "sentence_id": "sent_002", "word_index_in_sentence": 3, "char_start": 26, "char_end": 27
+    },
+    {
+      "unit_id": "word_016", "unit_type": "word", "text": "我", "sentence_id": "sent_002", "word_index_in_sentence": 4, "char_start": 27, "char_end": 28
+    },
+    {
+      "unit_id": "word_017", "unit_type": "word", "text": "看到", "sentence_id": "sent_002", "word_index_in_sentence": 5, "char_start": 28, "char_end": 30
+    },
+    {
+      "unit_id": "word_018", "unit_type": "word", "text": "两个人", "sentence_id": "sent_002", "word_index_in_sentence": 6, "char_start": 30, "char_end": 33
+    },
+    {
+      "unit_id": "word_019", "unit_type": "word", "text": "在", "sentence_id": "sent_002", "word_index_in_sentence": 7, "char_start": 33, "char_end": 34
+    },
+    {
+      "unit_id": "word_020", "unit_type": "word", "text": "激烈地", "sentence_id": "sent_002", "word_index_in_sentence": 8, "char_start": 34, "char_end": 37
+    },
+    {
+      "unit_id": "word_021", "unit_type": "word", "text": "争吵。", "sentence_id": "sent_002", "word_index_in_sentence": 9, "char_start": 37, "char_end": 41
+    },
+    {
+      "unit_id": "word_022", "unit_type": "word", "text": "接着", "sentence_id": "sent_003", "word_index_in_sentence": 1, "char_start": 41, "char_end": 43
+    },
+    {
+      "unit_id": "word_023", "unit_type": "word", "text": "，", "sentence_id": "sent_003", "word_index_in_sentence": 2, "char_start": 43, "char_end": 44
+    },
+    {
+      "unit_id": "word_024", "unit_type": "word", "text": "我", "sentence_id": "sent_003", "word_index_in_sentence": 3, "char_start": 44, "char_end": 45
+    },
+    {
+      "unit_id": "word_025", "unit_type": "word", "text": "梦见", "sentence_id": "sent_003", "word_index_in_sentence": 4, "char_start": 45, "char_end": 47
+    },
+    {
+      "unit_id": "word_026", "unit_type": "word", "text": "了", "sentence_id": "sent_003", "word_index_in_sentence": 5, "char_start": 47, "char_end": 48
+    },
+    {
+      "unit_id": "word_027", "unit_type": "word", "text": "2012", "sentence_id": "sent_003", "word_index_in_sentence": 6, "char_start": 48, "char_end": 52
+    },
+    {
+      "unit_id": "word_028", "unit_type": "word", "text": "年", "sentence_id": "sent_003", "word_index_in_sentence": 7, "char_start": 52, "char_end": 53
+    },
+    {
+      "unit_id": "word_029", "unit_type": "word", "text": "世界末日", "sentence_id": "sent_003", "word_index_in_sentence": 8, "char_start": 53, "char_end": 57
+    },
+    {
+      "unit_id": "word_030", "unit_type": "word", "text": "的", "sentence_id": "sent_003", "word_index_in_sentence": 9, "char_start": 57, "char_end": 58
+    },
+    {
+      "unit_id": "word_031", "unit_type": "word", "text": "场景", "sentence_id": "sent_003", "word_index_in_sentence": 10, "char_start": 58, "char_end": 60
+    },
+    {
+      "unit_id": "word_032", "unit_type": "word", "text": "，", "sentence_id": "sent_003", "word_index_in_sentence": 11, "char_start": 60, "char_end": 61
+    },
+    {
+      "unit_id": "word_033", "unit_type": "word", "text": "巨大", "sentence_id": "sent_003", "word_index_in_sentence": 12, "char_start": 61, "char_end": 63
+    },
+    {
+      "unit_id": "word_034", "unit_type": "word", "text": "的", "sentence_id": "sent_003", "word_index_in_sentence": 13, "char_start": 63, "char_end": 64
+    },
+    {
+      "unit_id": "word_035", "unit_type": "word", "text": "海浪", "sentence_id": "sent_003", "word_index_in_sentence": 14, "char_start": 64, "char_end": 66
+    },
+    {
+      "unit_id": "word_036", "unit_type": "word", "text": "淹没", "sentence_id": "sent_003", "word_index_in_sentence": 15, "char_start": 66, "char_end": 68
+    },
+    {
+      "unit_id": "word_037", "unit_type": "word", "text": "了", "sentence_id": "sent_003", "word_index_in_sentence": 16, "char_start": 68, "char_end": 69
+    },
+    {
+      "unit_id": "word_038", "unit_type": "word", "text": "地球", "sentence_id": "sent_003", "word_index_in_sentence": 17, "char_start": 69, "char_end": 71
+    },
+    {
+      "unit_id": "word_039", "unit_type": "word", "text": "，", "sentence_id": "sent_003", "word_index_in_sentence": 18, "char_start": 71, "char_end": 72
+    },
+    {
+      "unit_id": "word_040", "unit_type": "word", "text": "人们", "sentence_id": "sent_003", "word_index_in_sentence": 19, "char_start": 72, "char_end": 74
+    },
+    {
+      "unit_id": "word_041", "unit_type": "word", "text": "纷纷", "sentence_id": "sent_003", "word_index_in_sentence": 20, "char_start": 74, "char_end": 76
+    },
+    {
+      "unit_id": "word_042", "unit_type": "word", "text": "逃到山上", "sentence_id": "sent_003", "word_index_in_sentence": 21, "char_start": 76, "char_end": 81
+    },
+    {
+      "unit_id": "word_043", "unit_type": "word", "text": "避难。", "sentence_id": "sent_003", "word_index_in_sentence": 22, "char_start": 81, "char_end": 85
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001", "target_id": "word_001", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "时间名词"
+    },
+    {
+      "annotation_id": "ann_002", "target_id": "word_002", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["numeral_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "数词"
+    },
+    {
+      "annotation_id": "ann_003", "target_id": "word_003", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_004", "target_id": "word_004", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["pronoun_like"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "代词"
+    },
+    {
+      "annotation_id": "ann_005", "target_id": "word_005", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词"
+    },
+    {
+      "annotation_id": "ann_006", "target_id": "word_006", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["preposition_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_007", "target_id": "word_007", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_008", "target_id": "word_008", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_009", "target_id": "word_009", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["adverb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "副词"
+    },
+    {
+      "annotation_id": "ann_010", "target_id": "word_010", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["adverb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "副词"
+    },
+    {
+      "annotation_id": "ann_011", "target_id": "word_011", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词"
+    },
+    {
+      "annotation_id": "ann_012", "target_id": "word_012", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like", "noun_like"], "confidence": 0.9, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词和名词"
+    },
+    {
+      "annotation_id": "ann_013", "target_id": "word_013", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["preposition_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_014", "target_id": "word_014", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_015", "target_id": "word_015", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_016", "target_id": "word_016", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["pronoun_like"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "代词"
+    },
+    {
+      "annotation_id": "ann_017", "target_id": "word_017", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词"
+    },
+    {
+      "annotation_id": "ann_018", "target_id": "word_018", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["numeral_like", "classifier_like", "noun_like"], "confidence": 0.85, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "数量词和名词"
+    },
+    {
+      "annotation_id": "ann_019", "target_id": "word_019", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["preposition_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "介词"
+    },
+    {
+      "annotation_id": "ann_020", "target_id": "word_020", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["adverb_like", "adjective_like"], "confidence": 0.9, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "副词和形容词"
+    },
+    {
+      "annotation_id": "ann_021", "target_id": "word_021", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词和句号"
+    },
+    {
+      "annotation_id": "ann_022", "target_id": "word_022", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["conjunction_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "连词"
+    },
+    {
+      "annotation_id": "ann_023", "target_id": "word_023", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_024", "target_id": "word_024", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["pronoun_like"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "代词"
+    },
+    {
+      "annotation_id": "ann_025", "target_id": "word_025", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词"
+    },
+    {
+      "annotation_id": "ann_026", "target_id": "word_026", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["particle_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动态助词"
+    },
+    {
+      "annotation_id": "ann_027", "target_id": "word_027", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["numeral_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "数字"
+    },
+    {
+      "annotation_id": "ann_028", "target_id": "word_028", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "时间名词（年）"
+    },
+    {
+      "annotation_id": "ann_029", "target_id": "word_029", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_030", "target_id": "word_030", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["particle_like"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "助词"
+    },
+    {
+      "annotation_id": "ann_031", "target_id": "word_031", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_032", "target_id": "word_032", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_033", "target_id": "word_033", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["adjective_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "形容词"
+    },
+    {
+      "annotation_id": "ann_034", "target_id": "word_034", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["particle_like"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "助词"
+    },
+    {
+      "annotation_id": "ann_035", "target_id": "word_035", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_036", "target_id": "word_036", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词"
+    },
+    {
+      "annotation_id": "ann_037", "target_id": "word_037", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["particle_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动态助词"
+    },
+    {
+      "annotation_id": "ann_038", "target_id": "word_038", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_039", "target_id": "word_039", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["punctuation_or_symbol"], "confidence": 1.0, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "逗号"
+    },
+    {
+      "annotation_id": "ann_040", "target_id": "word_040", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["noun_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "名词"
+    },
+    {
+      "annotation_id": "ann_041", "target_id": "word_041", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["adverb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "副词"
+    },
+    {
+      "annotation_id": "ann_042", "target_id": "word_042", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like", "preposition_like", "noun_like"], "confidence": 0.85, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词短语"
+    },
+    {
+      "annotation_id": "ann_043", "target_id": "word_043", "target_type": "word", "task_id": "pos_like_category", "task_label_zh": "词性/符号性质", "task_label_en": "POS-like Category", "value": ["verb_like"], "confidence": 0.95, "llm_used": true, "llm_name": "DeepSeek", "annotator_note": "动词和句号"
+    }
+  ]
+}

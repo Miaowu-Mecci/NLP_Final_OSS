@@ -1,0 +1,565 @@
+﻿{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T21:06:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "1191230233",
+    "student_name": "方胡梓涵",
+    "assigned_section": "第1组四段叙事文本",
+    "word_task_type": "",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "时间叙事四段文本",
+    "source": "学生自选文本",
+    "raw_text": "晚上九点，我接到了刚失恋的老友的电话，他让我过去陪他喝酒。我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。我只能无奈地在车里等待，心里非常着急。好不容易回到家，我开始喝酒。不久，老友也来了，他告诉我他失恋了，心里很难过。我笑着安慰他，劝他不要再想那些不开心的事。我们一起喝酒，时间慢慢流逝。后来，老友要坐公交车回家，外面下起了雨。我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。我告诉他是的，并且指向了天上的乌云。他说下雨了，没有太阳，还问我要不要伞。我同意了。我们在雨中等待公交车，他去了趟卫生间。等了很久，他终于出来了，还亲了我一下。我们继续喝酒，我感到非常开心。最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。晚上十一点，我在回家的路上，看到前面发生了一起车祸。两辆车撞在了一起，车主们正在激烈地争吵，互相指责对方的过错。我感到非常惊讶，停下脚步观看。很快，警察赶到了现场。他们介入调查，询问了两位车主的情况。警察也向我询问了事情的经过，我笑着配合调查，给他们看了我的手机和电脑记录，证明我与此事无关。警察对我的说法感到有些疑惑，我紧张得流了汗。他们查看了我的手机记录后，让我先在一旁等待，然后继续调查另一位车主。我站在那里，看着警察忙碌的身影，心里想着这场车祸到底是谁的责任。凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "包含21:00、23:00、次日2:00、4:00四段时间叙事文本（仅句标注：与前一组的篇章关系）"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "晚上九点，我接到了刚失恋的老友的电话，他让我过去陪他喝酒。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 42,
+      "children": ["word_001","word_002","word_003","word_004","word_005"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。",
+      "sentence_index": 2,
+      "char_start": 42,
+      "char_end": 82,
+      "children": ["word_006","word_007","word_008"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我只能无奈地在车里等待，心里非常着急。",
+      "sentence_index": 3,
+      "char_start": 82,
+      "char_end": 104,
+      "children": ["word_009","word_010"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "好不容易回到家，我开始喝酒。",
+      "sentence_index": 4,
+      "char_start": 104,
+      "char_end": 122,
+      "children": ["word_011","word_012"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "不久，老友也来了，他告诉我他失恋了，心里很难过。",
+      "sentence_index": 5,
+      "char_start": 122,
+      "char_end": 160,
+      "children": ["word_019","word_020","word_021"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我笑着安慰他，劝他不要再想那些不开心的事。",
+      "sentence_index": 6,
+      "char_start": 160,
+      "char_end": 194,
+      "children": ["word_022","word_023","word_024"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我们一起喝酒，时间慢慢流逝。",
+      "sentence_index": 7,
+      "char_start": 194,
+      "char_end": 216,
+      "children": ["word_025","word_026"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "后来，老友要坐公交车回家，外面下起了雨。",
+      "sentence_index": 8,
+      "char_start": 216,
+      "char_end": 248,
+      "children": ["word_027","word_028","word_029"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。",
+      "sentence_index": 9,
+      "char_start": 248,
+      "char_end": 296,
+      "children": ["word_030","word_031","word_032"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我告诉他是的，并且指向了天上的乌云。",
+      "sentence_index": 10,
+      "char_start": 296,
+      "char_end": 326,
+      "children": ["word_033","word_034","word_035"]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "他说下雨了，没有太阳，还问我要不要伞。",
+      "sentence_index": 11,
+      "char_start": 326,
+      "char_end": 358,
+      "children": ["word_036","word_037","word_038"]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我同意了。",
+      "sentence_index": 12,
+      "char_start": 358,
+      "char_end": 362,
+      "children": ["word_039"]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我们在雨中等待公交车，他去了趟卫生间。",
+      "sentence_index": 13,
+      "char_start": 362,
+      "char_end": 398,
+      "children": ["word_040","word_041","word_042"]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "等了很久，他终于出来了，还亲了我一下。",
+      "sentence_index": 14,
+      "char_start": 398,
+      "char_end": 430,
+      "children": ["word_043","word_044","word_045"]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我们继续喝酒，我感到非常开心。",
+      "sentence_index": 15,
+      "char_start": 430,
+      "char_end": 456,
+      "children": ["word_046","word_047"]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。",
+      "sentence_index": 16,
+      "char_start": 456,
+      "char_end": 520,
+      "children": ["word_048","word_049","word_050"]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "晚上十一点，我在回家的路上，看到前面发生了一起车祸。",
+      "sentence_index": 17,
+      "char_start": 520,
+      "char_end": 554,
+      "children": ["word_051","word_052","word_053"]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "两辆车撞在了一起，车主们正在激烈地争吵，互相指责对方的过错。",
+      "sentence_index": 18,
+      "char_start": 554,
+      "char_end": 598,
+      "children": ["word_054","word_055","word_056"]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我感到非常惊讶，停下脚步观看。",
+      "sentence_index": 19,
+      "char_start": 598,
+      "char_end": 624,
+      "children": ["word_057","word_058"]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "很快，警察赶到了现场。",
+      "sentence_index": 20,
+      "char_start": 624,
+      "char_end": 642,
+      "children": ["word_059","word_060"]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "他们介入调查，询问了两位车主的情况。",
+      "sentence_index": 21,
+      "char_start": 642,
+      "char_end": 674,
+      "children": ["word_061","word_062","word_063"]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "警察也向我询问了事情的经过，我笑着配合调查，给他们看了我的手机和电脑记录，证明我与此事无关。",
+      "sentence_index": 22,
+      "char_start": 674,
+      "char_end": 740,
+      "children": ["word_064","word_065","word_066"]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "警察对我的说法感到有些疑惑，我紧张得流了汗。",
+      "sentence_index": 23,
+      "char_start": 740,
+      "char_end": 772,
+      "children": ["word_067","word_068"]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "他们查看了我的手机记录后，让我先在一旁等待，然后继续调查另一位车主。",
+      "sentence_index": 24,
+      "char_start": 772,
+      "char_end": 824,
+      "children": ["word_069","word_070","word_071"]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "我站在那里，看着警察忙碌的身影，心里想着这场车祸到底是谁的责任。",
+      "sentence_index": 25,
+      "char_start": 824,
+      "char_end": 876,
+      "children": ["word_072","word_073","word_074"]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 26,
+      "char_start": 876,
+      "char_end": 902,
+      "children": ["word_075","word_076","word_077"]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 27,
+      "char_start": 902,
+      "char_end": 932,
+      "children": ["word_078","word_079","word_080"]
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 28,
+      "char_start": 932,
+      "char_end": 1000,
+      "children": ["word_081","word_082","word_083"]
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 29,
+      "char_start": 1000,
+      "char_end": 1026,
+      "children": ["word_084","word_085","word_086"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "晚上九点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "失恋",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 12,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "老友",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "电话",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 18,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "喝酒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 38,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "堵车",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 52,
+      "char_end": 54
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "红灯",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 72,
+      "char_end": 74
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "车祸",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 77,
+      "char_end": 79
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "无奈",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 86,
+      "char_end": 88
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "着急",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 100,
+      "char_end": 102
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 108,
+      "char_end": 110
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 114,
+      "char_end": 116
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "不久",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 122,
+      "char_end": 124
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "老友",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 125,
+      "char_end": 127
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "难过",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 154,
+      "char_end": 156
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "安慰",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 164,
+      "char_end": 166
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "劝",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 167,
+      "char_end": 168
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "不开心",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 180,
+      "char_end": 183
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "一起",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 196,
+      "char_end": 198
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "流逝",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 210,
+      "char_end": 212
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "后来",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 216,
+      "char_end": 218
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "公交车",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 225,
+      "char_end": 228
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "下雨",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 242,
+      "char_end": 244
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "楼下",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 252,
+      "char_end": 254
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "女人",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 272,
+      "char_end": 274
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "分手",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3,
+      "char_start": 275,
+      "char_end": 277
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "告诉",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 298,
+      "char_end": 300
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "指向",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2,
+      "char_start": 308,
+      "char_end": 310
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "乌云",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3,
+      "char_start": 316,
+      "char_end": 318
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "下雨",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 330,
+      "char_end": 332
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "太阳",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 338,
+      "char_end": 340
+    },

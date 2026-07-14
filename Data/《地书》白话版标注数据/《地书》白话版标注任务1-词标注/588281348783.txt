@@ -1,0 +1,2182 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T18:13:28+09:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "17点；次日3点；次日4点；次日5点",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "《地书》",
+    "source": "教师提供",
+    "raw_text": "17点：下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。\n次日3点：凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。\n次日4点：凌晨四点，我终于进入了深度睡眠，睡得很香。\n次日5点：凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。",
+    "notes": "用于中文自然文本词标注任务"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "17点：下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "children": [
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "children": [
+        "word_008",
+        "word_009",
+        "word_010"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "children": [
+        "word_011",
+        "word_012",
+        "word_013"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "children": [
+        "word_014",
+        "word_015"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "children": [
+        "word_016",
+        "word_017"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "children": [
+        "word_018",
+        "word_019"
+      ]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。",
+      "sentence_index": 8,
+      "children": [
+        "word_020",
+        "word_021",
+        "word_022"
+      ]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 9,
+      "children": [
+        "word_023",
+        "word_024",
+        "word_025"
+      ]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我用手机确认了回家的路线，然后上了一辆出租车。",
+      "sentence_index": 10,
+      "children": [
+        "word_026",
+        "word_027"
+      ]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 11,
+      "children": [
+        "word_028",
+        "word_029"
+      ]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "次日3点：凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 12,
+      "children": [
+        "word_030",
+        "word_031"
+      ]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 13,
+      "children": [
+        "word_032",
+        "word_033"
+      ]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 14,
+      "children": [
+        "word_034",
+        "word_035",
+        "word_036"
+      ]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 15,
+      "children": [
+        "word_037",
+        "word_038"
+      ]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 16,
+      "children": [
+        "word_039",
+        "word_040"
+      ]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 17,
+      "children": [
+        "word_041",
+        "word_042",
+        "word_043"
+      ]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 18,
+      "children": [
+        "word_044",
+        "word_045"
+      ]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 19,
+      "children": [
+        "word_046",
+        "word_047"
+      ]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "次日4点：凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 20,
+      "children": [
+        "word_048",
+        "word_049"
+      ]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "次日5点：凌晨五点，我开始做梦。",
+      "sentence_index": 21,
+      "children": [
+        "word_050",
+        "word_051"
+      ]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。",
+      "sentence_index": 22,
+      "children": [
+        "word_052",
+        "word_053"
+      ]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我在房子里转来转去，感觉一直在循环往复。",
+      "sentence_index": 23,
+      "children": [
+        "word_054",
+        "word_055"
+      ]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。",
+      "sentence_index": 24,
+      "children": [
+        "word_056",
+        "word_057"
+      ]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "我坐热气球飞向太阳，然后又开始做梦。",
+      "sentence_index": 25,
+      "children": [
+        "word_058",
+        "word_059"
+      ]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。",
+      "sentence_index": 26,
+      "children": [
+        "word_060"
+      ]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "我和很多人一起看花，然后继续做梦。",
+      "sentence_index": 27,
+      "children": [
+        "word_061",
+        "word_062"
+      ]
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "我变成了超人，拥有钻石和皇冠，还有机器人。",
+      "sentence_index": 28,
+      "children": [
+        "word_063",
+        "word_064"
+      ]
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。",
+      "sentence_index": 29,
+      "children": [
+        "word_065",
+        "word_066"
+      ]
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。",
+      "sentence_index": 30,
+      "children": [
+        "word_067",
+        "word_068"
+      ]
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "我看到电视和卫生间，电视里的人在不停地移动。",
+      "sentence_index": 31,
+      "children": [
+        "word_069",
+        "word_070"
+      ]
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "我看着电视，感到有些迷茫。",
+      "sentence_index": 32,
+      "children": [
+        "word_071",
+        "word_072"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "17点：下午五点，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "终于到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "下班时间！",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "我赶紧整理好",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "桌上的文件、书本和计算器，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "处理完最后几封邮件，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "关上电脑。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "一整天的工作",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "让我感到疲惫不堪，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "只想快点回家休息。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "就在我准备离开时，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "领导叫住了我，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "问我晚上有没有安排。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "我有些紧张，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "但还是如实回答。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "领导笑着同意我下班，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "并让我赶紧回家。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "我顿时松了一口气，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "开心地准备离开公司。",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "我先坐电梯下楼，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "去了趟洗手间，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "然后快步走出大楼。",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "站在路边，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "我看着拥挤的地铁入口，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "决定还是打车回家。",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "我用手机确认了回家的路线，",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "然后上了一辆出租车。",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "一路上，虽然遇到了红灯，",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "但我还是顺利地回到了家。",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "次日3点：凌晨三点，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "我被蚊子的嗡嗡声吵醒了。",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "我听到外面有人在吵架，",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "感到非常烦躁。",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "我开始用手拍蚊子，",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "并用杀虫剂喷它们，",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "但蚊子总是飞来飞去，很难打到。",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "我关掉电视和灯，准备睡觉，",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "但蚊子还是不停地骚扰我。",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "我打开台灯，",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "我追着蚊子跑，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "上下挥舞着杀虫剂，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "累得满头大汗。",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 3
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "最后，我终于打死了一只蚊子，",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "手上沾满了血。",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "我关掉台灯，",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "终于可以安心睡觉了。",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "次日4点：凌晨四点，",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "我终于进入了深度睡眠，睡得很香。",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "次日5点：凌晨五点，",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "我开始做梦。",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "在梦里，我走了很长的路，",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "看到了闪电，然后走进了一栋房子。",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "我在房子里转来转去，",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "感觉一直在循环往复。",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "接着，我坐上了飞机，",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "飞到了天上，看到了云朵和热气球。",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "我坐热气球飞向太阳，",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "然后又开始做梦。",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "我和很多人一起看花，",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "然后继续做梦。",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "我变成了超人，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "拥有钻石和皇冠，还有机器人。",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "我坐上火箭，遇到了下雨，",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "然后从大楼上掉下来，感到非常惊讶。",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "我在梦里看到两个人在激烈地争吵，",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "然后惊讶地醒来。",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "我看到电视和卫生间，",
+      "sentence_id": "sent_031",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "电视里的人在不停地移动。",
+      "sentence_id": "sent_031",
+      "word_index_in_sentence": 2
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "我看着电视，",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 1
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "感到有些迷茫。",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 2
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_w001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间名词及标点"
+    },
+    {
+      "annotation_id": "ann_w002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like",
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "副词与动词的组合"
+    },
+    {
+      "annotation_id": "ann_w003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "名词加叹号"
+    },
+    {
+      "annotation_id": "ann_w004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "adverb_like",
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "主语加动作"
+    },
+    {
+      "annotation_id": "ann_w005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "conjunction_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "物品名词罗列"
+    },
+    {
+      "annotation_id": "ann_w006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "numeral_like",
+        "classifier_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动宾短语带量词"
+    },
+    {
+      "annotation_id": "ann_w007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动宾短语"
+    },
+    {
+      "annotation_id": "ann_w008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like",
+        "classifier_like",
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "名词短语"
+    },
+    {
+      "annotation_id": "ann_w009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "使动与状态描述"
+    },
+    {
+      "annotation_id": "ann_w010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "意愿及动作"
+    },
+    {
+      "annotation_id": "ann_w011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like",
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间状语从句"
+    },
+    {
+      "annotation_id": "ann_w012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "verb_like",
+        "pronoun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "主谓宾结构"
+    },
+    {
+      "annotation_id": "ann_w013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "pronoun_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "疑问结构"
+    },
+    {
+      "annotation_id": "ann_w014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "adverb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状态描述"
+    },
+    {
+      "annotation_id": "ann_w015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "转折及动作"
+    },
+    {
+      "annotation_id": "ann_w016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "verb_like",
+        "pronoun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "主谓宾及伴随状态"
+    },
+    {
+      "annotation_id": "ann_w017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "verb_like",
+        "pronoun_like",
+        "adverb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "并列使役动作"
+    },
+    {
+      "annotation_id": "ann_w018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "adverb_like",
+        "verb_like",
+        "classifier_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作及状态"
+    },
+    {
+      "annotation_id": "ann_w019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状语加动宾"
+    },
+    {
+      "annotation_id": "ann_w020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "连动结构"
+    },
+    {
+      "annotation_id": "ann_w021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "classifier_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动词加量词加名词"
+    },
+    {
+      "annotation_id": "ann_w022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "承接动作"
+    },
+    {
+      "annotation_id": "ann_w023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "方位介词短语状语"
+    },
+    {
+      "annotation_id": "ann_w024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "adjective_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "主谓宾及定语"
+    },
+    {
+      "annotation_id": "ann_w025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adverb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "决定动作"
+    },
+    {
+      "annotation_id": "ann_w026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "preposition_like",
+        "noun_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "方式状语及动作"
+    },
+    {
+      "annotation_id": "ann_w027",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "verb_like",
+        "numeral_like",
+        "classifier_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "承接与动宾"
+    },
+    {
+      "annotation_id": "ann_w028",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "conjunction_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "地点及让步状语"
+    },
+    {
+      "annotation_id": "ann_w029",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "pronoun_like",
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "转折主句"
+    },
+    {
+      "annotation_id": "ann_w030",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "numeral_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间节点"
+    },
+    {
+      "annotation_id": "ann_w031",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "preposition_like",
+        "noun_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "被动语态"
+    },
+    {
+      "annotation_id": "ann_w032",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "听觉动作"
+    },
+    {
+      "annotation_id": "ann_w033",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adverb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "情绪状态"
+    },
+    {
+      "annotation_id": "ann_w034",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "开始动作"
+    },
+    {
+      "annotation_id": "ann_w035",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "verb_like",
+        "noun_like",
+        "pronoun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "并列动作使用工具"
+    },
+    {
+      "annotation_id": "ann_w036",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "noun_like",
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "转折状态"
+    },
+    {
+      "annotation_id": "ann_w037",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "连续动作"
+    },
+    {
+      "annotation_id": "ann_w038",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "noun_like",
+        "adverb_like",
+        "verb_like",
+        "pronoun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "转折结果"
+    },
+    {
+      "annotation_id": "ann_w039",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动宾短语"
+    },
+    {
+      "annotation_id": "ann_w040",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作及工具"
+    },
+    {
+      "annotation_id": "ann_w041",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作方向"
+    },
+    {
+      "annotation_id": "ann_w042",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "方位与动作"
+    },
+    {
+      "annotation_id": "ann_w043",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adjective_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状态补语"
+    },
+    {
+      "annotation_id": "ann_w044",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like",
+        "pronoun_like",
+        "verb_like",
+        "numeral_like",
+        "classifier_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "结果动作"
+    },
+    {
+      "annotation_id": "ann_w045",
+      "target_id": "word_045",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状态描述"
+    },
+    {
+      "annotation_id": "ann_w046",
+      "target_id": "word_046",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "收尾动作"
+    },
+    {
+      "annotation_id": "ann_w047",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "最终状态"
+    },
+    {
+      "annotation_id": "ann_w048",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "numeral_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间节点"
+    },
+    {
+      "annotation_id": "ann_w049",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作与状态补语"
+    },
+    {
+      "annotation_id": "ann_w050",
+      "target_id": "word_050",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "numeral_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间节点"
+    },
+    {
+      "annotation_id": "ann_w051",
+      "target_id": "word_051",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作发生"
+    },
+    {
+      "annotation_id": "ann_w052",
+      "target_id": "word_052",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like",
+        "noun_like",
+        "pronoun_like",
+        "verb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "场景及动作"
+    },
+    {
+      "annotation_id": "ann_w053",
+      "target_id": "word_053",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "conjunction_like",
+        "numeral_like",
+        "classifier_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "连续观察及动作"
+    },
+    {
+      "annotation_id": "ann_w054",
+      "target_id": "word_054",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "preposition_like",
+        "noun_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作状态"
+    },
+    {
+      "annotation_id": "ann_w055",
+      "target_id": "word_055",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adverb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "内心感受"
+    },
+    {
+      "annotation_id": "ann_w056",
+      "target_id": "word_056",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "承接与行为"
+    },
+    {
+      "annotation_id": "ann_w057",
+      "target_id": "word_057",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "conjunction_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "所见事物"
+    },
+    {
+      "annotation_id": "ann_w058",
+      "target_id": "word_058",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作目标"
+    },
+    {
+      "annotation_id": "ann_w059",
+      "target_id": "word_059",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "循环状态"
+    },
+    {
+      "annotation_id": "ann_w060",
+      "target_id": "word_060",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like",
+        "noun_like",
+        "pronoun_like",
+        "verb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "场景中罗列的事物"
+    },
+    {
+      "annotation_id": "ann_w061",
+      "target_id": "word_061",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "conjunction_like",
+        "noun_like",
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "共同动作"
+    },
+    {
+      "annotation_id": "ann_w062",
+      "target_id": "word_062",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "延续"
+    },
+    {
+      "annotation_id": "ann_w063",
+      "target_id": "word_063",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "身份变化"
+    },
+    {
+      "annotation_id": "ann_w064",
+      "target_id": "word_064",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "noun_like",
+        "conjunction_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "拥有物罗列"
+    },
+    {
+      "annotation_id": "ann_w065",
+      "target_id": "word_065",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作事件"
+    },
+    {
+      "annotation_id": "ann_w066",
+      "target_id": "word_066",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "preposition_like",
+        "noun_like",
+        "verb_like",
+        "adverb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "结果与感受"
+    },
+    {
+      "annotation_id": "ann_w067",
+      "target_id": "word_067",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "preposition_like",
+        "noun_like",
+        "verb_like",
+        "numeral_like",
+        "classifier_like",
+        "adverb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "场景动作观察"
+    },
+    {
+      "annotation_id": "ann_w068",
+      "target_id": "word_068",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "状态转变"
+    },
+    {
+      "annotation_id": "ann_w069",
+      "target_id": "word_069",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "conjunction_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "视觉内容"
+    },
+    {
+      "annotation_id": "ann_w070",
+      "target_id": "word_070",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like",
+        "adverb_like",
+        "verb_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "屏幕画面描述"
+    },
+    {
+      "annotation_id": "ann_w071",
+      "target_id": "word_071",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like",
+        "verb_like",
+        "noun_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "视觉动作"
+    },
+    {
+      "annotation_id": "ann_w072",
+      "target_id": "word_072",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like",
+        "adverb_like",
+        "adjective_like",
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "心理感受"
+    }
+  ]
+}

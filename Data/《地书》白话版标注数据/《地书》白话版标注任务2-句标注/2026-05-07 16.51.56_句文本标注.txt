@@ -1,0 +1,75 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T13:30:05+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "豆包大模型"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "16:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "《地书》白话版16:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。我心情愉快地在 MSN 上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+    "notes": "句标注任务：自由翻译，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 32,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。",
+      "sentence_index": 2,
+      "char_start": 33,
+      "char_end": 112,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "工作会议圆满结束，我收获了在场同事们的鼓掌认可，内心感到十分愉悦舒畅。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "用通俗流畅语言重述原句含义，保留情绪与事件逻辑"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我掏出手机浏览各类社交平台，发现有人在推特给我点赞，脸书有人发来搞笑表情，还有人通过MSN邀约我晚间小聚饮酒。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "简化句式、通俗转述，完整保留原句信息"
+    }
+  ]
+}

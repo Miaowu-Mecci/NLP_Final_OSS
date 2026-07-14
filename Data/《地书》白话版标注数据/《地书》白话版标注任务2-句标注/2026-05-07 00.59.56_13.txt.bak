@@ -1,0 +1,117 @@
+{
+    "project": {
+      "project_name": "《地书》与自然语言文本差异性分析",
+      "data_type": "natural_language_text",
+      "schema_version": "1.0",
+      "annotation_language": "zh-CN",
+      "created_at": "2026-05-07T15:00:00+08:00",
+      "llm_assisted": true,
+      "llm_tools": ["DeepSeek"]
+    },
+    "student": {
+      "student_id": "1011220204",
+      "student_name": "顾珂瑜",
+      "assigned_section": "次日1点",
+      "word_task_type": "morphological_like_features",
+      "sentence_task_type": "free_translation"
+    },
+    "source_text": {
+      "text_id": "次日1点",
+      "title": "醉酒夜归·深夜电视",
+      "source": "教师提供",
+      "raw_text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+      "notes": "用于自然语言文本标注示例，句子级别标注任务：自由翻译"
+    },
+    "units": [
+      {
+        "unit_id": "sent_001",
+        "unit_type": "sentence",
+        "text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。",
+        "sentence_index": 1,
+        "char_start": 0,
+        "char_end": 30,
+        "children": ["w_001", "w_002", "w_003", "w_004", "w_005", "w_006", "w_007", "w_008", "w_009", "w_010", "w_011", "w_012", "w_013", "w_014", "w_015", "w_016", "w_017", "w_018", "w_019", "w_020"]
+      },
+      {
+        "unit_id": "sent_002",
+        "unit_type": "sentence",
+        "text": "回到家后，我感到非常困，但还是打开了电视。",
+        "sentence_index": 2,
+        "char_start": 30,
+        "char_end": 48,
+        "children": ["w_021", "w_022", "w_023", "w_024", "w_025", "w_026", "w_027", "w_028", "w_029", "w_030", "w_031"]
+      },
+      {
+        "unit_id": "sent_003",
+        "unit_type": "sentence",
+        "text": "我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。",
+        "sentence_index": 3,
+        "char_start": 48,
+        "char_end": 165,
+        "children": ["w_032", "w_033", "w_034", "w_035", "w_036", "w_037", "w_038", "w_039", "w_040", "w_041", "w_042", "w_043", "w_044", "w_045", "w_046", "w_047", "w_048", "w_049", "w_050", "w_051", "w_052", "w_053", "w_054", "w_055", "w_056", "w_057", "w_058", "w_059", "w_060", "w_061", "w_062", "w_063", "w_064", "w_065", "w_066", "w_067", "w_068", "w_069", "w_070", "w_071", "w_072", "w_073", "w_074", "w_075", "w_076", "w_077", "w_078", "w_079", "w_080", "w_081", "w_082", "w_083", "w_084", "w_085", "w_086", "w_087", "w_088", "w_089", "w_090", "w_091"]
+      },
+      {
+        "unit_id": "sent_004",
+        "unit_type": "sentence",
+        "text": "最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+        "sentence_index": 4,
+        "char_start": 165,
+        "char_end": 195,
+        "children": ["w_092", "w_093", "w_094", "w_095", "w_096", "w_097", "w_098", "w_099", "w_100", "w_101", "w_102", "w_103", "w_104", "w_105", "w_106", "w_107"]
+      }
+    ],
+    "annotations": [
+      {
+        "annotation_id": "ann_sent_001",
+        "target_id": "sent_001",
+        "target_type": "sentence",
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "value": "凌晨一点钟，我在回家的路上看见一只狗，我朝它招了招手，它也冲我摇着尾巴回应。",
+        "confidence": 0.95,
+        "llm_used": true,
+        "llm_name": "DeepSeek",
+        "annotator_note": "“挥手”改为“招手”，“向它”改为“朝它”，更符合口语习惯"
+      },
+      {
+        "annotation_id": "ann_sent_002",
+        "target_id": "sent_002",
+        "target_type": "sentence",
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "value": "到家以后，我觉得特别困，但还是把电视打开了。",
+        "confidence": 0.95,
+        "llm_used": true,
+        "llm_name": "DeepSeek",
+        "annotator_note": "“回到家后”改为“到家以后”，“非常困”改为“特别困”，更自然"
+      },
+      {
+        "annotation_id": "ann_sent_003",
+        "target_id": "sent_003",
+        "target_type": "sentence",
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "value": "我换了好几个台，看ABC的节目时笑了；看坦克的画面也笑了；看CCTV新闻时看到熊猫笑了；看BBC新闻时看到彩虹也笑了；看NBC新闻时看到牛和警察又笑了；最后看CNN新闻时看到灾难和骷髅头，竟然也忍不住笑了。",
+        "confidence": 0.95,
+        "llm_used": true,
+        "llm_name": "DeepSeek",
+        "annotator_note": "用排比结构保留原文的重复节奏，结尾加上“忍不住”强化“竟然”的意外语气"
+      },
+      {
+        "annotation_id": "ann_sent_004",
+        "target_id": "sent_004",
+        "target_type": "sentence",
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "value": "最后，我看见电视里有两个人在吵架，觉得有点无聊，就把电视关掉，准备去睡了。",
+        "confidence": 0.95,
+        "llm_used": true,
+        "llm_name": "DeepSeek",
+        "annotator_note": "“感到有些无聊”改为“觉得有点无聊”，“关掉了电视，准备睡觉”合并为更流畅的表达"
+      }
+    ]
+  }

@@ -1,0 +1,95 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "你的學號",
+    "student_name": "你的姓名",
+    "assigned_section": "地書白話全文",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "地書白話故事",
+    "source": "教師提供",
+    "raw_text": "晚上八點，我正滿心歡喜地等待著她，心裏充滿了愛意。突然，我的手機不停地震動起來。我疑惑地看了看手機，旁邊的一個男人提醒我手機在響。我接起電話，驚訝地發現是醫院打來的，得知有人發燒住院了。我立刻決定趕往醫院，心裏想着他。我確認了電話內容，那個男人告訴我詳細情況，我感到非常驚訝。她也趕到了醫院。我趕緊回家拿了一些藥，然後迅速返回醫院。在醫院裏，我四處尋找，終於在衛生間找到了他。我給他打了電話，他接了，我看到他，露出了笑容。我問他是不是發燒了，有沒有吃藥。他躺在床上，醫生正在給他檢查。看到他能吃飯了，我為他點贊。我讓他安心回家休息，心裏充滿了對他的關心。確認他可以好好休息後，我放心地笑了。最後，我離開醫院，坐電梯下樓，在外面等待。凌晨一點，我在回家的路上看到了一隻狗，我向它揮手，它也搖著尾巴回應我。回到家後，我感到非常困，但還是打開了電視。我換了好幾個頻道，看了 abc 的節目，笑了；看了坦克的畫面，也笑了；看了 CCTV 的新聞，看到熊貓，笑了；看了 BBC 的新聞，看到彩虹，笑了；看了 NBC 的新聞，看到牛和警察，笑了；看了 CNN 的新聞，看到災難和骷髏頭，竟然也笑了。最後，我看到電視裏兩個人在吵架，感到有些無聊，於是關掉了電視，準備睡覺。凌晨四點，我終於進入了深度睡眠，睡得很香。凌晨五點，我開始做夢。在夢裏，我走了很長的路，看到了閃電，然後走進了一棟房子。我在房子裏轉來轉去，感覺一直在循環往復。接著，我坐上了飛機，飛到了天上，看到了雲朵和熱氣球。我坐熱氣球飛向太陽，然後又開始做夢。在夢裏，我看到了太陽、房子、城堡、汽車和美麗的花朵。我和很多人一起看花，然後繼續做夢。我變成了超人，擁有鑽石和皇冠，還有機器人。我坐上火箭，遇到了下雨，然後從大樓上掉下來，感到非常驚訝。我在夢裏看到兩個人在激烈地爭吵，然後驚訝地醒來。我看到電視和衛生間，電視裏的人在不停地移動。我看着電視，感到有些迷茫。",
+    "notes": "類形態特徵專項標註"
+  },
+  "units": [
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "不停地",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 32,
+      "char_end": 35
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "熱氣球",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 526,
+      "char_end": 529
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "轉來轉去",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 482,
+      "char_end": 486
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_m_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "類形態特徵",
+      "task_label_en": "Morphological-like Features",
+      "value": ["reduplication"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "“不停地”體現了動作的頻次重疊。"
+    },
+    {
+      "annotation_id": "ann_m_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "類形態特徵",
+      "task_label_en": "Morphological-like Features",
+      "value": ["compound_word", "multi_character_word"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "複合名詞，由多個意象組合。"
+    },
+    {
+      "annotation_id": "ann_m_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "類形態特徵",
+      "task_label_en": "Morphological-like Features",
+      "value": ["reduplication", "idiom_or_fixed_expression"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "典型的動詞重疊結構。"
+    }
+  ]
+}

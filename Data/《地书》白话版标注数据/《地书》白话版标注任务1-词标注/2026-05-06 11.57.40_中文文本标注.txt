@@ -1,0 +1,447 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T11:47:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "17点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "17点",
+    "title": "下班与回家",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。\n就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。\n我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+    "notes": "第一段文本：描述下班过程及心理变化"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 16,
+      "children": [
+        "word_001_01",
+        "word_001_02",
+        "word_001_03",
+        "word_001_04",
+        "word_001_05"
+      ]
+    },
+    {
+      "unit_id": "word_001_01",
+      "unit_type": "word",
+      "text": "下午五点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_001_02",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_001_03",
+      "unit_type": "word",
+      "text": "到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_001_04",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 9,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_001_05",
+      "unit_type": "word",
+      "text": "！",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 13,
+      "char_end": 14
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 16,
+      "char_end": 50,
+      "children": [
+        "word_002_01",
+        "word_002_02"
+      ]
+    },
+    {
+      "unit_id": "word_002_01",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_002_02",
+      "unit_type": "word",
+      "text": "整理",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 19,
+      "char_end": 21
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 51,
+      "char_end": 75,
+      "children": [
+        "word_003_01",
+        "word_003_02"
+      ]
+    },
+    {
+      "unit_id": "word_003_01",
+      "unit_type": "word",
+      "text": "疲惫不堪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 59,
+      "char_end": 63
+    },
+    {
+      "unit_id": "word_003_02",
+      "unit_type": "word",
+      "text": "只想",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 64,
+      "char_end": 66
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "char_start": 76,
+      "char_end": 102,
+      "children": [
+        "word_004_01",
+        "word_004_02"
+      ]
+    },
+    {
+      "unit_id": "word_004_01",
+      "unit_type": "word",
+      "text": "叫住",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 86,
+      "char_end": 88
+    },
+    {
+      "unit_id": "word_004_02",
+      "unit_type": "word",
+      "text": "安排",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 98,
+      "char_end": 100
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "char_start": 103,
+      "char_end": 117,
+      "children": [
+        "word_005_01"
+      ]
+    },
+    {
+      "unit_id": "word_005_01",
+      "unit_type": "word",
+      "text": "紧张",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 106,
+      "char_end": 108
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "char_start": 118,
+      "char_end": 136,
+      "children": [
+        "word_006_01"
+      ]
+    },
+    {
+      "unit_id": "word_006_01",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 120,
+      "char_end": 122
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "char_start": 137,
+      "char_end": 156,
+      "children": [
+        "word_007_01"
+      ]
+    },
+    {
+      "unit_id": "word_007_01",
+      "unit_type": "word",
+      "text": "松了一口气",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 140,
+      "char_end": 145
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 8,
+      "char_start": 176,
+      "char_end": 201,
+      "children": [
+        "word_008_01",
+        "word_008_02"
+      ]
+    },
+    {
+      "unit_id": "word_008_01",
+      "unit_type": "word",
+      "text": "拥挤",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 183,
+      "char_end": 185
+    },
+    {
+      "unit_id": "word_008_02",
+      "unit_type": "word",
+      "text": "决定",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 189,
+      "char_end": 191
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 9,
+      "char_start": 222,
+      "char_end": 246,
+      "children": [
+        "word_009_01"
+      ]
+    },
+    {
+      "unit_id": "word_009_01",
+      "unit_type": "word",
+      "text": "顺利",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5,
+      "char_start": 237,
+      "char_end": 239
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表达了一种期盼已久、如释重负的情绪。暗示工作时间漫长或工作过程辛苦，对下班这一刻期待已久。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "不仅仅是时间副词，更带有强烈的情感色彩。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表现出急切想要结束工作状态、尽快离开公司的心理状态，动作迅速。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "修饰整理动作的速度，反映心情。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "极度疲劳，身心俱疲。在这里作为想“快点回家”的直接原因，解释了主角为何归心似箭。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "解释了行为动机。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_003_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表达了唯一的愿望和迫切的需求，排除了其他任何可能性，强调回家的渴望。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "强调意愿的单一性和强烈程度。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_004_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "通过声音或动作让主角停下脚步。在这里制造了情节的转折，打断了主角回家的进程，引发后续的紧张感。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "关键的情节阻断点。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_004_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在这里是委婉语，通常指“是否有约会”或“是否有私人计划”，暗示领导可能想安排加班或有私事相求。",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "职场语境下的潜台词。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_005_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "担心领导突然叫住自己是为了安排加班或额外工作，打破了原本可以回家的预期。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "反映了对潜在加班的恐惧。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_006_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表示友善、宽容和非强迫的态度。消解了之前“叫住”带来的紧张气氛，确认没有加班任务。",
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "情绪转折的关键点。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_007_01",
+      "unit_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "比喻从紧张、担忧的状态中解脱出来。这里指确认不用加班后的心理放松。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "习语，生动描写心理变化。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_008_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "描述地铁入口人非常多，不仅指物理空间满，也暗示了通勤的困难和等待时间可能很长。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "环境描写，作为改变交通方式的理由。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_008_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在经过观察和权衡（看到拥挤）后做出的选择。表明主角为了舒适或效率，愿意改变原计划（坐地铁）。",
+      "confidence": 0.89,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "体现主观能动性。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_009_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指过程没有受到阻碍，尽管有红灯等小插曲，但整体交通状况良好，符合主角想快点回家的愿望。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "强调结果符合预期。"
+    }
+  ]
+}

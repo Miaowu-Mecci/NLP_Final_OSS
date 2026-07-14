@@ -1,0 +1,54 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "句标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。"
+  },
+  "units": [
+    {
+      "id": "s1",
+      "token": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。"
+    },
+    {
+      "id": "s2",
+      "token": "回到家后，我感到非常困，但还是打开了电视。"
+    },
+    {
+      "id": "s3",
+      "token": "我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。"
+    },
+    {
+      "id": "s4",
+      "token": "最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。"
+    }
+  ],
+  "annotations": [
+    {
+      "unit_id": "s1",
+      "discourse_relation": "篇章起点 (Initiation) —— 交代时间、场景以及回家途中的互动小插曲，作为叙事引入。",
+      "free_translation": "At 1:00 AM, I saw a dog on my way home; I waved at it, and it wagged its tail in response."
+    },
+    {
+      "unit_id": "s2",
+      "discourse_relation": "顺承与转折关系 (Sequential & Concession) —— 空间推移（回到家），并对比了生理状态（困倦）与实际行动（看电视）之间的矛盾。",
+      "free_translation": "After getting home, I felt very sleepy, but I turned on the TV anyway."
+    },
+    {
+      "unit_id": "s3",
+      "discourse_relation": "并列与递进关系 (Parallel & Progression) —— 通过排比句式列举不同频道的画面，将情绪反应（笑）从寻常逐渐推向荒诞和反常。",
+      "free_translation": "I switched through several channels: watched an abc program and smiled; watched footage of a tank and smiled too; watched CCTV news, saw a panda, and smiled; watched BBC news, saw a rainbow, and smiled; watched NBC news, saw cows and police, and smiled; watched CNN news, saw disasters and skulls, and surprisingly smiled at that too."
+    },
+    {
+      "unit_id": "s4",
+      "discourse_relation": "顺承与终结 (Sequential & Conclusion) —— 情绪从荒谬的“笑”转为现实的“无聊”，最终引发关机睡觉的动作，完成叙事闭环。",
+      "free_translation": "Finally, I saw two people arguing on TV, felt a bit bored, so I turned off the TV and got ready for bed."
+    }
+  ]
+}

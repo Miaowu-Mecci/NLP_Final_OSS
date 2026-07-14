@@ -1,0 +1,1886 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-10T16:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "20240123",
+    "student_name": "张三",
+    "assigned_section": "第3组文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "凌晨到清晨的一天",
+    "source": "教师提供",
+    "raw_text": "1:00 day 2\n\n凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，\n\n我感到非常困，但还是打开了电视。我换了好几个频道，看了abc的节目，笑了；看了坦克\n\n的画面，也笑了；看了CCTV的新闻，看到熊猫，笑了；看了BBC的新闻，看到彩虹，笑\n\n了；看了NBC的新闻，看到牛和警察，笑了；看了CNN的新闻，看到灾难和骷髅头，竟然\n\n也笑了。\n\n最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。\n\n2:00day2\n\n凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，\n\n我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。\n\n3:00day2\n\n4:00day2\n\n凌晨四点，我终于进入了深度睡眠，睡得很香。\n\n5:00day2\n\n6:00day2\n\n凌晨六点，我从睡梦中醒来，再也睡不着，干脆坐起身，拿起手机解锁，打开了游戏。\n\n我先是玩起了《俄罗斯方块》，手指在屏幕上按动方向键，控制方块下落、消除，玩了很\n\n久。接着我又打开了《超级马里奥》，操控着他一路闯关，跳过水管、踩过蘑菇、收集金\n\n币，打败了食人花和乌龟怪，一路通关，直到打穿了所有关卡。\n\n之后我又玩起了超级英雄游戏，看着绿巨人、超人、蜘蛛侠轮番登场，和敌人战斗、升级，\n\n分数一路上涨，最后绿巨人拿到了满分100分。\n\n玩着玩看，手机突然震动起来，闹钟声也响个不停。我猛地回过神，看向手机，原来是领导\n\n发来的消息，催我赶紧去上班。我拿起公文包，走出家门，朝着公司的方向快步走去，开启\n\n了新的一天。",
+    "notes": "自然语言文本，包含时间标记、多频道观看、梦境和游戏等场景"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。",
+      "sentence_index": 1,
+      "char_start": 9,
+      "char_end": 40,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008", "word_009", "word_010", "word_011", "word_012"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "回到家后，我感到非常困，但还是打开了电视。",
+      "sentence_index": 2,
+      "char_start": 44,
+      "char_end": 65,
+      "children": ["word_013", "word_014", "word_015", "word_016", "word_017", "word_018"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我换了好几个频道，看了abc的节目，笑了；看了坦克的画面，也笑了；看了CCTV的新闻，看到熊猫，笑了；看了BBC的新闻，看到彩虹，笑了；看了NBC的新闻，看到牛和警察，笑了；看了CNN的新闻，看到灾难和骷髅头，竟然也笑了。",
+      "sentence_index": 3,
+      "char_start": 68,
+      "char_end": 169,
+      "children": ["word_019", "word_020", "word_021", "word_022", "word_023", "word_024", "word_025", "word_026", "word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040", "word_041", "word_042", "word_043", "word_044", "word_045", "word_046", "word_047", "word_048", "word_049", "word_050", "word_051"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+      "sentence_index": 4,
+      "char_start": 172,
+      "char_end": 208,
+      "children": ["word_052", "word_053", "word_054", "word_055", "word_056", "word_057", "word_058", "word_059", "word_060", "word_061", "word_062", "word_063", "word_064", "word_065"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 5,
+      "char_start": 215,
+      "char_end": 237,
+      "children": ["word_066", "word_067", "word_068", "word_069", "word_070", "word_071", "word_072"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 6,
+      "char_start": 240,
+      "char_end": 258,
+      "children": ["word_073", "word_074", "word_075", "word_076", "word_077", "word_078"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 7,
+      "char_start": 261,
+      "char_end": 299,
+      "children": ["word_079", "word_080", "word_081", "word_082", "word_083", "word_084", "word_085", "word_086", "word_087", "word_088", "word_089", "word_090", "word_091"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 8,
+      "char_start": 313,
+      "char_end": 337,
+      "children": ["word_092", "word_093", "word_094", "word_095", "word_096", "word_097"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "凌晨六点，我从睡梦中醒来，再也睡不着，干脆坐起身，拿起手机解锁，打开了游戏。",
+      "sentence_index": 9,
+      "char_start": 354,
+      "char_end": 395,
+      "children": ["word_098", "word_099", "word_100", "word_101", "word_102", "word_103", "word_104", "word_105", "word_106", "word_107", "word_108", "word_109", "word_110"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我先是玩起了《俄罗斯方块》，手指在屏幕上按动方向键，控制方块下落、消除，玩了很久。",
+      "sentence_index": 10,
+      "char_start": 398,
+      "char_end": 439,
+      "children": ["word_111", "word_112", "word_113", "word_114", "word_115", "word_116", "word_117", "word_118", "word_119", "word_120", "word_121", "word_122", "word_123", "word_124", "word_125"]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "接着我又打开了《超级马里奥》，操控着他一路闯关，跳过水管、踩过蘑菇、收集金币，打败了食人花和乌龟怪，一路通关，直到打穿了所有关卡。",
+      "sentence_index": 11,
+      "char_start": 442,
+      "char_end": 506,
+      "children": ["word_126", "word_127", "word_128", "word_129", "word_130", "word_131", "word_132", "word_133", "word_134", "word_135", "word_136", "word_137", "word_138", "word_139", "word_140", "word_141", "word_142", "word_143", "word_144", "word_145", "word_146", "word_147", "word_148"]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "之后我又玩起了超级英雄游戏，看着绿巨人、超人、蜘蛛侠轮番登场，和敌人战斗、升级，分数一路上涨，最后绿巨人拿到了满分100分。",
+      "sentence_index": 12,
+      "char_start": 509,
+      "char_end": 572,
+      "children": ["word_149", "word_150", "word_151", "word_152", "word_153", "word_154", "word_155", "word_156", "word_157", "word_158", "word_159", "word_160", "word_161", "word_162", "word_163", "word_164", "word_165", "word_166", "word_167", "word_168", "word_169", "word_170", "word_171"]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "玩着玩看，手机突然震动起来，闹钟声也响个不停。",
+      "sentence_index": 13,
+      "char_start": 575,
+      "char_end": 599,
+      "children": ["word_172", "word_173", "word_174", "word_175", "word_176", "word_177", "word_178", "word_179"]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我猛地回过神，看向手机，原来是领导发来的消息，催我赶紧去上班。",
+      "sentence_index": 14,
+      "char_start": 602,
+      "char_end": 636,
+      "children": ["word_180", "word_181", "word_182", "word_183", "word_184", "word_185", "word_186", "word_187", "word_188", "word_189", "word_190", "word_191", "word_192", "word_193", "word_194"]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我拿起公文包，走出家门，朝着公司的方向快步走去，开启了新的一天。",
+      "sentence_index": 15,
+      "char_start": 639,
+      "char_end": 669,
+      "children": ["word_195", "word_196", "word_197", "word_198", "word_199", "word_200", "word_201", "word_202", "word_203", "word_204", "word_205"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨一点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 9,
+      "char_end": 12
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 13,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "在回家的路上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 14,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "看到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 20,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "一只",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 23,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "狗",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 25,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 26,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "向它挥手",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 27,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "它",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 31,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "也摇着尾巴",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 32,
+      "char_end": 36
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "回应",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 37,
+      "char_end": 38
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 39,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "回到家后",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 44,
+      "char_end": 48
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 49,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "感到非常困",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 50,
+      "char_end": 54
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "但还是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 55,
+      "char_end": 57
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "打开了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 58,
+      "char_end": 60
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 61,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 68,
+      "char_end": 68
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "换了好几个频道",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 69,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 76,
+      "char_end": 77
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "abc的节目",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 78,
+      "char_end": 83
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 84,
+      "char_end": 85
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 86,
+      "char_end": 87
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "坦克的画面",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 88,
+      "char_end": 92
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "也笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 93,
+      "char_end": 95
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 96,
+      "char_end": 97
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "CCTV的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 98,
+      "char_end": 103
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 104,
+      "char_end": 105
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "熊猫",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 106,
+      "char_end": 107
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 108,
+      "char_end": 109
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 110,
+      "char_end": 111
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "BBC的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 112,
+      "char_end": 117
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 16,
+      "char_start": 118,
+      "char_end": 119
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "彩虹",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17,
+      "char_start": 120,
+      "char_end": 121
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18,
+      "char_start": 122,
+      "char_end": 123
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 19,
+      "char_start": 124,
+      "char_end": 125
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "NBC的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 20,
+      "char_start": 126,
+      "char_end": 131
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 21,
+      "char_start": 132,
+      "char_end": 133
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "牛和警察",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 22,
+      "char_start": 134,
+      "char_end": 138
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 23,
+      "char_start": 139,
+      "char_end": 140
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 24,
+      "char_start": 141,
+      "char_end": 142
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "CNN的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 25,
+      "char_start": 143,
+      "char_end": 148
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 26,
+      "char_start": 149,
+      "char_end": 150
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "灾难和骷髅头",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 27,
+      "char_start": 151,
+      "char_end": 156
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "竟然也笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 28,
+      "char_start": 157,
+      "char_end": 161
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 172,
+      "char_end": 173
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 174,
+      "char_end": 174
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 175,
+      "char_end": 176
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "电视里两个人在吵架",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 177,
+      "char_end": 185
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "感到有些无聊",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 186,
+      "char_end": 191
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "于是关掉了电视",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 192,
+      "char_end": 198
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "准备睡觉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 199,
+      "char_end": 202
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 215,
+      "char_end": 218
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 219,
+      "char_end": 219
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "躺在床上",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 220,
+      "char_end": 223
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "很快就",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 224,
+      "char_end": 226
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "进入了",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 227,
+      "char_end": 229
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 230,
+      "char_end": 231
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "在梦里",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 240,
+      "char_end": 243
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 244,
+      "char_end": 244
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 245,
+      "char_end": 246
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "两个人在激烈地争吵",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 247,
+      "char_end": 255
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 261,
+      "char_end": 262
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 263,
+      "char_end": 263
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "梦见了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 264,
+      "char_end": 266
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "2012年世界末日的场景",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 267,
+      "char_end": 277
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "巨大的海浪",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5,
+      "char_start": 278,
+      "char_end": 282
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "淹没了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6,
+      "char_start": 283,
+      "char_end": 285
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "地球",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7,
+      "char_start": 286,
+      "char_end": 287
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "人们纷纷",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8,
+      "char_start": 288,
+      "char_end": 291
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "逃到山上",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9,
+      "char_start": 292,
+      "char_end": 295
+    },
+    {
+      "unit_id": "word_073",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 10,
+      "char_start": 296,
+      "char_end": 297
+    },
+    {
+      "unit_id": "word_074",
+      "unit_type": "word",
+      "text": "凌晨四点",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 313,
+      "char_end": 316
+    },
+    {
+      "unit_id": "word_075",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 317,
+      "char_end": 317
+    },
+    {
+      "unit_id": "word_076",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 318,
+      "char_end": 319
+    },
+    {
+      "unit_id": "word_077",
+      "unit_type": "word",
+      "text": "进入了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 320,
+      "char_end": 322
+    },
+    {
+      "unit_id": "word_078",
+      "unit_type": "word",
+      "text": "深度睡眠",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5,
+      "char_start": 323,
+      "char_end": 326
+    },
+    {
+      "unit_id": "word_079",
+      "unit_type": "word",
+      "text": "睡得很香",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6,
+      "char_start": 327,
+      "char_end": 330
+    },
+    {
+      "unit_id": "word_080",
+      "unit_type": "word",
+      "text": "凌晨六点",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 354,
+      "char_end": 357
+    },
+    {
+      "unit_id": "word_081",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 358,
+      "char_end": 358
+    },
+    {
+      "unit_id": "word_082",
+      "unit_type": "word",
+      "text": "从睡梦中醒来",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3,
+      "char_start": 359,
+      "char_end": 364
+    },
+    {
+      "unit_id": "word_083",
+      "unit_type": "word",
+      "text": "再也睡不着",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 4,
+      "char_start": 365,
+      "char_end": 369
+    },
+    {
+      "unit_id": "word_084",
+      "unit_type": "word",
+      "text": "干脆",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5,
+      "char_start": 370,
+      "char_end": 371
+    },
+    {
+      "unit_id": "word_085",
+      "unit_type": "word",
+      "text": "坐起身",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6,
+      "char_start": 372,
+      "char_end": 374
+    },
+    {
+      "unit_id": "word_086",
+      "unit_type": "word",
+      "text": "拿起",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 7,
+      "char_start": 375,
+      "char_end": 376
+    },
+    {
+      "unit_id": "word_087",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 8,
+      "char_start": 377,
+      "char_end": 378
+    },
+    {
+      "unit_id": "word_088",
+      "unit_type": "word",
+      "text": "解锁",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 9,
+      "char_start": 379,
+      "char_end": 380
+    },
+    {
+      "unit_id": "word_089",
+      "unit_type": "word",
+      "text": "打开了",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 10,
+      "char_start": 381,
+      "char_end": 383
+    },
+    {
+      "unit_id": "word_090",
+      "unit_type": "word",
+      "text": "游戏",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 11,
+      "char_start": 384,
+      "char_end": 385
+    },
+    {
+      "unit_id": "word_091",
+      "unit_type": "word",
+      "text": "我先是",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 398,
+      "char_end": 400
+    },
+    {
+      "unit_id": "word_092",
+      "unit_type": "word",
+      "text": "玩起了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2,
+      "char_start": 401,
+      "char_end": 403
+    },
+    {
+      "unit_id": "word_093",
+      "unit_type": "word",
+      "text": "《俄罗斯方块》",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3,
+      "char_start": 404,
+      "char_end": 410
+    },
+    {
+      "unit_id": "word_094",
+      "unit_type": "word",
+      "text": "手指",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4,
+      "char_start": 411,
+      "char_end": 412
+    },
+    {
+      "unit_id": "word_095",
+      "unit_type": "word",
+      "text": "在屏幕上",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 5,
+      "char_start": 413,
+      "char_end": 416
+    },
+    {
+      "unit_id": "word_096",
+      "unit_type": "word",
+      "text": "按动方向键",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 6,
+      "char_start": 417,
+      "char_end": 421
+    },
+    {
+      "unit_id": "word_097",
+      "unit_type": "word",
+      "text": "控制",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 7,
+      "char_start": 422,
+      "char_end": 423
+    },
+    {
+      "unit_id": "word_098",
+      "unit_type": "word",
+      "text": "方块下落",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 8,
+      "char_start": 424,
+      "char_end": 427
+    },
+    {
+      "unit_id": "word_099",
+      "unit_type": "word",
+      "text": "消除",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 9,
+      "char_start": 428,
+      "char_end": 429
+    },
+    {
+      "unit_id": "word_100",
+      "unit_type": "word",
+      "text": "玩了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 10,
+      "char_start": 430,
+      "char_end": 431
+    },
+    {
+      "unit_id": "word_101",
+      "unit_type": "word",
+      "text": "很久",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 11,
+      "char_start": 432,
+      "char_end": 433
+    },
+    {
+      "unit_id": "word_102",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 442,
+      "char_end": 443
+    },
+    {
+      "unit_id": "word_103",
+      "unit_type": "word",
+      "text": "我又",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 444,
+      "char_end": 445
+    },
+    {
+      "unit_id": "word_104",
+      "unit_type": "word",
+      "text": "打开了",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 3,
+      "char_start": 446,
+      "char_end": 448
+    },
+    {
+      "unit_id": "word_105",
+      "unit_type": "word",
+      "text": "《超级马里奥》",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 4,
+      "char_start": 449,
+      "char_end": 455
+    },
+    {
+      "unit_id": "word_106",
+      "unit_type": "word",
+      "text": "操控着",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 5,
+      "char_start": 456,
+      "char_end": 458
+    },
+    {
+      "unit_id": "word_107",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 6,
+      "char_start": 459,
+      "char_end": 459
+    },
+    {
+      "unit_id": "word_108",
+      "unit_type": "word",
+      "text": "一路闯关",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 7,
+      "char_start": 460,
+      "char_end": 463
+    },
+    {
+      "unit_id": "word_109",
+      "unit_type": "word",
+      "text": "跳过水管",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 8,
+      "char_start": 464,
+      "char_end": 467
+    },
+    {
+      "unit_id": "word_110",
+      "unit_type": "word",
+      "text": "踩过蘑菇",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 9,
+      "char_start": 468,
+      "char_end": 471
+    },
+    {
+      "unit_id": "word_111",
+      "unit_type": "word",
+      "text": "收集金币",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 10,
+      "char_start": 472,
+      "char_end": 475
+    },
+    {
+      "unit_id": "word_112",
+      "unit_type": "word",
+      "text": "打败了",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 11,
+      "char_start": 476,
+      "char_end": 478
+    },
+    {
+      "unit_id": "word_113",
+      "unit_type": "word",
+      "text": "食人花和乌龟怪",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 12,
+      "char_start": 479,
+      "char_end": 485
+    },
+    {
+      "unit_id": "word_114",
+      "unit_type": "word",
+      "text": "一路通关",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 13,
+      "char_start": 486,
+      "char_end": 489
+    },
+    {
+      "unit_id": "word_115",
+      "unit_type": "word",
+      "text": "直到",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 14,
+      "char_start": 490,
+      "char_end": 491
+    },
+    {
+      "unit_id": "word_116",
+      "unit_type": "word",
+      "text": "打穿了",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 15,
+      "char_start": 492,
+      "char_end": 494
+    },
+    {
+      "unit_id": "word_117",
+      "unit_type": "word",
+      "text": "所有关卡",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 16,
+      "char_start": 495,
+      "char_end": 498
+    },
+    {
+      "unit_id": "word_118",
+      "unit_type": "word",
+      "text": "之后",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1,
+      "char_start": 509,
+      "char_end": 510
+    },
+    {
+      "unit_id": "word_119",
+      "unit_type": "word",
+      "text": "我又",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2,
+      "char_start": 511,
+      "char_end": 512
+    },
+    {
+      "unit_id": "word_120",
+      "unit_type": "word",
+      "text": "玩起了",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 3,
+      "char_start": 513,
+      "char_end": 515
+    },
+    {
+      "unit_id": "word_121",
+      "unit_type": "word",
+      "text": "超级英雄游戏",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 4,
+      "char_start": 516,
+      "char_end": 521
+    },
+    {
+      "unit_id": "word_122",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 5,
+      "char_start": 522,
+      "char_end": 523
+    },
+    {
+      "unit_id": "word_123",
+      "unit_type": "word",
+      "text": "绿巨人",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 6,
+      "char_start": 524,
+      "char_end": 526
+    },
+    {
+      "unit_id": "word_124",
+      "unit_type": "word",
+      "text": "超人",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 7,
+      "char_start": 527,
+      "char_end": 528
+    },
+    {
+      "unit_id": "word_125",
+      "unit_type": "word",
+      "text": "蜘蛛侠",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 8,
+      "char_start": 529,
+      "char_end": 531
+    },
+    {
+      "unit_id": "word_126",
+      "unit_type": "word",
+      "text": "轮番登场",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 9,
+      "char_start": 532,
+      "char_end": 535
+    },
+    {
+      "unit_id": "word_127",
+      "unit_type": "word",
+      "text": "和敌人战斗",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 10,
+      "char_start": 536,
+      "char_end": 540
+    },
+    {
+      "unit_id": "word_128",
+      "unit_type": "word",
+      "text": "升级",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 11,
+      "char_start": 541,
+      "char_end": 542
+    },
+    {
+      "unit_id": "word_129",
+      "unit_type": "word",
+      "text": "分数一路上涨",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 12,
+      "char_start": 543,
+      "char_end": 548
+    },
+    {
+      "unit_id": "word_130",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 13,
+      "char_start": 549,
+      "char_end": 550
+    },
+    {
+      "unit_id": "word_131",
+      "unit_type": "word",
+      "text": "绿巨人",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 14,
+      "char_start": 551,
+      "char_end": 553
+    },
+    {
+      "unit_id": "word_132",
+      "unit_type": "word",
+      "text": "拿到了",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 15,
+      "char_start": 554,
+      "char_end": 556
+    },
+    {
+      "unit_id": "word_133",
+      "unit_type": "word",
+      "text": "满分100分",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 16,
+      "char_start": 557,
+      "char_end": 562
+    },
+    {
+      "unit_id": "word_134",
+      "unit_type": "word",
+      "text": "玩着玩看",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 1,
+      "char_start": 575,
+      "char_end": 578
+    },
+    {
+      "unit_id": "word_135",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 2,
+      "char_start": 579,
+      "char_end": 580
+    },
+    {
+      "unit_id": "word_136",
+      "unit_type": "word",
+      "text": "突然",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 3,
+      "char_start": 581,
+      "char_end": 582
+    },
+    {
+      "unit_id": "word_137",
+      "unit_type": "word",
+      "text": "震动起来",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 4,
+      "char_start": 583,
+      "char_end": 586
+    },
+    {
+      "unit_id": "word_138",
+      "unit_type": "word",
+      "text": "闹钟声",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 5,
+      "char_start": 587,
+      "char_end": 589
+    },
+    {
+      "unit_id": "word_139",
+      "unit_type": "word",
+      "text": "也响个不停",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 6,
+      "char_start": 590,
+      "char_end": 594
+    },
+    {
+      "unit_id": "word_140",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 1,
+      "char_start": 602,
+      "char_end": 602
+    },
+    {
+      "unit_id": "word_141",
+      "unit_type": "word",
+      "text": "猛地回过神",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 2,
+      "char_start": 603,
+      "char_end": 607
+    },
+    {
+      "unit_id": "word_142",
+      "unit_type": "word",
+      "text": "看向",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 3,
+      "char_start": 608,
+      "char_end": 609
+    },
+    {
+      "unit_id": "word_143",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 4,
+      "char_start": 610,
+      "char_end": 611
+    },
+    {
+      "unit_id": "word_144",
+      "unit_type": "word",
+      "text": "原来是",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 5,
+      "char_start": 612,
+      "char_end": 614
+    },
+    {
+      "unit_id": "word_145",
+      "unit_type": "word",
+      "text": "领导发来的消息",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 6,
+      "char_start": 615,
+      "char_end": 621
+    },
+    {
+      "unit_id": "word_146",
+      "unit_type": "word",
+      "text": "催我",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 7,
+      "char_start": 622,
+      "char_end": 623
+    },
+    {
+      "unit_id": "word_147",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 8,
+      "char_start": 624,
+      "char_end": 625
+    },
+    {
+      "unit_id": "word_148",
+      "unit_type": "word",
+      "text": "去上班",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 9,
+      "char_start": 626,
+      "char_end": 628
+    },
+    {
+      "unit_id": "word_149",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 1,
+      "char_start": 639,
+      "char_end": 639
+    },
+    {
+      "unit_id": "word_150",
+      "unit_type": "word",
+      "text": "拿起",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 2,
+      "char_start": 640,
+      "char_end": 641
+    },
+    {
+      "unit_id": "word_151",
+      "unit_type": "word",
+      "text": "公文包",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 3,
+      "char_start": 642,
+      "char_end": 644
+    },
+    {
+      "unit_id": "word_152",
+      "unit_type": "word",
+      "text": "走出家门",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 4,
+      "char_start": 645,
+      "char_end": 648
+    },
+    {
+      "unit_id": "word_153",
+      "unit_type": "word",
+      "text": "朝着公司的方向",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 5,
+      "char_start": 649,
+      "char_end": 655
+    },
+    {
+      "unit_id": "word_154",
+      "unit_type": "word",
+      "text": "快步走去",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 6,
+      "char_start": 656,
+      "char_end": 659
+    },
+    {
+      "unit_id": "word_155",
+      "unit_type": "word",
+      "text": "开启了",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 7,
+      "char_start": 660,
+      "char_end": 662
+    },
+    {
+      "unit_id": "word_156",
+      "unit_type": "word",
+      "text": "新的一天",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 8,
+      "char_start": 663,
+      "char_end": 666
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["time", "early_morning"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示具体时间点"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["first_person", "human"],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["motion", "direction", "home"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "回家的路径或方向"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["perception", "visual", "past"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "看见某物的过去行为"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["quantity", "one", "animal"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示单只动物"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["animal", "canine", "domestic"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "狗的基本语义"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["first_person", "human"],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["gesture", "hand", "greeting"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "用手打招呼的动作"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["third_person", "animal", "referent"],
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "指代前文的狗"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["motion", "tail", "animal_behavior"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "狗摇尾巴的动作"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["response", "communication"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对动作的回应"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["first_person", "human"],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["motion", "direction", "home", "return"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "回到家中的动作"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["first_person", "human"],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["emotion", "tired", "intense"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "非常疲劳的状态"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["concessive", "contrast"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "转折连词"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action", "open", "past"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "打开某物的动作"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["device", "electronics", "media"],
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "电视的基本语义"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["first_person", "human"],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action", "change", "channel", "multiple"],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "切换多个电视频道"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["perception", "visual", "watch", "past"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "观看到的动作"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["media", "tv_program", "abc"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "ABC频道的节目"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["emotion", "laughter", "happiness", "past"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "笑的行为表达"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["perception", "visual", "watch", "past"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "观看到的动作"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value

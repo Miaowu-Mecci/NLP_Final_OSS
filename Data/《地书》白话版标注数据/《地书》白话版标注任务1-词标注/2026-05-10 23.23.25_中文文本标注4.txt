@@ -1,0 +1,19 @@
+{
+  "filename": "1191230301_汪湘_中文文本标注.json",
+  "encoding": "UTF-8",
+  "project": "《地书》图形语言 vs 自然语言：计算语言学与自然语言处理多层标注配置",
+  "studentId": "1191230301",
+  "studentName": "汪湘",
+  "annotation_task": "[Multi] 类形态特征 / Morphological-like Features",
+  "sentence_annotations": [
+    {
+      "sentence_id": 1,
+      "original_sentence": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "morphological_features": [
+        "过去 / Past",
+        "完成体 / Perfect",
+        "强调 / Emphasis"
+      ]
+    }
+  ]
+}

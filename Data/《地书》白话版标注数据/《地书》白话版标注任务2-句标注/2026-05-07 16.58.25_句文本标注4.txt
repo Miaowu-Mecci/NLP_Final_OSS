@@ -1,0 +1,145 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T14:43:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["豆包大模型"]
+  },
+  "student": {
+    "student_id": "1191230119",
+    "student_name": "程忠凯",
+    "assigned_section": "次日05:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_007",
+    "title": "《地书》白话版次日05:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。",
+    "notes": "句标注任务：自由翻译，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨五点，我开始做梦。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 14,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。",
+      "sentence_index": 2,
+      "char_start": 15,
+      "char_end": 41,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我在房子里转来转去，感觉一直在循环往复。",
+      "sentence_index": 3,
+      "char_start": 42,
+      "char_end": 60,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。",
+      "sentence_index": 4,
+      "char_start": 61,
+      "char_end": 82,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。",
+      "sentence_index": 10,
+      "char_start": 182,
+      "char_end": 210,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我看着电视，感到有些迷茫。",
+      "sentence_index": 12,
+      "char_start": 219,
+      "char_end": 232,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨五点时分，我进入了睡眠并开始做起了梦。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "精简语句，保留时间与行为"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "梦境之中，我长途行走，途中见到闪电，随后走进了一幢房屋里。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "润色叙事，场景更连贯"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在屋子里面来回走动，始终走不出循环的路径。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "诠释循环往复的梦境感受"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "之后我搭乘飞机飞向高空，看见了空中的云彩与漂浮的热气球。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "通俗转述梦境飞行场景"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "梦里目睹两个人激烈争执，突如其来的画面让我猛地惊醒，满心诧异。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "融合情节与情绪，表达更自然"

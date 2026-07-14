@@ -1,0 +1,142 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "1191230216",
+    "student_name": "潘序",
+    "assigned_section": "次日4点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_004",
+    "title": "《地书》次日4点",
+    "source": "教师提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 0,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008", "word_009", "word_010", "word_011", "word_012", "word_013", "word_014", "word_015", "word_016", "word_017", "word_018"]
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "word_001",
+      "target_text": "凌晨",
+      "value": "天快亮之前的时段，大约午夜12点到天亮前",
+      "confidence": 0.98,
+      "annotator_note": "时间词"
+    },
+    {
+      "target_id": "word_002",
+      "target_text": "四点",
+      "value": "凌晨4点钟，具体时间点",
+      "confidence": 0.98,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_003",
+      "target_text": "，",
+      "value": "逗号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_004",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者自己",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_005",
+      "target_text": "终于",
+      "value": "经过等待或努力后最终达到，表示来之不易",
+      "confidence": 0.95,
+      "annotator_note": "语气副词"
+    },
+    {
+      "target_id": "word_006",
+      "target_text": "进入",
+      "value": "到达、开始处于某种状态",
+      "confidence": 0.95,
+      "annotator_note": "状态变化"
+    },
+    {
+      "target_id": "word_007",
+      "target_text": "了",
+      "value": "助词，表示动作完成",
+      "confidence": 0.95,
+      "annotator_note": "时态助词"
+    },
+    {
+      "target_id": "word_008",
+      "target_text": "深度",
+      "value": "程度很深的、高级阶段",
+      "confidence": 0.98,
+      "annotator_note": "程度修饰"
+    },
+    {
+      "target_id": "word_009",
+      "target_text": "睡眠",
+      "value": "睡觉的状态，人休息的生理状态",
+      "confidence": 0.98,
+      "annotator_note": "生理状态"
+    },
+    {
+      "target_id": "word_010",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_011",
+      "target_text": "睡",
+      "value": "睡觉、进入睡眠状态",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_012",
+      "target_text": "得",
+      "value": "助词，连接动词和补语",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_013",
+      "target_text": "很",
+      "value": "非常、程度高",
+      "confidence": 0.95,
+      "annotator_note": "程度副词"
+    },
+    {
+      "target_id": "word_014",
+      "target_text": "香",
+      "value": "形容睡得踏实、舒服、不被打扰",
+      "confidence": 0.98,
+      "annotator_note": "睡眠质量描述"
+    },
+    {
+      "target_id": "word_015",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    }
+  ]
+}

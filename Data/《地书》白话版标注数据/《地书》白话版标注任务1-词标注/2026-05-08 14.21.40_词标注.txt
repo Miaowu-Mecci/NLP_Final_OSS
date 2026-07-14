@@ -1,0 +1,1934 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T12:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Composer (GPT-5.2 / Cursor Agent)"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "13点；次日2点；次日3点（页码：23R–25R；51R；52R–53R）",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "dishu_torii_1193230120_words",
+    "title": "徐冰《地书》扫描节选（词标注·语境实际含义）",
+    "source": "课程分配扫描PNG（23R–25R；51R；52R–53R），详见文件名 torii扫描_*_converted.png",
+    "raw_text": "【行走】【节律符号】【思索泡：婚礼】【礼盒→男士】【（蛋糕×30）】\n【&】【男士礼盒→伴侣】【（婚纱）】。【礼盒礼盒=？】\n【香奈儿门店】【←思索：$$$$$】【白眼】【香奈儿】【❌】\n【行走】…【视野→书店】【😊思索：（👍📖=🎁）】\n【→书店】【书架↔人↔书架】【注视书本（🥀→】\n【🥀】【💔】）【恶心】【注视书架（侦探】【手枪火光】\n【✈️】【舞动/停歇】【😊】【人读书（圈中降落✈️）】\n【思索：（伴侣→婚礼→✈️👍）】【📱→伴侣图】\n【男：“婚礼→旅行？”】【女：察觉男思索→自由女神】\n【女思索→埃菲尔塔…】\n【☎️】【人翻阅：（✈️：悉尼歌剧院、富士山】\n【泰姬陵、枫叶国、金字塔…）】【美国地图✅】\n【美国（白宫、米奇、玛丽莲、球场、自由女神、双子塔）】\n【思索：（💥双子塔！）】\n【书本（✈️→自由女神：列车✈️住宿ℹ️🔍）】\n【底部品牌标识】【纽约地铁线路圆圈串】\n【连锁酒店徽标…】【★★★★★床露台酒吧衣架】【★★★★】【★★★…】\n【MoMA】【地图】【展品】【面具】【狮子】【……】【香奈儿CK苹果LV…】\n【思索👍书）、😊、坐下读书、走向问询台、Stop!】\n【眩晕】【思索女性剪影】【折返】【读书—（铁塔凯旋门】\n【圣母】【调色板】【蒙娜丽莎】【地图…）】【→问询台】\n【刷卡→店员】【顾客：“书+书→礼盒。”】\n【😊-店员：“👌”】【刷卡】【两书弓形箭头礼盒】\n【礼盒→购物袋】【店员递交】【思索伴侣笑脸】\n【👁→手机导航】【Stop!（!?）】【思索看手机】\n【家乐福→行走…路径思索泡…】\n【（人生日蛋糕）思索→家乐福】【环顾箭头…】\n【相机=$$$…❌】\n【平板手机=$$$…❌】\n【滑板=$$$$…❌】\n【玩具车=$$…✅】）【大笑】\n【耳闻车】【♥】【刷卡柜台】【柜→车→人】。【家乐福→行走】【看时钟】【→高楼H】\n【柜台发卡✓】【沿指示牌】【人潮行李车】\n【按电梯】【电梯内塞满UPS/DHL/FedEx/TNT与惊吓表情】\n【再按电梯】【1F↑…89F↑】【Stop】【出梯】\n【楼道转折】【手机/卡感应】【开门】\n【→办公桌】【坐下】\n【时钟1:00】【卧床zzz—闭眼…】\n【老式电视—（2012—海啸—方舟→山地钉…）】\n【时钟2:00】【蚊声入耳】【闭眼→睁眼】【蒸汽烦躁脸】\n【合掌扑蚊】【虚线逃逸】【喷雾】【虚线逃逸】\n【皱眉】【下床→衣架】【（脱鞋袜衣裤+睡衣）】…\n【遥控→电视睡眠脸】【关灯】【上床】【睁眼→闭眼。】\n【声波】【耳…】【开灯睁眼环顾？】【灯下再嗡鸣】\n【仰视灯周乱飞蚊】【床上焦急出汗】\n【抓狂起坐喷雾】【踱步掉头】【骷髅温度计倒地】\n【快进换屋】【苍蝇拍体温刀】【持刀乱挥】【蚊遁走 sweat ?】\n【汗脸伏案】【（凳+椅）摞高↑】【多层台↑】\n【走向床线】【下床扑击】【站床再扑】【重复扑击……】\n【开吊灯】【螺旋轨迹+合掌】【墨渍虫尸】",
+    "notes": "图形文本以扫描页为准；符号序列用中文夹注转写。语境含义与自由翻译由多模态读图（Cursor内嵌）辅助生成。 本文件仅收录 task_id=pragmatic_meaning 的标注；句级自由翻译见同名句标注文件。"
+  },
+  "units": [
+    {
+      "unit_id": "word_001_01",
+      "unit_type": "word",
+      "text": "节律符号",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 5,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_001_02",
+      "unit_type": "word",
+      "text": "（蛋糕×30）",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 26,
+      "char_end": 33
+    },
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "【行走】【节律符号】【思索泡：婚礼】【礼盒→男士】【（蛋糕×30）】",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 34,
+      "children": [
+        "word_001_01",
+        "word_001_02"
+      ]
+    },
+    {
+      "unit_id": "word_002_01",
+      "unit_type": "word",
+      "text": "&",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 36,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_002_02",
+      "unit_type": "word",
+      "text": "礼盒礼盒=？",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 55,
+      "char_end": 61
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "【&】【男士礼盒→伴侣】【（婚纱）】。【礼盒礼盒=？】",
+      "sentence_index": 2,
+      "char_start": 35,
+      "char_end": 62,
+      "children": [
+        "word_002_01",
+        "word_002_02"
+      ]
+    },
+    {
+      "unit_id": "word_003_01",
+      "unit_type": "word",
+      "text": "$$$$$",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 75,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_003_02",
+      "unit_type": "word",
+      "text": "❌",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 91,
+      "char_end": 92
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "【香奈儿门店】【←思索：$$$$$】【白眼】【香奈儿】【❌】",
+      "sentence_index": 3,
+      "char_start": 63,
+      "char_end": 93,
+      "children": [
+        "word_003_01",
+        "word_003_02"
+      ]
+    },
+    {
+      "unit_id": "word_004_01",
+      "unit_type": "word",
+      "text": "👍📖=🎁",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 113,
+      "char_end": 120
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "【行走】…【视野→书店】【😊思索：（👍📖=🎁）】",
+      "sentence_index": 4,
+      "char_start": 94,
+      "char_end": 122,
+      "children": [
+        "word_004_01"
+      ]
+    },
+    {
+      "unit_id": "word_005_01",
+      "unit_type": "word",
+      "text": "书架↔人↔书架",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 129,
+      "char_end": 136
+    },
+    {
+      "unit_id": "word_005_02",
+      "unit_type": "word",
+      "text": "🥀",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 143,
+      "char_end": 145
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "【→书店】【书架↔人↔书架】【注视书本（🥀→】",
+      "sentence_index": 5,
+      "char_start": 123,
+      "char_end": 147,
+      "children": [
+        "word_005_01",
+        "word_005_02"
+      ]
+    },
+    {
+      "unit_id": "word_006_01",
+      "unit_type": "word",
+      "text": "恶心",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 158,
+      "char_end": 160
+    },
+    {
+      "unit_id": "word_006_02",
+      "unit_type": "word",
+      "text": "（侦探】【手枪火光】",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 166,
+      "char_end": 176
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "【🥀】【💔】）【恶心】【注视书架（侦探】【手枪火光】",
+      "sentence_index": 6,
+      "char_start": 148,
+      "char_end": 176,
+      "children": [
+        "word_006_01",
+        "word_006_02"
+      ]
+    },
+    {
+      "unit_id": "word_007_01",
+      "unit_type": "word",
+      "text": "圈中降落✈️",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 197,
+      "char_end": 203
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "【✈️】【舞动/停歇】【😊】【人读书（圈中降落✈️）】",
+      "sentence_index": 7,
+      "char_start": 177,
+      "char_end": 205,
+      "children": [
+        "word_007_01"
+      ]
+    },
+    {
+      "unit_id": "word_008_01",
+      "unit_type": "word",
+      "text": "伴侣→婚礼→✈️",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 211,
+      "char_end": 219
+    },
+    {
+      "unit_id": "word_008_02",
+      "unit_type": "word",
+      "text": "📱→伴侣图",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 224,
+      "char_end": 230
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "【思索：（伴侣→婚礼→✈️👍）】【📱→伴侣图】",
+      "sentence_index": 8,
+      "char_start": 206,
+      "char_end": 231,
+      "children": [
+        "word_008_01",
+        "word_008_02"
+      ]
+    },
+    {
+      "unit_id": "word_009_01",
+      "unit_type": "word",
+      "text": "自由女神",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 253,
+      "char_end": 257
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "【男：“婚礼→旅行？”】【女：察觉男思索→自由女神】",
+      "sentence_index": 9,
+      "char_start": 232,
+      "char_end": 258,
+      "children": [
+        "word_009_01"
+      ]
+    },
+    {
+      "unit_id": "word_010_01",
+      "unit_type": "word",
+      "text": "埃菲尔塔",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 264,
+      "char_end": 268
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "【女思索→埃菲尔塔…】",
+      "sentence_index": 10,
+      "char_start": 259,
+      "char_end": 270,
+      "children": [
+        "word_010_01"
+      ]
+    },
+    {
+      "unit_id": "word_011_01",
+      "unit_type": "word",
+      "text": "✈️：",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 281,
+      "char_end": 284
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "【☎️】【人翻阅：（✈️：悉尼歌剧院、富士山】",
+      "sentence_index": 11,
+      "char_start": 271,
+      "char_end": 294,
+      "children": [
+        "word_011_01"
+      ]
+    },
+    {
+      "unit_id": "word_012_01",
+      "unit_type": "word",
+      "text": "美国地图✅",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1,
+      "char_start": 311,
+      "char_end": 316
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "【泰姬陵、枫叶国、金字塔…）】【美国地图✅】",
+      "sentence_index": 12,
+      "char_start": 295,
+      "char_end": 317,
+      "children": [
+        "word_012_01"
+      ]
+    },
+    {
+      "unit_id": "word_013_01",
+      "unit_type": "word",
+      "text": "双子塔",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 1,
+      "char_start": 340,
+      "char_end": 343
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "【美国（白宫、米奇、玛丽莲、球场、自由女神、双子塔）】",
+      "sentence_index": 13,
+      "char_start": 318,
+      "char_end": 345,
+      "children": [
+        "word_013_01"
+      ]
+    },
+    {
+      "unit_id": "word_014_01",
+      "unit_type": "word",
+      "text": "💥双子塔",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 1,
+      "char_start": 351,
+      "char_end": 356
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "【思索：（💥双子塔！）】",
+      "sentence_index": 14,
+      "char_start": 346,
+      "char_end": 359,
+      "children": [
+        "word_014_01"
+      ]
+    },
+    {
+      "unit_id": "word_015_01",
+      "unit_type": "word",
+      "text": "ℹ️🔍",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 1,
+      "char_start": 378,
+      "char_end": 382
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "【书本（✈️→自由女神：列车✈️住宿ℹ️🔍）】",
+      "sentence_index": 15,
+      "char_start": 360,
+      "char_end": 384,
+      "children": [
+        "word_015_01"
+      ]
+    },
+    {
+      "unit_id": "word_016_01",
+      "unit_type": "word",
+      "text": "地铁线路圆圈串",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 1,
+      "char_start": 396,
+      "char_end": 403
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "【底部品牌标识】【纽约地铁线路圆圈串】",
+      "sentence_index": 16,
+      "char_start": 385,
+      "char_end": 404,
+      "children": [
+        "word_016_01"
+      ]
+    },
+    {
+      "unit_id": "word_017_01",
+      "unit_type": "word",
+      "text": "★★★★★",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 1,
+      "char_start": 415,
+      "char_end": 420
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "【连锁酒店徽标…】【★★★★★床露台酒吧衣架】【★★★★】【★★★…】",
+      "sentence_index": 17,
+      "char_start": 405,
+      "char_end": 440,
+      "children": [
+        "word_017_01"
+      ]
+    },
+    {
+      "unit_id": "word_018_01",
+      "unit_type": "word",
+      "text": "【面具】【狮子】",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 1,
+      "char_start": 455,
+      "char_end": 463
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "【MoMA】【地图】【展品】【面具】【狮子】【……】【香奈儿CK苹果LV…】",
+      "sentence_index": 18,
+      "char_start": 441,
+      "char_end": 479,
+      "children": [
+        "word_018_01"
+      ]
+    },
+    {
+      "unit_id": "word_019_01",
+      "unit_type": "word",
+      "text": "问询台",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 1,
+      "char_start": 498,
+      "char_end": 501
+    },
+    {
+      "unit_id": "word_019_02",
+      "unit_type": "word",
+      "text": "Stop!",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 2,
+      "char_start": 502,
+      "char_end": 507
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "【思索👍书）、😊、坐下读书、走向问询台、Stop!】",
+      "sentence_index": 19,
+      "char_start": 480,
+      "char_end": 508,
+      "children": [
+        "word_019_01",
+        "word_019_02"
+      ]
+    },
+    {
+      "unit_id": "word_020_01",
+      "unit_type": "word",
+      "text": "折返箭头",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 1,
+      "char_start": -1,
+      "char_end": -1
+    },
+    {
+      "unit_id": "word_020_02",
+      "unit_type": "word",
+      "text": "铁塔凯旋门",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 2,
+      "char_start": 530,
+      "char_end": 535
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "【眩晕】【思索女性剪影】【折返】【读书—（铁塔凯旋门】",
+      "sentence_index": 20,
+      "char_start": 509,
+      "char_end": 536,
+      "children": [
+        "word_020_01",
+        "word_020_02"
+      ]
+    },
+    {
+      "unit_id": "word_021_01",
+      "unit_type": "word",
+      "text": "蒙娜丽莎",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 1,
+      "char_start": 547,
+      "char_end": 551
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "【圣母】【调色板】【蒙娜丽莎】【地图…）】【→问询台】",
+      "sentence_index": 21,
+      "char_start": 537,
+      "char_end": 564,
+      "children": [
+        "word_021_01"
+      ]
+    },
+    {
+      "unit_id": "word_022_01",
+      "unit_type": "word",
+      "text": "书+书→礼盒",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 1,
+      "char_start": 577,
+      "char_end": 583
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "【刷卡→店员】【顾客：“书+书→礼盒。”】",
+      "sentence_index": 22,
+      "char_start": 565,
+      "char_end": 586,
+      "children": [
+        "word_022_01"
+      ]
+    },
+    {
+      "unit_id": "word_023_01",
+      "unit_type": "word",
+      "text": "👌",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 1,
+      "char_start": 595,
+      "char_end": 597
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "【😊-店员：“👌”】【刷卡】【两书弓形箭头礼盒】",
+      "sentence_index": 23,
+      "char_start": 587,
+      "char_end": 613,
+      "children": [
+        "word_023_01"
+      ]
+    },
+    {
+      "unit_id": "word_024_01",
+      "unit_type": "word",
+      "text": "思索伴侣笑脸",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 1,
+      "char_start": 629,
+      "char_end": 635
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "【礼盒→购物袋】【店员递交】【思索伴侣笑脸】",
+      "sentence_index": 24,
+      "char_start": 614,
+      "char_end": 636,
+      "children": [
+        "word_024_01"
+      ]
+    },
+    {
+      "unit_id": "word_025_01",
+      "unit_type": "word",
+      "text": "Stop!",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 1,
+      "char_start": 647,
+      "char_end": 652
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "【👁→手机导航】【Stop!（!?）】【思索看手机】",
+      "sentence_index": 25,
+      "char_start": 637,
+      "char_end": 664,
+      "children": [
+        "word_025_01"
+      ]
+    },
+    {
+      "unit_id": "word_026_01",
+      "unit_type": "word",
+      "text": "家乐福",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 1,
+      "char_start": 666,
+      "char_end": 669
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "【家乐福→行走…路径思索泡…】",
+      "sentence_index": 26,
+      "char_start": 665,
+      "char_end": 680,
+      "children": [
+        "word_026_01"
+      ]
+    },
+    {
+      "unit_id": "word_027_01",
+      "unit_type": "word",
+      "text": "生日蛋糕",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 1,
+      "char_start": 684,
+      "char_end": 688
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "【（人生日蛋糕）思索→家乐福】【环顾箭头…】",
+      "sentence_index": 27,
+      "char_start": 681,
+      "char_end": 703,
+      "children": [
+        "word_027_01"
+      ]
+    },
+    {
+      "unit_id": "word_028_01",
+      "unit_type": "word",
+      "text": "$$$",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 1,
+      "char_start": 708,
+      "char_end": 711
+    },
+    {
+      "unit_id": "word_028_02",
+      "unit_type": "word",
+      "text": "❌",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 2,
+      "char_start": 712,
+      "char_end": 713
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "【相机=$$$…❌】",
+      "sentence_index": 28,
+      "char_start": 704,
+      "char_end": 714,
+      "children": [
+        "word_028_01",
+        "word_028_02"
+      ]
+    },
+    {
+      "unit_id": "word_029_01",
+      "unit_type": "word",
+      "text": "$$$…❌",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 1,
+      "char_start": 721,
+      "char_end": 726
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "【平板手机=$$$…❌】",
+      "sentence_index": 29,
+      "char_start": 715,
+      "char_end": 727,
+      "children": [
+        "word_029_01"
+      ]
+    },
+    {
+      "unit_id": "word_030_01",
+      "unit_type": "word",
+      "text": "$$$$",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 1,
+      "char_start": 732,
+      "char_end": 736
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "【滑板=$$$$…❌】",
+      "sentence_index": 30,
+      "char_start": 728,
+      "char_end": 739,
+      "children": [
+        "word_030_01"
+      ]
+    },
+    {
+      "unit_id": "word_031_01",
+      "unit_type": "word",
+      "text": "✅",
+      "sentence_id": "sent_031",
+      "word_index_in_sentence": 1,
+      "char_start": 748,
+      "char_end": 749
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "【玩具车=$$…✅】）【大笑】",
+      "sentence_index": 31,
+      "char_start": 740,
+      "char_end": 755,
+      "children": [
+        "word_031_01"
+      ]
+    },
+    {
+      "unit_id": "word_032_01",
+      "unit_type": "word",
+      "text": "高楼H",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 1,
+      "char_start": 793,
+      "char_end": 796
+    },
+    {
+      "unit_id": "word_032_02",
+      "unit_type": "word",
+      "text": "♥",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 2,
+      "char_start": 762,
+      "char_end": 763
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "【耳闻车】【♥】【刷卡柜台】【柜→车→人】。【家乐福→行走】【看时钟】【→高楼H】",
+      "sentence_index": 32,
+      "char_start": 756,
+      "char_end": 797,
+      "children": [
+        "word_032_01",
+        "word_032_02"
+      ]
+    },
+    {
+      "unit_id": "word_033_01",
+      "unit_type": "word",
+      "text": "行李车",
+      "sentence_id": "sent_033",
+      "word_index_in_sentence": 1,
+      "char_start": 814,
+      "char_end": 817
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "【柜台发卡✓】【沿指示牌】【人潮行李车】",
+      "sentence_index": 33,
+      "char_start": 798,
+      "char_end": 818,
+      "children": [
+        "word_033_01"
+      ]
+    },
+    {
+      "unit_id": "word_034_01",
+      "unit_type": "word",
+      "text": "惊吓表情",
+      "sentence_id": "sent_034",
+      "word_index_in_sentence": 1,
+      "char_start": 848,
+      "char_end": 852
+    },
+    {
+      "unit_id": "sent_034",
+      "unit_type": "sentence",
+      "text": "【按电梯】【电梯内塞满UPS/DHL/FedEx/TNT与惊吓表情】",
+      "sentence_index": 34,
+      "char_start": 819,
+      "char_end": 853,
+      "children": [
+        "word_034_01"
+      ]
+    },
+    {
+      "unit_id": "word_035_01",
+      "unit_type": "word",
+      "text": "89F",
+      "sentence_id": "sent_035",
+      "word_index_in_sentence": 1,
+      "char_start": 865,
+      "char_end": 868
+    },
+    {
+      "unit_id": "sent_035",
+      "unit_type": "sentence",
+      "text": "【再按电梯】【1F↑…89F↑】【Stop】【出梯】",
+      "sentence_index": 35,
+      "char_start": 854,
+      "char_end": 880,
+      "children": [
+        "word_035_01"
+      ]
+    },
+    {
+      "unit_id": "word_036_01",
+      "unit_type": "word",
+      "text": "手机/卡感应",
+      "sentence_id": "sent_036",
+      "word_index_in_sentence": 1,
+      "char_start": 888,
+      "char_end": 894
+    },
+    {
+      "unit_id": "sent_036",
+      "unit_type": "sentence",
+      "text": "【楼道转折】【手机/卡感应】【开门】",
+      "sentence_index": 36,
+      "char_start": 881,
+      "char_end": 899,
+      "children": [
+        "word_036_01"
+      ]
+    },
+    {
+      "unit_id": "word_037_01",
+      "unit_type": "word",
+      "text": "办公桌",
+      "sentence_id": "sent_037",
+      "word_index_in_sentence": 1,
+      "char_start": 902,
+      "char_end": 905
+    },
+    {
+      "unit_id": "sent_037",
+      "unit_type": "sentence",
+      "text": "【→办公桌】【坐下】",
+      "sentence_index": 37,
+      "char_start": 900,
+      "char_end": 910,
+      "children": [
+        "word_037_01"
+      ]
+    },
+    {
+      "unit_id": "word_038_01",
+      "unit_type": "word",
+      "text": "闭眼…",
+      "sentence_id": "sent_038",
+      "word_index_in_sentence": 1,
+      "char_start": 926,
+      "char_end": 929
+    },
+    {
+      "unit_id": "sent_038",
+      "unit_type": "sentence",
+      "text": "【时钟1:00】【卧床zzz—闭眼…】",
+      "sentence_index": 38,
+      "char_start": 911,
+      "char_end": 930,
+      "children": [
+        "word_038_01"
+      ]
+    },
+    {
+      "unit_id": "word_039_01",
+      "unit_type": "word",
+      "text": "2012",
+      "sentence_id": "sent_039",
+      "word_index_in_sentence": 1,
+      "char_start": 938,
+      "char_end": 942
+    },
+    {
+      "unit_id": "word_039_02",
+      "unit_type": "word",
+      "text": "海啸—方舟→山地钉",
+      "sentence_id": "sent_039",
+      "word_index_in_sentence": 2,
+      "char_start": 943,
+      "char_end": 952
+    },
+    {
+      "unit_id": "sent_039",
+      "unit_type": "sentence",
+      "text": "【老式电视—（2012—海啸—方舟→山地钉…）】",
+      "sentence_index": 39,
+      "char_start": 931,
+      "char_end": 955,
+      "children": [
+        "word_039_01",
+        "word_039_02"
+      ]
+    },
+    {
+      "unit_id": "word_040_01",
+      "unit_type": "word",
+      "text": "蒸汽烦躁脸",
+      "sentence_id": "sent_040",
+      "word_index_in_sentence": 1,
+      "char_start": 978,
+      "char_end": 983
+    },
+    {
+      "unit_id": "sent_040",
+      "unit_type": "sentence",
+      "text": "【时钟2:00】【蚊声入耳】【闭眼→睁眼】【蒸汽烦躁脸】",
+      "sentence_index": 40,
+      "char_start": 956,
+      "char_end": 984,
+      "children": [
+        "word_040_01"
+      ]
+    },
+    {
+      "unit_id": "word_041_01",
+      "unit_type": "word",
+      "text": "喷雾",
+      "sentence_id": "sent_041",
+      "word_index_in_sentence": 1,
+      "char_start": 998,
+      "char_end": 1000
+    },
+    {
+      "unit_id": "sent_041",
+      "unit_type": "sentence",
+      "text": "【合掌扑蚊】【虚线逃逸】【喷雾】【虚线逃逸】",
+      "sentence_index": 41,
+      "char_start": 985,
+      "char_end": 1007,
+      "children": [
+        "word_041_01"
+      ]
+    },
+    {
+      "unit_id": "word_042_01",
+      "unit_type": "word",
+      "text": "脱鞋袜衣裤+睡衣",
+      "sentence_id": "sent_042",
+      "word_index_in_sentence": 1,
+      "char_start": 1021,
+      "char_end": 1029
+    },
+    {
+      "unit_id": "sent_042",
+      "unit_type": "sentence",
+      "text": "【皱眉】【下床→衣架】【（脱鞋袜衣裤+睡衣）】…",
+      "sentence_index": 42,
+      "char_start": 1008,
+      "char_end": 1032,
+      "children": [
+        "word_042_01"
+      ]
+    },
+    {
+      "unit_id": "word_043_01",
+      "unit_type": "word",
+      "text": "电视睡眠脸",
+      "sentence_id": "sent_043",
+      "word_index_in_sentence": 1,
+      "char_start": 1037,
+      "char_end": 1042
+    },
+    {
+      "unit_id": "sent_043",
+      "unit_type": "sentence",
+      "text": "【遥控→电视睡眠脸】【关灯】【上床】【睁眼→闭眼。】",
+      "sentence_index": 43,
+      "char_start": 1033,
+      "char_end": 1059,
+      "children": [
+        "word_043_01"
+      ]
+    },
+    {
+      "unit_id": "word_044_01",
+      "unit_type": "word",
+      "text": "【声波】【耳…】",
+      "sentence_id": "sent_044",
+      "word_index_in_sentence": 1,
+      "char_start": 1060,
+      "char_end": 1068
+    },
+    {
+      "unit_id": "sent_044",
+      "unit_type": "sentence",
+      "text": "【声波】【耳…】【开灯睁眼环顾？】【灯下再嗡鸣】",
+      "sentence_index": 44,
+      "char_start": 1060,
+      "char_end": 1084,
+      "children": [
+        "word_044_01"
+      ]
+    },
+    {
+      "unit_id": "word_045_01",
+      "unit_type": "word",
+      "text": "出汗",
+      "sentence_id": "sent_045",
+      "word_index_in_sentence": 1,
+      "char_start": 1099,
+      "char_end": 1101
+    },
+    {
+      "unit_id": "sent_045",
+      "unit_type": "sentence",
+      "text": "【仰视灯周乱飞蚊】【床上焦急出汗】",
+      "sentence_index": 45,
+      "char_start": 1085,
+      "char_end": 1102,
+      "children": [
+        "word_045_01"
+      ]
+    },
+    {
+      "unit_id": "word_046_01",
+      "unit_type": "word",
+      "text": "骷髅温度计",
+      "sentence_id": "sent_046",
+      "word_index_in_sentence": 1,
+      "char_start": 1118,
+      "char_end": 1123
+    },
+    {
+      "unit_id": "sent_046",
+      "unit_type": "sentence",
+      "text": "【抓狂起坐喷雾】【踱步掉头】【骷髅温度计倒地】",
+      "sentence_index": 46,
+      "char_start": 1103,
+      "char_end": 1126,
+      "children": [
+        "word_046_01"
+      ]
+    },
+    {
+      "unit_id": "word_047_01",
+      "unit_type": "word",
+      "text": "持刀乱挥",
+      "sentence_id": "sent_047",
+      "word_index_in_sentence": 1,
+      "char_start": 1142,
+      "char_end": 1146
+    },
+    {
+      "unit_id": "sent_047",
+      "unit_type": "sentence",
+      "text": "【快进换屋】【苍蝇拍体温刀】【持刀乱挥】【蚊遁走 sweat ?】",
+      "sentence_index": 47,
+      "char_start": 1127,
+      "char_end": 1160,
+      "children": [
+        "word_047_01"
+      ]
+    },
+    {
+      "unit_id": "word_048_01",
+      "unit_type": "word",
+      "text": "摞高↑",
+      "sentence_id": "sent_048",
+      "word_index_in_sentence": 1,
+      "char_start": 1173,
+      "char_end": 1176
+    },
+    {
+      "unit_id": "sent_048",
+      "unit_type": "sentence",
+      "text": "【汗脸伏案】【（凳+椅）摞高↑】【多层台↑】",
+      "sentence_index": 48,
+      "char_start": 1161,
+      "char_end": 1183,
+      "children": [
+        "word_048_01"
+      ]
+    },
+    {
+      "unit_id": "word_049_01",
+      "unit_type": "word",
+      "text": "合掌扑击",
+      "sentence_id": "sent_049",
+      "word_index_in_sentence": 1,
+      "char_start": -1,
+      "char_end": -1
+    },
+    {
+      "unit_id": "sent_049",
+      "unit_type": "sentence",
+      "text": "【走向床线】【下床扑击】【站床再扑】【重复扑击……】",
+      "sentence_index": 49,
+      "char_start": 1184,
+      "char_end": 1210,
+      "children": [
+        "word_049_01"
+      ]
+    },
+    {
+      "unit_id": "word_050_01",
+      "unit_type": "word",
+      "text": "墨渍虫尸",
+      "sentence_id": "sent_050",
+      "word_index_in_sentence": 1,
+      "char_start": 1226,
+      "char_end": 1230
+    },
+    {
+      "unit_id": "sent_050",
+      "unit_type": "sentence",
+      "text": "【开吊灯】【螺旋轨迹+合掌】【墨渍虫尸】",
+      "sentence_index": 50,
+      "char_start": 1211,
+      "char_end": 1231,
+      "children": [
+        "word_050_01"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_w_0001",
+      "target_id": "word_001_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "版面中的停顿/节拍符，相当于朗读时的逗顿或镜头切换，把行走与内心戏隔开。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0002",
+      "target_id": "word_001_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "三十岁生日的委婉标记，与婚礼并行提示送礼语境。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0003",
+      "target_id": "word_002_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "并列连接：除男士贺礼外还要想到新人双方。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0004",
+      "target_id": "word_002_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "不知道具体买什么合适的迟疑与取舍。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0005",
+      "target_id": "word_003_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "夸张标示昂贵价位，促使主人公打消奢侈品方案。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0006",
+      "target_id": "word_003_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "否定当前方案，不予购买。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0007",
+      "target_id": "word_004_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "心里赞同：送书是体面且可行的礼物策略。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S04"
+    },
+    {
+      "annotation_id": "ann_w_0008",
+      "target_id": "word_005_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在书架间来回浏览、挑选的书店行为。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S05"
+    },
+    {
+      "annotation_id": "ann_w_0009",
+      "target_id": "word_005_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "凋零玫瑰封面意象，指向悲情言情路线。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S05"
+    },
+    {
+      "annotation_id": "ann_w_0010",
+      "target_id": "word_006_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "嫌弃故事情节过于煽情狗血。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S06"
+    },
+    {
+      "annotation_id": "ann_w_0011",
+      "target_id": "word_006_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "侦探推理或枪战动作类型的书架分区意象。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 23R · 23R-S06"
+    },
+    {
+      "annotation_id": "ann_w_0012",
+      "target_id": "word_007_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "航班降落或上一段旅程结束的出行语义，而非单纯飞机贴纸。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S01"
+    },
+    {
+      "annotation_id": "ann_w_0013",
+      "target_id": "word_008_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "蜜月旅行计划（婚礼之后的双人出游）。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S02"
+    },
+    {
+      "annotation_id": "ann_w_0014",
+      "target_id": "word_008_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在手机相册里翻看两人的合影。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S02"
+    },
+    {
+      "annotation_id": "ann_w_0015",
+      "target_id": "word_009_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "目的地纽约的城市借代。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S03"
+    },
+    {
+      "annotation_id": "ann_w_0016",
+      "target_id": "word_010_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "目的地巴黎的城市借代。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S04"
+    },
+    {
+      "annotation_id": "ann_w_0017",
+      "target_id": "word_011_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "旅游手册里“国际线路/航线目的地”分类标签。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S05"
+    },
+    {
+      "annotation_id": "ann_w_0018",
+      "target_id": "word_012_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在众多候选国家中敲定美国为行程目的地。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S06"
+    },
+    {
+      "annotation_id": "ann_w_0019",
+      "target_id": "word_013_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "纽约世贸中心天际线符号，用以唤起读者对美国都市景观的记忆。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S07"
+    },
+    {
+      "annotation_id": "ann_w_0020",
+      "target_id": "word_014_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "联想到911袭击相关的创伤性公共记忆，语气骤然沉重。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S08"
+    },
+    {
+      "annotation_id": "ann_w_0021",
+      "target_id": "word_015_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "检索票务、酒店与景点信息的攻略行为。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S09"
+    },
+    {
+      "annotation_id": "ann_w_0022",
+      "target_id": "word_016_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "具体到某几条地铁可乘，体现市内通勤筹划。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24L · 24L-S10"
+    },
+    {
+      "annotation_id": "ann_w_0023",
+      "target_id": "word_017_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "五星档次及其配套服务组合的缩写提示。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0024",
+      "target_id": "word_018_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "百老汇音乐剧（如《歌剧魅影》《狮子王》）文娱选项。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0025",
+      "target_id": "word_019_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "前台问讯/柜台办事窗口，而非抽象几何图形。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0026",
+      "target_id": "word_019_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "走到台前忽然刹停或意识到需先确认事项。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0027",
+      "target_id": "word_020_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "主意摇摆，退回座位继续翻查攻略。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S04"
+    },
+    {
+      "annotation_id": "ann_w_0028",
+      "target_id": "word_020_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "巴黎城市地标组合，借指巴黎行程段落。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S04"
+    },
+    {
+      "annotation_id": "ann_w_0029",
+      "target_id": "word_021_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "卢浮宫参观符号，指向艺术馆之旅。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 24R · 24R-S05"
+    },
+    {
+      "annotation_id": "ann_w_0030",
+      "target_id": "word_022_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把两本书包装成一份礼品的购买诉求。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S01"
+    },
+    {
+      "annotation_id": "ann_w_0031",
+      "target_id": "word_023_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "店员口头答应并完成下单流程。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S02"
+    },
+    {
+      "annotation_id": "ann_w_0032",
+      "target_id": "word_024_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "想到送礼对象而心头一暖，而非泛泛开心。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S03"
+    },
+    {
+      "annotation_id": "ann_w_0033",
+      "target_id": "word_025_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "行进被打断，驻足辨认导航异常或路口。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S04"
+    },
+    {
+      "annotation_id": "ann_w_0034",
+      "target_id": "word_026_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "大型综合超市品牌在此语境中指卖场目的地本身。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S05"
+    },
+    {
+      "annotation_id": "ann_w_0035",
+      "target_id": "word_027_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "记起需要购置生日相关礼物或派对用品。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S06"
+    },
+    {
+      "annotation_id": "ann_w_0036",
+      "target_id": "word_028_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "高价档位标识（相对后文玩具车）。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S07"
+    },
+    {
+      "annotation_id": "ann_w_0037",
+      "target_id": "word_028_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "超出预算或不划算而放弃。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S07"
+    },
+    {
+      "annotation_id": "ann_w_0038",
+      "target_id": "word_029_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "数码套装定价偏高同样否决。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S08"
+    },
+    {
+      "annotation_id": "ann_w_0039",
+      "target_id": "word_030_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "更高一档价位提示，强化昂贵感。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S09"
+    },
+    {
+      "annotation_id": "ann_w_0040",
+      "target_id": "word_031_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "价格合适并被选中购买（不只是‘正确’记号）。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25L · 25L-S10"
+    },
+    {
+      "annotation_id": "ann_w_0041",
+      "target_id": "word_032_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "酒店建筑（Hospitality缩写惯例）。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0042",
+      "target_id": "word_032_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "温情期待或被等候对象牵动的心情。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0043",
+      "target_id": "word_033_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "大堂人流密集、抵达高峰的旅行气氛。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0044",
+      "target_id": "word_034_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "电梯被快递箱占据带来的窒息与烦躁，而非字面尖叫。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0045",
+      "target_id": "word_035_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "超高楼层客房或目的地高度提示。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S04"
+    },
+    {
+      "annotation_id": "ann_w_0046",
+      "target_id": "word_036_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "电子门锁刷卡或移动钥匙近的开门动作。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S05"
+    },
+    {
+      "annotation_id": "ann_w_0047",
+      "target_id": "word_037_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "客房办公角或工作站，暗示深夜仍需处理事务。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 25R · 25R-S06"
+    },
+    {
+      "annotation_id": "ann_w_0048",
+      "target_id": "word_038_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "熟睡或梦境将启的状态延续，而非单纯闭眼图标。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 51R · 51R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0049",
+      "target_id": "word_039_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "好莱坞灾难片《2012》的文化固定指涉。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 51R · 51R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0050",
+      "target_id": "word_039_02",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "影片中洪水、方舟逃生与前往高山避难的情节浓缩。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 51R · 51R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0051",
+      "target_id": "word_040_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "闷热不适与被吵醒后的生理性烦躁。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 52R · 52R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0052",
+      "target_id": "word_041_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "杀虫剂或驱蚊喷雾驱赶蚊虫。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 52R · 52R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0053",
+      "target_id": "word_042_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "卸下外衣换上睡衣，完成睡前仪式。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 52R · 52R-S03"
+    },
+    {
+      "annotation_id": "ann_w_0054",
+      "target_id": "word_043_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "遥控器关机或待机熄屏，而非电视真的入睡。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 52R · 52R-S04"
+    },
+    {
+      "annotation_id": "ann_w_0055",
+      "target_id": "word_044_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "蚊虫在耳边近距离嗡嗡作响。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53L · 53L-S01"
+    },
+    {
+      "annotation_id": "ann_w_0056",
+      "target_id": "word_045_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "失眠焦虑、燥热难耐的躯体化表现。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53L · 53L-S02"
+    },
+    {
+      "annotation_id": "ann_w_0057",
+      "target_id": "word_046_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "夸张修辞：难受得像中暑、中毒或濒临崩溃。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53L · 53L-S03"
+    },
+    {
+      "annotation_id": "ann_w_0058",
+      "target_id": "word_047_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "极度焦躁下把菜刀当作拍蚊工具的荒诞升级。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53L · 53L-S04"
+    },
+    {
+      "annotation_id": "ann_w_0059",
+      "target_id": "word_048_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "叠桌椅以抬高身体去够高处（如天花板附近蚊虫）。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53R · 53R-S01"
+    },
+    {
+      "annotation_id": "ann_w_0060",
+      "target_id": "word_049_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "双臂合掌式的拍打捕蚊动作，而非鼓掌喝彩。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53R · 53R-S02"
+    },
+    {
+      "annotation_id": "ann_w_0061",
+      "target_id": "word_050_01",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "蚊虫被 flattened 后的污渍痕迹，标记斗争结束。",
+      "confidence": 0.82,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2)",
+      "annotator_note": "页面 53R · 53R-S03"
+    }
+  ]
+}

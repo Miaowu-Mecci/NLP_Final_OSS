@@ -1,0 +1,162 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T23:09:50+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "24点",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "24点",
+    "source": "老师提供",
+    "raw_text": "\n午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。\n我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。\n沿着长长的脚印，我终于走到了家。\n",
+    "notes": "句子自由翻译标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 21,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 2,
+      "char_start": 21,
+      "char_end": 42,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 3,
+      "char_start": 42,
+      "char_end": 59,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 4,
+      "char_start": 59,
+      "char_end": 80,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 5,
+      "char_start": 80,
+      "char_end": 109,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 6,
+      "char_start": 109,
+      "char_end": 125,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "午夜十二点，我没有选择开车，而是步行回了家。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，但“选择步行回家”在中文中更自然的说法是“步行回了家”，同时保留“没有开车”与“步行”的对比关系，使语句更流畅。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我一边看着地图，一边循着地上的脚印，一步一步地往前走。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“我看着地图，沿着脚下的脚印，一步步向前走”在中文中已较通顺，但“沿着脚下的脚印”略显书面化。自由翻译将其调整为“循着地上的脚印”，更符合口语表达习惯；同时加入“一边……一边……”的结构，使“看地图”和“循脚印”两个动作的并列关系更自然清晰，整体读起来更流畅。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "路上十分寂静，只听得见我自己的脚步声。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“安静”替换为“寂静”更符合书面表达，同时“只听得见”比“只有”更自然流畅，保留了原句的基本信息，即环境安静且只有脚步声。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我路过一个门口，然后又路过了一个警察局门口。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“经过”在中文中较为书面，改为“路过”更符合日常口语表达；同时保留原句的递进结构“又……了”，使语义清晰自然。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我走着走着，看见一个女人，她抬头望了望天空，然后又继续向前走去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“走着走着，我看到一个女人，抬头看了看天空，然后继续往前走”中，“抬头看了看天空”的主语在中文里略显模糊。自由翻译时明确补充了“她”作为主语，使动作的承接更清晰自然，同时保留了原句的叙事顺序和简洁风格。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我顺着那条长长的脚印，终于走到了家。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“沿着长长的脚印”在中文中略显书面化，调整为“顺着那条长长的脚印”更符合口语表达习惯，同时保留了“终于”所传达的历经艰辛后到达的意味，使句子更自然流畅。"
+    }
+  ]
+}

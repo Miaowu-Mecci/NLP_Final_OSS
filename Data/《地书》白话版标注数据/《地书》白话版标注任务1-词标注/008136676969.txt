@@ -1,0 +1,108 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "词标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？她喜欢香奈儿，可我没钱，买不起。走着走着，我看到一家书店，想到书也是个不错的礼物。我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。我想到世贸中心被炸了，有点惊讶。我查了去美国的航班、机场、酒店和攻略。各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。我刷卡结账，想着买两本书当礼物。付了钱，拿到了礼物，想到她会很开心。我看着礼物，纠结要不要送她。走出书店，想到她的生日，又回头看了看。我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。我想到她和游戏，还是去结账吧。结完账，走出书店，看了看时间，回公司。刷了工牌，走进电梯，看到快递的牌子，有点惊讶。按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。走到工位，坐下。"
+  },
+  "units": [
+    { "id": "u1", "token": "盘算着" },
+    { "id": "u2", "token": "枯萎了" },
+    { "id": "u3", "token": "翻了翻" },
+    { "id": "u4", "token": "走着走着" },
+    { "id": "u5", "token": "经济型" },
+    { "id": "u6", "token": "奢侈品" },
+    { "id": "u7", "token": "走进" },
+    { "id": "u8", "token": "结完" },
+    { "id": "u9", "token": "有点" },
+    { "id": "u10", "token": "躲开" }
+  ],
+  "annotations": [
+    {
+      "unit_id": "u1",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["持续体", "动态助词标记"],
+      "semantic_primitives": ["心理活动", "延续"],
+      "pragmatic_meaning": "内心正在反复思量与计划",
+      "literal_gloss": "盘算(plan) + 着(PROG/持续)"
+    },
+    {
+      "unit_id": "u2",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["完成体", "状态变化标记"],
+      "semantic_primitives": ["生命力下降", "终结"],
+      "pragmatic_meaning": "玫瑰花失去水分与生命力，引出内心的失落感",
+      "literal_gloss": "枯萎(wither) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u3",
+      "pos_like_category": ["动词"],
+      "morphological_like_features": ["动词重叠式", "短促体", "尝试态"],
+      "semantic_primitives": ["动作", "短暂", "手部"],
+      "pragmatic_meaning": "随意地、短暂地翻阅书本",
+      "literal_gloss": "翻(flip) + 了(PERF) + 翻(flip)"
+    },
+    {
+      "unit_id": "u4",
+      "pos_like_category": ["动词"],
+      "morphological_like_features": ["动词重叠式", "演进体", "背景动作延长"],
+      "semantic_primitives": ["位移", "重复", "过程"],
+      "pragmatic_meaning": "在步行的持续过程中，自然引出下一个新发现或新状态",
+      "literal_gloss": "走(walk) + 着(PROG) + 走(walk) + 着(PROG)"
+    },
+    {
+      "unit_id": "u5",
+      "pos_like_category": ["名词", "后缀"],
+      "morphological_like_features": ["类词缀", "属性类后缀"],
+      "semantic_primitives": ["低成本", "分类"],
+      "pragmatic_meaning": "价格相对便宜、基础配置的酒店类别",
+      "literal_gloss": "经济(economy) + 型(type/style)"
+    },
+    {
+      "unit_id": "u6",
+      "pos_like_category": ["名词", "后缀"],
+      "morphological_like_features": ["类词缀", "物化类后缀"],
+      "semantic_primitives": ["昂贵", "实体物件"],
+      "pragmatic_meaning": "超出基本生存需要的高档消费品",
+      "literal_gloss": "奢侈(luxury) + 品(goods/items)"
+    },
+    {
+      "unit_id": "u7",
+      "pos_like_category": ["动词", "介词/补语"],
+      "morphological_like_features": ["复合动词", "趋向形态"],
+      "semantic_primitives": ["位移", "向内"],
+      "pragmatic_meaning": "从书店外步入书店内的空间转移",
+      "literal_gloss": "走(walk) + 进(into)"
+    },
+    {
+      "unit_id": "u8",
+      "pos_like_category": ["动词", "补语"],
+      "morphological_like_features": ["复合动词", "结果形态", "动作穷尽"],
+      "semantic_primitives": ["交易", "结束"],
+      "pragmatic_meaning": "完成付款的整个流程",
+      "literal_gloss": "结(settle) + 完(finish)"
+    },
+    {
+      "unit_id": "u9",
+      "pos_like_category": ["副词"],
+      "morphological_like_features": ["微量程度修饰"],
+      "semantic_primitives": ["程度", "微小"],
+      "pragmatic_meaning": "感受到了轻微的情绪波动",
+      "literal_gloss": "有(have) + 点(a little/slightly)"
+    },
+    {
+      "unit_id": "u10",
+      "pos_like_category": ["动词", "补语"],
+      "morphological_like_features": ["结果形态", "客体分离"],
+      "semantic_primitives": ["动作", "避险", "空间位移"],
+      "pragmatic_meaning": "成功避开了子弹的攻击",
+      "literal_gloss": "躲(dodge) + 开(away/open)"
+    }
+  ]
+}

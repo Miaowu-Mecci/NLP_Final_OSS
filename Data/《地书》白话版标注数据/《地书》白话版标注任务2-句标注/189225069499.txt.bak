@@ -1,0 +1,218 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-10T15:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["DeepSeek"]
+  },
+  "student": {
+    "student_id": "1191230405",
+    "student_name": "张洋",
+    "assigned_section": "第10组文本",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "会议后的愉快心情",
+    "source": "教师提供",
+    "raw_text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。\n我心情愉快地在 MSN 上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。\n走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+    "notes": "仅进行句子自由翻译标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 24
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。",
+      "sentence_index": 2,
+      "char_start": 25,
+      "char_end": 108
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在 MSN 上和一位女士聊了起来。",
+      "sentence_index": 3,
+      "char_start": 109,
+      "char_end": 133
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "很快就到了下班时间，我打印完最后一点文件，准备离开公司。",
+      "sentence_index": 4,
+      "char_start": 134,
+      "char_end": 167
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。",
+      "sentence_index": 5,
+      "char_start": 168,
+      "char_end": 207
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "电话接通后，她笑着问是谁。",
+      "sentence_index": 6,
+      "char_start": 208,
+      "char_end": 223
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我笑着告诉她是我，并邀请她晚上一起见面。",
+      "sentence_index": 7,
+      "char_start": 224,
+      "char_end": 249
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "她在电话那头确认了时间，我高兴地答应了。",
+      "sentence_index": 8,
+      "char_start": 250,
+      "char_end": 274
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+      "sentence_index": 9,
+      "char_start": 275,
+      "char_end": 312
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "会议一结束，大家就为我鼓掌加油，让我感觉心情特别好。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“受到了大家的掌声鼓励”改为“大家为我鼓掌加油”，使表达更口语化自然。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我掏出手机刷了刷社交软件，发现有人在推特上给我点赞，有人在脸书上给我发了个大笑的表情，还有人通过MSN约我晚上一块儿喝酒。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“翻看了一下”简化为“刷了刷”，保留社交软件原名，使语句更流畅。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我心情很好，在MSN上和一位女士聊了起来。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "简化表述，保留核心信息。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不久就到了下班的点，我打印完最后一点文件，准备离开公司。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“很快就到了”改为“不久就到了”，更自然。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "走出公司大楼后，我拿出手机找到那位女士的号码，拨了过去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "合并动作，使句子更紧凑。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "电话接通后，她笑着问我是谁。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“是谁”补充为“我是谁”，更符合日常表达。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我笑着告诉她就是我，并邀请她晚上见一面。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“是我”改为“就是我”，更口语化；“一起见面”简化为“见一面”。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她在电话那头确认了时间，我高兴地答应了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "保持原意，表达清晰。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "最后，她在电话里比了个OK的手势，开心地说：“好的，没问题！”",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“OK”写为“OK”保持原样，整体表达自然。"
+    }
+  ]
+}

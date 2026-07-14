@@ -1,0 +1,3853 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "last_modified": "2026-05-06T10:00:00+08:00"
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "13点",
+    "word_task_type": "Pragmatic Meaning",
+    "sentence_task_type": "Free Translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "《地书》13点",
+    "source": "教师提供",
+    "raw_text": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。\n\n我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？\n\n她喜欢香奈儿，可我没钱，买不起。\n\n走着走着，我看到一家书店，想到书也是个不错的礼物。\n\n我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。\n\n坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。\n\n我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。\n\n我问她：\"结婚后想去哪度蜜月？\"她回：\"想去自由女神像，还有埃菲尔铁塔……\"\n\n电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。\n\n美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。\n\n我想到世贸中心被炸了，有点惊讶。\n\n我查了去美国的航班、机场、酒店和攻略。\n\n各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。\n\n我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。\n\n我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。\n\n我刷卡结账，想着买两本书当礼物。\n\n付了钱，拿到了礼物，想到她会很开心。\n\n我看着礼物，纠结要不要送她。\n\n走出书店，想到她的生日，又回头看了看。\n\n我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。\n\n我想到她和游戏，还是去结账吧。\n\n结完账，走出书店，看了看时间，回公司。\n\n刷了工牌，走进电梯，看到快递的牌子，有点惊讶。\n\n按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。\n\n左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。\n\n走到工位，坐下。",
+    "notes": "标注说明"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？",
+      "sentence_index": 2,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_026",
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "她喜欢香奈儿，可我没钱，买不起。",
+      "sentence_index": 3,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053",
+        "word_054",
+        "word_055",
+        "word_056",
+        "word_057",
+        "word_058"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一家书店，想到书也是个不错的礼物。",
+      "sentence_index": 4,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_059",
+        "word_060",
+        "word_061",
+        "word_062",
+        "word_063",
+        "word_064",
+        "word_065",
+        "word_066",
+        "word_067",
+        "word_068",
+        "word_069",
+        "word_070",
+        "word_071",
+        "word_072",
+        "word_073",
+        "word_074",
+        "word_075",
+        "word_076"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。",
+      "sentence_index": 5,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_077",
+        "word_078",
+        "word_079",
+        "word_080",
+        "word_081",
+        "word_082",
+        "word_083",
+        "word_084",
+        "word_085",
+        "word_086",
+        "word_087",
+        "word_088",
+        "word_089",
+        "word_090",
+        "word_091",
+        "word_092",
+        "word_093",
+        "word_094",
+        "word_095",
+        "word_096",
+        "word_097",
+        "word_098",
+        "word_099",
+        "word_100",
+        "word_101",
+        "word_102",
+        "word_103",
+        "word_104",
+        "word_105",
+        "word_106",
+        "word_107",
+        "word_108",
+        "word_109",
+        "word_110",
+        "word_111",
+        "word_112",
+        "word_113",
+        "word_114"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我又想到书里藏着坏人，用枪指着我，有点害怕。",
+      "sentence_index": 6,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_115",
+        "word_116",
+        "word_117",
+        "word_118",
+        "word_119",
+        "word_120",
+        "word_121",
+        "word_122",
+        "word_123",
+        "word_124",
+        "word_125",
+        "word_126",
+        "word_127",
+        "word_128",
+        "word_129",
+        "word_130",
+        "word_131"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "坏人开枪打我，我躲开了，有点生气。",
+      "sentence_index": 7,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_132",
+        "word_133",
+        "word_134",
+        "word_135",
+        "word_136",
+        "word_137",
+        "word_138",
+        "word_139",
+        "word_140",
+        "word_141",
+        "word_142",
+        "word_143"
+      ]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我看着机票，想去旅行，忍不住笑了。",
+      "sentence_index": 8,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_144",
+        "word_145",
+        "word_146",
+        "word_147",
+        "word_148",
+        "word_149",
+        "word_150",
+        "word_151",
+        "word_152",
+        "word_153"
+      ]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我想到我们结婚后去度蜜月，笑了。",
+      "sentence_index": 9,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_154",
+        "word_155",
+        "word_156",
+        "word_157",
+        "word_158",
+        "word_159",
+        "word_160",
+        "word_161",
+        "word_162",
+        "word_163",
+        "word_164",
+        "word_165"
+      ]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我拿起手机给她发消息。",
+      "sentence_index": 10,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_166",
+        "word_167",
+        "word_168",
+        "word_169",
+        "word_170",
+        "word_171",
+        "word_172",
+        "word_173",
+        "word_174"
+      ]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我问她：\"结婚后想去哪度蜜月？\"她回：\"想去自由女神像，还有埃菲尔铁塔……\"",
+      "sentence_index": 11,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_175",
+        "word_176",
+        "word_177",
+        "word_178",
+        "word_179",
+        "word_180",
+        "word_181",
+        "word_182",
+        "word_183",
+        "word_184",
+        "word_185",
+        "word_186",
+        "word_187",
+        "word_188",
+        "word_189",
+        "word_190",
+        "word_191",
+        "word_192",
+        "word_193",
+        "word_194",
+        "word_195",
+        "word_196",
+        "word_197",
+        "word_198",
+        "word_199"
+      ]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。",
+      "sentence_index": 12,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_200",
+        "word_201",
+        "word_202",
+        "word_203",
+        "word_204",
+        "word_205",
+        "word_206",
+        "word_207",
+        "word_208",
+        "word_209",
+        "word_210",
+        "word_211",
+        "word_212",
+        "word_213",
+        "word_214",
+        "word_215",
+        "word_216",
+        "word_217",
+        "word_218",
+        "word_219",
+        "word_220",
+        "word_221",
+        "word_222",
+        "word_223",
+        "word_224",
+        "word_225",
+        "word_226",
+        "word_227"
+      ]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。",
+      "sentence_index": 13,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_228",
+        "word_229",
+        "word_230",
+        "word_231",
+        "word_232",
+        "word_233",
+        "word_234",
+        "word_235",
+        "word_236",
+        "word_237",
+        "word_238",
+        "word_239",
+        "word_240",
+        "word_241",
+        "word_242",
+        "word_243"
+      ]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我想到世贸中心被炸了，有点惊讶。",
+      "sentence_index": 14,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_244",
+        "word_245",
+        "word_246",
+        "word_247",
+        "word_248",
+        "word_249",
+        "word_250",
+        "word_251",
+        "word_252",
+        "word_253"
+      ]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我查了去美国的航班、机场、酒店和攻略。",
+      "sentence_index": 15,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_254",
+        "word_255",
+        "word_256",
+        "word_257",
+        "word_258",
+        "word_259",
+        "word_260",
+        "word_261",
+        "word_262",
+        "word_263",
+        "word_264",
+        "word_265"
+      ]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。",
+      "sentence_index": 16,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_266",
+        "word_267",
+        "word_268",
+        "word_269",
+        "word_270",
+        "word_271",
+        "word_272",
+        "word_273",
+        "word_274",
+        "word_275",
+        "word_276",
+        "word_277",
+        "word_278",
+        "word_279",
+        "word_280",
+        "word_281",
+        "word_282",
+        "word_283",
+        "word_284",
+        "word_285",
+        "word_286",
+        "word_287",
+        "word_288",
+        "word_289"
+      ]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。",
+      "sentence_index": 17,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_290",
+        "word_291",
+        "word_292",
+        "word_293",
+        "word_294",
+        "word_295",
+        "word_296",
+        "word_297",
+        "word_298",
+        "word_299",
+        "word_300",
+        "word_301",
+        "word_302",
+        "word_303",
+        "word_304",
+        "word_305",
+        "word_306",
+        "word_307",
+        "word_308"
+      ]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。",
+      "sentence_index": 18,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_309",
+        "word_310",
+        "word_311",
+        "word_312",
+        "word_313",
+        "word_314",
+        "word_315",
+        "word_316",
+        "word_317",
+        "word_318",
+        "word_319",
+        "word_320",
+        "word_321",
+        "word_322",
+        "word_323",
+        "word_324",
+        "word_325",
+        "word_326",
+        "word_327",
+        "word_328",
+        "word_329"
+      ]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我刷卡结账，想着买两本书当礼物。",
+      "sentence_index": 19,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_330",
+        "word_331",
+        "word_332",
+        "word_333",
+        "word_334",
+        "word_335",
+        "word_336",
+        "word_337",
+        "word_338",
+        "word_339",
+        "word_340",
+        "word_341"
+      ]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "付了钱，拿到了礼物，想到她会很开心。",
+      "sentence_index": 20,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_342",
+        "word_343",
+        "word_344",
+        "word_345",
+        "word_346",
+        "word_347",
+        "word_348",
+        "word_349",
+        "word_350",
+        "word_351",
+        "word_352",
+        "word_353"
+      ]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我看着礼物，纠结要不要送她。",
+      "sentence_index": 21,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_354",
+        "word_355",
+        "word_356",
+        "word_357",
+        "word_358",
+        "word_359",
+        "word_360",
+        "word_361",
+        "word_362",
+        "word_363",
+        "word_364"
+      ]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "走出书店，想到她的生日，又回头看了看。",
+      "sentence_index": 22,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_365",
+        "word_366",
+        "word_367",
+        "word_368",
+        "word_369",
+        "word_370",
+        "word_371",
+        "word_372",
+        "word_373",
+        "word_374",
+        "word_375",
+        "word_376",
+        "word_377"
+      ]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。",
+      "sentence_index": 23,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_378",
+        "word_379",
+        "word_380",
+        "word_381",
+        "word_382",
+        "word_383",
+        "word_384",
+        "word_385",
+        "word_386",
+        "word_387",
+        "word_388",
+        "word_389",
+        "word_390",
+        "word_391",
+        "word_392",
+        "word_393",
+        "word_394",
+        "word_395",
+        "word_396",
+        "word_397",
+        "word_398",
+        "word_399",
+        "word_400",
+        "word_401",
+        "word_402",
+        "word_403",
+        "word_404",
+        "word_405"
+      ]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我想到她和游戏，还是去结账吧。",
+      "sentence_index": 24,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_406",
+        "word_407",
+        "word_408",
+        "word_409",
+        "word_410",
+        "word_411",
+        "word_412",
+        "word_413",
+        "word_414",
+        "word_415"
+      ]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "结完账，走出书店，看了看时间，回公司。",
+      "sentence_index": 25,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_416",
+        "word_417",
+        "word_418",
+        "word_419",
+        "word_420",
+        "word_421",
+        "word_422",
+        "word_423",
+        "word_424",
+        "word_425",
+        "word_426"
+      ]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "刷了工牌，走进电梯，看到快递的牌子，有点惊讶。",
+      "sentence_index": 26,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_427",
+        "word_428",
+        "word_429",
+        "word_430",
+        "word_431",
+        "word_432",
+        "word_433",
+        "word_434",
+        "word_435",
+        "word_436",
+        "word_437",
+        "word_438",
+        "word_439",
+        "word_440"
+      ]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。",
+      "sentence_index": 27,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_441",
+        "word_442",
+        "word_443",
+        "word_444",
+        "word_445",
+        "word_446",
+        "word_447",
+        "word_448",
+        "word_449",
+        "word_450",
+        "word_451",
+        "word_452",
+        "word_453",
+        "word_454",
+        "word_455"
+      ]
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。",
+      "sentence_index": 28,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_456",
+        "word_457",
+        "word_458",
+        "word_459",
+        "word_460",
+        "word_461",
+        "word_462",
+        "word_463",
+        "word_464",
+        "word_465",
+        "word_466",
+        "word_467",
+        "word_468",
+        "word_469",
+        "word_470",
+        "word_471",
+        "word_472"
+      ]
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "走到工位，坐下。",
+      "sentence_index": 29,
+      "char_start": 0,
+      "char_end": 0,
+      "children": [
+        "word_473",
+        "word_474",
+        "word_475",
+        "word_476"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "target_id": "word_001",
+      "target_text": "我",
+      "value": "第一人称代词，指叙述者自己",
+      "confidence": 0.98,
+      "annotator_note": "叙述主体"
+    },
+    {
+      "target_id": "word_002",
+      "target_text": "走",
+      "value": "步行，用脚移动",
+      "confidence": 0.95,
+      "annotator_note": "移动动作"
+    },
+    {
+      "target_id": "word_003",
+      "target_text": "在",
+      "value": "介词，表示所在位置",
+      "confidence": 0.98,
+      "annotator_note": "位置介词"
+    },
+    {
+      "target_id": "word_004",
+      "target_text": "斑马线",
+      "value": "人行横道，行人过马路的白色条纹区域",
+      "confidence": 0.98,
+      "annotator_note": "道路设施"
+    },
+    {
+      "target_id": "word_005",
+      "target_text": "上",
+      "value": "表示在某个表面或区域",
+      "confidence": 0.98,
+      "annotator_note": "方位词"
+    },
+    {
+      "target_id": "word_006",
+      "target_text": "，",
+      "value": "逗号，表示停顿",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_007",
+      "target_text": "心里",
+      "value": "内心，指思想或情感层面",
+      "confidence": 0.95,
+      "annotator_note": "内心活动"
+    },
+    {
+      "target_id": "word_008",
+      "target_text": "盘算着",
+      "value": "心中反复思考、计划",
+      "confidence": 0.95,
+      "annotator_note": "心理活动"
+    },
+    {
+      "target_id": "word_009",
+      "target_text": "给",
+      "value": "介词，表示动作的接受对象",
+      "confidence": 0.98,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_010",
+      "target_text": "她",
+      "value": "第三人称代词，指代要送礼物的女性对象",
+      "confidence": 0.98,
+      "annotator_note": "人物指代"
+    },
+    {
+      "target_id": "word_011",
+      "target_text": "准备",
+      "value": "事先安排、备妥",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_012",
+      "target_text": "一份",
+      "value": "数量词，表示一个",
+      "confidence": 0.95,
+      "annotator_note": "数量表达"
+    },
+    {
+      "target_id": "word_013",
+      "target_text": "生日礼物",
+      "value": "为庆祝生日而送的赠品",
+      "confidence": 0.98,
+      "annotator_note": "物品概念"
+    },
+    {
+      "target_id": "word_014",
+      "target_text": "——",
+      "value": "破折号，表示解释说明",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_015",
+      "target_text": "她",
+      "value": "代词，指同一个人",
+      "confidence": 0.98,
+      "annotator_note": "人物指代"
+    },
+    {
+      "target_id": "word_016",
+      "target_text": "马上",
+      "value": "立刻、很快就要",
+      "confidence": 0.95,
+      "annotator_note": "时间副词"
+    },
+    {
+      "target_id": "word_017",
+      "target_text": "就要",
+      "value": "即将、快要发生",
+      "confidence": 0.95,
+      "annotator_note": "表示即将发生"
+    },
+    {
+      "target_id": "word_018",
+      "target_text": "30",
+      "value": "数字三十",
+      "confidence": 0.98,
+      "annotator_note": "数字"
+    },
+    {
+      "target_id": "word_019",
+      "target_text": "岁",
+      "value": "年龄单位",
+      "confidence": 0.98,
+      "annotator_note": "量词"
+    },
+    {
+      "target_id": "word_020",
+      "target_text": "了",
+      "value": "助词，表示变化或完成",
+      "confidence": 0.95,
+      "annotator_note": "语气助词"
+    },
+    {
+      "target_id": "word_021",
+      "target_text": "。",
+      "value": "句号，表示句子结束",
+      "confidence": 1.0,
+      "annotator_note": "标点符号"
+    },
+    {
+      "target_id": "word_022",
+      "target_text": "我",
+      "value": "叙述者自己",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_023",
+      "target_text": "又",
+      "value": "再次、另外",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_024",
+      "target_text": "想到",
+      "value": "脑海中出现某个念头",
+      "confidence": 0.95,
+      "annotator_note": "心理活动"
+    },
+    {
+      "target_id": "word_025",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_026",
+      "target_text": "要是",
+      "value": "如果、假如，表示假设",
+      "confidence": 0.95,
+      "annotator_note": "假设连词"
+    },
+    {
+      "target_id": "word_027",
+      "target_text": "送",
+      "value": "赠与、给予",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_028",
+      "target_text": "她",
+      "value": "代词",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_029",
+      "target_text": "一份",
+      "value": "数量词",
+      "confidence": 0.95,
+      "annotator_note": "数量"
+    },
+    {
+      "target_id": "word_030",
+      "target_text": "求婚礼物",
+      "value": "用于求婚时赠送的物品，表达结婚意愿",
+      "confidence": 0.98,
+      "annotator_note": "特殊礼物"
+    },
+    {
+      "target_id": "word_031",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_032",
+      "target_text": "我们",
+      "value": "叙述者和对方两人",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_033",
+      "target_text": "就能",
+      "value": "表示有条件地能够实现",
+      "confidence": 0.95,
+      "annotator_note": "情态动词"
+    },
+    {
+      "target_id": "word_034",
+      "target_text": "结婚",
+      "value": "成为合法夫妻",
+      "confidence": 0.98,
+      "annotator_note": "人生大事"
+    },
+    {
+      "target_id": "word_035",
+      "target_text": "了",
+      "value": "助词",
+      "confidence": 0.95,
+      "annotator_note": "语气"
+    },
+    {
+      "target_id": "word_036",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_037",
+      "target_text": "可",
+      "value": "但是，表示转折",
+      "confidence": 0.95,
+      "annotator_note": "转折连词"
+    },
+    {
+      "target_id": "word_038",
+      "target_text": "送",
+      "value": "赠送",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_039",
+      "target_text": "什么",
+      "value": "疑问代词，询问事物",
+      "confidence": 0.98,
+      "annotator_note": "疑问词"
+    },
+    {
+      "target_id": "word_040",
+      "target_text": "好",
+      "value": "合适、恰当",
+      "confidence": 0.95,
+      "annotator_note": "形容词"
+    },
+    {
+      "target_id": "word_041",
+      "target_text": "呢",
+      "value": "疑问语气词",
+      "confidence": 0.98,
+      "annotator_note": "语气词"
+    },
+    {
+      "target_id": "word_042",
+      "target_text": "？",
+      "value": "问号，表示疑问",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_043",
+      "target_text": "她",
+      "value": "代词",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_044",
+      "target_text": "喜欢",
+      "value": "对某事物有好感",
+      "confidence": 0.98,
+      "annotator_note": "情感态度"
+    },
+    {
+      "target_id": "word_045",
+      "target_text": "香奈儿",
+      "value": "法国奢侈品牌Chanel的中文名",
+      "confidence": 0.98,
+      "annotator_note": "品牌名"
+    },
+    {
+      "target_id": "word_046",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_047",
+      "target_text": "可",
+      "value": "但是",
+      "confidence": 0.95,
+      "annotator_note": "转折"
+    },
+    {
+      "target_id": "word_048",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_049",
+      "target_text": "没钱",
+      "value": "没有足够的金钱",
+      "confidence": 0.98,
+      "annotator_note": "经济状况"
+    },
+    {
+      "target_id": "word_050",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_051",
+      "target_text": "买不起",
+      "value": "因价格过高而无法购买",
+      "confidence": 0.98,
+      "annotator_note": "经济能力不足"
+    },
+    {
+      "target_id": "word_052",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_053",
+      "target_text": "走着走着",
+      "value": "重复行走的动作，形容边走边做某事",
+      "confidence": 0.95,
+      "annotator_note": "叠词"
+    },
+    {
+      "target_id": "word_054",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_055",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_056",
+      "target_text": "看到",
+      "value": "用眼睛注意到",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_057",
+      "target_text": "一家",
+      "value": "数量词，一个",
+      "confidence": 0.95,
+      "annotator_note": "数量"
+    },
+    {
+      "target_id": "word_058",
+      "target_text": "书店",
+      "value": "售卖书籍的店铺",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_059",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_060",
+      "target_text": "想到",
+      "value": "意识到、觉得",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_061",
+      "target_text": "书",
+      "value": "书籍、读物",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_062",
+      "target_text": "也是",
+      "value": "同样是",
+      "confidence": 0.95,
+      "annotator_note": "判断"
+    },
+    {
+      "target_id": "word_063",
+      "target_text": "个",
+      "value": "量词",
+      "confidence": 0.98,
+      "annotator_note": "量词"
+    },
+    {
+      "target_id": "word_064",
+      "target_text": "不错",
+      "value": "挺好、还行",
+      "confidence": 0.95,
+      "annotator_note": "评价"
+    },
+    {
+      "target_id": "word_065",
+      "target_text": "的",
+      "value": "助词，表示修饰",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_066",
+      "target_text": "礼物",
+      "value": "赠品",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_067",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_068",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_069",
+      "target_text": "走进",
+      "value": "进入某个空间",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_070",
+      "target_text": "书店",
+      "value": "店铺",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_071",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_072",
+      "target_text": "翻了翻",
+      "value": "随意地翻动书页",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_073",
+      "target_text": "书",
+      "value": "书籍",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_074",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_075",
+      "target_text": "突然",
+      "value": "一下子、出乎意料地",
+      "confidence": 0.95,
+      "annotator_note": "时间副词"
+    },
+    {
+      "target_id": "word_076",
+      "target_text": "想到",
+      "value": "灵机一动",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_077",
+      "target_text": "可以",
+      "value": "能够、可能",
+      "confidence": 0.95,
+      "annotator_note": "情态"
+    },
+    {
+      "target_id": "word_078",
+      "target_text": "在",
+      "value": "介词",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_079",
+      "target_text": "书里",
+      "value": "书籍的内部",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_080",
+      "target_text": "夹",
+      "value": "用两页之间压住",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_081",
+      "target_text": "一朵",
+      "value": "数量词，用于花",
+      "confidence": 0.95,
+      "annotator_note": "数量"
+    },
+    {
+      "target_id": "word_082",
+      "target_text": "玫瑰",
+      "value": "玫瑰花，象征爱情",
+      "confidence": 0.98,
+      "annotator_note": "植物"
+    },
+    {
+      "target_id": "word_083",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_084",
+      "target_text": "可",
+      "value": "但是",
+      "confidence": 0.95,
+      "annotator_note": "转折"
+    },
+    {
+      "target_id": "word_085",
+      "target_text": "玫瑰",
+      "value": "花",
+      "confidence": 0.98,
+      "annotator_note": "植物"
+    },
+    {
+      "target_id": "word_086",
+      "target_text": "很快",
+      "value": "短时间内",
+      "confidence": 0.95,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_087",
+      "target_text": "就",
+      "value": "表示紧接着发生",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_088",
+      "target_text": "枯萎了",
+      "value": "花朵凋谢、失去水分",
+      "confidence": 0.98,
+      "annotator_note": "状态变化"
+    },
+    {
+      "target_id": "word_089",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_090",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_091",
+      "target_text": "的",
+      "value": "助词，表示所属",
+      "confidence": 0.98,
+      "annotator_note": "结构助词"
+    },
+    {
+      "target_id": "word_092",
+      "target_text": "心",
+      "value": "内心心情",
+      "confidence": 0.98,
+      "annotator_note": "情感载体"
+    },
+    {
+      "target_id": "word_093",
+      "target_text": "也",
+      "value": "同样",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_094",
+      "target_text": "跟着",
+      "value": "随之一起",
+      "confidence": 0.95,
+      "annotator_note": "伴随"
+    },
+    {
+      "target_id": "word_095",
+      "target_text": "碎了",
+      "value": "破碎，比喻心情低落",
+      "confidence": 0.98,
+      "annotator_note": "比喻"
+    },
+    {
+      "target_id": "word_096",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_097",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_098",
+      "target_text": "又",
+      "value": "再次",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_099",
+      "target_text": "想到",
+      "value": "想象",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_100",
+      "target_text": "书里",
+      "value": "书中",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_101",
+      "target_text": "藏着",
+      "value": "隐藏着",
+      "confidence": 0.95,
+      "annotator_note": "状态"
+    },
+    {
+      "target_id": "word_102",
+      "target_text": "坏人",
+      "value": "做坏事的人、歹徒",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_103",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_104",
+      "target_text": "用",
+      "value": "使用、以",
+      "confidence": 0.98,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_105",
+      "target_text": "枪",
+      "value": "枪支武器",
+      "confidence": 0.98,
+      "annotator_note": "武器"
+    },
+    {
+      "target_id": "word_106",
+      "target_text": "指着",
+      "value": "对准、指向",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_107",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_108",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_109",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_110",
+      "target_text": "害怕",
+      "value": "感到恐惧",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_111",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_112",
+      "target_text": "坏人",
+      "value": "歹徒",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_113",
+      "target_text": "开枪",
+      "value": "扣动扳机射击",
+      "confidence": 0.98,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_114",
+      "target_text": "打",
+      "value": "射击攻击",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_115",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_116",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_117",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_118",
+      "target_text": "躲开了",
+      "value": "闪避、避开攻击",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_119",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_120",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_121",
+      "target_text": "生气",
+      "value": "愤怒、不满",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_122",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_123",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_124",
+      "target_text": "看着",
+      "value": "注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_125",
+      "target_text": "机票",
+      "value": "乘坐飞机的凭证",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_126",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_127",
+      "target_text": "想去",
+      "value": "希望前往",
+      "confidence": 0.95,
+      "annotator_note": "愿望"
+    },
+    {
+      "target_id": "word_128",
+      "target_text": "旅行",
+      "value": "外出游玩、旅游",
+      "confidence": 0.98,
+      "annotator_note": "活动"
+    },
+    {
+      "target_id": "word_129",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_130",
+      "target_text": "忍不住",
+      "value": "无法克制自己",
+      "confidence": 0.95,
+      "annotator_note": "情态"
+    },
+    {
+      "target_id": "word_131",
+      "target_text": "笑了",
+      "value": "发出笑声",
+      "confidence": 0.98,
+      "annotator_note": "情绪表达"
+    },
+    {
+      "target_id": "word_132",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_133",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_134",
+      "target_text": "想到",
+      "value": "幻想",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_135",
+      "target_text": "我们",
+      "value": "两人",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_136",
+      "target_text": "结婚后",
+      "value": "成为夫妻之后",
+      "confidence": 0.95,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_137",
+      "target_text": "去",
+      "value": "前往",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_138",
+      "target_text": "度蜜月",
+      "value": "新婚夫妇的旅行",
+      "confidence": 0.98,
+      "annotator_note": "活动"
+    },
+    {
+      "target_id": "word_139",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_140",
+      "target_text": "笑了",
+      "value": "笑起来",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_141",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_142",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_143",
+      "target_text": "拿起",
+      "value": "用手取起",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_144",
+      "target_text": "手机",
+      "value": "移动电话",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_145",
+      "target_text": "给",
+      "value": "向、对",
+      "confidence": 0.98,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_146",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_147",
+      "target_text": "发",
+      "value": "发送",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_148",
+      "target_text": "消息",
+      "value": "信息",
+      "confidence": 0.98,
+      "annotator_note": "信息"
+    },
+    {
+      "target_id": "word_149",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_150",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_151",
+      "target_text": "问",
+      "value": "询问",
+      "confidence": 0.95,
+      "annotator_note": "言语"
+    },
+    {
+      "target_id": "word_152",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_153",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_154",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_155",
+      "target_text": "结婚后",
+      "value": "婚后",
+      "confidence": 0.95,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_156",
+      "target_text": "想去",
+      "value": "希望去",
+      "confidence": 0.95,
+      "annotator_note": "愿望"
+    },
+    {
+      "target_id": "word_157",
+      "target_text": "哪",
+      "value": "疑问代词，问地点",
+      "confidence": 0.98,
+      "annotator_note": "疑问词"
+    },
+    {
+      "target_id": "word_158",
+      "target_text": "度蜜月",
+      "value": "蜜月旅行",
+      "confidence": 0.98,
+      "annotator_note": "活动"
+    },
+    {
+      "target_id": "word_159",
+      "target_text": "？",
+      "value": "问号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_160",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_161",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_162",
+      "target_text": "回",
+      "value": "回复",
+      "confidence": 0.95,
+      "annotator_note": "言语"
+    },
+    {
+      "target_id": "word_163",
+      "target_text": "：",
+      "value": "冒号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_164",
+      "target_text": "“",
+      "value": "左双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_165",
+      "target_text": "想去",
+      "value": "希望去",
+      "confidence": 0.95,
+      "annotator_note": "愿望"
+    },
+    {
+      "target_id": "word_166",
+      "target_text": "自由女神像",
+      "value": "美国纽约的标志性雕像",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_167",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_168",
+      "target_text": "还有",
+      "value": "另外还有",
+      "confidence": 0.95,
+      "annotator_note": "连词"
+    },
+    {
+      "target_id": "word_169",
+      "target_text": "埃菲尔铁塔",
+      "value": "法国巴黎的标志性建筑",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_170",
+      "target_text": "……",
+      "value": "省略号，表示列举未尽",
+      "confidence": 0.98,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_171",
+      "target_text": "”",
+      "value": "右双引号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_172",
+      "target_text": "电话",
+      "value": "手机来电",
+      "confidence": 0.98,
+      "annotator_note": "通讯设备"
+    },
+    {
+      "target_id": "word_173",
+      "target_text": "响了",
+      "value": "发出铃声",
+      "confidence": 0.95,
+      "annotator_note": "声音"
+    },
+    {
+      "target_id": "word_174",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_175",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_176",
+      "target_text": "看着",
+      "value": "注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_177",
+      "target_text": "机票",
+      "value": "飞机票",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_178",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_179",
+      "target_text": "想去",
+      "value": "希望前往",
+      "confidence": 0.95,
+      "annotator_note": "愿望"
+    },
+    {
+      "target_id": "word_180",
+      "target_text": "悉尼歌剧院",
+      "value": "澳大利亚悉尼的地标建筑",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_181",
+      "target_text": "、",
+      "value": "顿号，列举分隔",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_182",
+      "target_text": "富士山",
+      "value": "日本著名山峰",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_183",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_184",
+      "target_text": "泰姬陵",
+      "value": "印度著名陵墓建筑",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_185",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_186",
+      "target_text": "加拿大",
+      "value": "国家名",
+      "confidence": 0.98,
+      "annotator_note": "国家"
+    },
+    {
+      "target_id": "word_187",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_188",
+      "target_text": "金字塔",
+      "value": "埃及古建筑",
+      "confidence": 0.98,
+      "annotator_note": "景点"
+    },
+    {
+      "target_id": "word_189",
+      "target_text": "……",
+      "value": "省略号",
+      "confidence": 0.98,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_190",
+      "target_text": "最后",
+      "value": "最终",
+      "confidence": 0.95,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_191",
+      "target_text": "选了",
+      "value": "选择了",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_192",
+      "target_text": "美国",
+      "value": "国家名",
+      "confidence": 0.98,
+      "annotator_note": "国家"
+    },
+    {
+      "target_id": "word_193",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_194",
+      "target_text": "美国",
+      "value": "国家",
+      "confidence": 0.98,
+      "annotator_note": "国家"
+    },
+    {
+      "target_id": "word_195",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_196",
+      "target_text": "景点",
+      "value": "旅游景点",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_197",
+      "target_text": "有",
+      "value": "存在、包含",
+      "confidence": 0.98,
+      "annotator_note": "动词"
+    },
+    {
+      "target_id": "word_198",
+      "target_text": "白宫",
+      "value": "美国总统官邸",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_199",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_200",
+      "target_text": "迪士尼",
+      "value": "迪士尼乐园",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_201",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_202",
+      "target_text": "梦露",
+      "value": "玛丽莲·梦露，美国女星",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_203",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_204",
+      "target_text": "体育馆",
+      "value": "体育场馆",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_205",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_206",
+      "target_text": "自由女神像",
+      "value": "纽约地标",
+      "confidence": 0.98,
+      "annotator_note": "雕塑"
+    },
+    {
+      "target_id": "word_207",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_208",
+      "target_text": "世贸中心",
+      "value": "纽约世界贸易中心",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_209",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_210",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_211",
+      "target_text": "想到",
+      "value": "想起",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_212",
+      "target_text": "世贸中心",
+      "value": "建筑",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_213",
+      "target_text": "被",
+      "value": "被动标记",
+      "confidence": 0.98,
+      "annotator_note": "语法"
+    },
+    {
+      "target_id": "word_214",
+      "target_text": "炸了",
+      "value": "被炸毁",
+      "confidence": 0.95,
+      "annotator_note": "事件"
+    },
+    {
+      "target_id": "word_215",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_216",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_217",
+      "target_text": "惊讶",
+      "value": "吃惊、意外",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_218",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_219",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_220",
+      "target_text": "查了",
+      "value": "查询、搜索",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_221",
+      "target_text": "去",
+      "value": "前往",
+      "confidence": 0.95,
+      "annotator_note": "方向"
+    },
+    {
+      "target_id": "word_222",
+      "target_text": "美国",
+      "value": "国家",
+      "confidence": 0.98,
+      "annotator_note": "目的地"
+    },
+    {
+      "target_id": "word_223",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_224",
+      "target_text": "航班",
+      "value": "飞机航班",
+      "confidence": 0.98,
+      "annotator_note": "交通"
+    },
+    {
+      "target_id": "word_225",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_226",
+      "target_text": "机场",
+      "value": "飞机场",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_227",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_228",
+      "target_text": "酒店",
+      "value": "住宿场所",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_229",
+      "target_text": "和",
+      "value": "以及",
+      "confidence": 0.98,
+      "annotator_note": "连词"
+    },
+    {
+      "target_id": "word_230",
+      "target_text": "攻略",
+      "value": "旅行指南",
+      "confidence": 0.98,
+      "annotator_note": "信息"
+    },
+    {
+      "target_id": "word_231",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_232",
+      "target_text": "各种",
+      "value": "各种各样的",
+      "confidence": 0.95,
+      "annotator_note": "范围"
+    },
+    {
+      "target_id": "word_233",
+      "target_text": "酒店",
+      "value": "住宿",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_234",
+      "target_text": "都",
+      "value": "全部",
+      "confidence": 0.95,
+      "annotator_note": "范围"
+    },
+    {
+      "target_id": "word_235",
+      "target_text": "列了出来",
+      "value": "被列举出来",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_236",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_237",
+      "target_text": "五星的",
+      "value": "五星级酒店",
+      "confidence": 0.98,
+      "annotator_note": "酒店等级"
+    },
+    {
+      "target_id": "word_238",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_239",
+      "target_text": "三星的",
+      "value": "三星级酒店",
+      "confidence": 0.98,
+      "annotator_note": "酒店等级"
+    },
+    {
+      "target_id": "word_240",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_241",
+      "target_text": "经济型的",
+      "value": "经济型酒店",
+      "confidence": 0.98,
+      "annotator_note": "酒店类型"
+    },
+    {
+      "target_id": "word_242",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_243",
+      "target_text": "还有",
+      "value": "另外还有",
+      "confidence": 0.95,
+      "annotator_note": "连词"
+    },
+    {
+      "target_id": "word_244",
+      "target_text": "博物馆",
+      "value": "展览文物艺术的场所",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_245",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_246",
+      "target_text": "剧院",
+      "value": "演出场所",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_247",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_248",
+      "target_text": "各种",
+      "value": "各种各样的",
+      "confidence": 0.95,
+      "annotator_note": "范围"
+    },
+    {
+      "target_id": "word_249",
+      "target_text": "奢侈品",
+      "value": "高档昂贵商品",
+      "confidence": 0.98,
+      "annotator_note": "商品类别"
+    },
+    {
+      "target_id": "word_250",
+      "target_text": "品牌",
+      "value": "商标、牌子",
+      "confidence": 0.98,
+      "annotator_note": "商业"
+    },
+    {
+      "target_id": "word_251",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_252",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_253",
+      "target_text": "点了赞",
+      "value": "点击点赞按钮表示认可",
+      "confidence": 0.95,
+      "annotator_note": "社交动作"
+    },
+    {
+      "target_id": "word_254",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_255",
+      "target_text": "笑着",
+      "value": "面带笑容地",
+      "confidence": 0.95,
+      "annotator_note": "表情"
+    },
+    {
+      "target_id": "word_256",
+      "target_text": "继续",
+      "value": "接着",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_257",
+      "target_text": "翻书",
+      "value": "翻阅书页",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_258",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_259",
+      "target_text": "走着走着",
+      "value": "边走边",
+      "confidence": 0.95,
+      "annotator_note": "叠词"
+    },
+    {
+      "target_id": "word_260",
+      "target_text": "到了",
+      "value": "到达",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_261",
+      "target_text": "门口",
+      "value": "建筑物的出入口",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_262",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_263",
+      "target_text": "红灯",
+      "value": "交通信号灯的红色",
+      "confidence": 0.98,
+      "annotator_note": "信号"
+    },
+    {
+      "target_id": "word_264",
+      "target_text": "亮了",
+      "value": "亮起来",
+      "confidence": 0.95,
+      "annotator_note": "状态"
+    },
+    {
+      "target_id": "word_265",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_266",
+      "target_text": "停了下来",
+      "value": "停止前进",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_267",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_268",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_269",
+      "target_text": "想到",
+      "value": "想起",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_270",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_271",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_272",
+      "target_text": "转身",
+      "value": "转动身体方向",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_273",
+      "target_text": "往回走",
+      "value": "向来时方向移动",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_274",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_275",
+      "target_text": "又",
+      "value": "再次",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_276",
+      "target_text": "查了",
+      "value": "查询",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_277",
+      "target_text": "巴黎",
+      "value": "法国首都",
+      "confidence": 0.98,
+      "annotator_note": "城市"
+    },
+    {
+      "target_id": "word_278",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_279",
+      "target_text": "景点",
+      "value": "旅游景点",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_280",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_281",
+      "target_text": "巴黎圣母院",
+      "value": "巴黎著名教堂",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_282",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_283",
+      "target_text": "蒙娜丽莎",
+      "value": "达芬奇名画",
+      "confidence": 0.98,
+      "annotator_note": "艺术品"
+    },
+    {
+      "target_id": "word_284",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_285",
+      "target_text": "埃菲尔铁塔",
+      "value": "巴黎地标",
+      "confidence": 0.98,
+      "annotator_note": "建筑"
+    },
+    {
+      "target_id": "word_286",
+      "target_text": "……",
+      "value": "省略号",
+      "confidence": 0.98,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_287",
+      "target_text": "到了",
+      "value": "到达",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_288",
+      "target_text": "门口",
+      "value": "入口处",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_289",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_290",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_291",
+      "target_text": "刷卡",
+      "value": "刷银行卡支付",
+      "confidence": 0.95,
+      "annotator_note": "支付动作"
+    },
+    {
+      "target_id": "word_292",
+      "target_text": "结账",
+      "value": "支付款项",
+      "confidence": 0.95,
+      "annotator_note": "交易"
+    },
+    {
+      "target_id": "word_293",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_294",
+      "target_text": "想着",
+      "value": "心里想",
+      "confidence": 0.95,
+      "annotator_note": "心理"
+    },
+    {
+      "target_id": "word_295",
+      "target_text": "买",
+      "value": "购买",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_296",
+      "target_text": "两本",
+      "value": "数量词，两个",
+      "confidence": 0.95,
+      "annotator_note": "数量"
+    },
+    {
+      "target_id": "word_297",
+      "target_text": "书",
+      "value": "书籍",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_298",
+      "target_text": "当",
+      "value": "作为",
+      "confidence": 0.95,
+      "annotator_note": "介词"
+    },
+    {
+      "target_id": "word_299",
+      "target_text": "礼物",
+      "value": "赠品",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_300",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_301",
+      "target_text": "付了",
+      "value": "支付了",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_302",
+      "target_text": "钱",
+      "value": "货币",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_303",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_304",
+      "target_text": "拿到了",
+      "value": "获得",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_305",
+      "target_text": "礼物",
+      "value": "购买的商品",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_306",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_307",
+      "target_text": "想到",
+      "value": "预想",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_308",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_309",
+      "target_text": "会",
+      "value": "将、可能会",
+      "confidence": 0.95,
+      "annotator_note": "情态"
+    },
+    {
+      "target_id": "word_310",
+      "target_text": "很开心",
+      "value": "非常高兴",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_311",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_312",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_313",
+      "target_text": "看着",
+      "value": "注视",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_314",
+      "target_text": "礼物",
+      "value": "物品",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_315",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_316",
+      "target_text": "纠结",
+      "value": "犹豫不决",
+      "confidence": 0.95,
+      "annotator_note": "心理"
+    },
+    {
+      "target_id": "word_317",
+      "target_text": "要不",
+      "value": "是否要",
+      "confidence": 0.92,
+      "annotator_note": "疑问"
+    },
+    {
+      "target_id": "word_318",
+      "target_text": "要",
+      "value": "需要",
+      "confidence": 0.95,
+      "annotator_note": "动词"
+    },
+    {
+      "target_id": "word_319",
+      "target_text": "送",
+      "value": "赠与",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_320",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_321",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_322",
+      "target_text": "走出",
+      "value": "离开内部",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_323",
+      "target_text": "书店",
+      "value": "店铺",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_324",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_325",
+      "target_text": "想到",
+      "value": "想起",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_326",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_327",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_328",
+      "target_text": "生日",
+      "value": "出生纪念日",
+      "confidence": 0.98,
+      "annotator_note": "日期"
+    },
+    {
+      "target_id": "word_329",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_330",
+      "target_text": "又",
+      "value": "再次",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_331",
+      "target_text": "回头",
+      "value": "向后转头",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_332",
+      "target_text": "看了看",
+      "value": "短暂地望一下",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_333",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_334",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_335",
+      "target_text": "想着",
+      "value": "心里盘算",
+      "confidence": 0.95,
+      "annotator_note": "心理"
+    },
+    {
+      "target_id": "word_336",
+      "target_text": "相机",
+      "value": "拍照设备",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_337",
+      "target_text": "太贵",
+      "value": "价格太高",
+      "confidence": 0.95,
+      "annotator_note": "评价"
+    },
+    {
+      "target_id": "word_338",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_339",
+      "target_text": "不买",
+      "value": "不购买",
+      "confidence": 0.95,
+      "annotator_note": "决定"
+    },
+    {
+      "target_id": "word_340",
+      "target_text": "；",
+      "value": "分号，分隔并列",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_341",
+      "target_text": "平板",
+      "value": "平板电脑",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_342",
+      "target_text": "太贵",
+      "value": "价格高",
+      "confidence": 0.95,
+      "annotator_note": "评价"
+    },
+    {
+      "target_id": "word_343",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_344",
+      "target_text": "不买",
+      "value": "不购买",
+      "confidence": 0.95,
+      "annotator_note": "决定"
+    },
+    {
+      "target_id": "word_345",
+      "target_text": "；",
+      "value": "分号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_346",
+      "target_text": "滑板",
+      "value": "滑板车",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_347",
+      "target_text": "太贵",
+      "value": "贵",
+      "confidence": 0.95,
+      "annotator_note": "评价"
+    },
+    {
+      "target_id": "word_348",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_349",
+      "target_text": "不买",
+      "value": "不买",
+      "confidence": 0.95,
+      "annotator_note": "决定"
+    },
+    {
+      "target_id": "word_350",
+      "target_text": "；",
+      "value": "分号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_351",
+      "target_text": "游戏",
+      "value": "电子游戏",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_352",
+      "target_text": "不贵",
+      "value": "价格不高",
+      "confidence": 0.95,
+      "annotator_note": "评价"
+    },
+    {
+      "target_id": "word_353",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_354",
+      "target_text": "买了",
+      "value": "决定购买",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_355",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_356",
+      "target_text": "忍不住",
+      "value": "情不自禁",
+      "confidence": 0.95,
+      "annotator_note": "情态"
+    },
+    {
+      "target_id": "word_357",
+      "target_text": "笑了",
+      "value": "笑出来",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_358",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_359",
+      "target_text": "我",
+      "value": "叙述者",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_360",
+      "target_text": "想到",
+      "value": "想起",
+      "confidence": 0.95,
+      "annotator_note": "认知"
+    },
+    {
+      "target_id": "word_361",
+      "target_text": "她",
+      "value": "对方",
+      "confidence": 0.98,
+      "annotator_note": "人物"
+    },
+    {
+      "target_id": "word_362",
+      "target_text": "和",
+      "value": "以及",
+      "confidence": 0.98,
+      "annotator_note": "连词"
+    },
+    {
+      "target_id": "word_363",
+      "target_text": "游戏",
+      "value": "电子游戏",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_364",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_365",
+      "target_text": "还是",
+      "value": "最好、干脆",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_366",
+      "target_text": "去",
+      "value": "去做",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_367",
+      "target_text": "结账",
+      "value": "付款",
+      "confidence": 0.95,
+      "annotator_note": "交易"
+    },
+    {
+      "target_id": "word_368",
+      "target_text": "吧",
+      "value": "语气词，表示建议",
+      "confidence": 0.98,
+      "annotator_note": "语气"
+    },
+    {
+      "target_id": "word_369",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_370",
+      "target_text": "结完账",
+      "value": "付完款后",
+      "confidence": 0.95,
+      "annotator_note": "时间"
+    },
+    {
+      "target_id": "word_371",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_372",
+      "target_text": "走出",
+      "value": "离开",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_373",
+      "target_text": "书店",
+      "value": "商店",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_374",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_375",
+      "target_text": "看了看",
+      "value": "看了下",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_376",
+      "target_text": "时间",
+      "value": "时刻",
+      "confidence": 0.98,
+      "annotator_note": "概念"
+    },
+    {
+      "target_id": "word_377",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_378",
+      "target_text": "回",
+      "value": "返回",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_379",
+      "target_text": "公司",
+      "value": "工作单位",
+      "confidence": 0.98,
+      "annotator_note": "场所"
+    },
+    {
+      "target_id": "word_380",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_381",
+      "target_text": "刷了",
+      "value": "刷卡",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_382",
+      "target_text": "工牌",
+      "value": "员工身份卡",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_383",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_384",
+      "target_text": "走进",
+      "value": "进入",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_385",
+      "target_text": "电梯",
+      "value": "升降梯",
+      "confidence": 0.98,
+      "annotator_note": "设备"
+    },
+    {
+      "target_id": "word_386",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_387",
+      "target_text": "看到",
+      "value": "看见",
+      "confidence": 0.95,
+      "annotator_note": "视觉"
+    },
+    {
+      "target_id": "word_388",
+      "target_text": "快递",
+      "value": "快递服务",
+      "confidence": 0.98,
+      "annotator_note": "服务"
+    },
+    {
+      "target_id": "word_389",
+      "target_text": "的",
+      "value": "助词",
+      "confidence": 0.98,
+      "annotator_note": "结构"
+    },
+    {
+      "target_id": "word_390",
+      "target_text": "牌子",
+      "value": "标识牌",
+      "confidence": 0.98,
+      "annotator_note": "物品"
+    },
+    {
+      "target_id": "word_391",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_392",
+      "target_text": "有点",
+      "value": "稍微",
+      "confidence": 0.92,
+      "annotator_note": "程度"
+    },
+    {
+      "target_id": "word_393",
+      "target_text": "惊讶",
+      "value": "意外",
+      "confidence": 0.98,
+      "annotator_note": "情绪"
+    },
+    {
+      "target_id": "word_394",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_395",
+      "target_text": "按了",
+      "value": "按下按钮",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_396",
+      "target_text": "电梯",
+      "value": "升降设备",
+      "confidence": 0.98,
+      "annotator_note": "设备"
+    },
+    {
+      "target_id": "word_397",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_398",
+      "target_text": "电梯",
+      "value": "电梯",
+      "confidence": 0.98,
+      "annotator_note": "设备"
+    },
+    {
+      "target_id": "word_399",
+      "target_text": "到了",
+      "value": "到达",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_400",
+      "target_text": "1",
+      "value": "数字一",
+      "confidence": 0.98,
+      "annotator_note": "数字"
+    },
+    {
+      "target_id": "word_401",
+      "target_text": "、",
+      "value": "顿号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_402",
+      "target_text": "2",
+      "value": "数字二",
+      "confidence": 0.98,
+      "annotator_note": "数字"
+    },
+    {
+      "target_id": "word_403",
+      "target_text": "……",
+      "value": "省略号",
+      "confidence": 0.98,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_404",
+      "target_text": "89",
+      "value": "八十九层",
+      "confidence": 0.98,
+      "annotator_note": "数字"
+    },
+    {
+      "target_id": "word_405",
+      "target_text": "楼",
+      "value": "楼层",
+      "confidence": 0.98,
+      "annotator_note": "单位"
+    },
+    {
+      "target_id": "word_406",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_407",
+      "target_text": "红灯",
+      "value": "红色指示灯",
+      "confidence": 0.98,
+      "annotator_note": "信号"
+    },
+    {
+      "target_id": "word_408",
+      "target_text": "停了",
+      "value": "停止(电梯停止)",
+      "confidence": 0.95,
+      "annotator_note": "状态"
+    },
+    {
+      "target_id": "word_409",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_410",
+      "target_text": "开门",
+      "value": "门打开",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_411",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_412",
+      "target_text": "出去",
+      "value": "走出去",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_413",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_414",
+      "target_text": "左转",
+      "value": "向左拐弯",
+      "confidence": 0.95,
+      "annotator_note": "方向动作"
+    },
+    {
+      "target_id": "word_415",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_416",
+      "target_text": "直行",
+      "value": "直线行走",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_417",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_418",
+      "target_text": "转弯",
+      "value": "拐弯",
+      "confidence": 0.95,
+      "annotator_note": "方向"
+    },
+    {
+      "target_id": "word_419",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_420",
+      "target_text": "直行",
+      "value": "直走",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_421",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_422",
+      "target_text": "再",
+      "value": "又一次",
+      "confidence": 0.95,
+      "annotator_note": "副词"
+    },
+    {
+      "target_id": "word_423",
+      "target_text": "转弯",
+      "value": "拐弯",
+      "confidence": 0.95,
+      "annotator_note": "方向"
+    },
+    {
+      "target_id": "word_424",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_425",
+      "target_text": "直行",
+      "value": "直走",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_426",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_427",
+      "target_text": "打卡",
+      "value": "考勤签到",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_428",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_429",
+      "target_text": "刷手机",
+      "value": "用手机刷卡",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_430",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_431",
+      "target_text": "开门",
+      "value": "打开门",
+      "confidence": 0.95,
+      "annotator_note": "动作"
+    },
+    {
+      "target_id": "word_432",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_433",
+      "target_text": "走到",
+      "value": "移动到",
+      "confidence": 0.95,
+      "annotator_note": "移动"
+    },
+    {
+      "target_id": "word_434",
+      "target_text": "工位",
+      "value": "工作座位",
+      "confidence": 0.98,
+      "annotator_note": "位置"
+    },
+    {
+      "target_id": "word_435",
+      "target_text": "，",
+      "value": "逗号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    },
+    {
+      "target_id": "word_436",
+      "target_text": "坐下",
+      "value": "就座",
+      "confidence": 0.95,
+      "annotator_note": "姿势"
+    },
+    {
+      "target_id": "word_437",
+      "target_text": "。",
+      "value": "句号",
+      "confidence": 1.0,
+      "annotator_note": "标点"
+    }
+  ]
+}

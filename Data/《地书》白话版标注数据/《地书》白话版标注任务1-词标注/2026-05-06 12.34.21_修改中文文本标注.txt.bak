@@ -1,0 +1,216 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T14:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "18点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "约会前的准备与相见",
+    "source": "Student Assignment",
+    "raw_text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。我从冰箱里拿出饮料，惬意地喝了一口。然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。我吹了吹头发，听着音乐，心情格外舒畅。\n与此同时，她也在家忙碌着。她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。她也在听着音乐，准备出门。\n我选好了鞋子和配饰，准备出门。出门前，我给她发了条消息，确认了时间。然后关掉空调和手机，离开了家。刚出门不久，她的电话就打了过来，我有点紧张地接了电话。挂了电话后，我直奔花店，买了 12 朵漂亮的花。\n我拿着花，心里想着她，想象着她收到花时开心的样子。终于，我见到了她，把花递给了她。她开心地接过花，我们相视而笑。\n我们一起去了约定的酒吧。在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。我们点了啤酒，聊着天。突然，我看到一些奇怪的东西，感到有些惊讶。不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。",
+    "notes": "第二组文本：约会场景"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 30,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午六点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "凉快",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "惬意",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 43,
+      "char_end": 45
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我从冰箱里拿出饮料，惬意地喝了一口。",
+      "sentence_index": 2,
+      "char_start": 30,
+      "char_end": 49,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "终于，我见到了她，把花递给了她。",
+      "sentence_index": 13,
+      "char_start": 256,
+      "char_end": 273,
+      "children": [
+        "word_004"
+      ]
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "相视而笑",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 286,
+      "char_end": 290
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "她开心地接过花，我们相视而笑。",
+      "sentence_index": 14,
+      "char_start": 273,
+      "char_end": 290,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。",
+      "sentence_index": 16,
+      "char_start": 305,
+      "char_end": 336,
+      "children": [
+        "word_005"
+      ]
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "奇怪",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 357,
+      "char_end": 359
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "突然，我看到一些奇怪的东西，感到有些惊讶。",
+      "sentence_index": 18,
+      "char_start": 350,
+      "char_end": 372,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "task_meaning_001",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "交代故事发生的具体时间节点，暗示下班后的私人时间开始，为后续的约会情节做铺垫。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "时间状语在叙事中的功能"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "task_meaning_002",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "生理上的舒适感，对应前文的天气炎热或工作后的燥热，体现回家后的放松状态。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "感官描写"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "task_meaning_003",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "形容心情舒畅、满意。在这里指主人公在约会前准备阶段享受独处和期待的愉悦心境。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "情绪状态描写"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "task_meaning_004",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "双方互相看着对方笑。这是非语言交流，传达了两人见面时的默契、喜爱和无需多言的亲密感。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "肢体语言/互动细节"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "task_meaning_005",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "这是一个转折复句。虽然她提议回家（可能是客气或试探），但“我”表达了想继续约会的强烈意愿，推动情节在酒吧继续发展。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "情节推动/人物意图"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "task_meaning_006",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指不符合常规或意料之外的事物。在这里制造了一个小小的悬念或冲突点，打破了原本平顺的约会氛围，增加了叙事的波澜。",
+      "confidence": 0.90,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "叙事冲突/悬念"
+    }
+  ]
+}

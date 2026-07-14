@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "词标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+  },
+  "units": [
+    { "id": "u1", "token": "进入了" },
+    { "id": "u2", "token": "激烈地" },
+    { "id": "u3", "token": "梦见了" },
+    { "id": "u4", "token": "淹没了" },
+    { "id": "u5", "token": "逃到" }
+  ],
+  "annotations": [
+    {
+      "unit_id": "u1",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["完成体", "状态变化标记"],
+      "semantic_primitives": ["动作", "状态改变", "终结"],
+      "pragmatic_meaning": "完成了从清醒状态向睡眠状态的过渡，动作已然发生",
+      "literal_gloss": "进入(enter) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u2",
+      "pos_like_category": ["形容词", "助词"],
+      "morphological_like_features": ["状语标记", "状态修饰"],
+      "semantic_primitives": ["程度", "强烈"],
+      "pragmatic_meaning": "作为状态修饰语，具体限定了争吵的严重程度和激烈情绪",
+      "literal_gloss": "激烈(intense/fierce) + 地(ADV/地)"
+    },
+    {
+      "unit_id": "u3",
+      "pos_like_category": ["动词", "补语", "助词"],
+      "morphological_like_features": ["结果形态", "完成体", "动作穷尽"],
+      "semantic_primitives": ["心理活动", "视觉", "终结"],
+      "pragmatic_meaning": "在无意识的睡眠状态中清晰地感知到了某些场景",
+      "literal_gloss": "梦(dream) + 见(see/result) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u4",
+      "pos_like_category": ["动词", "助词"],
+      "morphological_like_features": ["完成体", "状态变化标记"],
+      "semantic_primitives": ["动作", "覆盖", "终结"],
+      "pragmatic_meaning": "海水完全吞没、覆盖地球表面的灾难性动作已经完成",
+      "literal_gloss": "淹没(submerge) + 了(PERF/完成)"
+    },
+    {
+      "unit_id": "u5",
+      "pos_like_category": ["动词", "介词/补语"],
+      "morphological_like_features": ["结果形态", "动作到达终点"],
+      "semantic_primitives": ["位移", "避险", "抵达"],
+      "pragmatic_meaning": "为了躲避海浪而进行的空间位移，最终成功到达了目标地点（山上）",
+      "literal_gloss": "逃(flee) + 到(arrive/to)"
+    }
+  ]
+}

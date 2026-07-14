@@ -1,0 +1,294 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T23:11:37+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "次日5点",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "次日5点",
+    "source": "老师提供",
+    "raw_text": "\n凌晨五点，我开始做梦。在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。我在房子里转来转去，感觉一直在循环往复。接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。我坐热气球飞向太阳，然后又开始做梦。\n在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。我和很多人一起看花，然后继续做梦。我变成了超人，拥有钻石和皇冠，还有机器人。我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。\n我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。我看到电视和卫生间，电视里的人在不停地移动。我看着电视，感到有些迷茫。\n",
+    "notes": "句子自由翻译标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨五点，我开始做梦。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 11,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我走了很长的路，看到了闪电，然后走进了一栋房子。",
+      "sentence_index": 2,
+      "char_start": 11,
+      "char_end": 39,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我在房子里转来转去，感觉一直在循环往复。",
+      "sentence_index": 3,
+      "char_start": 39,
+      "char_end": 59,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "接着，我坐上了飞机，飞到了天上，看到了云朵和热气球。",
+      "sentence_index": 4,
+      "char_start": 59,
+      "char_end": 85,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我坐热气球飞向太阳，然后又开始做梦。",
+      "sentence_index": 5,
+      "char_start": 85,
+      "char_end": 103,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到了太阳、房子、城堡、汽车和美丽的花朵。",
+      "sentence_index": 6,
+      "char_start": 103,
+      "char_end": 129,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我和很多人一起看花，然后继续做梦。",
+      "sentence_index": 7,
+      "char_start": 129,
+      "char_end": 146,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我变成了超人，拥有钻石和皇冠，还有机器人。",
+      "sentence_index": 8,
+      "char_start": 146,
+      "char_end": 167,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我坐上火箭，遇到了下雨，然后从大楼上掉下来，感到非常惊讶。",
+      "sentence_index": 9,
+      "char_start": 167,
+      "char_end": 196,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我在梦里看到两个人在激烈地争吵，然后惊讶地醒来。",
+      "sentence_index": 10,
+      "char_start": 196,
+      "char_end": 220,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我看到电视和卫生间，电视里的人在不停地移动。",
+      "sentence_index": 11,
+      "char_start": 220,
+      "char_end": 242,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我看着电视，感到有些迷茫。",
+      "sentence_index": 12,
+      "char_start": 242,
+      "char_end": 255,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨五点的时候，我进入了梦境。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“我开始做梦”在中文中略显直白，调整为“我进入了梦境”更符合自然表达习惯，同时保留了时间信息和动作的起始含义，使句子更流畅。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在梦里走了很远的路，途中看见了闪电，后来走进了一栋房子。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句结构清晰，但“走了很长的路”在中文口语中更常说“走了很远的路”；“看到了闪电”改为“看见了闪电”更自然；“然后”保留时间顺序，整体表达流畅，符合中文叙述习惯。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在屋子里走来走去，总觉得一直在原地打转。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“转来转去”译为“走来走去”更符合日常口语习惯，“循环往复”意译为“原地打转”既保留了原意，又使表达更自然生动。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "随后，我登上了飞机，飞向高空，看到了朵朵白云和飘浮的热气球。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“坐上了飞机，飞到了天上”在中文中略显口语化且重复，调整为“登上了飞机，飞向高空”更简洁自然；“看到了云朵和热气球”补充为“朵朵白云和飘浮的热气球”，增加画面感和流畅度，同时保留原句所有基本信息。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我乘着热气球朝太阳飞去，随后又坠入了梦境之中。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“飞向太阳”带有诗意和超现实色彩，翻译时保留这一意象，同时将“又开始做梦”调整为“坠入梦境”，使动作衔接更自然流畅，符合中文表达习惯。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在梦里见到了太阳、房子、城堡、汽车，还有美丽的花朵。",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句结构简单，直译即可通顺。将“看到了”改为“见到了”更符合中文口语习惯，并在列举最后一项前加上“还有”，使表达更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我和许多人一同赏花，之后继续沉浸在梦境之中。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“看花”译为“赏花”更符合中文习惯，带有欣赏的意味；“继续做梦”保留原意，但用“沉浸在梦境之中”使表达更自然流畅，整体保持原句的意境和节奏。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我变成了超人，拥有了钻石、皇冠，还有机器人。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句表达清晰，无需大幅调整。仅将“拥有”改为“拥有了”以增强动作完成感，并用顿号连接并列物品，使语句更符合中文表达习惯。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我坐上了火箭，途中遇到下雨，接着从大楼上坠落下来，这让我感到非常惊讶。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“坐上火箭”“遇到下雨”“从大楼上掉下来”三个动作在中文中略显跳跃，通过添加“途中”“接着”等连接词，使事件顺序更连贯；“感到非常惊讶”调整为“这让我感到非常惊讶”，使主语更明确，整体表达更自然流畅。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我梦见两个人吵得很凶，一下子惊醒了。",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“在梦里看到”简化为“梦见”，更符合口语习惯；“激烈地争吵”译为“吵得很凶”，更自然生动；“惊讶地醒来”译为“一下子惊醒了”，更简洁且保留原句的突然性和情绪冲击。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我看到了电视和卫生间，电视画面里的人一直在动来动去。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“电视里的人在不停地移动”在中文中略显生硬，将其调整为“电视画面里的人一直在动来动去”，更符合日常口语表达习惯，同时保留了原句的基本信息，即“看到电视和卫生间”以及“电视中人物持续移动”的状态。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我盯着电视，心里却有些茫然。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "原句“看着电视，感到有些迷茫”表达的是动作与心理状态的并列，但“看着”略显平淡，“感到有些迷茫”也较为书面。自由翻译将“看着”改为“盯着”，更贴近日常口语中因心不在焉而目光呆滞的状态；“心里却有些茫然”则用“却”字强化了动作与心理之间的反差，使表达更自然、生动。"
+    }
+  ]
+}

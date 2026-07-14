@@ -1,0 +1,3327 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T20:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Composer (GPT-5.2 via Cursor Agent)"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "《地书》自然语言素材：13:00；次日 2:00；次日 3:00（对应教材页码范围：23R–25R；51R；52R–53R）",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "dishu_nl_1193230120_v1",
+    "title": "《地书》章节的自然语言实验改写素材（13:00 / 次日2:00 / 次日3:00）",
+    "source": "课程提供的 Markdown：文本素材.md（由扫描章节整理而成的可读中文叙事文本）",
+    "notes": "字符偏移按 UTF-16 代码单元计数（与 JavaScript/Cursor 编辑器的字符索引一致）；正文来自素材文件逐行拼接的去 Markdown 版本。 本文件仅收录 task_id=pragmatic_meaning 的词单位标注（语境实际含义）。句级自由翻译见同名句标注 JSON。",
+    "raw_text": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？她喜欢香奈儿，可我没钱，买不起。走着走着，我看到一家书店，想到书也是个不错的礼物。我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。我想到世贸中心被炸了，有点惊讶。我查了去美国的航班、机场、酒店和攻略。各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。我刷卡结账，想着买两本书当礼物。付了钱，拿到了礼物，想到她会很开心。我看着礼物，纠结要不要送她。走出书店，想到她的生日，又回头看了看。我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。我想到她和游戏，还是去结账吧。结完账，走出书店，看了看时间，回公司。刷了工牌，走进电梯，看到快递的牌子，有点惊讶。按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。走到工位，坐下。凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 34,
+      "children": [
+        "word_001_001",
+        "word_001_002",
+        "word_001_003",
+        "word_001_004"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？",
+      "sentence_index": 2,
+      "char_start": 35,
+      "char_end": 65,
+      "children": [
+        "word_002_001",
+        "word_002_002",
+        "word_002_003",
+        "word_002_004"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "她喜欢香奈儿，可我没钱，买不起。",
+      "sentence_index": 3,
+      "char_start": 66,
+      "char_end": 81,
+      "children": [
+        "word_003_001",
+        "word_003_002",
+        "word_003_003"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一家书店，想到书也是个不错的礼物。",
+      "sentence_index": 4,
+      "char_start": 82,
+      "char_end": 106,
+      "children": [
+        "word_004_001",
+        "word_004_002",
+        "word_004_003"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。",
+      "sentence_index": 5,
+      "char_start": 107,
+      "char_end": 151,
+      "children": [
+        "word_005_001",
+        "word_005_002",
+        "word_005_003",
+        "word_005_004",
+        "word_005_005"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我又想到书里藏着坏人，用枪指着我，有点害怕。",
+      "sentence_index": 6,
+      "char_start": 152,
+      "char_end": 173,
+      "children": [
+        "word_006_001",
+        "word_006_002",
+        "word_006_003"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "坏人开枪打我，我躲开了，有点生气。",
+      "sentence_index": 7,
+      "char_start": 174,
+      "char_end": 190,
+      "children": [
+        "word_007_001",
+        "word_007_002",
+        "word_007_003"
+      ]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我看着机票，想去旅行，忍不住笑了。",
+      "sentence_index": 8,
+      "char_start": 191,
+      "char_end": 207,
+      "children": [
+        "word_008_001",
+        "word_008_002",
+        "word_008_003"
+      ]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我想到我们结婚后去度蜜月，笑了。",
+      "sentence_index": 9,
+      "char_start": 208,
+      "char_end": 223,
+      "children": [
+        "word_009_001",
+        "word_009_002"
+      ]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我拿起手机给她发消息。",
+      "sentence_index": 10,
+      "char_start": 224,
+      "char_end": 234,
+      "children": [
+        "word_010_001",
+        "word_010_002"
+      ]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”",
+      "sentence_index": 11,
+      "char_start": 235,
+      "char_end": 272,
+      "children": [
+        "word_011_001",
+        "word_011_002"
+      ]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。",
+      "sentence_index": 12,
+      "char_start": 273,
+      "char_end": 315,
+      "children": [
+        "word_012_001",
+        "word_012_002",
+        "word_012_003"
+      ]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。",
+      "sentence_index": 13,
+      "char_start": 316,
+      "char_end": 346,
+      "children": [
+        "word_013_001",
+        "word_013_002"
+      ]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我想到世贸中心被炸了，有点惊讶。",
+      "sentence_index": 14,
+      "char_start": 347,
+      "char_end": 362,
+      "children": [
+        "word_014_001",
+        "word_014_002"
+      ]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我查了去美国的航班、机场、酒店和攻略。",
+      "sentence_index": 15,
+      "char_start": 363,
+      "char_end": 381,
+      "children": [
+        "word_015_001"
+      ]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。",
+      "sentence_index": 16,
+      "char_start": 382,
+      "char_end": 421,
+      "children": [
+        "word_016_001",
+        "word_016_002",
+        "word_016_003",
+        "word_016_004"
+      ]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。",
+      "sentence_index": 17,
+      "char_start": 422,
+      "char_end": 452,
+      "children": [
+        "word_017_001",
+        "word_017_002",
+        "word_017_003",
+        "word_017_004",
+        "word_017_005"
+      ]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。",
+      "sentence_index": 18,
+      "char_start": 453,
+      "char_end": 495,
+      "children": [
+        "word_018_001",
+        "word_018_002",
+        "word_018_003",
+        "word_018_004"
+      ]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我刷卡结账，想着买两本书当礼物。",
+      "sentence_index": 19,
+      "char_start": 496,
+      "char_end": 511,
+      "children": [
+        "word_019_001",
+        "word_019_002"
+      ]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "付了钱，拿到了礼物，想到她会很开心。",
+      "sentence_index": 20,
+      "char_start": 512,
+      "char_end": 529,
+      "children": [
+        "word_020_001",
+        "word_020_002",
+        "word_020_003"
+      ]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我看着礼物，纠结要不要送她。",
+      "sentence_index": 21,
+      "char_start": 530,
+      "char_end": 543,
+      "children": [
+        "word_021_001",
+        "word_021_002"
+      ]
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "走出书店，想到她的生日，又回头看了看。",
+      "sentence_index": 22,
+      "char_start": 544,
+      "char_end": 562,
+      "children": [
+        "word_022_001",
+        "word_022_002",
+        "word_022_003"
+      ]
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。",
+      "sentence_index": 23,
+      "char_start": 563,
+      "char_end": 603,
+      "children": [
+        "word_023_001",
+        "word_023_002",
+        "word_023_003",
+        "word_023_004",
+        "word_023_005"
+      ]
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我想到她和游戏，还是去结账吧。",
+      "sentence_index": 24,
+      "char_start": 604,
+      "char_end": 618,
+      "children": [
+        "word_024_001",
+        "word_024_002"
+      ]
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "结完账，走出书店，看了看时间，回公司。",
+      "sentence_index": 25,
+      "char_start": 619,
+      "char_end": 637,
+      "children": [
+        "word_025_001",
+        "word_025_002",
+        "word_025_003",
+        "word_025_004"
+      ]
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "刷了工牌，走进电梯，看到快递的牌子，有点惊讶。",
+      "sentence_index": 26,
+      "char_start": 638,
+      "char_end": 660,
+      "children": [
+        "word_026_001",
+        "word_026_002",
+        "word_026_003",
+        "word_026_004"
+      ]
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。",
+      "sentence_index": 27,
+      "char_start": 661,
+      "char_end": 689,
+      "children": [
+        "word_027_001",
+        "word_027_002",
+        "word_027_003",
+        "word_027_004",
+        "word_027_005"
+      ]
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。",
+      "sentence_index": 28,
+      "char_start": 690,
+      "char_end": 718,
+      "children": [
+        "word_028_001",
+        "word_028_002",
+        "word_028_003",
+        "word_028_004",
+        "word_028_005",
+        "word_028_006",
+        "word_028_007",
+        "word_028_008",
+        "word_028_009"
+      ]
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "走到工位，坐下。",
+      "sentence_index": 29,
+      "char_start": 719,
+      "char_end": 726,
+      "children": [
+        "word_029_001",
+        "word_029_002"
+      ]
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 30,
+      "char_start": 727,
+      "char_end": 746,
+      "children": [
+        "word_030_001",
+        "word_030_002",
+        "word_030_003"
+      ]
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 31,
+      "char_start": 747,
+      "char_end": 763,
+      "children": [
+        "word_031_001",
+        "word_031_002"
+      ]
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 32,
+      "char_start": 764,
+      "char_end": 807,
+      "children": [
+        "word_032_001",
+        "word_032_002",
+        "word_032_003",
+        "word_032_004"
+      ]
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 33,
+      "char_start": 808,
+      "char_end": 824,
+      "children": [
+        "word_033_001",
+        "word_033_002"
+      ]
+    },
+    {
+      "unit_id": "sent_034",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 34,
+      "char_start": 825,
+      "char_end": 842,
+      "children": [
+        "word_034_001",
+        "word_034_002"
+      ]
+    },
+    {
+      "unit_id": "sent_035",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 35,
+      "char_start": 843,
+      "char_end": 875,
+      "children": [
+        "word_035_001",
+        "word_035_002",
+        "word_035_003",
+        "word_035_004"
+      ]
+    },
+    {
+      "unit_id": "sent_036",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 36,
+      "char_start": 876,
+      "char_end": 900,
+      "children": [
+        "word_036_001",
+        "word_036_002",
+        "word_036_003"
+      ]
+    },
+    {
+      "unit_id": "sent_037",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 37,
+      "char_start": 901,
+      "char_end": 921,
+      "children": [
+        "word_037_001",
+        "word_037_002"
+      ]
+    },
+    {
+      "unit_id": "sent_038",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 38,
+      "char_start": 922,
+      "char_end": 944,
+      "children": [
+        "word_038_001",
+        "word_038_002",
+        "word_038_003"
+      ]
+    },
+    {
+      "unit_id": "sent_039",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 39,
+      "char_start": 945,
+      "char_end": 965,
+      "children": [
+        "word_039_001",
+        "word_039_002",
+        "word_039_003"
+      ]
+    },
+    {
+      "unit_id": "sent_040",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 40,
+      "char_start": 966,
+      "char_end": 981,
+      "children": [
+        "word_040_001",
+        "word_040_002"
+      ]
+    },
+    {
+      "unit_id": "word_001_001",
+      "unit_type": "word",
+      "text": "我走在斑马线上，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_001_002",
+      "unit_type": "word",
+      "text": "心里盘算着",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 8,
+      "char_end": 12
+    },
+    {
+      "unit_id": "word_001_003",
+      "unit_type": "word",
+      "text": "给她准备一份生日礼物——",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 13,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_001_004",
+      "unit_type": "word",
+      "text": "她马上就要30岁了。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 25,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_002_001",
+      "unit_type": "word",
+      "text": "我又想到，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 35,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_002_002",
+      "unit_type": "word",
+      "text": "要是送她一份求婚礼物，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 40,
+      "char_end": 50
+    },
+    {
+      "unit_id": "word_002_003",
+      "unit_type": "word",
+      "text": "我们就能结婚了，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 51,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_002_004",
+      "unit_type": "word",
+      "text": "可送什么好呢？",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 59,
+      "char_end": 65
+    },
+    {
+      "unit_id": "word_003_001",
+      "unit_type": "word",
+      "text": "她喜欢香奈儿，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 66,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_003_002",
+      "unit_type": "word",
+      "text": "可我没钱，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 73,
+      "char_end": 77
+    },
+    {
+      "unit_id": "word_003_003",
+      "unit_type": "word",
+      "text": "买不起。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 78,
+      "char_end": 81
+    },
+    {
+      "unit_id": "word_004_001",
+      "unit_type": "word",
+      "text": "走着走着，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 82,
+      "char_end": 86
+    },
+    {
+      "unit_id": "word_004_002",
+      "unit_type": "word",
+      "text": "我看到一家书店，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 87,
+      "char_end": 94
+    },
+    {
+      "unit_id": "word_004_003",
+      "unit_type": "word",
+      "text": "想到书也是个不错的礼物。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 95,
+      "char_end": 106
+    },
+    {
+      "unit_id": "word_005_001",
+      "unit_type": "word",
+      "text": "我走进书店，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 107,
+      "char_end": 112
+    },
+    {
+      "unit_id": "word_005_002",
+      "unit_type": "word",
+      "text": "翻了翻书，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 113,
+      "char_end": 117
+    },
+    {
+      "unit_id": "word_005_003",
+      "unit_type": "word",
+      "text": "突然想到可以在书里夹一朵玫瑰，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 118,
+      "char_end": 132
+    },
+    {
+      "unit_id": "word_005_004",
+      "unit_type": "word",
+      "text": "可玫瑰很快就枯萎了，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 133,
+      "char_end": 142
+    },
+    {
+      "unit_id": "word_005_005",
+      "unit_type": "word",
+      "text": "我的心也跟着碎了。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 143,
+      "char_end": 151
+    },
+    {
+      "unit_id": "word_006_001",
+      "unit_type": "word",
+      "text": "我又想到书里藏着坏人，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 152,
+      "char_end": 162
+    },
+    {
+      "unit_id": "word_006_002",
+      "unit_type": "word",
+      "text": "用枪指着我，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 163,
+      "char_end": 168
+    },
+    {
+      "unit_id": "word_006_003",
+      "unit_type": "word",
+      "text": "有点害怕。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 169,
+      "char_end": 173
+    },
+    {
+      "unit_id": "word_007_001",
+      "unit_type": "word",
+      "text": "坏人开枪打我，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 174,
+      "char_end": 180
+    },
+    {
+      "unit_id": "word_007_002",
+      "unit_type": "word",
+      "text": "我躲开了，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 181,
+      "char_end": 185
+    },
+    {
+      "unit_id": "word_007_003",
+      "unit_type": "word",
+      "text": "有点生气。",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 186,
+      "char_end": 190
+    },
+    {
+      "unit_id": "word_008_001",
+      "unit_type": "word",
+      "text": "我看着机票，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 191,
+      "char_end": 196
+    },
+    {
+      "unit_id": "word_008_002",
+      "unit_type": "word",
+      "text": "想去旅行，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 197,
+      "char_end": 201
+    },
+    {
+      "unit_id": "word_008_003",
+      "unit_type": "word",
+      "text": "忍不住笑了。",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 202,
+      "char_end": 207
+    },
+    {
+      "unit_id": "word_009_001",
+      "unit_type": "word",
+      "text": "我想到我们结婚后去度蜜月，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 208,
+      "char_end": 220
+    },
+    {
+      "unit_id": "word_009_002",
+      "unit_type": "word",
+      "text": "笑了。",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 221,
+      "char_end": 223
+    },
+    {
+      "unit_id": "word_010_001",
+      "unit_type": "word",
+      "text": "我拿起手机",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 224,
+      "char_end": 228
+    },
+    {
+      "unit_id": "word_010_002",
+      "unit_type": "word",
+      "text": "给她发消息。",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2,
+      "char_start": 229,
+      "char_end": 234
+    },
+    {
+      "unit_id": "word_011_001",
+      "unit_type": "word",
+      "text": "我问她：“结婚后想去哪度蜜月？”",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 235,
+      "char_end": 250
+    },
+    {
+      "unit_id": "word_011_002",
+      "unit_type": "word",
+      "text": "她回：“想去自由女神像，还有埃菲尔铁塔……”",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 251,
+      "char_end": 272
+    },
+    {
+      "unit_id": "word_012_001",
+      "unit_type": "word",
+      "text": "电话响了，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 1,
+      "char_start": 273,
+      "char_end": 277
+    },
+    {
+      "unit_id": "word_012_002",
+      "unit_type": "word",
+      "text": "我看着机票，",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 2,
+      "char_start": 278,
+      "char_end": 283
+    },
+    {
+      "unit_id": "word_012_003",
+      "unit_type": "word",
+      "text": "想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。",
+      "sentence_id": "sent_012",
+      "word_index_in_sentence": 3,
+      "char_start": 284,
+      "char_end": 315
+    },
+    {
+      "unit_id": "word_013_001",
+      "unit_type": "word",
+      "text": "美国的景点有",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 1,
+      "char_start": 316,
+      "char_end": 321
+    },
+    {
+      "unit_id": "word_013_002",
+      "unit_type": "word",
+      "text": "白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。",
+      "sentence_id": "sent_013",
+      "word_index_in_sentence": 2,
+      "char_start": 322,
+      "char_end": 346
+    },
+    {
+      "unit_id": "word_014_001",
+      "unit_type": "word",
+      "text": "我想到世贸中心被炸了，",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 1,
+      "char_start": 347,
+      "char_end": 357
+    },
+    {
+      "unit_id": "word_014_002",
+      "unit_type": "word",
+      "text": "有点惊讶。",
+      "sentence_id": "sent_014",
+      "word_index_in_sentence": 2,
+      "char_start": 358,
+      "char_end": 362
+    },
+    {
+      "unit_id": "word_015_001",
+      "unit_type": "word",
+      "text": "我查了去美国的航班、机场、酒店和攻略。",
+      "sentence_id": "sent_015",
+      "word_index_in_sentence": 1,
+      "char_start": 363,
+      "char_end": 381
+    },
+    {
+      "unit_id": "word_016_001",
+      "unit_type": "word",
+      "text": "各种酒店都列了出来，",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 1,
+      "char_start": 382,
+      "char_end": 391
+    },
+    {
+      "unit_id": "word_016_002",
+      "unit_type": "word",
+      "text": "五星的、三星的、经济型的，",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 2,
+      "char_start": 392,
+      "char_end": 404
+    },
+    {
+      "unit_id": "word_016_003",
+      "unit_type": "word",
+      "text": "还有博物馆、剧院，",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 3,
+      "char_start": 405,
+      "char_end": 413
+    },
+    {
+      "unit_id": "word_016_004",
+      "unit_type": "word",
+      "text": "各种奢侈品品牌。",
+      "sentence_id": "sent_016",
+      "word_index_in_sentence": 4,
+      "char_start": 414,
+      "char_end": 421
+    },
+    {
+      "unit_id": "word_017_001",
+      "unit_type": "word",
+      "text": "我点了赞，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 1,
+      "char_start": 422,
+      "char_end": 426
+    },
+    {
+      "unit_id": "word_017_002",
+      "unit_type": "word",
+      "text": "笑着继续翻书，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 2,
+      "char_start": 427,
+      "char_end": 433
+    },
+    {
+      "unit_id": "word_017_003",
+      "unit_type": "word",
+      "text": "走着走着到了门口，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 3,
+      "char_start": 434,
+      "char_end": 442
+    },
+    {
+      "unit_id": "word_017_004",
+      "unit_type": "word",
+      "text": "红灯亮了，",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 4,
+      "char_start": 443,
+      "char_end": 447
+    },
+    {
+      "unit_id": "word_017_005",
+      "unit_type": "word",
+      "text": "停了下来。",
+      "sentence_id": "sent_017",
+      "word_index_in_sentence": 5,
+      "char_start": 448,
+      "char_end": 452
+    },
+    {
+      "unit_id": "word_018_001",
+      "unit_type": "word",
+      "text": "我想到她，",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 1,
+      "char_start": 453,
+      "char_end": 457
+    },
+    {
+      "unit_id": "word_018_002",
+      "unit_type": "word",
+      "text": "转身往回走，",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 2,
+      "char_start": 458,
+      "char_end": 463
+    },
+    {
+      "unit_id": "word_018_003",
+      "unit_type": "word",
+      "text": "又查了巴黎的景点，",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 3,
+      "char_start": 464,
+      "char_end": 472
+    },
+    {
+      "unit_id": "word_018_004",
+      "unit_type": "word",
+      "text": "巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。",
+      "sentence_id": "sent_018",
+      "word_index_in_sentence": 4,
+      "char_start": 473,
+      "char_end": 495
+    },
+    {
+      "unit_id": "word_019_001",
+      "unit_type": "word",
+      "text": "我刷卡结账，",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 1,
+      "char_start": 496,
+      "char_end": 501
+    },
+    {
+      "unit_id": "word_019_002",
+      "unit_type": "word",
+      "text": "想着买两本书当礼物。",
+      "sentence_id": "sent_019",
+      "word_index_in_sentence": 2,
+      "char_start": 502,
+      "char_end": 511
+    },
+    {
+      "unit_id": "word_020_001",
+      "unit_type": "word",
+      "text": "付了钱，",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 1,
+      "char_start": 512,
+      "char_end": 515
+    },
+    {
+      "unit_id": "word_020_002",
+      "unit_type": "word",
+      "text": "拿到了礼物，",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 2,
+      "char_start": 516,
+      "char_end": 521
+    },
+    {
+      "unit_id": "word_020_003",
+      "unit_type": "word",
+      "text": "想到她会很开心。",
+      "sentence_id": "sent_020",
+      "word_index_in_sentence": 3,
+      "char_start": 522,
+      "char_end": 529
+    },
+    {
+      "unit_id": "word_021_001",
+      "unit_type": "word",
+      "text": "我看着礼物，",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 1,
+      "char_start": 530,
+      "char_end": 535
+    },
+    {
+      "unit_id": "word_021_002",
+      "unit_type": "word",
+      "text": "纠结要不要送她。",
+      "sentence_id": "sent_021",
+      "word_index_in_sentence": 2,
+      "char_start": 536,
+      "char_end": 543
+    },
+    {
+      "unit_id": "word_022_001",
+      "unit_type": "word",
+      "text": "走出书店，",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 1,
+      "char_start": 544,
+      "char_end": 548
+    },
+    {
+      "unit_id": "word_022_002",
+      "unit_type": "word",
+      "text": "想到她的生日，",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 2,
+      "char_start": 549,
+      "char_end": 555
+    },
+    {
+      "unit_id": "word_022_003",
+      "unit_type": "word",
+      "text": "又回头看了看。",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 3,
+      "char_start": 556,
+      "char_end": 562
+    },
+    {
+      "unit_id": "word_023_001",
+      "unit_type": "word",
+      "text": "我想着相机太贵，不买；",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 1,
+      "char_start": 563,
+      "char_end": 573
+    },
+    {
+      "unit_id": "word_023_002",
+      "unit_type": "word",
+      "text": "平板太贵，不买；",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 2,
+      "char_start": 574,
+      "char_end": 581
+    },
+    {
+      "unit_id": "word_023_003",
+      "unit_type": "word",
+      "text": "滑板太贵，不买；",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 3,
+      "char_start": 582,
+      "char_end": 589
+    },
+    {
+      "unit_id": "word_023_004",
+      "unit_type": "word",
+      "text": "游戏不贵，买了，",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 4,
+      "char_start": 590,
+      "char_end": 597
+    },
+    {
+      "unit_id": "word_023_005",
+      "unit_type": "word",
+      "text": "忍不住笑了。",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 5,
+      "char_start": 598,
+      "char_end": 603
+    },
+    {
+      "unit_id": "word_024_001",
+      "unit_type": "word",
+      "text": "我想到她和游戏，",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 1,
+      "char_start": 604,
+      "char_end": 611
+    },
+    {
+      "unit_id": "word_024_002",
+      "unit_type": "word",
+      "text": "还是去结账吧。",
+      "sentence_id": "sent_024",
+      "word_index_in_sentence": 2,
+      "char_start": 612,
+      "char_end": 618
+    },
+    {
+      "unit_id": "word_025_001",
+      "unit_type": "word",
+      "text": "结完账，",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 1,
+      "char_start": 619,
+      "char_end": 622
+    },
+    {
+      "unit_id": "word_025_002",
+      "unit_type": "word",
+      "text": "走出书店，",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 2,
+      "char_start": 623,
+      "char_end": 627
+    },
+    {
+      "unit_id": "word_025_003",
+      "unit_type": "word",
+      "text": "看了看时间，",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 3,
+      "char_start": 628,
+      "char_end": 633
+    },
+    {
+      "unit_id": "word_025_004",
+      "unit_type": "word",
+      "text": "回公司。",
+      "sentence_id": "sent_025",
+      "word_index_in_sentence": 4,
+      "char_start": 634,
+      "char_end": 637
+    },
+    {
+      "unit_id": "word_026_001",
+      "unit_type": "word",
+      "text": "刷了工牌，",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 1,
+      "char_start": 638,
+      "char_end": 642
+    },
+    {
+      "unit_id": "word_026_002",
+      "unit_type": "word",
+      "text": "走进电梯，",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 2,
+      "char_start": 643,
+      "char_end": 647
+    },
+    {
+      "unit_id": "word_026_003",
+      "unit_type": "word",
+      "text": "看到快递的牌子，",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 3,
+      "char_start": 648,
+      "char_end": 655
+    },
+    {
+      "unit_id": "word_026_004",
+      "unit_type": "word",
+      "text": "有点惊讶。",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 4,
+      "char_start": 656,
+      "char_end": 660
+    },
+    {
+      "unit_id": "word_027_001",
+      "unit_type": "word",
+      "text": "按了电梯，",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 1,
+      "char_start": 661,
+      "char_end": 665
+    },
+    {
+      "unit_id": "word_027_002",
+      "unit_type": "word",
+      "text": "电梯到了1、2……89楼，",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 2,
+      "char_start": 666,
+      "char_end": 678
+    },
+    {
+      "unit_id": "word_027_003",
+      "unit_type": "word",
+      "text": "红灯停了，",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 3,
+      "char_start": 679,
+      "char_end": 683
+    },
+    {
+      "unit_id": "word_027_004",
+      "unit_type": "word",
+      "text": "开门，",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 4,
+      "char_start": 684,
+      "char_end": 686
+    },
+    {
+      "unit_id": "word_027_005",
+      "unit_type": "word",
+      "text": "出去。",
+      "sentence_id": "sent_027",
+      "word_index_in_sentence": 5,
+      "char_start": 687,
+      "char_end": 689
+    },
+    {
+      "unit_id": "word_028_001",
+      "unit_type": "word",
+      "text": "左转，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 1,
+      "char_start": 690,
+      "char_end": 692
+    },
+    {
+      "unit_id": "word_028_002",
+      "unit_type": "word",
+      "text": "直行，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 2,
+      "char_start": 693,
+      "char_end": 695
+    },
+    {
+      "unit_id": "word_028_003",
+      "unit_type": "word",
+      "text": "转弯，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 3,
+      "char_start": 696,
+      "char_end": 698
+    },
+    {
+      "unit_id": "word_028_004",
+      "unit_type": "word",
+      "text": "直行，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 4,
+      "char_start": 699,
+      "char_end": 701
+    },
+    {
+      "unit_id": "word_028_005",
+      "unit_type": "word",
+      "text": "再转弯，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 5,
+      "char_start": 702,
+      "char_end": 705
+    },
+    {
+      "unit_id": "word_028_006",
+      "unit_type": "word",
+      "text": "直行，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 6,
+      "char_start": 706,
+      "char_end": 708
+    },
+    {
+      "unit_id": "word_028_007",
+      "unit_type": "word",
+      "text": "打卡，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 7,
+      "char_start": 709,
+      "char_end": 711
+    },
+    {
+      "unit_id": "word_028_008",
+      "unit_type": "word",
+      "text": "刷手机，",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 8,
+      "char_start": 712,
+      "char_end": 715
+    },
+    {
+      "unit_id": "word_028_009",
+      "unit_type": "word",
+      "text": "开门。",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 9,
+      "char_start": 716,
+      "char_end": 718
+    },
+    {
+      "unit_id": "word_029_001",
+      "unit_type": "word",
+      "text": "走到工位，",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 1,
+      "char_start": 719,
+      "char_end": 723
+    },
+    {
+      "unit_id": "word_029_002",
+      "unit_type": "word",
+      "text": "坐下。",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 2,
+      "char_start": 724,
+      "char_end": 726
+    },
+    {
+      "unit_id": "word_030_001",
+      "unit_type": "word",
+      "text": "凌晨两点，",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 1,
+      "char_start": 727,
+      "char_end": 731
+    },
+    {
+      "unit_id": "word_030_002",
+      "unit_type": "word",
+      "text": "我躺在床上，",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 2,
+      "char_start": 732,
+      "char_end": 737
+    },
+    {
+      "unit_id": "word_030_003",
+      "unit_type": "word",
+      "text": "很快就进入了梦乡。",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 3,
+      "char_start": 738,
+      "char_end": 746
+    },
+    {
+      "unit_id": "word_031_001",
+      "unit_type": "word",
+      "text": "在梦里，",
+      "sentence_id": "sent_031",
+      "word_index_in_sentence": 1,
+      "char_start": 747,
+      "char_end": 750
+    },
+    {
+      "unit_id": "word_031_002",
+      "unit_type": "word",
+      "text": "我看到两个人在激烈地争吵。",
+      "sentence_id": "sent_031",
+      "word_index_in_sentence": 2,
+      "char_start": 751,
+      "char_end": 763
+    },
+    {
+      "unit_id": "word_032_001",
+      "unit_type": "word",
+      "text": "接着，",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 1,
+      "char_start": 764,
+      "char_end": 766
+    },
+    {
+      "unit_id": "word_032_002",
+      "unit_type": "word",
+      "text": "我梦见了 2012 年世界末日的场景，",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 2,
+      "char_start": 767,
+      "char_end": 785
+    },
+    {
+      "unit_id": "word_032_003",
+      "unit_type": "word",
+      "text": "巨大的海浪淹没了地球，",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 3,
+      "char_start": 786,
+      "char_end": 796
+    },
+    {
+      "unit_id": "word_032_004",
+      "unit_type": "word",
+      "text": "人们纷纷逃到山上避难。",
+      "sentence_id": "sent_032",
+      "word_index_in_sentence": 4,
+      "char_start": 797,
+      "char_end": 807
+    },
+    {
+      "unit_id": "word_033_001",
+      "unit_type": "word",
+      "text": "凌晨三点，",
+      "sentence_id": "sent_033",
+      "word_index_in_sentence": 1,
+      "char_start": 808,
+      "char_end": 812
+    },
+    {
+      "unit_id": "word_033_002",
+      "unit_type": "word",
+      "text": "我被蚊子的嗡嗡声吵醒了。",
+      "sentence_id": "sent_033",
+      "word_index_in_sentence": 2,
+      "char_start": 813,
+      "char_end": 824
+    },
+    {
+      "unit_id": "word_034_001",
+      "unit_type": "word",
+      "text": "我听到外面有人在吵架，",
+      "sentence_id": "sent_034",
+      "word_index_in_sentence": 1,
+      "char_start": 825,
+      "char_end": 835
+    },
+    {
+      "unit_id": "word_034_002",
+      "unit_type": "word",
+      "text": "感到非常烦躁。",
+      "sentence_id": "sent_034",
+      "word_index_in_sentence": 2,
+      "char_start": 836,
+      "char_end": 842
+    },
+    {
+      "unit_id": "word_035_001",
+      "unit_type": "word",
+      "text": "我开始用手拍蚊子，",
+      "sentence_id": "sent_035",
+      "word_index_in_sentence": 1,
+      "char_start": 843,
+      "char_end": 851
+    },
+    {
+      "unit_id": "word_035_002",
+      "unit_type": "word",
+      "text": "并用杀虫剂喷它们，",
+      "sentence_id": "sent_035",
+      "word_index_in_sentence": 2,
+      "char_start": 852,
+      "char_end": 860
+    },
+    {
+      "unit_id": "word_035_003",
+      "unit_type": "word",
+      "text": "但蚊子总是飞来飞去，",
+      "sentence_id": "sent_035",
+      "word_index_in_sentence": 3,
+      "char_start": 861,
+      "char_end": 870
+    },
+    {
+      "unit_id": "word_035_004",
+      "unit_type": "word",
+      "text": "很难打到。",
+      "sentence_id": "sent_035",
+      "word_index_in_sentence": 4,
+      "char_start": 871,
+      "char_end": 875
+    },
+    {
+      "unit_id": "word_036_001",
+      "unit_type": "word",
+      "text": "我关掉电视和灯，",
+      "sentence_id": "sent_036",
+      "word_index_in_sentence": 1,
+      "char_start": 876,
+      "char_end": 883
+    },
+    {
+      "unit_id": "word_036_002",
+      "unit_type": "word",
+      "text": "准备睡觉，",
+      "sentence_id": "sent_036",
+      "word_index_in_sentence": 2,
+      "char_start": 884,
+      "char_end": 888
+    },
+    {
+      "unit_id": "word_036_003",
+      "unit_type": "word",
+      "text": "但蚊子还是不停地骚扰我。",
+      "sentence_id": "sent_036",
+      "word_index_in_sentence": 3,
+      "char_start": 889,
+      "char_end": 900
+    },
+    {
+      "unit_id": "word_037_001",
+      "unit_type": "word",
+      "text": "我打开台灯，",
+      "sentence_id": "sent_037",
+      "word_index_in_sentence": 1,
+      "char_start": 901,
+      "char_end": 906
+    },
+    {
+      "unit_id": "word_037_002",
+      "unit_type": "word",
+      "text": "继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_id": "sent_037",
+      "word_index_in_sentence": 2,
+      "char_start": 907,
+      "char_end": 921
+    },
+    {
+      "unit_id": "word_038_001",
+      "unit_type": "word",
+      "text": "我追着蚊子跑，",
+      "sentence_id": "sent_038",
+      "word_index_in_sentence": 1,
+      "char_start": 922,
+      "char_end": 928
+    },
+    {
+      "unit_id": "word_038_002",
+      "unit_type": "word",
+      "text": "上下挥舞着杀虫剂，",
+      "sentence_id": "sent_038",
+      "word_index_in_sentence": 2,
+      "char_start": 929,
+      "char_end": 937
+    },
+    {
+      "unit_id": "word_038_003",
+      "unit_type": "word",
+      "text": "累得满头大汗。",
+      "sentence_id": "sent_038",
+      "word_index_in_sentence": 3,
+      "char_start": 938,
+      "char_end": 944
+    },
+    {
+      "unit_id": "word_039_001",
+      "unit_type": "word",
+      "text": "最后，",
+      "sentence_id": "sent_039",
+      "word_index_in_sentence": 1,
+      "char_start": 945,
+      "char_end": 947
+    },
+    {
+      "unit_id": "word_039_002",
+      "unit_type": "word",
+      "text": "我终于打死了一只蚊子，",
+      "sentence_id": "sent_039",
+      "word_index_in_sentence": 2,
+      "char_start": 948,
+      "char_end": 958
+    },
+    {
+      "unit_id": "word_039_003",
+      "unit_type": "word",
+      "text": "手上沾满了血。",
+      "sentence_id": "sent_039",
+      "word_index_in_sentence": 3,
+      "char_start": 959,
+      "char_end": 965
+    },
+    {
+      "unit_id": "word_040_001",
+      "unit_type": "word",
+      "text": "我关掉台灯，",
+      "sentence_id": "sent_040",
+      "word_index_in_sentence": 1,
+      "char_start": 966,
+      "char_end": 971
+    },
+    {
+      "unit_id": "word_040_002",
+      "unit_type": "word",
+      "text": "终于可以安心睡觉了。",
+      "sentence_id": "sent_040",
+      "word_index_in_sentence": 2,
+      "char_start": 972,
+      "char_end": 981
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_pm_001",
+      "target_id": "word_001_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "交代主人公仍在日常城市空间里移动，为随后的胡思乱想提供现实锚点。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_002",
+      "target_id": "word_001_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "强调念头在心里打转，未必对别人说出口。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_003",
+      "target_id": "word_001_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "用‘生日礼物’包装接下来的亲密举动，使动机看起来更平常、也更可控。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_004",
+      "target_id": "word_001_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "借‘快到三十’的人生节点，把送礼说成顺理成章，也为情感加码提供借口。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_005",
+      "target_id": "word_002_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "思维跳到另一条路径，继续构想亲密关系的可能性。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_006",
+      "target_id": "word_002_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把婚姻门槛具象化为‘求婚礼物’，把复杂愿望装进礼物叙事里。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_007",
+      "target_id": "word_002_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把‘结婚’当成顺理成章的结局设想，带有愿望投射而非既定事实。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_008",
+      "target_id": "word_002_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表面问‘送什么’，实为承认自己既没有预算也缺少稳妥方案。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_009",
+      "target_id": "word_003_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "点明偏好指向昂贵符号消费，抬高后续‘买不起’的心理落差。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_010",
+      "target_id": "word_003_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "强调经济约束带来的挫败感，而不只是客观陈述价格。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_011",
+      "target_id": "word_003_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "三字收束为自嘲式认输：愿望直接被现实驳回。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_012",
+      "target_id": "word_004_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "叙述闲逛的节奏，让书店出现得更自然。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_013",
+      "target_id": "word_004_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "书店作为转机：礼物选项从奢侈品转向文化消费品。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_014",
+      "target_id": "word_004_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "自我说服‘书也不错’，把省钱策略美化成体贴用心。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_015",
+      "target_id": "word_005_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "进入具体场景，注意力落在可翻阅的商品上。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_016",
+      "target_id": "word_005_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "随意浏览的动作，降低后续灵感闪现的刻意感。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_017",
+      "target_id": "word_005_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把玫瑰浪漫化进书里，是一种低成本戏剧化的甜蜜想象。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_018",
+      "target_id": "word_005_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "枯萎不只是花，也是浪漫想象的‘保质期焦虑’。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_019",
+      "target_id": "word_005_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "心碎更多是失落于幻想破灭，而非生物学意义上的玫瑰凋谢。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_020",
+      "target_id": "word_006_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "念头突然转向惊悚桥段，阅读体验被想象成危险情境。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_021",
+      "target_id": "word_006_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "恐怖来源不是抽象‘坏人’，而是对准自己的威胁姿态。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_022",
+      "target_id": "word_006_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "害怕来自代入故事后的防御反应，也可读出一点点好笑的自嘲。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_023",
+      "target_id": "word_007_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "梦境式切换：情绪由恐惧转为对抗游戏的夸张冲突。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_024",
+      "target_id": "word_007_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "躲开更像卡通动作片逻辑，强调惊险但并不真实受伤。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_025",
+      "target_id": "word_007_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "气愤是被打断幻想后的轻微恼怒，而非深层创伤。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_026",
+      "target_id": "word_008_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "机票成为逃逸与远方的符号，把注意力从书店拉回旅行幻想。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_027",
+      "target_id": "word_008_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘想去旅行’是对自由的即时渴望，未必马上要成行。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_028",
+      "target_id": "word_008_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "笑是紧绷想象后的放松，也像对自己白日梦的纵容。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_029",
+      "target_id": "word_009_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "蜜月指向婚后共同体的生活蓝图，与送礼焦虑形成对照。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_030",
+      "target_id": "word_009_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "这里的‘笑了’更像自我安抚：一想未来就先把当下抚慰过去。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_031",
+      "target_id": "word_010_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "拿起手机是把念头付诸沟通的起步动作。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_032",
+      "target_id": "word_010_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "发消息意味着把私密设想推向关系互动层面。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_033",
+      "target_id": "word_011_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表面询问目的地，其实在试探婚后共同计划的契合度。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_034",
+      "target_id": "word_011_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "回答列出地标，是用‘世界名胜’承载浪漫想象与炫耀式憧憬。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_035",
+      "target_id": "word_012_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "来电打断思绪流，制造叙事节拍变化。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_036",
+      "target_id": "word_012_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "再看机票强调旅行念头仍在后台运行。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_037",
+      "target_id": "word_012_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "一串地名显示贪婪兼焦虑的选择膨胀，最终以‘美国’落槌像是随意敲定。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_038",
+      "target_id": "word_013_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘景点有’引出枚举，叙述口吻接近导游清单。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_039",
+      "target_id": "word_013_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "地标并列不只是地点，更是流行文化与政治符号的拼贴。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_040",
+      "target_id": "word_014_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "由地标联想到恐怖袭击的历史记忆，幻想突然被现实新闻底色刺穿。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_041",
+      "target_id": "word_014_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "惊讶来自联想跳跃的冲击，不一定是对暴力的近距离恐惧。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_042",
+      "target_id": "word_015_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把工作流程化信息检索写得像在筹备真正的行程，强化沉浸式走神。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_043",
+      "target_id": "word_016_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "像是在社交媒体上点赞收藏攻略，带一点跟风与盲目热情的意味。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_044",
+      "target_id": "word_016_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "星级酒店档位对照购买力与社会阶层想象。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_045",
+      "target_id": "word_016_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "博物馆剧院补充‘有文化’的自我定位。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_046",
+      "target_id": "word_016_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "奢侈品名单把旅行写成消费欲望的展销会。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_047",
+      "target_id": "word_017_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "点赞更像对自己白日梦的认可与激励，而非对外展示。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_048",
+      "target_id": "word_017_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "笑着翻书说明仍处于愉悦的幻想频道。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_049",
+      "target_id": "word_017_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "到门口提示叙事即将回到街道规则（红绿灯）。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_050",
+      "target_id": "word_017_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "红灯是外部秩序的提醒：走神必须暂停。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_051",
+      "target_id": "word_017_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "停下来既是交通规则，也像情绪稍作收束。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_052",
+      "target_id": "word_018_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "想到她把叙事拉回情感主线，而非攻略清单。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_053",
+      "target_id": "word_018_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "折返动作暗示犹豫：礼物方案仍在摇摆。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_054",
+      "target_id": "word_018_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘查巴黎景点’显示目的地偏好又被改写，思维跳跃像随手换台。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_055",
+      "target_id": "word_018_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "名胜罗列再次把浪漫等同于地标打卡集合。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_056",
+      "target_id": "word_019_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "结账意味着把想象落实到购买行为。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_057",
+      "target_id": "word_019_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "两本书对应前文灵感：仍是‘书的礼物’路径。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_058",
+      "target_id": "word_020_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "付钱完成交易闭环，让礼物变成手里真实物件。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_059",
+      "target_id": "word_020_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "开心是对女友反应的乐观投射，也是一种自我奖赏。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_060",
+      "target_id": "word_020_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_061",
+      "target_id": "word_021_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "盯着礼物停顿，暴露不确定：害怕被拒绝或显得寒酸。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_062",
+      "target_id": "word_021_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "纠结的核心是‘要不要送出’而非‘买不买’。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_063",
+      "target_id": "word_022_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "离开书店仍被生日期限拉扯，行动迟疑。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_064",
+      "target_id": "word_022_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "回头看既是留恋也是复查自己是否做错决定。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_065",
+      "target_id": "word_022_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_066",
+      "target_id": "word_023_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "逐项否决贵重数码产品，体现理性预算与面子拉扯。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_067",
+      "target_id": "word_023_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "重复‘太贵不买’形成节奏，强调克制与不甘。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_068",
+      "target_id": "word_023_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "同上，强化‘省钱模板’。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_069",
+      "target_id": "word_023_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "游戏被选为唯一可行享乐，有点滑向自我安慰的小放纵。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_070",
+      "target_id": "word_023_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "笑带自嘲：最后在幼稚的快乐里找到性价比。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_071",
+      "target_id": "word_024_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "把女友与游戏并置，暗示优先级荒唐却又真诚。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_072",
+      "target_id": "word_024_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘还是结账’像说服自己别再胡思乱想，回到事务性动作。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_073",
+      "target_id": "word_025_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表明前面的犹豫告一段落，进入返程叙事。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_074",
+      "target_id": "word_025_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "书店场景彻底收尾。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_075",
+      "target_id": "word_025_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "看时间是工作日逻辑回归的现实约束。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_076",
+      "target_id": "word_025_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "回公司意味着从私人幻想切回打工人身份。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_077",
+      "target_id": "word_026_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "刷卡/感应进入写字楼空间的门禁仪式。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_078",
+      "target_id": "word_026_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "电梯井象征垂直都市劳动装置。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_079",
+      "target_id": "word_026_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "快递牌子触发惊讶：夜间加班世界里物流无处不在。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_080",
+      "target_id": "word_026_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "惊讶也可读作对工作量异化的轻微不适。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_081",
+      "target_id": "word_027_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "按键动作开启通勤流程。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_082",
+      "target_id": "word_027_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "楼层数字夸张上扬，强调摩天楼尺度与疲惫路途。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_083",
+      "target_id": "word_027_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "红灯停更像电梯状态提示，也可读出停顿的节奏感。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_084",
+      "target_id": "word_027_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "开门是段落标记：一段旅程结束。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_085",
+      "target_id": "word_027_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "出去意味着回到走廊迷宫。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_086",
+      "target_id": "word_028_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "一连串转向像在默写写字楼动线，突出机械重复。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_087",
+      "target_id": "word_028_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "同上。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_088",
+      "target_id": "word_028_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "同上。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_089",
+      "target_id": "word_028_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "同上。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_090",
+      "target_id": "word_028_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘再转弯’强调路径冗长。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_091",
+      "target_id": "word_028_006",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "同上。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_092",
+      "target_id": "word_028_007",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "打卡把身体纳入考勤系统。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_093",
+      "target_id": "word_028_008",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "刷手机是现代打工者的惯性缓冲动作。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_094",
+      "target_id": "word_028_009",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "开门进入私密工位空间。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_095",
+      "target_id": "word_029_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "抵达终点位置，私人领地出现。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_096",
+      "target_id": "word_029_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "坐下是疲劳后的沉降，也暗示一天仍未真正结束（仍在加班语境）。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_097",
+      "target_id": "word_030_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "时间点提示昼夜节律切换，故事进入睡眠段落。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_098",
+      "target_id": "word_030_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "卧床动作对准入睡入口。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_099",
+      "target_id": "word_030_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "入梦是章节切换的门槛。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_100",
+      "target_id": "word_031_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "梦里视角削弱理性控制，争吵更像潜意识投射。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_101",
+      "target_id": "word_031_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "争吵象征关系张力或未消化情绪的夜间回放。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_102",
+      "target_id": "word_032_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "叙事推进到灾难片段落，梦境夸张放大焦虑。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_103",
+      "target_id": "word_032_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘2012’作为流行末日符号，不必写实，重在末日氛围。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_104",
+      "target_id": "word_032_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "海啸淹没地球是末世意象，强调无助规模感。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_105",
+      "target_id": "word_032_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "上山避难是人类求生本能的 cartoon 化表达。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_106",
+      "target_id": "word_033_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "夜晚段落重启，回到清醒折磨。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_107",
+      "target_id": "word_033_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "蚊子声把微小刺激写成主角级骚扰。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_108",
+      "target_id": "word_034_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "外部争吵与睡眠中断叠加，烦躁来源扩散到环境噪音。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_109",
+      "target_id": "word_034_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "烦躁既是生理也是情绪的总开关评价。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_110",
+      "target_id": "word_035_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "拍打是近距离肉体反击，带有徒劳意味。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_111",
+      "target_id": "word_035_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "杀虫剂象征‘化学手段’的现代化驱虫幻想。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_112",
+      "target_id": "word_035_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "飞来飞去强调对手敏捷与嘲弄感。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_113",
+      "target_id": "word_035_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "很难打到把挫败写成近乎滑稽的追逐战。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_114",
+      "target_id": "word_036_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "关电视与关灯是标准入睡仪式。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_115",
+      "target_id": "word_036_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "准备睡觉表明主人公仍相信理性流程能终止骚扰。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_116",
+      "target_id": "word_036_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "骚扰不止意味着失控：哪怕做完步骤仍无效。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_117",
+      "target_id": "word_037_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "开灯提升可视性，把战斗升级为小规模战争。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_118",
+      "target_id": "word_037_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "苍蝇拍与杀虫剂并用，显示手段堆叠的执念。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_119",
+      "target_id": "word_038_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "跑动追逐把卧室变成竞技场。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_120",
+      "target_id": "word_038_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "挥舞杀虫剂像挥舞武器，带点荒谬英雄主义。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_121",
+      "target_id": "word_038_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "满头大汗强调体力消耗与焦躁上升。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_122",
+      "target_id": "word_039_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "‘最后’标记漫长拉锯即将收尾。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_123",
+      "target_id": "word_039_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "打死蚊子是微弱胜利，却仍显得来之不易。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_124",
+      "target_id": "word_039_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "血渍既是战果证明，也带点恶心的生理真实感。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_125",
+      "target_id": "word_040_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "关灯意味着战役结束，回归黑暗睡眠环境。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    },
+    {
+      "annotation_id": "ann_pm_126",
+      "target_id": "word_040_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "终于可以睡强调折磨终止后的释然，而非深度哲学安慰。",
+      "confidence": 0.83,
+      "llm_used": true,
+      "llm_name": "Composer (GPT-5.2 via Cursor)",
+      "annotator_note": "对照《数据标注规范 V1.0》9.4：解释“此刻为什么这么说/想什么”。"
+    }
+  ]
+}

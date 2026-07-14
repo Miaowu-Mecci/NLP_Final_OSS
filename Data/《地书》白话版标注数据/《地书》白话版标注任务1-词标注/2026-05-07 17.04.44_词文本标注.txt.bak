@@ -1,0 +1,715 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T11:12:30+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["豆包大模型"]
+  },
+  "student": {
+    "student_id": "1191230119",
+    "student_name": "程忠凯",
+    "assigned_section": "次日03:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_006",
+    "title": "《地书》白话版次日03:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "词标注任务：语义基元，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 22,
+      "children": ["word_001","word_002","word_003","word_004","word_005"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 2,
+      "char_start": 23,
+      "char_end": 40,
+      "children": ["word_006","word_007","word_008","word_009","word_010"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 3,
+      "char_start": 41,
+      "char_end": 72,
+      "children": ["word_011","word_012","word_013","word_014","word_015","word_016","word_017"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 4,
+      "char_start": 73,
+      "char_end": 96,
+      "children": ["word_018","word_019","word_020","word_021","word_022"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 5,
+      "char_start": 97,
+      "char_end": 118,
+      "children": ["word_023","word_024","word_025","word_026","word_027"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 6,
+      "char_start": 119,
+      "char_end": 144,
+      "children": ["word_028","word_029","word_030","word_031","word_032"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 7,
+      "char_start": 145,
+      "char_end": 168,
+      "children": ["word_033","word_034","word_035","word_036","word_037"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 8,
+      "char_start": 169,
+      "char_end": 186,
+      "children": ["word_038","word_039","word_040"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨三点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "嗡嗡声",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 11,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "吵醒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "听到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 23,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "外面",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "吵架",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "非常",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 35,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "烦躁",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 37,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "手",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 46,
+      "char_end": 47
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "拍",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 48,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 52,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "喷",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 56,
+      "char_end": 57
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "飞来飞去",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 62,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "很难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "打到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 69,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "关掉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 73,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "灯",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 80,
+      "char_end": 81
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 85,
+      "char_end": 87
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "骚扰",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 92,
+      "char_end": 94
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "打开",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 97,
+      "char_end": 99
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "台灯",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 100,
+      "char_end": 102
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "苍蝇拍",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 109,
+      "char_end": 112
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "消灭",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 113,
+      "char_end": 115
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "追",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 119,
+      "char_end": 120
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "跑",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 122,
+      "char_end": 123
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "挥舞",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 128,
+      "char_end": 130
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "累",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 133,
+      "char_end": 134
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "满头大汗",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 137,
+      "char_end": 141
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "打死",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 151,
+      "char_end": 153
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "手",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 158,
+      "char_end": 159
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "沾满",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 160,
+      "char_end": 162
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "血",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 163,
+      "char_end": 164
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "安心",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 178,
+      "char_end": 180
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 181,
+      "char_end": 183
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["time"],
+      "annotator_note": "时间节点"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["person"],
+      "annotator_note": "叙事主体人物"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["living_thing","insect"],
+      "annotator_note": "有害昆虫生物"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["sound","auditory"],
+      "annotator_note": "听觉类声音"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","state_change"],
+      "annotator_note": "从睡眠转为清醒动作"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["perception","hearing"],
+      "annotator_note": "听觉感知行为"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["space","location"],
+      "annotator_note": "外部空间方位"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","conflict"],
+      "annotator_note": "言语冲突行为"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree"],
+      "annotator_note": "程度修饰"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["emotion","negative"],
+      "annotator_note": "负面情绪状态"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["body_part"],
+      "annotator_note": "人体肢体部位"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","hit"],
+      "annotator_note": "击打拍击动作"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","tool","chemical"],
+      "annotator_note": "杀虫工具、化学物品"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","spray"],
+      "annotator_note": "喷射喷洒动作"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["motion","move"],
+      "annotator_note": "往复移动飞行状态"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["degree","difficulty"],
+      "annotator_note": "难易程度属性"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","reach"],
+      "annotator_note": "击中、触及动作"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","close"],
+      "annotator_note": "关闭设备动作"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","electric_device"],
+      "annotator_note": "家用电器设备"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["object","lighting_tool"],
+      "annotator_note": "照明器具"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["state","rest"],
+      "annotator_note": "休息睡眠状态"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "value": ["action","disturb"],
+      "annotator_note": "打扰侵扰行为"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "task_id": "semantic_primitives",
+      "value": ["action","open"],
+      "annotator_note": "开启设备动作"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "task_id": "semantic_primitives",
+      "value": ["object","desk_lamp"],
+      "annotator_note": "室内照明灯具"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "task_id": "semantic_primitives",
+      "value": ["object","kill_tool"],
+      "annotator_note": "灭虫工具器物"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "task_id": "semantic_primitives",
+      "value": ["action","eliminate"],
+      "annotator_note": "清除消灭行为"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_027",
+      "task_id": "semantic_primitives",
+      "value": ["action","chase"],
+      "annotator_note": "追赶追逐动作"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_028",
+      "task_id": "semantic_primitives",
+      "value": ["motion","run"],
+      "annotator_note": "跑动移动行为"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_029",
+      "task_id": "semantic_primitives",
+      "value": ["action","wave"],
+      "annotator_note": "挥动摇摆动作"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_030",
+      "task_id": "semantic_primitives",
+      "value": ["state","physical_tire"],
+      "annotator_note": "身体疲惫状态"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_031",
+      "task_id": "semantic_primitives",
+      "value": ["body_state","sweat"],
+      "annotator_note": "身体出汗生理状态"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_032",
+      "task_id": "semantic_primitives",
+      "value": ["action","kill"],
+      "annotator_note": "击杀致死动作"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_033",
+      "task_id": "semantic_primitives",
+      "value": ["body_part","limb"],
+      "annotator_note": "手部肢体部位"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_034",
+      "task_id": "semantic_primitives",
+      "value": ["state","attach"],
+      "annotator_note": "附着沾满状态"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_035",
+      "task_id": "semantic_primitives",
+      "value": ["body_fluid","blood"],
+      "annotator_note": "人体血液体液"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_036",
+      "task_id": "semantic_primitives",
+      "value": ["emotion","peace"],
+      "annotator_note": "内心平静安稳情绪"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_037",
+      "task_id": "semantic_primitives",
+      "value": ["behavior","rest"],
+      "annotator_note": "睡眠休息行为"
+    }
+  ]
+}

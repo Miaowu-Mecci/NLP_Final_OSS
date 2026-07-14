@@ -1,0 +1,404 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T16:51:38+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_c4",
+    "title": "次日4点",
+    "source": "教师提供",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "无"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 21,
+      "children": [
+        "word_001_001",
+        "word_001_002",
+        "word_001_003",
+        "word_001_004",
+        "word_001_005",
+        "word_001_006",
+        "word_001_007",
+        "word_001_008",
+        "word_001_009",
+        "word_001_010",
+        "word_001_011",
+        "word_001_012",
+        "word_001_013",
+        "word_001_014"
+      ]
+    },
+    {
+      "unit_id": "word_001_001",
+      "unit_type": "word",
+      "text": "凌晨",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 2
+    },
+    {
+      "unit_id": "word_001_002",
+      "unit_type": "word",
+      "text": "四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 2,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_001_003",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_001_004",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_001_005",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 6,
+      "char_end": 8
+    },
+    {
+      "unit_id": "word_001_006",
+      "unit_type": "word",
+      "text": "进入",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_001_007",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_001_008",
+      "unit_type": "word",
+      "text": "深度",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_001_009",
+      "unit_type": "word",
+      "text": "睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 13,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_001_010",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 15,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_001_011",
+      "unit_type": "word",
+      "text": "睡得",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 16,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_001_012",
+      "unit_type": "word",
+      "text": "很",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 18,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_001_013",
+      "unit_type": "word",
+      "text": "香",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 13,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_001_014",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 14,
+      "char_start": 20,
+      "char_end": 21
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_0001",
+      "target_id": "word_001_001",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示时间，名词类"
+    },
+    {
+      "annotation_id": "ann_0002",
+      "target_id": "word_001_002",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示具体时间点，名词类"
+    },
+    {
+      "annotation_id": "ann_0003",
+      "target_id": "word_001_003",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号，标点符号"
+    },
+    {
+      "annotation_id": "ann_0004",
+      "target_id": "word_001_004",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "第一人称代词"
+    },
+    {
+      "annotation_id": "ann_0005",
+      "target_id": "word_001_005",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示经过较长时间后实现，副词类"
+    },
+    {
+      "annotation_id": "ann_0006",
+      "target_id": "word_001_006",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示动作，进入某个状态，动词类"
+    },
+    {
+      "annotation_id": "ann_0007",
+      "target_id": "word_001_007",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "particle_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动态助词，表示动作完成"
+    },
+    {
+      "annotation_id": "ann_0008",
+      "target_id": "word_001_008",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adjective_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "修饰名词“睡眠”，表示程度深，形容词类"
+    },
+    {
+      "annotation_id": "ann_0009",
+      "target_id": "word_001_009",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "表示睡眠状态，名词"
+    },
+    {
+      "annotation_id": "ann_0010",
+      "target_id": "word_001_010",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号，标点符号"
+    },
+    {
+      "annotation_id": "ann_0011",
+      "target_id": "word_001_011",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "动词“睡”加结构助词“得”，整体作谓语部分，动词类"
+    },
+    {
+      "annotation_id": "ann_0012",
+      "target_id": "word_001_012",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "程度副词，修饰“香”"
+    },
+    {
+      "annotation_id": "ann_0013",
+      "target_id": "word_001_013",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adjective_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "描述睡的香甜，形容词"
+    },
+    {
+      "annotation_id": "ann_0014",
+      "target_id": "word_001_014",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "句号，标点符号"
+    },
+    {
+      "annotation_id": "ann_0015",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "直到凌晨四点，我才进入深度睡眠，而且睡得特别香。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "将“终于”调整为“才”，更符合中文表达习惯，并增加“直到”突出时间延迟；将“睡得很香”改为“睡得特别香”，程度副词更生动；增加“而且”使前后连接更自然。"
+    }
+  ]
+}

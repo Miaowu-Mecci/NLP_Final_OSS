@@ -1,0 +1,2430 @@
+{
+  "project": {
+    "project_name": "《地书》自然语言处理课程人工标注",
+    "task_scope": "42R-44L, 51R, 52R-53R",
+    "school_version": "数据标注规范V1.0",
+    "annotation_language": "zh-CN",
+    "student": {
+      "student_id": "1191230221",
+      "student_name": "白尚明"
+    },
+    "assigned_tasks": [
+      {
+        "task_id": "morphological_like_features",
+        "task_label_zh": "类形态特征",
+        "task_label_en": "Morphological-like Features",
+        "target_type": "word",
+        "value_type": "array"
+      },
+      {
+        "task_id": "free_translation",
+        "task_label_zh": "自由翻译",
+        "task_label_en": "Free Translation",
+        "target_type": "sentence",
+        "value_type": "string"
+      }
+    ],
+    "llm_assisted": true,
+    "llm_name": "ChatGPT"
+  },
+  "student": {
+    "student_id": "1191230221",
+    "student_name": "白尚明"
+  },
+  "source_text": [
+    {
+      "sentence_id": "42R_01",
+      "section": "21:00",
+      "text": "晚上九点。"
+    },
+    {
+      "sentence_id": "42R_02",
+      "section": "21:00",
+      "text": "我接到了刚失恋的老友的电话，他让我过去陪他喝酒。"
+    },
+    {
+      "sentence_id": "42R_03",
+      "section": "21:00",
+      "text": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。"
+    },
+    {
+      "sentence_id": "42R_04",
+      "section": "21:00",
+      "text": "我只能无奈地在车里等待，心里非常着急。"
+    },
+    {
+      "sentence_id": "43L_01",
+      "section": "21:00",
+      "text": "好不容易回到家，我开始喝酒。"
+    },
+    {
+      "sentence_id": "43L_02",
+      "section": "21:00",
+      "text": "不久，老友也来了，他告诉我他失恋了，心里很难过。"
+    },
+    {
+      "sentence_id": "43L_03",
+      "section": "21:00",
+      "text": "我笑着安慰他，劝他不要再想那些不开心的事。"
+    },
+    {
+      "sentence_id": "43L_04",
+      "section": "21:00",
+      "text": "我们一起喝酒，时间慢慢流逝。"
+    },
+    {
+      "sentence_id": "44L_01",
+      "section": "21:00",
+      "text": "后来，老友要坐公交车回家，外面下起了雨。"
+    },
+    {
+      "sentence_id": "44L_02",
+      "section": "21:00",
+      "text": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。"
+    },
+    {
+      "sentence_id": "44L_03",
+      "section": "21:00",
+      "text": "我告诉他是的，并且指向了天上的乌云。"
+    },
+    {
+      "sentence_id": "44L_04",
+      "section": "21:00",
+      "text": "他说下雨了，没有太阳，还问我要不要伞。"
+    },
+    {
+      "sentence_id": "44L_05",
+      "section": "21:00",
+      "text": "我同意了。"
+    },
+    {
+      "sentence_id": "44L_06",
+      "section": "21:00",
+      "text": "我们在雨中等待公交车，他去了趟卫生间。"
+    },
+    {
+      "sentence_id": "44L_07",
+      "section": "21:00",
+      "text": "等了很久，他终于出来了，还亲了我一下。"
+    },
+    {
+      "sentence_id": "44L_08",
+      "section": "21:00",
+      "text": "我们继续喝酒，我感到非常开心。"
+    },
+    {
+      "sentence_id": "44L_09",
+      "section": "21:00",
+      "text": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。"
+    },
+    {
+      "sentence_id": "51R_01",
+      "section": "2:00 day 2",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。"
+    },
+    {
+      "sentence_id": "51R_02",
+      "section": "2:00 day 2",
+      "text": "在梦里，我看到两个人在激烈地争吵。"
+    },
+    {
+      "sentence_id": "51R_03",
+      "section": "2:00 day 2",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。"
+    },
+    {
+      "sentence_id": "52R_01",
+      "section": "3:00 day 2",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。"
+    },
+    {
+      "sentence_id": "52R_02",
+      "section": "3:00 day 2",
+      "text": "我听到外面有人在吵架，感到非常烦躁。"
+    },
+    {
+      "sentence_id": "52R_03",
+      "section": "3:00 day 2",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。"
+    },
+    {
+      "sentence_id": "52R_04",
+      "section": "3:00 day 2",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。"
+    },
+    {
+      "sentence_id": "53R_01",
+      "section": "3:00 day 2",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。"
+    },
+    {
+      "sentence_id": "53R_02",
+      "section": "3:00 day 2",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。"
+    },
+    {
+      "sentence_id": "53R_03",
+      "section": "3:00 day 2",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。"
+    },
+    {
+      "sentence_id": "53R_04",
+      "section": "3:00 day 2",
+      "text": "我关掉台灯，终于可以安心睡觉了。"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "w_42R_01_01",
+      "unit_type": "word",
+      "sentence_id": "42R_01",
+      "word_index_in_sentence": 1,
+      "text": "时钟/九点",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_02_01",
+      "unit_type": "word",
+      "sentence_id": "42R_02",
+      "word_index_in_sentence": 1,
+      "text": "电话/来电",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_02_02",
+      "unit_type": "word",
+      "sentence_id": "42R_02",
+      "word_index_in_sentence": 2,
+      "text": "失恋的老友",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_02_03",
+      "unit_type": "word",
+      "sentence_id": "42R_02",
+      "word_index_in_sentence": 3,
+      "text": "我→车/出发",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_02_04",
+      "unit_type": "word",
+      "sentence_id": "42R_02",
+      "word_index_in_sentence": 4,
+      "text": "陪伴+喝酒",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_01",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 1,
+      "text": "我→汽车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_02",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 2,
+      "text": "划掉的车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_03",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 3,
+      "text": "划掉的车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_04",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 4,
+      "text": "担心脸+思考泡",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_05",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 5,
+      "text": "车队/很多车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_06",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 6,
+      "text": "红绿灯",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_03_07",
+      "unit_type": "word",
+      "sentence_id": "42R_03",
+      "word_index_in_sentence": 7,
+      "text": "警告牌/事故车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_04_01",
+      "unit_type": "word",
+      "sentence_id": "42R_04",
+      "word_index_in_sentence": 1,
+      "text": "难过脸",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_04_02",
+      "unit_type": "word",
+      "sentence_id": "42R_04",
+      "word_index_in_sentence": 2,
+      "text": "车内等待",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_42R_04_03",
+      "unit_type": "word",
+      "sentence_id": "42R_04",
+      "word_index_in_sentence": 3,
+      "text": "焦急表情",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_01_01",
+      "unit_type": "word",
+      "sentence_id": "43L_01",
+      "word_index_in_sentence": 1,
+      "text": "回到家",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_01_02",
+      "unit_type": "word",
+      "sentence_id": "43L_01",
+      "word_index_in_sentence": 2,
+      "text": "开始喝酒",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_02_01",
+      "unit_type": "word",
+      "sentence_id": "43L_02",
+      "word_index_in_sentence": 1,
+      "text": "过了一会儿",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_02_02",
+      "unit_type": "word",
+      "sentence_id": "43L_02",
+      "word_index_in_sentence": 2,
+      "text": "老友来了",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_02_03",
+      "unit_type": "word",
+      "sentence_id": "43L_02",
+      "word_index_in_sentence": 3,
+      "text": "说话",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_02_04",
+      "unit_type": "word",
+      "sentence_id": "43L_02",
+      "word_index_in_sentence": 4,
+      "text": "破碎的心",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_02_05",
+      "unit_type": "word",
+      "sentence_id": "43L_02",
+      "word_index_in_sentence": 5,
+      "text": "难过脸",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_03_01",
+      "unit_type": "word",
+      "sentence_id": "43L_03",
+      "word_index_in_sentence": 1,
+      "text": "我+笑脸",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_03_02",
+      "unit_type": "word",
+      "sentence_id": "43L_03",
+      "word_index_in_sentence": 2,
+      "text": "安慰动作",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_03_03",
+      "unit_type": "word",
+      "sentence_id": "43L_03",
+      "word_index_in_sentence": 3,
+      "text": "不要想不开心",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_04_01",
+      "unit_type": "word",
+      "sentence_id": "43L_04",
+      "word_index_in_sentence": 1,
+      "text": "两人+酒杯",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_43L_04_02",
+      "unit_type": "word",
+      "sentence_id": "43L_04",
+      "word_index_in_sentence": 2,
+      "text": "时间流逝",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_01_01",
+      "unit_type": "word",
+      "sentence_id": "44L_01",
+      "word_index_in_sentence": 1,
+      "text": "后来/时间推进",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_01_02",
+      "unit_type": "word",
+      "sentence_id": "44L_01",
+      "word_index_in_sentence": 2,
+      "text": "老友→公交车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_01_03",
+      "unit_type": "word",
+      "sentence_id": "44L_01",
+      "word_index_in_sentence": 3,
+      "text": "下雨",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_02_01",
+      "unit_type": "word",
+      "sentence_id": "44L_02",
+      "word_index_in_sentence": 1,
+      "text": "我在楼下等待",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_02_02",
+      "unit_type": "word",
+      "sentence_id": "44L_02",
+      "word_index_in_sentence": 2,
+      "text": "他问我",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_02_03",
+      "unit_type": "word",
+      "sentence_id": "44L_02",
+      "word_index_in_sentence": 3,
+      "text": "分手",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_02_04",
+      "unit_type": "word",
+      "sentence_id": "44L_02",
+      "word_index_in_sentence": 4,
+      "text": "坐公交车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_03_01",
+      "unit_type": "word",
+      "sentence_id": "44L_03",
+      "word_index_in_sentence": 1,
+      "text": "我回答是",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_03_02",
+      "unit_type": "word",
+      "sentence_id": "44L_03",
+      "word_index_in_sentence": 2,
+      "text": "指向乌云",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_04_01",
+      "unit_type": "word",
+      "sentence_id": "44L_04",
+      "word_index_in_sentence": 1,
+      "text": "下雨",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_04_02",
+      "unit_type": "word",
+      "sentence_id": "44L_04",
+      "word_index_in_sentence": 2,
+      "text": "没有太阳",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_04_03",
+      "unit_type": "word",
+      "sentence_id": "44L_04",
+      "word_index_in_sentence": 3,
+      "text": "雨伞?",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_05_01",
+      "unit_type": "word",
+      "sentence_id": "44L_05",
+      "word_index_in_sentence": 1,
+      "text": "点头/同意",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_06_01",
+      "unit_type": "word",
+      "sentence_id": "44L_06",
+      "word_index_in_sentence": 1,
+      "text": "雨中等待",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_06_02",
+      "unit_type": "word",
+      "sentence_id": "44L_06",
+      "word_index_in_sentence": 2,
+      "text": "公交车",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_06_03",
+      "unit_type": "word",
+      "sentence_id": "44L_06",
+      "word_index_in_sentence": 3,
+      "text": "去卫生间",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_07_01",
+      "unit_type": "word",
+      "sentence_id": "44L_07",
+      "word_index_in_sentence": 1,
+      "text": "等很久",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_07_02",
+      "unit_type": "word",
+      "sentence_id": "44L_07",
+      "word_index_in_sentence": 2,
+      "text": "他出来",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_07_03",
+      "unit_type": "word",
+      "sentence_id": "44L_07",
+      "word_index_in_sentence": 3,
+      "text": "亲吻",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_08_01",
+      "unit_type": "word",
+      "sentence_id": "44L_08",
+      "word_index_in_sentence": 1,
+      "text": "继续喝酒",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_08_02",
+      "unit_type": "word",
+      "sentence_id": "44L_08",
+      "word_index_in_sentence": 2,
+      "text": "开心表情",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_09_01",
+      "unit_type": "word",
+      "sentence_id": "44L_09",
+      "word_index_in_sentence": 1,
+      "text": "他回家",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_09_02",
+      "unit_type": "word",
+      "sentence_id": "44L_09",
+      "word_index_in_sentence": 2,
+      "text": "我+雨中",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_09_03",
+      "unit_type": "word",
+      "sentence_id": "44L_09",
+      "word_index_in_sentence": 3,
+      "text": "难过脸",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_44L_09_04",
+      "unit_type": "word",
+      "sentence_id": "44L_09",
+      "word_index_in_sentence": 4,
+      "text": "疑问/时间",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_01_01",
+      "unit_type": "word",
+      "sentence_id": "51R_01",
+      "word_index_in_sentence": 1,
+      "text": "凌晨两点",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_01_02",
+      "unit_type": "word",
+      "sentence_id": "51R_01",
+      "word_index_in_sentence": 2,
+      "text": "床",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_01_03",
+      "unit_type": "word",
+      "sentence_id": "51R_01",
+      "word_index_in_sentence": 3,
+      "text": "进入梦乡",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_02_01",
+      "unit_type": "word",
+      "sentence_id": "51R_02",
+      "word_index_in_sentence": 1,
+      "text": "梦境",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_02_02",
+      "unit_type": "word",
+      "sentence_id": "51R_02",
+      "word_index_in_sentence": 2,
+      "text": "两个人",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_02_03",
+      "unit_type": "word",
+      "sentence_id": "51R_02",
+      "word_index_in_sentence": 3,
+      "text": "争吵",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_01",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 1,
+      "text": "2012",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_02",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 2,
+      "text": "世界末日场景",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_03",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 3,
+      "text": "巨大海浪",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_04",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 4,
+      "text": "地球被淹没",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_05",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 5,
+      "text": "人群逃跑",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_51R_03_06",
+      "unit_type": "word",
+      "sentence_id": "51R_03",
+      "word_index_in_sentence": 6,
+      "text": "山上避难",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_01_01",
+      "unit_type": "word",
+      "sentence_id": "52R_01",
+      "word_index_in_sentence": 1,
+      "text": "凌晨三点",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_01_02",
+      "unit_type": "word",
+      "sentence_id": "52R_01",
+      "word_index_in_sentence": 2,
+      "text": "蚊子嗡嗡声",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_01_03",
+      "unit_type": "word",
+      "sentence_id": "52R_01",
+      "word_index_in_sentence": 3,
+      "text": "醒来",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_02_01",
+      "unit_type": "word",
+      "sentence_id": "52R_02",
+      "word_index_in_sentence": 1,
+      "text": "外面有人吵架",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_02_02",
+      "unit_type": "word",
+      "sentence_id": "52R_02",
+      "word_index_in_sentence": 2,
+      "text": "烦躁表情",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_03_01",
+      "unit_type": "word",
+      "sentence_id": "52R_03",
+      "word_index_in_sentence": 1,
+      "text": "用手拍蚊子",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_03_02",
+      "unit_type": "word",
+      "sentence_id": "52R_03",
+      "word_index_in_sentence": 2,
+      "text": "杀虫剂喷蚊子",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_03_03",
+      "unit_type": "word",
+      "sentence_id": "52R_03",
+      "word_index_in_sentence": 3,
+      "text": "蚊子飞来飞去",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_03_04",
+      "unit_type": "word",
+      "sentence_id": "52R_03",
+      "word_index_in_sentence": 4,
+      "text": "很难打到",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_04_01",
+      "unit_type": "word",
+      "sentence_id": "52R_04",
+      "word_index_in_sentence": 1,
+      "text": "关电视",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_04_02",
+      "unit_type": "word",
+      "sentence_id": "52R_04",
+      "word_index_in_sentence": 2,
+      "text": "关灯",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_04_03",
+      "unit_type": "word",
+      "sentence_id": "52R_04",
+      "word_index_in_sentence": 3,
+      "text": "准备睡觉",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_52R_04_04",
+      "unit_type": "word",
+      "sentence_id": "52R_04",
+      "word_index_in_sentence": 4,
+      "text": "蚊子骚扰",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_01_01",
+      "unit_type": "word",
+      "sentence_id": "53R_01",
+      "word_index_in_sentence": 1,
+      "text": "打开台灯",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_01_02",
+      "unit_type": "word",
+      "sentence_id": "53R_01",
+      "word_index_in_sentence": 2,
+      "text": "继续杀虫剂",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_01_03",
+      "unit_type": "word",
+      "sentence_id": "53R_01",
+      "word_index_in_sentence": 3,
+      "text": "苍蝇拍",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_01_04",
+      "unit_type": "word",
+      "sentence_id": "53R_01",
+      "word_index_in_sentence": 4,
+      "text": "消灭蚊子",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_02_01",
+      "unit_type": "word",
+      "sentence_id": "53R_02",
+      "word_index_in_sentence": 1,
+      "text": "追蚊子跑",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_02_02",
+      "unit_type": "word",
+      "sentence_id": "53R_02",
+      "word_index_in_sentence": 2,
+      "text": "挥舞杀虫剂",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_02_03",
+      "unit_type": "word",
+      "sentence_id": "53R_02",
+      "word_index_in_sentence": 3,
+      "text": "满头大汗",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_03_01",
+      "unit_type": "word",
+      "sentence_id": "53R_03",
+      "word_index_in_sentence": 1,
+      "text": "终于打死蚊子",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_03_02",
+      "unit_type": "word",
+      "sentence_id": "53R_03",
+      "word_index_in_sentence": 2,
+      "text": "手上有血",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_04_01",
+      "unit_type": "word",
+      "sentence_id": "53R_04",
+      "word_index_in_sentence": 1,
+      "text": "关台灯",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    },
+    {
+      "unit_id": "w_53R_04_02",
+      "unit_type": "word",
+      "sentence_id": "53R_04",
+      "word_index_in_sentence": 2,
+      "text": "安心睡觉",
+      "char_start": null,
+      "char_end": null,
+      "note": "由《地书》图形组合转写为描述性文本，具体边界以分组界面为准。"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_word_0001_morph",
+      "target_id": "w_42R_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“时钟/九点”结合白话文释义为“晚上九点”。"
+    },
+    {
+      "annotation_id": "ann_word_0002_morph",
+      "target_id": "w_42R_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“电话/来电”结合白话文释义为“接到电话”。"
+    },
+    {
+      "annotation_id": "ann_word_0003_morph",
+      "target_id": "w_42R_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“失恋的老友”结合白话文释义为“刚失恋的老友”。"
+    },
+    {
+      "annotation_id": "ann_word_0004_morph",
+      "target_id": "w_42R_02_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我→车/出发”结合白话文释义为“我准备开车过去”。"
+    },
+    {
+      "annotation_id": "ann_word_0005_morph",
+      "target_id": "w_42R_02_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“陪伴+喝酒”结合白话文释义为“陪他喝酒”。"
+    },
+    {
+      "annotation_id": "ann_word_0006_morph",
+      "target_id": "w_42R_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我→汽车”结合白话文释义为“我本想开车过去”。"
+    },
+    {
+      "annotation_id": "ann_word_0007_morph",
+      "target_id": "w_42R_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "negation"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“划掉的车”结合白话文释义为“车开不动/不能通行”。"
+    },
+    {
+      "annotation_id": "ann_word_0008_morph",
+      "target_id": "w_42R_03_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "negation"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“划掉的车”结合白话文释义为“车不可用/受阻”。"
+    },
+    {
+      "annotation_id": "ann_word_0009_morph",
+      "target_id": "w_42R_03_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“担心脸+思考泡”结合白话文释义为“焦急地等待”。"
+    },
+    {
+      "annotation_id": "ann_word_0010_morph",
+      "target_id": "w_42R_03_05",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“车队/很多车”结合白话文释义为“到处都是车”。"
+    },
+    {
+      "annotation_id": "ann_word_0011_morph",
+      "target_id": "w_42R_03_06",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“红绿灯”结合白话文释义为“遇到红灯”。"
+    },
+    {
+      "annotation_id": "ann_word_0012_morph",
+      "target_id": "w_42R_03_07",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“警告牌/事故车”结合白话文释义为“遇到车祸”。"
+    },
+    {
+      "annotation_id": "ann_word_0013_morph",
+      "target_id": "w_42R_04_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“难过脸”结合白话文释义为“无奈”。"
+    },
+    {
+      "annotation_id": "ann_word_0014_morph",
+      "target_id": "w_42R_04_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“车内等待”结合白话文释义为“在车里等待”。"
+    },
+    {
+      "annotation_id": "ann_word_0015_morph",
+      "target_id": "w_42R_04_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“焦急表情”结合白话文释义为“心里非常着急”。"
+    },
+    {
+      "annotation_id": "ann_word_0016_morph",
+      "target_id": "w_43L_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“回到家”结合白话文释义为“回到家”。"
+    },
+    {
+      "annotation_id": "ann_word_0017_morph",
+      "target_id": "w_43L_01_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“开始喝酒”结合白话文释义为“开始喝酒”。"
+    },
+    {
+      "annotation_id": "ann_word_0018_morph",
+      "target_id": "w_43L_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“过了一会儿”结合白话文释义为“不久”。"
+    },
+    {
+      "annotation_id": "ann_word_0019_morph",
+      "target_id": "w_43L_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“老友来了”结合白话文释义为“老友来了”。"
+    },
+    {
+      "annotation_id": "ann_word_0020_morph",
+      "target_id": "w_43L_02_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“说话”结合白话文释义为“他告诉我”。"
+    },
+    {
+      "annotation_id": "ann_word_0021_morph",
+      "target_id": "w_43L_02_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“破碎的心”结合白话文释义为“他失恋了”。"
+    },
+    {
+      "annotation_id": "ann_word_0022_morph",
+      "target_id": "w_43L_02_05",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“难过脸”结合白话文释义为“心里很难过”。"
+    },
+    {
+      "annotation_id": "ann_word_0023_morph",
+      "target_id": "w_43L_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我+笑脸”结合白话文释义为“我笑着”。"
+    },
+    {
+      "annotation_id": "ann_word_0024_morph",
+      "target_id": "w_43L_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“安慰动作”结合白话文释义为“安慰他”。"
+    },
+    {
+      "annotation_id": "ann_word_0025_morph",
+      "target_id": "w_43L_03_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "negation"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“不要想不开心”结合白话文释义为“劝他不要再想不开心的事”。"
+    },
+    {
+      "annotation_id": "ann_word_0026_morph",
+      "target_id": "w_43L_04_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective",
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“两人+酒杯”结合白话文释义为“我们一起喝酒”。"
+    },
+    {
+      "annotation_id": "ann_word_0027_morph",
+      "target_id": "w_43L_04_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“时间流逝”结合白话文释义为“时间慢慢流逝”。"
+    },
+    {
+      "annotation_id": "ann_word_0028_morph",
+      "target_id": "w_44L_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“后来/时间推进”结合白话文释义为“后来”。"
+    },
+    {
+      "annotation_id": "ann_word_0029_morph",
+      "target_id": "w_44L_01_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“老友→公交车”结合白话文释义为“老友坐公交车回家”。"
+    },
+    {
+      "annotation_id": "ann_word_0030_morph",
+      "target_id": "w_44L_01_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“下雨”结合白话文释义为“外面下起了雨”。"
+    },
+    {
+      "annotation_id": "ann_word_0031_morph",
+      "target_id": "w_44L_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我在楼下等待”结合白话文释义为“我在楼下等他”。"
+    },
+    {
+      "annotation_id": "ann_word_0032_morph",
+      "target_id": "w_44L_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“他问我”结合白话文释义为“他问我”。"
+    },
+    {
+      "annotation_id": "ann_word_0033_morph",
+      "target_id": "w_44L_02_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“分手”结合白话文释义为“是不是和那个女人分手了”。"
+    },
+    {
+      "annotation_id": "ann_word_0034_morph",
+      "target_id": "w_44L_02_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“坐公交车”结合白话文释义为“是不是坐公交车”。"
+    },
+    {
+      "annotation_id": "ann_word_0035_morph",
+      "target_id": "w_44L_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我回答是”结合白话文释义为“我告诉他是的”。"
+    },
+    {
+      "annotation_id": "ann_word_0036_morph",
+      "target_id": "w_44L_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“指向乌云”结合白话文释义为“指向天上的乌云”。"
+    },
+    {
+      "annotation_id": "ann_word_0037_morph",
+      "target_id": "w_44L_04_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“下雨”结合白话文释义为“他说下雨了”。"
+    },
+    {
+      "annotation_id": "ann_word_0038_morph",
+      "target_id": "w_44L_04_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "negation"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“没有太阳”结合白话文释义为“没有太阳”。"
+    },
+    {
+      "annotation_id": "ann_word_0039_morph",
+      "target_id": "w_44L_04_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“雨伞?”结合白话文释义为“问我要不要伞”。"
+    },
+    {
+      "annotation_id": "ann_word_0040_morph",
+      "target_id": "w_44L_05_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“点头/同意”结合白话文释义为“我同意了”。"
+    },
+    {
+      "annotation_id": "ann_word_0041_morph",
+      "target_id": "w_44L_06_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“雨中等待”结合白话文释义为“我们在雨中等待公交车”。"
+    },
+    {
+      "annotation_id": "ann_word_0042_morph",
+      "target_id": "w_44L_06_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“公交车”结合白话文释义为“等公交车”。"
+    },
+    {
+      "annotation_id": "ann_word_0043_morph",
+      "target_id": "w_44L_06_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“去卫生间”结合白话文释义为“他去了趟卫生间”。"
+    },
+    {
+      "annotation_id": "ann_word_0044_morph",
+      "target_id": "w_44L_07_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“等很久”结合白话文释义为“等了很久”。"
+    },
+    {
+      "annotation_id": "ann_word_0045_morph",
+      "target_id": "w_44L_07_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“他出来”结合白话文释义为“他终于出来了”。"
+    },
+    {
+      "annotation_id": "ann_word_0046_morph",
+      "target_id": "w_44L_07_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“亲吻”结合白话文释义为“还亲了我一下”。"
+    },
+    {
+      "annotation_id": "ann_word_0047_morph",
+      "target_id": "w_44L_08_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“继续喝酒”结合白话文释义为“我们继续喝酒”。"
+    },
+    {
+      "annotation_id": "ann_word_0048_morph",
+      "target_id": "w_44L_08_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“开心表情”结合白话文释义为“我非常开心”。"
+    },
+    {
+      "annotation_id": "ann_word_0049_morph",
+      "target_id": "w_44L_09_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“他回家”结合白话文释义为“他回家了”。"
+    },
+    {
+      "annotation_id": "ann_word_0050_morph",
+      "target_id": "w_44L_09_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“我+雨中”结合白话文释义为“我一个人站在雨中”。"
+    },
+    {
+      "annotation_id": "ann_word_0051_morph",
+      "target_id": "w_44L_09_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“难过脸”结合白话文释义为“心里有些难过”。"
+    },
+    {
+      "annotation_id": "ann_word_0052_morph",
+      "target_id": "w_44L_09_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“疑问/时间”结合白话文释义为“不知道他什么时候才能走出失恋阴影”。"
+    },
+    {
+      "annotation_id": "ann_word_0053_morph",
+      "target_id": "w_51R_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“凌晨两点”结合白话文释义为“凌晨两点”。"
+    },
+    {
+      "annotation_id": "ann_word_0054_morph",
+      "target_id": "w_51R_01_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“床”结合白话文释义为“躺在床上”。"
+    },
+    {
+      "annotation_id": "ann_word_0055_morph",
+      "target_id": "w_51R_01_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“进入梦乡”结合白话文释义为“进入梦乡”。"
+    },
+    {
+      "annotation_id": "ann_word_0056_morph",
+      "target_id": "w_51R_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“梦境”结合白话文释义为“在梦里”。"
+    },
+    {
+      "annotation_id": "ann_word_0057_morph",
+      "target_id": "w_51R_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“两个人”结合白话文释义为“两个人”。"
+    },
+    {
+      "annotation_id": "ann_word_0058_morph",
+      "target_id": "w_51R_02_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“争吵”结合白话文释义为“激烈地争吵”。"
+    },
+    {
+      "annotation_id": "ann_word_0059_morph",
+      "target_id": "w_51R_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "past"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“2012”结合白话文释义为“2012年”。"
+    },
+    {
+      "annotation_id": "ann_word_0060_morph",
+      "target_id": "w_51R_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“世界末日场景”结合白话文释义为“世界末日的场景”。"
+    },
+    {
+      "annotation_id": "ann_word_0061_morph",
+      "target_id": "w_51R_03_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“巨大海浪”结合白话文释义为“巨大的海浪”。"
+    },
+    {
+      "annotation_id": "ann_word_0062_morph",
+      "target_id": "w_51R_03_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“地球被淹没”结合白话文释义为“淹没地球”。"
+    },
+    {
+      "annotation_id": "ann_word_0063_morph",
+      "target_id": "w_51R_03_05",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“人群逃跑”结合白话文释义为“人们纷纷逃走”。"
+    },
+    {
+      "annotation_id": "ann_word_0064_morph",
+      "target_id": "w_51R_03_06",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“山上避难”结合白话文释义为“逃到山上避难”。"
+    },
+    {
+      "annotation_id": "ann_word_0065_morph",
+      "target_id": "w_52R_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“凌晨三点”结合白话文释义为“凌晨三点”。"
+    },
+    {
+      "annotation_id": "ann_word_0066_morph",
+      "target_id": "w_52R_01_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“蚊子嗡嗡声”结合白话文释义为“蚊子的嗡嗡声”。"
+    },
+    {
+      "annotation_id": "ann_word_0067_morph",
+      "target_id": "w_52R_01_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“醒来”结合白话文释义为“被吵醒”。"
+    },
+    {
+      "annotation_id": "ann_word_0068_morph",
+      "target_id": "w_52R_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective",
+        "present",
+        "progressive",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“外面有人吵架”结合白话文释义为“外面有人在吵架”。"
+    },
+    {
+      "annotation_id": "ann_word_0069_morph",
+      "target_id": "w_52R_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“烦躁表情”结合白话文释义为“非常烦躁”。"
+    },
+    {
+      "annotation_id": "ann_word_0070_morph",
+      "target_id": "w_52R_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“用手拍蚊子”结合白话文释义为“用手拍蚊子”。"
+    },
+    {
+      "annotation_id": "ann_word_0071_morph",
+      "target_id": "w_52R_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“杀虫剂喷蚊子”结合白话文释义为“用杀虫剂喷它们”。"
+    },
+    {
+      "annotation_id": "ann_word_0072_morph",
+      "target_id": "w_52R_03_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "plural_collective",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“蚊子飞来飞去”结合白话文释义为“蚊子飞来飞去”。"
+    },
+    {
+      "annotation_id": "ann_word_0073_morph",
+      "target_id": "w_52R_03_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "negation"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“很难打到”结合白话文释义为“很难打到”。"
+    },
+    {
+      "annotation_id": "ann_word_0074_morph",
+      "target_id": "w_52R_04_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“关电视”结合白话文释义为“关掉电视”。"
+    },
+    {
+      "annotation_id": "ann_word_0075_morph",
+      "target_id": "w_52R_04_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“关灯”结合白话文释义为“关掉灯”。"
+    },
+    {
+      "annotation_id": "ann_word_0076_morph",
+      "target_id": "w_52R_04_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“准备睡觉”结合白话文释义为“准备睡觉”。"
+    },
+    {
+      "annotation_id": "ann_word_0077_morph",
+      "target_id": "w_52R_04_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "progressive",
+        "iterative",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“蚊子骚扰”结合白话文释义为“蚊子不停骚扰我”。"
+    },
+    {
+      "annotation_id": "ann_word_0078_morph",
+      "target_id": "w_53R_01_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“打开台灯”结合白话文释义为“打开台灯”。"
+    },
+    {
+      "annotation_id": "ann_word_0079_morph",
+      "target_id": "w_53R_01_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“继续杀虫剂”结合白话文释义为“继续用杀虫剂”。"
+    },
+    {
+      "annotation_id": "ann_word_0080_morph",
+      "target_id": "w_53R_01_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“苍蝇拍”结合白话文释义为“用苍蝇拍”。"
+    },
+    {
+      "annotation_id": "ann_word_0081_morph",
+      "target_id": "w_53R_01_04",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“消灭蚊子”结合白话文释义为“消灭蚊子”。"
+    },
+    {
+      "annotation_id": "ann_word_0082_morph",
+      "target_id": "w_53R_02_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“追蚊子跑”结合白话文释义为“追着蚊子跑”。"
+    },
+    {
+      "annotation_id": "ann_word_0083_morph",
+      "target_id": "w_53R_02_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "present",
+        "progressive",
+        "iterative"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“挥舞杀虫剂”结合白话文释义为“上下挥舞杀虫剂”。"
+    },
+    {
+      "annotation_id": "ann_word_0084_morph",
+      "target_id": "w_53R_02_03",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“满头大汗”结合白话文释义为“累得满头大汗”。"
+    },
+    {
+      "annotation_id": "ann_word_0085_morph",
+      "target_id": "w_53R_03_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect",
+        "emphasis"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“终于打死蚊子”结合白话文释义为“终于打死一只蚊子”。"
+    },
+    {
+      "annotation_id": "ann_word_0086_morph",
+      "target_id": "w_53R_03_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“手上有血”结合白话文释义为“手上沾满了血”。"
+    },
+    {
+      "annotation_id": "ann_word_0087_morph",
+      "target_id": "w_53R_04_01",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "perfect"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“关台灯”结合白话文释义为“关掉台灯”。"
+    },
+    {
+      "annotation_id": "ann_word_0088_morph",
+      "target_id": "w_53R_04_02",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "future",
+        "present"
+      ],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "图形组“安心睡觉”结合白话文释义为“可以安心睡觉”。"
+    }
+  ]
+}

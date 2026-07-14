@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>地书图形语言分组与标注系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <section id="loginScreen" class="screen screen-active">
+      <div class="login-card">
+        <h1>地书图形语言分组与标注系统</h1>
+
+        <div class="login-form">
+          <label class="form-row">
+            <span>学号</span>
+            <input id="studentIdInput" type="text" placeholder="请输入学号">
+          </label>
+          <label class="form-row">
+            <span>姓名</span>
+            <input id="studentNameInput" type="text" placeholder="请输入姓名">
+          </label>
+          
+          <label class="form-row">
+            <span>起始页 (区分左右)</span>
+            <select id="pageStartInput"></select>
+          </label>
+          <label class="form-row">
+            <span>结束页 (区分左右)</span>
+            <select id="pageEndInput"></select>
+          </label>
+          
+          <div class="login-actions">
+            <button id="startBtn">进入系统</button>
+            <button id="restoreSessionBtn">恢复本地缓存</button>
+          </div>
+        </div>
+
+        <div class="login-tip">
+          说明：本系统已优化为沉浸式操作。
+          Grouping模式：划选或点选连续对象进行编组；最高层的组支持点击 '×' 解散。
+          Labeling模式：点选对象并在右侧录入，输入文本时底层已实现静默保存，无需额外点击确认。
+        </div>
+      </div>
+    </section>
+
+    <section id="mainScreen" class="screen">
+      <header class="toolbar">
+        <div class="toolbar-left">
+          <div class="title">地书图形语言多任务工作台</div>
+          <div class="status-line">
+            <span>学号：<strong id="studentIdLabel">-</strong></span>
+            <span>姓名：<strong id="studentNameLabel">-</strong></span>
+            <span>范围：<strong id="pageRangeLabel">-</strong></span>
+            <span>当前：<strong id="currentPageLabel">-</strong></span>
+          </div>
+        </div>
+
+        <div class="toolbar-right">
+          <div class="toolbar-group">
+            <span class="toolbar-label">模式</span>
+            <button id="modeGroupingBtn" class="toolbar-toggle active">Grouping (分组)</button>
+            <button id="modeLabelingBtn" class="toolbar-toggle">Labeling (标注)</button>
+          </div>
+
+          <div id="labelingTools" class="toolbar-group hidden">
+            <span class="toolbar-label">当前标注任务</span>
+            <select id="taskSelect"></select>
+          </div>
+
+          <div class="toolbar-group">
+            <span class="toolbar-label">视口缩放</span>
+            <button id="zoomOutBtn">-</button>
+            <span id="zoomLabel">100%</span>
+            <button id="zoomInBtn">+</button>
+          </div>
+
+          <div class="toolbar-group">
+            <button id="exportJsonBtn">导出数据 (JSON)</button>
+            <label class="file-import-btn">
+              导入数据
+              <input id="importFileInput" type="file" accept=".json">
+            </label>
+          </div>
+        </div>
+      </header>
+
+      <div class="helpbar">
+        <span id="modeHelpText">
+          Grouping 模式：拖拽划选或点选连续对象（含已建分组），然后在上方弹出的工具栏中执行组合。
+        </span>
+      </div>
+
+      <main class="main-layout">
+        <section id="workPanel" class="work-panel">
+          <div id="rowsRoot" class="rows-root"></div>
+        </section>
+
+        <aside class="side-panel">
+          <div class="panel-card">
+            <div class="panel-title">当前选择对象</div>
+            <div id="selectionInfo" class="panel-body muted">
+              尚未选中对象
+            </div>
+          </div>
+
+          <div id="labelingPanel" class="panel-card hidden">
+            <div class="panel-title">属性录入 (实时自动保存)</div>
+            <div class="panel-body">
+              <div id="taskMeta" class="task-meta muted">请先点击一个对象。</div>
+              <div id="taskEditorRoot" class="task-editor-root"></div>
+              <div class="editor-actions">
+                <button id="clearCurrentLabelBtn">清空当前值</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <div id="progressOverlay" class="progress-overlay"></div>
+
+    </section>
+  </div>
+
+  <script src="data/segments_manifest.js"></script>
+  <script src="data/config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

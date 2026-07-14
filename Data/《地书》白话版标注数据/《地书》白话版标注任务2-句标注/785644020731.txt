@@ -1,0 +1,22 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-09T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["deepseek"]
+  },
+  "student": {
+    "student_id": "1193230205",
+    "student_name": "张灵超",
+    "assigned_section": "",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "sentence_free_translation_001",
+    "title": "四段自然语言文本句标注（自由翻译）",
+    "source": "manual_input",
+    "raw_text": "晚上八点，我正满心欢喜地等待着她，心里充满了爱意。突然，我的手机不停地震动起来。我疑惑地看了看手机，旁边的一个男人提醒我手机在响。我接起电话，惊讶地发现是医院打来的，得知有人发烧住院了。我立刻决定赶往医院，心里想着他。\n我确认了电话内容，那个男人告诉我详细情况，我感到非常惊讶。她也赶到了医院。我赶紧回家拿了一些药，然后迅速返回医院。在医院里，我四处寻找，终于在卫生间找到了他。我给他打了电话，他接了，我看到他，露出了笑容。\n我问他是不是发烧了，有没有吃药。他躺在床上，医生正在给他检查。看到他能吃饭了，我为他点赞。我让他安心回家休息，心里充满了对他的关心。确认他可以好好休息后，我放心地笑了。最后，我离开医院，

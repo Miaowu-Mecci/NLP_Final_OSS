@@ -1,0 +1,46 @@
+[
+  {
+    "unit_id": "word_001",
+    "unit_type": "word",
+    "text": "一帆风顺",
+    "task_label_zh": "词义及词性标注",
+    "task_label_en": "POS Tagging",
+    "value": "ADJ (形容词/成语)",
+    "confidence": 0.95,
+    "llm_used": true,
+    "annotator_note": "抽象语义。地书映射：⛵+➡️。自然语言通过隐喻表达‘顺利’，符号化时存在文化转换损耗。"
+  },
+  {
+    "unit_id": "word_002",
+    "unit_type": "word",
+    "text": "洗手间",
+    "task_label_zh": "词义及词性标注",
+    "task_label_en": "POS Tagging",
+    "value": "NOUN (名词/实体)",
+    "confidence": 1.0,
+    "llm_used": true,
+    "annotator_note": "具象实体。地书映射：WC/🚻。国际通用图标，语义极其稳定，无理解障碍。"
+  },
+  {
+    "unit_id": "word_003",
+    "unit_type": "word",
+    "text": "车祸",
+    "task_label_zh": "词义及词性标注",
+    "task_label_en": "POS Tagging",
+    "value": "NOUN (名词/事件)",
+    "confidence": 1.0,
+    "llm_used": true,
+    "annotator_note": "事件实体。地书映射：🚗💥🚙。通过视觉冲突直接呈现事件本质，语义直观。"
+  },
+  {
+    "unit_id": "word_004",
+    "unit_type": "word",
+    "text": "沉思",
+    "task_label_zh": "词义及词性标注",
+    "task_label_en": "POS Tagging",
+    "value": "VERB (动词/心理状态)",
+    "confidence": 0.9,
+    "llm_used": true,
+    "annotator_note": "心理动词。地书映射：👤+🤔。依赖表情符号传达，但在描述深度思考时略显单薄。"
+  }
+]

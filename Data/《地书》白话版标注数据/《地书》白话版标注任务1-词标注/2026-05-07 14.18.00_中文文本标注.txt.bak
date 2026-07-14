@@ -1,0 +1,1343 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T13:41:06+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230112",
+    "student_name": "郭雨昕",
+    "assigned_section": "次日2点",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_002",
+    "title": "次日2点",
+    "source": "老师提供",
+    "raw_text": "\n凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。\n",
+    "notes": "完整全覆盖类形态特征标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 20,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 2
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "两点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 2,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "躺",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 6,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 7,
+      "char_end": 8
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "床上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "就",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 13,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "进入",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 14,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 16,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 13,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 14,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 21,
+      "char_end": 38,
+      "children": [
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025",
+        "word_026"
+      ]
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 21,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "梦里",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 22,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 25,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "两个",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 30,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 31,
+      "char_end": 32
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "激烈",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "地",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 34,
+      "char_end": 35
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 35,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 37,
+      "char_end": 38
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 39,
+      "char_end": 83,
+      "children": [
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051"
+      ]
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 39,
+      "char_end": 41
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 41,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 42,
+      "char_end": 43
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "梦见",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 43,
+      "char_end": 45
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 45,
+      "char_end": 46
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "2012",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 46,
+      "char_end": 50
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "年",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 50,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "世界末日",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 51,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 55,
+      "char_end": 56
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "场景",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 56,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 58,
+      "char_end": 59
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "巨大",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 59,
+      "char_end": 61
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 61,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "海浪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 62,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "淹没",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 64,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 16,
+      "char_start": 66,
+      "char_end": 67
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "地球",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18,
+      "char_start": 69,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "人们",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 19,
+      "char_start": 70,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "纷纷",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 20,
+      "char_start": 72,
+      "char_end": 74
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "逃",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 21,
+      "char_start": 74,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 22,
+      "char_start": 75,
+      "char_end": 76
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "山上",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 23,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 24,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 25,
+      "char_start": 80,
+      "char_end": 81
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“凌晨”是一个由两个汉字组成的双音节词，表示时间概念，属于多字词，没有内部复合或派生结构。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“两点”由两个语素“两”和“点”组合而成，表示“两个点”或“两点钟”，属于多字词且为复合词。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于上述任何类形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单音节词，属于单字词，且在现代汉语中独立使用，不涉及复合、重叠或词缀等形态特征。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词为单音节动词，属于单字词，无复合或派生结构。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“在”是一个单音节汉字，独立成词，常作为介词或动词使用，不涉及复合、重叠或词缀等形态特征。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“床上”由两个单字“床”和“上”组合而成，表示“床的上面”这一空间位置，属于复合词，且为多字词。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词语的类形态特征。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“很快”是一个由两个单字组成的双音节词，表示“非常快”的意思，属于多字词，没有复合、重叠或固定搭配等特征。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“就”是一个单音节汉字，在现代汉语中独立成词，常作为副词、介词或连词使用，不涉及复合、重叠或词缀等形态特征。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“进入”由两个自由语素“进”和“入”组合而成，表示一个整体动作，属于并列式复合词，且为多字词。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "aspect_marker"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”在汉语中常作为动态助词，表示动作的完成或状态的变化，属于体标记（aspect marker）。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“梦乡”由“梦”和“乡”两个语素构成，表示“梦境”或“睡梦中的地方”，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词语为句号，属于标点符号，不属于任何类形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“在”是一个单字词，常作为介词或动词使用，不涉及复合、重叠、词缀等形态特征。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“梦里”是一个由两个汉字组成的双音节词，表示“在梦中”的意思，属于多字词，没有复合、重叠或特殊形态特征。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于任何类形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单音节词，属于基本人称代词，在汉语中为单字词。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看到”由动词“看”和结果补语“到”组合而成，表示动作有结果，属于动结式复合词。"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "classifier_structure"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“两个”由数词“两”和量词“个”组成，是典型的数量结构，属于分类词结构。"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“人”是一个单音节汉字，独立成词，属于基本词汇中的单字词。"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“在”是一个单音节词，在汉语中作为独立的单字词使用，表示存在、处于某处或进行中的动作，不涉及复合、重叠或词缀等结构。"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词由两个汉字组成，是一个双音节词，属于多字词类别，且非复合词或固定短语。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“地”是一个单字词，在汉语中常作为结构助词或名词使用，符合单字词特征。"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“争吵”是由两个语素组成的双音节词，表示一种行为，属于多字词，非复合词或重叠形式。"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词语为句号，属于标点符号，不属于上述任何类形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“接着”是一个双音节词，在句中常作动词或连词，表示“接续”或“随后”，同时可视为趋向补语（如“接着说”中的“着”具有方向性延续义）。"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词语或形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单音节词，且在现代汉语中作为独立使用的单字词，属于基本人称代词。"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“梦见”由“梦”和“见”两个语素构成，表示“在梦中见到”，属于动补式复合词，符合复合词定义。"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "aspect_marker"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”在汉语中常作为动态助词，表示动作的完成或状态的变化，属于体标记（aspect marker）。"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "named_entity"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "2012是一个具体的年份数字，属于时间类专有名词，因此标注为命名实体。"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“年”是一个单音节汉字，在现代汉语中作为独立词使用，表示时间单位，属于单字词。"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word",
+        "idiom_or_fixed_expression"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“世界末日”是由“世界”和“末日”两个自由语素构成的复合词，同时作为一个固定表达，指代特定概念（如基督教末世论或灾难场景），符合复合词和固定习语的特征。"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单音节虚词，在汉语中作为独立的单字词使用，主要充当定语标记或结构助词，符合单字词特征。"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“场景”由两个汉字组成，是一个双音节词，属于多字词，且非复合词、重叠词或固定短语。"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于词语或形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“巨大”是由两个语素组成的双音节词，在现代汉语中作为一个整体使用，属于多字词。"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word",
+        "affix_like"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“的”是单字词，在语法功能上常作为定语标记或结构助词，具有类似词缀的附着性，因此归为affix_like。"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“海浪”由“海”和“浪”两个自由语素构成，表示“海上的波浪”，属于复合词。"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“淹没”是一个双音节词，由两个语素“淹”和“没”组合而成，但并非固定习语或复合词（如“淹”和“没”在现代汉语中均不独立表示完整语义），属于多字词。"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "aspect_marker"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”在汉语中常作为动态助词，表示动作的完成或状态的变化，属于体标记（aspect marker）。"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“地球”由两个语素“地”和“球”组合而成，表示一个整体概念，属于双音节复合词。"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "逗号是标点符号，不属于任何类形态特征类别。"
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "word_045",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“人们”是由两个汉字组成的双音节词，表示复数概念，属于多字词，不涉及复合、重叠或词缀等特征。"
+    },
+    {
+      "annotation_id": "ann_046",
+      "target_id": "word_046",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“纷纷”是双音节重叠式，属于形容词或副词的重叠形式，表示“众多而杂乱”的状态，符合reduplication（重叠）特征。"
+    },
+    {
+      "annotation_id": "ann_047",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.99,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词为单字词，表示“逃跑”的基本义，无复合、重叠或附加成分。"
+    },
+    {
+      "annotation_id": "ann_048",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“到”是一个单音节汉字，在汉语中作为独立动词或介词使用，属于单字词。"
+    },
+    {
+      "annotation_id": "ann_049",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“山上”由方位名词“上”附着在名词“山”后构成，表示“山的上面”，属于复合词结构。"
+    },
+    {
+      "annotation_id": "ann_050",
+      "target_id": "word_050",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "compound_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“避难”由两个语素“避”和“难”组合而成，表示“躲避灾难”的复合意义，属于双音节复合词。"
+    },
+    {
+      "annotation_id": "ann_051",
+      "target_id": "word_051",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "other"
+      ],
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "该词语为句号，属于标点符号，不属于上述任何类形态特征类别。"
+    }
+  ]
+}

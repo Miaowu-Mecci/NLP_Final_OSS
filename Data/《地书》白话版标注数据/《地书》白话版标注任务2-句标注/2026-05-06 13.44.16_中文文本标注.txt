@@ -1,0 +1,53 @@
+{"project": {
+  "project_name": "《地书》与自然语言文本差异性分析",
+  "data_type": "natural_language_text",
+  "schema_version": "1.0",
+  "annotation_language": "zh-CN",
+  "created_at": "2026-05-06T20:30:00+08:00",
+  "llm_assisted": true,
+  "llm_tools": ["DeepSeek"]
+}
+"student": {
+  "student_id": "1191230125",
+  "student_name": "王超",
+  "assigned_section": "17点对应文本",
+  "word_task_type": "morphological_like_features",
+  "sentence_task_type": "free_translation"
+}
+{
+  "source_text": {
+    "text_id": "17：00",
+    "title": "下班赶回家准备赴约",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+    "notes": "用于自然语言文本标注示例"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 16,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 16,
+      "char_end": 56,
+      "children": ["word_008", "word_009", "word_010", "word_011", "word_012", "word_013", "word_014", "word_015", "word_016", "word_017", "word_018", "word_019", "word_020", "word_021", "word_022", "word_023", "word_024", "word_025", "word_026"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 56,
+      "char_end": 72,
+      "children": ["word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037", "word_038", "word_039", "word_040"]
+    },
+}

@@ -1,0 +1,1397 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T10:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "24点",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "24点",
+    "title": "醉酒夜归·步行回家",
+    "source": "教师提供",
+    "raw_text": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。",
+    "notes": "用于自然语言文本标注示例，词级别标注任务：类形态特征"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 19,
+      "children": [
+        "w_001",
+        "w_002",
+        "w_003",
+        "w_004",
+        "w_005",
+        "w_006",
+        "w_007",
+        "w_008",
+        "w_009",
+        "w_010",
+        "w_011"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 2,
+      "char_start": 19,
+      "char_end": 39,
+      "children": [
+        "w_012",
+        "w_013",
+        "w_014",
+        "w_015",
+        "w_016",
+        "w_017",
+        "w_018",
+        "w_019",
+        "w_020",
+        "w_021",
+        "w_022",
+        "w_023"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 3,
+      "char_start": 39,
+      "char_end": 55,
+      "children": [
+        "w_024",
+        "w_025",
+        "w_026",
+        "w_027",
+        "w_028",
+        "w_029",
+        "w_030",
+        "w_031",
+        "w_032"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 4,
+      "char_start": 55,
+      "char_end": 78,
+      "children": [
+        "w_033",
+        "w_034",
+        "w_035",
+        "w_036",
+        "w_037",
+        "w_038",
+        "w_039",
+        "w_040",
+        "w_041",
+        "w_042",
+        "w_043"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 5,
+      "char_start": 78,
+      "char_end": 109,
+      "children": [
+        "w_044",
+        "w_045",
+        "w_046",
+        "w_047",
+        "w_048",
+        "w_049",
+        "w_050",
+        "w_051",
+        "w_052",
+        "w_053",
+        "w_054",
+        "w_055",
+        "w_056",
+        "w_057",
+        "w_058",
+        "w_059"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 6,
+      "char_start": 109,
+      "char_end": 125,
+      "children": [
+        "w_060",
+        "w_061",
+        "w_062",
+        "w_063",
+        "w_064",
+        "w_065",
+        "w_066",
+        "w_067",
+        "w_068"
+      ]
+    },
+    {
+      "unit_id": "w_001",
+      "unit_type": "word",
+      "text": "午夜十二点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 5
+    },
+    {
+      "unit_id": "w_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "w_003",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 6,
+      "char_end": 7
+    },
+    {
+      "unit_id": "w_004",
+      "unit_type": "word",
+      "text": "没有",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "w_005",
+      "unit_type": "word",
+      "text": "开车",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 11
+    },
+    {
+      "unit_id": "w_006",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 11,
+      "char_end": 12
+    },
+    {
+      "unit_id": "w_007",
+      "unit_type": "word",
+      "text": "而是",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 12,
+      "char_end": 14
+    },
+    {
+      "unit_id": "w_008",
+      "unit_type": "word",
+      "text": "选择",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 14,
+      "char_end": 16
+    },
+    {
+      "unit_id": "w_009",
+      "unit_type": "word",
+      "text": "步行回家",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 16,
+      "char_end": 20
+    },
+    {
+      "unit_id": "w_010",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "w_011",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 21,
+      "char_end": 22
+    },
+    {
+      "unit_id": "w_012",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 22,
+      "char_end": 24
+    },
+    {
+      "unit_id": "w_013",
+      "unit_type": "word",
+      "text": "地图",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 24,
+      "char_end": 26
+    },
+    {
+      "unit_id": "w_014",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 26,
+      "char_end": 27
+    },
+    {
+      "unit_id": "w_015",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 27,
+      "char_end": 29
+    },
+    {
+      "unit_id": "w_016",
+      "unit_type": "word",
+      "text": "脚下的",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 29,
+      "char_end": 32
+    },
+    {
+      "unit_id": "w_017",
+      "unit_type": "word",
+      "text": "脚印",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "w_018",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 34,
+      "char_end": 35
+    },
+    {
+      "unit_id": "w_019",
+      "unit_type": "word",
+      "text": "一步步",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 35,
+      "char_end": 38
+    },
+    {
+      "unit_id": "w_020",
+      "unit_type": "word",
+      "text": "向前走",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 38,
+      "char_end": 41
+    },
+    {
+      "unit_id": "w_021",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 41,
+      "char_end": 42
+    },
+    {
+      "unit_id": "w_022",
+      "unit_type": "word",
+      "text": "路上",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "w_023",
+      "unit_type": "word",
+      "text": "很安静",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 44,
+      "char_end": 47
+    },
+    {
+      "unit_id": "w_024",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 47,
+      "char_end": 48
+    },
+    {
+      "unit_id": "w_025",
+      "unit_type": "word",
+      "text": "只有",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 48,
+      "char_end": 50
+    },
+    {
+      "unit_id": "w_026",
+      "unit_type": "word",
+      "text": "我一个人的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 50,
+      "char_end": 55
+    },
+    {
+      "unit_id": "w_027",
+      "unit_type": "word",
+      "text": "脚步声",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 55,
+      "char_end": 58
+    },
+    {
+      "unit_id": "w_028",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 58,
+      "char_end": 59
+    },
+    {
+      "unit_id": "w_029",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 59,
+      "char_end": 60
+    },
+    {
+      "unit_id": "w_030",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 60,
+      "char_end": 63
+    },
+    {
+      "unit_id": "w_031",
+      "unit_type": "word",
+      "text": "一个",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 63,
+      "char_end": 65
+    },
+    {
+      "unit_id": "w_032",
+      "unit_type": "word",
+      "text": "门口",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 65,
+      "char_end": 67
+    },
+    {
+      "unit_id": "w_033",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 67,
+      "char_end": 68
+    },
+    {
+      "unit_id": "w_034",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 68,
+      "char_end": 69
+    },
+    {
+      "unit_id": "w_035",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 69,
+      "char_end": 72
+    },
+    {
+      "unit_id": "w_036",
+      "unit_type": "word",
+      "text": "一个",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 72,
+      "char_end": 74
+    },
+    {
+      "unit_id": "w_037",
+      "unit_type": "word",
+      "text": "警察局门口",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 74,
+      "char_end": 79
+    },
+    {
+      "unit_id": "w_038",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 79,
+      "char_end": 80
+    },
+    {
+      "unit_id": "w_039",
+      "unit_type": "word",
+      "text": "走着走着",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 80,
+      "char_end": 84
+    },
+    {
+      "unit_id": "w_040",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 84,
+      "char_end": 85
+    },
+    {
+      "unit_id": "w_041",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 85,
+      "char_end": 86
+    },
+    {
+      "unit_id": "w_042",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 86,
+      "char_end": 88
+    },
+    {
+      "unit_id": "w_043",
+      "unit_type": "word",
+      "text": "一个女人",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 88,
+      "char_end": 92
+    },
+    {
+      "unit_id": "w_044",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 92,
+      "char_end": 93
+    },
+    {
+      "unit_id": "w_045",
+      "unit_type": "word",
+      "text": "抬头",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7,
+      "char_start": 93,
+      "char_end": 95
+    },
+    {
+      "unit_id": "w_046",
+      "unit_type": "word",
+      "text": "看了看",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8,
+      "char_start": 95,
+      "char_end": 98
+    },
+    {
+      "unit_id": "w_047",
+      "unit_type": "word",
+      "text": "天空",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9,
+      "char_start": 98,
+      "char_end": 100
+    },
+    {
+      "unit_id": "w_048",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 10,
+      "char_start": 100,
+      "char_end": 101
+    },
+    {
+      "unit_id": "w_049",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 11,
+      "char_start": 101,
+      "char_end": 103
+    },
+    {
+      "unit_id": "w_050",
+      "unit_type": "word",
+      "text": "继续",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 12,
+      "char_start": 103,
+      "char_end": 105
+    },
+    {
+      "unit_id": "w_051",
+      "unit_type": "word",
+      "text": "往前走",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 13,
+      "char_start": 105,
+      "char_end": 108
+    },
+    {
+      "unit_id": "w_052",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 14,
+      "char_start": 108,
+      "char_end": 109
+    },
+    {
+      "unit_id": "w_053",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 109,
+      "char_end": 111
+    },
+    {
+      "unit_id": "w_054",
+      "unit_type": "word",
+      "text": "长长的",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 111,
+      "char_end": 114
+    },
+    {
+      "unit_id": "w_055",
+      "unit_type": "word",
+      "text": "脚印",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 114,
+      "char_end": 116
+    },
+    {
+      "unit_id": "w_056",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 116,
+      "char_end": 117
+    },
+    {
+      "unit_id": "w_057",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 117,
+      "char_end": 118
+    },
+    {
+      "unit_id": "w_058",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 118,
+      "char_end": 120
+    },
+    {
+      "unit_id": "w_059",
+      "unit_type": "word",
+      "text": "走到了",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 120,
+      "char_end": 123
+    },
+    {
+      "unit_id": "w_060",
+      "unit_type": "word",
+      "text": "家",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8,
+      "char_start": 123,
+      "char_end": 124
+    },
+    {
+      "unit_id": "w_061",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 9,
+      "char_start": 124,
+      "char_end": 125
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "w_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "named_entity"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“午夜十二点”是时间表达复合词/命名实体"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "w_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单字人称代词"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "w_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "negation_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“没有”是否定标记"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "w_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“开车”是动宾复合词"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "w_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“而是”是转折关联词"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "w_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“选择”是双字动词"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "w_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“步行回家”是连动结构短语"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "w_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单字人称代词"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "w_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看着”中“着”是持续体标记"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "w_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“地图”是双字名词"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "w_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“沿着”是介词"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "w_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“脚下的”是方位短语"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "w_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“脚印”是双字名词"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "w_019",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一步步”是重叠式，表示逐次进行"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "w_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“向前走”中“向前”是趋向方向"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "w_022",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“路上”是方位词"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "w_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“很安静”是程度副词+形容词结构"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "w_025",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“只有”是限定副词"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "w_026",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我一个人的”是领属修饰短语"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "w_027",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“脚步声”是复合名词"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "w_029",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单字人称代词"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "w_030",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“经过了”中“了”是完成体标记"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "w_031",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一个”是数量结构"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "w_032",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“门口”是复合名词"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "w_034",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“又”是单字副词，表示重复"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "w_035",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“经过了”中“了”是完成体标记"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "w_036",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "classifier_structure"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一个”是数量结构"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "w_037",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "compound_word",
+        "named_entity"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“警察局门口”是复合名词短语/场所命名实体"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "w_039",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“走着走着”是动词重叠式，表示动作持续反复"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "w_041",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单字人称代词"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "w_042",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看到”是双字感知动词"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "w_043",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "classifier_structure"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“一个女人”是数量+名词结构"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "w_045",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“抬头”是动宾复合词"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "w_046",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“看了看”是动词重叠式（A了A），表示短时尝试"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "w_047",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“天空”是双字名词"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "w_049",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“然后”是时间顺序连词"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "w_050",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“继续”是双字动词"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "w_051",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“往前走”中“前”表示方向"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "w_053",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“沿着”是介词"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "w_054",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "reduplication"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“长长的”是形容词重叠式（AA的），表示程度加深"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "w_055",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“脚印”是双字名词"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "w_057",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”是单字人称代词"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "w_058",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“终于”是时间副词"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "w_059",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "multi_character_word",
+        "directional_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“走到了”中“到”是趋向补语，“了”是完成体标记"
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "w_060",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "single_character_word"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“家”是单字名词"
+    }
+  ]
+}

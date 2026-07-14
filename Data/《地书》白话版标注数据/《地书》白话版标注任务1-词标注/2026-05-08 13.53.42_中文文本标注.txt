@@ -1,0 +1,797 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "pictographic_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T16:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Doubao"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "51R、52R~53R、54R、57R~59L",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "dishu_51R_to_59L",
+    "title": "徐冰《地书》51R–59L 符号文本",
+    "source": "教师提供《地书》图片",
+    "raw_text": "下午2点睡觉醒来看见电视播放2012末日灾难片；清晨被蚊子吵醒，打蚊子失败，喷药，起床穿衣，开关灯，再次睡觉；被蚊子反复骚扰，情绪烦躁，崩溃，追打失败；凌晨4点起床，洗漱，玩电子游戏（马里奥、愤怒的小鸟、俄罗斯方块）；玩动作游戏，得分通关，开心；手机闹钟震动，起床生气，接电话，拿行李出门离开",
+    "notes": "本次标注覆盖51R、52R‑53R、54R、57R‑59L全部符号内容，按实验要求完成分词与标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午2点，睡觉，醒来，看电视播放2012末日灾难片",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 28,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007"
+      ]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "清晨被蚊子吵醒，打蚊子失败，喷杀虫剂，起床穿衣，开关灯，睡觉",
+      "sentence_index": 2,
+      "char_start": 28,
+      "char_end": 62,
+      "children": [
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015"
+      ]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "蚊子持续骚扰，开灯烦躁，追打失败，崩溃，反复折腾",
+      "sentence_index": 3,
+      "char_start": 62,
+      "char_end": 88,
+      "children": [
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020"
+      ]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "凌晨4点，起床，洗漱，坐下玩电子游戏",
+      "sentence_index": 4,
+      "char_start": 88,
+      "char_end": 110,
+      "children": [
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024"
+      ]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "玩马里奥、愤怒的小鸟、俄罗斯方块，操作、移动、旋转、通关",
+      "sentence_index": 5,
+      "char_start": 110,
+      "char_end": 138,
+      "children": [
+        "word_025",
+        "word_026",
+        "word_027",
+        "word_028"
+      ]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "玩动作游戏，射击，得分变化，最后满分开心通关",
+      "sentence_index": 6,
+      "char_start": 138,
+      "char_end": 162,
+      "children": [
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032"
+      ]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "手机震动闹钟响起，起床生气，接电话，拿行李出门离开",
+      "sentence_index": 7,
+      "char_start": 162,
+      "char_end": 192,
+      "children": [
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午2点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "醒来",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "播放",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 14,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "2012",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 17,
+      "char_end": 21
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "灾难片",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 22,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "吵醒",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 31,
+      "char_end": 33
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "打蚊子",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 34,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "失败",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 38,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "喷杀虫剂",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 41,
+      "char_end": 46
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "起床穿衣",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 47,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "开关灯",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 52,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 56,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "骚扰",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 62,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "烦躁",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 65,
+      "char_end": 67
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "追打",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 68,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "崩溃",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 71,
+      "char_end": 73
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "折腾",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 74,
+      "char_end": 76
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "凌晨4点",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 88,
+      "char_end": 92
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "起床",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 93,
+      "char_end": 95
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "洗漱",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 96,
+      "char_end": 98
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "玩游戏",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 99,
+      "char_end": 102
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "马里奥",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 110,
+      "char_end": 113
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "愤怒的小鸟",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 114,
+      "char_end": 119
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "俄罗斯方块",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 120,
+      "char_end": 125
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "通关",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 126,
+      "char_end": 128
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "动作游戏",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 138,
+      "char_end": 142
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "得分",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 143,
+      "char_end": 145
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "满分",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 146,
+      "char_end": 148
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "开心",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 149,
+      "char_end": 151
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "手机闹钟",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 162,
+      "char_end": 166
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "生气",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 167,
+      "char_end": 169
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "接电话",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 170,
+      "char_end": 173
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "拿行李",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 174,
+      "char_end": 177
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "离开",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5,
+      "char_start": 178,
+      "char_end": 180
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "time"
+      ],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "表示故事开始的时间"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "action",
+        "state"
+      ],
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "人体休息行为"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "action",
+        "state"
+      ],
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "从睡眠恢复清醒"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "object"
+      ],
+      "confidence": 0.99,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "电子媒介对象"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "time",
+        "event"
+      ],
+      "confidence": 0.95,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "指代灾难事件背景"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "object",
+        "creature"
+      ],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "故事冲突来源"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "action",
+        "cause"
+      ],
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "被声音干扰苏醒"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "state",
+        "result"
+      ],
+      "confidence": 0.97,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "行为未达成目标"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "emotion"
+      ],
+      "confidence": 0.99,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "负面情绪状态"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "emotion",
+        "state"
+      ],
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "情绪失控状态"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "time"
+      ],
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "事件转场时间点"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "action",
+        "entertainment"
+      ],
+      "confidence": 0.99,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "休闲娱乐行为"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "emotion"
+      ],
+      "confidence": 0.99,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "正面愉悦情绪"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "object",
+        "tool"
+      ],
+      "confidence": 0.99,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "提醒工具"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": [
+        "action",
+        "motion"
+      ],
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "离开当前场景"
+    },
+    {
+      "annotation_id": "ann_sent_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "故事开篇，交代时间背景"
+    },
+    {
+      "annotation_id": "ann_sent_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "按时间顺序继续叙事"
+    },
+    {
+      "annotation_id": "ann_sent_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.97,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "详细展开冲突与情绪"
+    },
+    {
+      "annotation_id": "ann_sent_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.96,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "情节转折，进入娱乐段落"
+    },
+    {
+      "annotation_id": "ann_sent_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.97,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "具体说明游戏内容"
+    },
+    {
+      "annotation_id": "ann_sent_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.98,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "继续游戏情节并达到高潮"
+    },
+    {
+      "annotation_id": "ann_sent_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.96,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "故事收尾，结束叙事"
+    }
+  ]
+}

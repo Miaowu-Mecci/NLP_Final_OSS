@@ -1,0 +1,145 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T16:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini"
+    ]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "次日4点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_005",
+    "title": "凌晨四点的安眠",
+    "source": "Student Assignment",
+    "raw_text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "第五组文本：深夜安眠场景"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 23,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "深度睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 10,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "很香",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 18,
+      "char_end": 20
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_s001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "annotator_note": "作为该叙事片段的首句，交代时间背景与核心状态。"
+    },
+    {
+      "annotation_id": "ann_w001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "点明了事件发生的具体时间，是黎明前最黑暗、最寂静的时刻。这个时间点暗示了主人公可能经历了漫长的清醒或挣扎，为“终于”一词所蕴含的艰难过程提供了时间背景。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间状语暗示入睡过程的曲折"
+    },
+    {
+      "annotation_id": "ann_w002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表示经过一番努力或等待后，期望的结果出现。强烈暗示了在此之前主人公经历了失眠或困扰，突出了入睡的不易和如释重负的解脱感。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "副词凸显结果的珍贵性"
+    },
+    {
+      "annotation_id": "ann_w003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指睡眠质量最高的阶段，身体得到彻底修复。强调了从之前的不安状态到此刻彻底安宁的质量转变，是一种身心疲惫后的终极慰藉。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "核心状态描写"
+    },
+    {
+      "annotation_id": "ann_w004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "用口语化的感性表达方式，进一步强化了睡眠的舒适感和主观上的满足感，为安眠场景画上了圆满的句号。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "情感补语强化安宁感"
+    }
+  ]
+}

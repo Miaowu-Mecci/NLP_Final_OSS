@@ -1,0 +1,88 @@
+{
+  "project": "《地书》图形语言 vs 自然语言：计算语言学与自然语言处理多层标注配置",
+  "studentId": "1191230301",
+  "studentName": "汪湘",
+  "annotation_type": "自由翻译 / Free Translation",
+  "sentence_annotations": [
+    {
+      "sentence_id": 1,
+      "original_sentence": "晚上九点，我接到了刚失恋的老友的电话，他让我过去陪他喝酒。",
+      "free_translation": "夜里九点时分，我收到失恋不久的老朋友打来的电话，对方邀约我前去陪伴他饮酒解闷。"
+    },
+    {
+      "sentence_id": 2,
+      "original_sentence": "我本想开车过去，但路上堵车非常严重，到处都是车，还遇到了红灯和车祸。",
+      "free_translation": "我原本打算驾车前往，可道路交通拥堵状况十分严重，车流密集，途中还碰上交通信号灯红灯以及交通事故现场。"
+    },
+    {
+      "sentence_id": 3,
+      "original_sentence": "我只能无奈地在车里等待，心里非常着急。",
+      "free_translation": "我没有别的办法，只能焦躁地坐在车内原地等候，内心满是焦灼不安。"
+    },
+    {
+      "sentence_id": 4,
+      "original_sentence": "好不容易回到家，我开始喝酒。",
+      "free_translation": "历经波折总算回到住所，我独自开始饮酒消遣。"
+    },
+    {
+      "sentence_id": 5,
+      "original_sentence": "不久，老友也来了，他告诉我他失恋了，心里很难过。",
+      "free_translation": "没过多久，我的老朋友也来到我家中，向我倾诉他刚刚结束恋情，内心倍感伤感低落。"
+    },
+    {
+      "sentence_id": 6,
+      "original_sentence": "我笑着安慰他，劝他不要再想那些不开心的事。",
+      "free_translation": "我面带笑容开导劝慰好友，劝解他放下过往，不要再纠结伤心的往事。"
+    },
+    {
+      "sentence_id": 7,
+      "original_sentence": "我们一起喝酒，时间慢慢流逝。",
+      "free_translation": "二人相伴对饮，时光在闲谈饮酒中缓缓悄然逝去。"
+    },
+    {
+      "sentence_id": 8,
+      "original_sentence": "后来，老友要坐公交车回家，外面下起了雨。",
+      "free_translation": "之后老朋友准备搭乘公交返程回家，此刻屋外骤然下起了大雨。"
+    },
+    {
+      "sentence_id": 9,
+      "original_sentence": "我在楼下等他，他问我是不是和那个女人分手了，是不是坐公交车。",
+      "free_translation": "我下楼在街边等候他，他向我询问是否也和心仪的女生分开，是否同样准备乘坐公交车出行。"
+    },
+    {
+      "sentence_id": 10,
+      "original_sentence": "我告诉他是的，并且指向了天上的乌云。",
+      "free_translation": "我点头给予肯定答复，同时抬手指向天空密布的阴云。"
+    },
+    {
+      "sentence_id": 11,
+      "original_sentence": "他说下雨了，没有太阳，还问我要不要伞。",
+      "free_translation": "他感慨天色阴沉落下雨滴，看不到阳光，随即询问我是否需要雨伞避雨。"
+    },
+    {
+      "sentence_id": 12,
+      "original_sentence": "我同意了。",
+      "free_translation": "我应允了他递伞的好意。"
+    },
+    {
+      "sentence_id": 13,
+      "original_sentence": "我们在雨中等待公交车，他去了趟卫生间。",
+      "free_translation": "两个人伫立雨中等候公交车辆，中途他临时去了一趟洗手间。"
+    },
+    {
+      "sentence_id": 14,
+      "original_sentence": "等了很久，他终于出来了，还亲了我一下。",
+      "free_translation": "经过漫长的等待，他终于从洗手间出来，还温柔地亲吻了我。"
+    },
+    {
+      "sentence_id": 15,
+      "original_sentence": "我们继续喝酒，我感到非常开心。",
+      "free_translation": "之后我们又接着小酌闲谈，我的内心感到十分愉悦舒心。"
+    },
+    {
+      "sentence_id": 16,
+      "original_sentence": "最后，他回家了，我一个人站在雨中，心里有些难过，不知道他什么时候才能走出失恋的阴影。",
+      "free_translation": "分别时刻他独自踏上归途，我孤身伫立雨幕之中，心底泛起一丝落寞，由衷希望他能早日从失恋的情绪低谷中走出来。"
+    }
+  ]
+}

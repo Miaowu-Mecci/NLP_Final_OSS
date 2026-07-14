@@ -1,0 +1,53 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T16:59:47.531810",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Deepseek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230113",
+    "student_name": "王晴",
+    "assigned_section": "‘次日4点’文本",
+    "word_task_type": "",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "中文自然文本",
+    "source": "教师提供",
+    "raw_text": "\n凌晨四点，我终于进入了深度睡眠，睡得很香。\n",
+    "notes": "篇章关系标注任务"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 18,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "由DeepSeek自动标注"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "word": "会议结束后",
+    "value": ["event", "time"],
+    "note": "表示一个事件结束后的时间节点"
+  },
+  {
+    "word": "我",
+    "value": ["person"],
+    "note": "叙事主体"
+  },
+  {
+    "word": "掌声鼓励",
+    "value": ["event", "communication", "emotion"],
+    "note": "既是行为事件，也是情感表达"
+  },
+  {
+    "word": "心情不错",
+    "value": ["emotion", "state"],
+    "note": "心理状态描述"
+  },
+  {
+    "word": "拿出",
+    "value": ["action", "motion"],
+    "note": "带有方向性的动作"
+  },
+  {
+    "word": "翻看",
+    "value": ["action", "perception"],
+    "note": "涉及视觉信息获取"
+  },
+  {
+    "word": "社交软件",
+    "value": ["object"],
+    "note": "工具类对象"
+  },
+  {
+    "word": "点赞",
+    "value": ["communication", "evaluation"],
+    "note": "社交平台中的评价行为"
+  },
+  {
+    "word": "聊天",
+    "value": ["communication"],
+    "note": "典型交互行为"
+  },
+  {
+    "word": "女士",
+    "value": ["person"],
+    "note": "人物角色"
+  },
+  {
+    "word": "打印",
+    "value": ["action"],
+    "note": "具体操作行为"
+  },
+  {
+    "word": "文件",
+    "value": ["object"],
+    "note": "实体对象"
+  },
+  {
+    "word": "离开",
+    "value": ["action", "motion"],
+    "note": "位置变化"
+  },
+  {
+    "word": "公司",
+    "value": ["place"],
+    "note": "空间地点"
+  },
+  {
+    "word": "拨电话",
+    "value": ["action", "communication"],
+    "note": "远程交流行为"
+  },
+  {
+    "word": "确认",
+    "value": ["cognition", "communication"],
+    "note": "认知+交互行为"
+  },
+  {
+    "word": "步行",
+    "value": ["motion"],
+    "note": "移动方式"
+  },
+  {
+    "word": "地图",
+    "value": ["object"],
+    "note": "导航工具"
+  },
+  {
+    "word": "脚印",
+    "value": ["object"],
+    "note": "路径线索"
+  },
+  {
+    "word": "梦乡",
+    "value": ["state"],
+    "note": "睡眠状态"
+  },
+  {
+    "word": "争吵",
+    "value": ["event", "communication"],
+    "note": "冲突性互动"
+  },
+  {
+    "word": "世界末日",
+    "value": ["event"],
+    "note": "灾难性事件"
+  },
+  {
+    "word": "海浪",
+    "value": ["object"],
+    "note": "自然实体"
+  },
+  {
+    "word": "逃",
+    "value": ["motion"],
+    "note": "逃离行为"
+  },
+  {
+    "word": "醒来",
+    "value": ["state", "event"],
+    "note": "状态变化"
+  },
+  {
+    "word": "游戏",
+    "value": ["event", "object"],
+    "note": "娱乐活动"
+  }
+]

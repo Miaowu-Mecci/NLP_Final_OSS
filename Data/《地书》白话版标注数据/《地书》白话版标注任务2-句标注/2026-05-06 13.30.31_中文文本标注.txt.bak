@@ -1,0 +1,157 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T14:20:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["Gemini"]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "次日2点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_007",
+    "title": "凌晨两点的梦境",
+    "source": "Student Assignment",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "梦境叙事：包含心理投射与宏大灾难想象"
+  },
+  "units": [
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 28,
+      "char_start": 0,
+      "char_end": 21
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 29,
+      "char_start": 21,
+      "char_end": 38
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 30,
+      "char_start": 38,
+      "char_end": 84
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_028",
+      "word_index_in_sentence": 8,
+      "char_start": 18,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "激烈",
+      "sentence_id": "sent_029",
+      "word_index_in_sentence": 5,
+      "char_start": 31,
+      "char_end": 33
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "世界末日",
+      "sentence_id": "sent_030",
+      "word_index_in_sentence": 5,
+      "char_start": 48,
+      "char_end": 52
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_s028",
+      "target_id": "sent_028",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "annotator_note": "新片段开始，交代入睡背景。"
+    },
+    {
+      "annotation_id": "ann_s029",
+      "target_id": "sent_029",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "从现实入睡延续到梦境内容的开启。"
+    },
+    {
+      "annotation_id": "ann_s030",
+      "target_id": "sent_030",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "梦境场景的跳跃式切换，通过‘接着’连接。"
+    },
+    {
+      "annotation_id": "ann_w017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "暗示了一种对现实意识的脱离。相比于‘睡觉’，‘梦乡’更强调进入了一个虚幻且不受控的叙事空间。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "名词暗示空间转换"
+    },
+    {
+      "annotation_id": "ann_w018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "反映了梦境中强烈的情绪投射。梦中的争吵往往是现实中焦虑或冲突的内化表现。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "形容词反映潜意识冲突"
+    },
+    {
+      "annotation_id": "ann_w019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "是一个带有时代记忆的文化符号（2012玛雅预言）。在梦中出现象征着极度的不安全感或对彻底毁灭的恐惧。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "专有名词暗示深层恐惧"
+    }
+  ]
+}

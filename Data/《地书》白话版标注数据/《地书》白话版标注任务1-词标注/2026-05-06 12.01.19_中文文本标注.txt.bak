@@ -1,0 +1,301 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T12:15:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "18点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "18点",
+    "title": "约会前的准备与相见",
+    "source": "Student Assignment",
+    "raw_text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。我从冰箱里拿出饮料，惬意地喝了一口。然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。我吹了吹头发，听着音乐，心情格外舒畅。\n与此同时，她也在家忙碌着。她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。她也在听着音乐，准备出门。\n我选好了鞋子和配饰，准备出门。出门前，我给她发了条消息，确认了时间。然后关掉空调和手机，离开了家。刚出门不久，她的电话就打了过来，我有点紧张地接了电话。挂了电话后，我直奔花店，买了 12 朵漂亮的花。\n我拿着花，心里想着她，想象着她收到花时开心的样子。终于，我见到了她，把花递给了她。她开心地接过花，我们相视而笑。\n我们一起去了约定的酒吧。在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。我们点了啤酒，聊着天。突然，我看到一些奇怪的东西，感到有些惊讶。不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "type": "sentence",
+      "text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。"
+    },
+    {
+      "unit_id": "sent_002",
+      "type": "sentence",
+      "text": "我从冰箱里拿出饮料，惬意地喝了一口。"
+    },
+    {
+      "unit_id": "sent_003",
+      "type": "sentence",
+      "text": "然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。"
+    },
+    {
+      "unit_id": "sent_004",
+      "type": "sentence",
+      "text": "我吹了吹头发，听着音乐，心情格外舒畅。"
+    },
+    {
+      "unit_id": "sent_005",
+      "type": "sentence",
+      "text": "与此同时，她也在家忙碌着。"
+    },
+    {
+      "unit_id": "sent_006",
+      "type": "sentence",
+      "text": "她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。"
+    },
+    {
+      "unit_id": "sent_007",
+      "type": "sentence",
+      "text": "她也在听着音乐，准备出门。"
+    },
+    {
+      "unit_id": "sent_008",
+      "type": "sentence",
+      "text": "我选好了鞋子和配饰，准备出门。"
+    },
+    {
+      "unit_id": "sent_009",
+      "type": "sentence",
+      "text": "出门前，我给她发了条消息，确认了时间。"
+    },
+    {
+      "unit_id": "sent_010",
+      "type": "sentence",
+      "text": "然后关掉空调和手机，离开了家。"
+    },
+    {
+      "unit_id": "sent_011",
+      "type": "sentence",
+      "text": "刚出门不久，她的电话就打了过来，我有点紧张地接了电话。"
+    },
+    {
+      "unit_id": "sent_012",
+      "type": "sentence",
+      "text": "挂了电话后，我直奔花店，买了 12 朵漂亮的花。"
+    },
+    {
+      "unit_id": "sent_013",
+      "type": "sentence",
+      "text": "我拿着花，心里想着她，想象着她收到花时开心的样子。"
+    },
+    {
+      "unit_id": "sent_014",
+      "type": "sentence",
+      "text": "终于，我见到了她，把花递给了她。"
+    },
+    {
+      "unit_id": "sent_015",
+      "type": "sentence",
+      "text": "她开心地接过花，我们相视而笑。"
+    },
+    {
+      "unit_id": "sent_016",
+      "type": "sentence",
+      "text": "我们一起去了约定的酒吧。"
+    },
+    {
+      "unit_id": "sent_017",
+      "type": "sentence",
+      "text": "在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。"
+    },
+    {
+      "unit_id": "sent_018",
+      "type": "sentence",
+      "text": "我们点了啤酒，聊着天。"
+    },
+    {
+      "unit_id": "sent_019",
+      "type": "sentence",
+      "text": "突然，我看到一些奇怪的东西，感到有些惊讶。"
+    },
+    {
+      "unit_id": "sent_020",
+      "type": "sentence",
+      "text": "不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。"
+    },
+    {
+      "unit_id": "word_001",
+      "type": "word",
+      "text": "惬意",
+      "parent_id": "sent_002"
+    },
+    {
+      "unit_id": "word_002",
+      "type": "word",
+      "text": "精心",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_003",
+      "type": "word",
+      "text": "搭配",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_004",
+      "type": "word",
+      "text": "与此同时",
+      "parent_id": "sent_005"
+    },
+    {
+      "unit_id": "word_005",
+      "type": "word",
+      "text": "紧张",
+      "parent_id": "sent_011"
+    },
+    {
+      "unit_id": "word_006",
+      "type": "word",
+      "text": "直奔",
+      "parent_id": "sent_012"
+    },
+    {
+      "unit_id": "word_007",
+      "type": "word",
+      "text": "相视而笑",
+      "parent_id": "sent_015"
+    },
+    {
+      "unit_id": "word_008",
+      "type": "word",
+      "text": "奇怪",
+      "parent_id": "sent_019"
+    },
+    {
+      "unit_id": "word_009",
+      "type": "word",
+      "text": "不过",
+      "parent_id": "sent_020"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "形容心情感到满意、舒服和轻松。在这里指主人公回到家喝饮料时那种放松、享受的状态。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "此处不是指环境惬意，而是指人的主观感受。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "特别用心、细致地。在这里强调主人公对约会的重视，在挑选衣服上花费了很多心思。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "修饰挑选衣服的动作。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "按适当的尺度或标准协调地组合。在这里指衣服、裤子等单品组合在一起看起来很协调、好看。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "指服装的整体组合效果。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表示两个动作或事件在同一时间发生。在这里用于连接“我”和“她”同时在家做准备的情景，起到切换视角的作用。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "起到叙事视角的转换作用。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "精神处于高度准备状态，感到不安或兴奋。在这里指主人公接到约会对象电话时，既期待又害怕表现不好的复杂心情。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "恋爱初期的典型心理状态。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "直接前往，不绕路。在这里表现了主人公急切想要买到花、想要见到对方的心情。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "体现了行动的急切和目的性。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "互相看着对方微笑。在这里表示两人见面时心意相通、默契和喜悦的情感交流，无需言语。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "表现两人关系的亲密和融洽。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "与平常不同，让人感到意外或难以理解。在这里指在酒吧里看到了某种意想不到的景象或事物，引发了惊讶的情绪。",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "为后文的情节发展埋下伏笔。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "表示转折。在这里用于连接“看到奇怪东西的惊讶”和“心情依然愉快”这两个看似矛盾的状态，强调约会的快乐才是主基调。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "转折连词，强调后半句的积极情绪。"
+    }
+  ]
+}

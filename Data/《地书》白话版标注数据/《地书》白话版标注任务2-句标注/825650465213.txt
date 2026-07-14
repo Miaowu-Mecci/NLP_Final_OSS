@@ -1,0 +1,54 @@
+[
+    {
+        "annotation_id": "ann_001",
+        "target_id": "sent_001",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "start",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "篇章开头句，无前文"
+    },
+    {
+        "annotation_id": "ann_002",
+        "target_id": "sent_002",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "sequence",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "回到家后感到困倦，打开电视"
+    },
+    {
+        "annotation_id": "ann_003",
+        "target_id": "sent_003",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "continuation",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "换频道观看不同节目，均发笑"
+    },
+    {
+        "annotation_id": "ann_004",
+        "target_id": "sent_004",
+        "target_type": "sentence",
+        "task_id": "discourse_relation",
+        "task_label_zh": "与前一组的篇章关系",
+        "task_label_en": "Discourse Relation",
+        "value": "turning_point",
+        "confidence": 0.9,
+        "llm_used": true,
+        "llm_name": "ChatGPT",
+        "annotator_note": "看到吵架画面感到无聊，关掉电视准备睡觉"
+    }
+]

@@ -1,0 +1,603 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-08T14:49:35.298908",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "第1组文本",
+    "word_task_type": "",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "工作汇报片段",
+    "source": "教师提供",
+    "raw_text": "时钟指向下午两点，我深吸一口气，点开电脑，准备开始赶工。时间紧迫，我得抓紧每一分每一秒。我快速地处理着文件，将它们保存、关闭，然后发送到打印机。 \n打印的过程中，我收到了一封邮件，是领导发来的。我一看内容，顿时面露难色。紧接着，领导的催促电话就打了进来，他在电话那头不停地催促我，问我进度如何。我急得像热锅上的蚂蚁，在工位上团团转，额头直冒汗。\n我绞尽脑汁，想着该如何完成这项紧急任务。我需要打印大量的文件，包括文件夹里的资料、键盘录入的内容、文档、书籍和报表。就在我手忙脚乱的时候，电话又响了，是另一个关于不同项目的咨询。事情似乎遇到了阻碍，我有点沮丧，但电话那头又传来了好消息，让我松了一口气。\n这时，一位资深的同事（或领导）走了过来，指着我的屏幕质问我：“你看你弄的这是什么？” 我在电话里被他狠狠地骂了一顿，感觉自己就像被枪和锤子轮番攻击。他要求我必须连夜打印出来，否则后果不堪设想。我向他解释，如果不完成打印，我可能连饭都吃不上。他质疑我的工作量，问我是不是在偷懒。我反驳说我不是为了吃饭才工作，但最终还是做出了让步，接受了他提出的要求。\n我举手示意，表示明白了，然后转身去找另一位同事帮忙。那位资深同事看到我，笑着问我吃饭了没有。我确认了一下文件，然后继续打印。他看到我完成了任务，对我表示了满意和认可，我也对他表示了感谢。最后，他似乎对我表示了赞赏，让我感觉自己的努力得到了回报。\n我继续埋头打印，汗水浸湿了后背。终于，所有文件都打印完毕，我整理好文件夹，长长地舒了一口气。我赶紧去了趟洗手间，回来后，我在文件夹里找到最终的文件，再次确认无误后，将它存到了 U 盘里。这整个过程耗费了我大量的时间，当我终于完成时，时钟已经指向了更晚的时间。我拿起 U 盘，准备向上级汇报工作。",
+    "notes": "中文自然文本句标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "时钟指向下午两点，我深吸一口气，点开电脑，准备开始赶工。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 28,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "时间紧迫，我得抓紧每一分每一秒。",
+      "sentence_index": 2,
+      "char_start": 28,
+      "char_end": 44,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我快速地处理着文件，将它们保存、关闭，然后发送到打印机。",
+      "sentence_index": 3,
+      "char_start": 44,
+      "char_end": 72,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "打印的过程中，我收到了一封邮件，是领导发来的。",
+      "sentence_index": 4,
+      "char_start": 74,
+      "char_end": 97,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我一看内容，顿时面露难色。",
+      "sentence_index": 5,
+      "char_start": 97,
+      "char_end": 110,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "紧接着，领导的催促电话就打了进来，他在电话那头不停地催促我，问我进度如何。",
+      "sentence_index": 6,
+      "char_start": 110,
+      "char_end": 147,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我急得像热锅上的蚂蚁，在工位上团团转，额头直冒汗。",
+      "sentence_index": 7,
+      "char_start": 147,
+      "char_end": 172,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我绞尽脑汁，想着该如何完成这项紧急任务。",
+      "sentence_index": 8,
+      "char_start": 173,
+      "char_end": 193,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我需要打印大量的文件，包括文件夹里的资料、键盘录入的内容、文档、书籍和报表。",
+      "sentence_index": 9,
+      "char_start": 193,
+      "char_end": 231,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "就在我手忙脚乱的时候，电话又响了，是另一个关于不同项目的咨询。",
+      "sentence_index": 10,
+      "char_start": 231,
+      "char_end": 262,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "事情似乎遇到了阻碍，我有点沮丧，但电话那头又传来了好消息，让我松了一口气。",
+      "sentence_index": 11,
+      "char_start": 262,
+      "char_end": 299,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "这时，一位资深的同事（或领导）走了过来，指着我的屏幕质问我：“你看你弄的这是什么？” 我在电话里被他狠狠地骂了一顿，感觉自己就像被枪和锤子轮番攻击。",
+      "sentence_index": 12,
+      "char_start": 300,
+      "char_end": 374,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "他要求我必须连夜打印出来，否则后果不堪设想。",
+      "sentence_index": 13,
+      "char_start": 374,
+      "char_end": 396,
+      "children": []
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我向他解释，如果不完成打印，我可能连饭都吃不上。",
+      "sentence_index": 14,
+      "char_start": 396,
+      "char_end": 420,
+      "children": []
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "他质疑我的工作量，问我是不是在偷懒。",
+      "sentence_index": 15,
+      "char_start": 420,
+      "char_end": 438,
+      "children": []
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我反驳说我不是为了吃饭才工作，但最终还是做出了让步，接受了他提出的要求。",
+      "sentence_index": 16,
+      "char_start": 438,
+      "char_end": 474,
+      "children": []
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我举手示意，表示明白了，然后转身去找另一位同事帮忙。",
+      "sentence_index": 17,
+      "char_start": 475,
+      "char_end": 501,
+      "children": []
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "那位资深同事看到我，笑着问我吃饭了没有。",
+      "sentence_index": 18,
+      "char_start": 501,
+      "char_end": 521,
+      "children": []
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我确认了一下文件，然后继续打印。",
+      "sentence_index": 19,
+      "char_start": 521,
+      "char_end": 537,
+      "children": []
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "他看到我完成了任务，对我表示了满意和认可，我也对他表示了感谢。",
+      "sentence_index": 20,
+      "char_start": 537,
+      "char_end": 568,
+      "children": []
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "最后，他似乎对我表示了赞赏，让我感觉自己的努力得到了回报。",
+      "sentence_index": 21,
+      "char_start": 568,
+      "char_end": 597,
+      "children": []
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我继续埋头打印，汗水浸湿了后背。",
+      "sentence_index": 22,
+      "char_start": 598,
+      "char_end": 614,
+      "children": []
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "终于，所有文件都打印完毕，我整理好文件夹，长长地舒了一口气。",
+      "sentence_index": 23,
+      "char_start": 614,
+      "char_end": 644,
+      "children": []
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我赶紧去了趟洗手间，回来后，我在文件夹里找到最终的文件，再次确认无误后，将它存到了 U 盘里。",
+      "sentence_index": 24,
+      "char_start": 644,
+      "char_end": 691,
+      "children": []
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "这整个过程耗费了我大量的时间，当我终于完成时，时钟已经指向了更晚的时间。",
+      "sentence_index": 25,
+      "char_start": 691,
+      "char_end": 727,
+      "children": []
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "我拿起 U 盘，准备向上级汇报工作。",
+      "sentence_index": 26,
+      "char_start": 727,
+      "char_end": 745,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "cause",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "summary",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": ""
+    }
+  ]
+}

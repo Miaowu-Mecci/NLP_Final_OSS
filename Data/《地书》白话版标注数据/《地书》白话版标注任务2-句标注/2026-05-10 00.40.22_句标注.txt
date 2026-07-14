@@ -1,0 +1,209 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-04-26T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["ChatGPT"]
+  },
+  "student": {
+    "student_id": "1191230214",
+    "student_name": "仵艺彤",
+    "assigned_section": "13点、24点、次日3点《地书》白话版文本",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_013",
+    "title": "《地书》白话版 13点-24点-次日3点",
+    "source": "教师提供",
+    "raw_text": "13点：我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？她喜欢香奈儿，可我没钱，买不起。走着走着，我看到一家书店，想到书也是个不错的礼物。我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。我想到世贸中心被炸了，有点惊讶。我查了去美国的航班、机场、酒店和攻略。各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。我刷卡结账，想着买两本书当礼物。付了钱，拿到了礼物，想到她会很开心。我看着礼物，纠结要不要送她。走出书店，想到她的生日，又回头看了看。我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。我想到她和游戏，还是去结账吧。结完账，走出书店，看了看时间，回公司。刷了工牌，走进电梯，看到快递的牌子，有点惊讶。按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。走到工位，坐下。24点：午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。次日3点：凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "《地书》白话版13点、24点、次日3点文本，用于篇章关系标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "13点：我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 44,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？",
+      "sentence_index": 2,
+      "char_start": 44,
+      "char_end": 80,
+      "children": ["word_006", "word_007", "word_008", "word_009"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "她喜欢香奈儿，可我没钱，买不起。",
+      "sentence_index": 3,
+      "char_start": 80,
+      "char_end": 100,
+      "children": ["word_010", "word_011", "word_012"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一家书店，想到书也是个不错的礼物。",
+      "sentence_index": 4,
+      "char_start": 100,
+      "char_end": 132,
+      "children": ["word_013", "word_014", "word_015", "word_016"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。",
+      "sentence_index": 5,
+      "char_start": 132,
+      "char_end": 200,
+      "children": ["word_017", "word_018", "word_019", "word_020", "word_021"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我又想到书里藏着坏人，用枪指着我，有点害怕。",
+      "sentence_index": 6,
+      "char_start": 200,
+      "char_end": 230,
+      "children": ["word_022", "word_023", "word_024"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "坏人开枪打我，我躲开了，有点生气。",
+      "sentence_index": 7,
+      "char_start": 230,
+      "char_end": 255,
+      "children": ["word_025", "word_026", "word_027"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我看着机票，想去旅行，忍不住笑了。",
+      "sentence_index": 8,
+      "char_start": 255,
+      "char_end": 280,
+      "children": ["word_028", "word_029", "word_030"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我想到我们结婚后去度蜜月，笑了。",
+      "sentence_index": 9,
+      "char_start": 280,
+      "char_end": 305,
+      "children": ["word_031", "word_032"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我拿起手机给她发消息。",
+      "sentence_index": 10,
+      "char_start": 305,
+      "char_end": 322,
+      "children": ["word_033", "word_034"]
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我问她：“结婚后想去哪度蜜月？”",
+      "sentence_index": 11,
+      "char_start": 322,
+      "char_end": 348,
+      "children": ["word_035", "word_036"]
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "她回：“想去自由女神像，还有埃菲尔铁塔……”",
+      "sentence_index": 12,
+      "char_start": 348,
+      "char_end": 380,
+      "children": ["word_037", "word_038"]
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。",
+      "sentence_index": 13,
+      "char_start": 380,
+      "char_end": 445,
+      "children": ["word_039", "word_040", "word_041"]
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。",
+      "sentence_index": 14,
+      "char_start": 445,
+      "char_end": 490,
+      "children": ["word_042", "word_043"]
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我想到世贸中心被炸了，有点惊讶。",
+      "sentence_index": 15,
+      "char_start": 490,
+      "char_end": 515,
+      "children": ["word_044", "word_045"]
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我查了去美国的航班、机场、酒店和攻略。",
+      "sentence_index": 16,
+      "char_start": 515,
+      "char_end": 545,
+      "children": ["word_046", "word_047"]
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。",
+      "sentence_index": 17,
+      "char_start": 545,
+      "char_end": 605,
+      "children": ["word_048", "word_049", "word_050"]
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。",
+      "sentence_index": 18,
+      "char_start": 605,
+      "char_end": 655,
+      "children": ["word_051", "word_052", "word_053"]
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。",
+      "sentence_index": 19,
+      "char_start": 655,
+      "char_end": 720,
+      "children": ["word_054", "word_055", "word_056"]
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "我刷卡结账，想着买两本书当礼物。",
+      "sentence_index": 20,
+      "char_start": 720,
+      "char_end": 745,
+      "children": ["word_057", "word_058"]
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "付了钱，拿到了礼物，想到她会很开心。",

@@ -1,0 +1,365 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T16:48:32.948851",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Deepseek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230113",
+    "student_name": "王晴",
+    "assigned_section": "‘次日4点’文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": ""
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "中文自然文本",
+    "source": "教师提供",
+    "raw_text": "\n凌晨四点，我终于进入了深度睡眠，睡得很香。\n",
+    "notes": "类形态特征标注任务"
+  },
+  "units": [
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 2
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 2,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 6,
+      "char_end": 8
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "进入",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 8,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "深度",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 13,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 15,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "睡得",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 16,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "很",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 12,
+      "char_start": 18,
+      "char_end": 19
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "香",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 13,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 14,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 27,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "tense_past"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Deepseek",
+      "annotator_note": "由Deepseek自动标注"
+    }
+  ]
+}

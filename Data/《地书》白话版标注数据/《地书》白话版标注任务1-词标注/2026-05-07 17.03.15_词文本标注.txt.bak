@@ -1,0 +1,562 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T10:51:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["豆包大模型"]
+  },
+  "student": {
+    "student_id": "1191230119",
+    "student_name": "程忠凯",
+    "assigned_section": "次日02:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_005",
+    "title": "《地书》白话版次日02:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "词标注任务：语义基元，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 26,
+      "children": ["word_001","word_002","word_003","word_004","word_005","word_006","word_007"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 2,
+      "char_start": 27,
+      "char_end": 46,
+      "children": ["word_008","word_009","word_010","word_011","word_012","word_013"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 3,
+      "char_start": 47,
+      "char_end": 94,
+      "children": ["word_014","word_015","word_016","word_017","word_018","word_019","word_020","word_021","word_022","word_023","word_024"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨两点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "躺在床上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 7,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "很快",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 12,
+      "char_end": 14
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "进入",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 16,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "梦乡",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 19,
+      "char_end": 21
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "梦里",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "两个人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 35,
+      "char_end": 38
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "激烈",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 39,
+      "char_end": 41
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "争吵",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "接着",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 47,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "梦见",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 51,
+      "char_end": 53
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "世界末日",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 56,
+      "char_end": 60
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "场景",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 61,
+      "char_end": 63
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "巨大",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 64,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "海浪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "淹没",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 70,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "地球",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 73,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "人们",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "逃",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 81,
+      "char_end": 82
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "山上",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 83,
+      "char_end": 85
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "避难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 86,
+      "char_end": 88
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["time"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "具体时间节点"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["person"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "第一人称叙事主体"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","state"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "肢体动作与休息状态"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["degree","time"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "时间快慢程度副词"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","process"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "进入某种状态的过程动作"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["state","cognition"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "睡眠梦境心理认知状态"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["space","mental"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "虚拟心理空间"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["perception","vision"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "视觉感知行为"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["person","group"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "人物群体对象"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["degree","mood"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "情绪行为激烈程度"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","conflict"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "人际冲突言语行为"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["sequence","connect"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "情节顺序连接词"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","cognition"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "梦境想象认知行为"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["event","disaster"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "虚构灾难事件"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["scene","view"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "画面场景客体"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["degree","attribute"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "事物形体属性程度"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["nature","water"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "自然水体天象"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","cover"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "覆盖浸没动作"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["place","planet"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "地理星球空间"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["person","mass"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "人群泛指主体"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","escape"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "逃生移动行为"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["place","mountain"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "山地地理空间"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "semantic_primitives",
+      "task_label_zh": "语义基元",
+      "task_label_en": "Semantic Primitives",
+      "value": ["action","survive"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "躲避灾害求生行为"
+    }
+  ]
+}

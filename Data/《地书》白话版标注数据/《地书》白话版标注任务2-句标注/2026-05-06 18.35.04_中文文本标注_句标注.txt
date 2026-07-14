@@ -1,0 +1,673 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T10:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "1:00 day 2文本",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_01_00_day2",
+    "title": "《地书》白话版-1:00 day 2片段",
+    "source": "教师提供",
+    "raw_text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。 最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+    "notes": "句标注任务：自由翻译 / Free Translation"
+  },
+  "units": [
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨一点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "在回家的路上",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 6,
+      "char_end": 12
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "看到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 12,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "一只狗",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 15,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "向它挥手",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 20,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "它",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 21,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "也",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 26,
+      "char_end": 27
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "摇着尾巴",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 27,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "回应我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 31,
+      "char_end": 34
+    },
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 35,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011"
+      ]
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "回到家后",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 36,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 41,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "非常困",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 44,
+      "char_end": 47
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 48,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 49,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "打开了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 51,
+      "char_end": 54
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 54,
+      "char_end": 56
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "回到家后，我感到非常困，但还是打开了电视。",
+      "sentence_index": 2,
+      "char_start": 36,
+      "char_end": 57,
+      "children": [
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019"
+      ]
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 58,
+      "char_end": 59
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "换了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 59,
+      "char_end": 61
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "好几个频道",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 61,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "abc的节目",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 58,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "坦克的画面",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 83,
+      "char_end": 88
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "也笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 89,
+      "char_end": 92
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "CCTV的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 58,
+      "char_end": 65
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "看到熊猫",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 105,
+      "char_end": 109
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "BBC的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 58,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "看到彩虹",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 16,
+      "char_start": 124,
+      "char_end": 128
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "NBC的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 19,
+      "char_start": 58,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "看到牛和警察",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 20,
+      "char_start": 143,
+      "char_end": 149
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 21,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "看了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 22,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "CNN的新闻",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 23,
+      "char_start": 58,
+      "char_end": 64
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "看到灾难和骷髅头",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 24,
+      "char_start": 164,
+      "char_end": 172
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "竟然",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 25,
+      "char_start": 173,
+      "char_end": 175
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "也笑了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 26,
+      "char_start": 89,
+      "char_end": 92
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。",
+      "sentence_index": 3,
+      "char_start": 58,
+      "char_end": 179,
+      "children": [
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025",
+        "word_026",
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038",
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045"
+      ]
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 180,
+      "char_end": 182
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 183,
+      "char_end": 184
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 184,
+      "char_end": 186
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "电视里两个人在吵架",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 186,
+      "char_end": 195
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 196,
+      "char_end": 198
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "有些无聊",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 198,
+      "char_end": 202
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "于是",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 203,
+      "char_end": 205
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "关掉了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 205,
+      "char_end": 208
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 186,
+      "char_end": 188
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "准备睡觉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 211,
+      "char_end": 215
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。",
+      "sentence_index": 4,
+      "char_start": 180,
+      "char_end": 216,
+      "children": [
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053",
+        "word_054",
+        "word_055"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨一点钟的时候，我在回家的路上遇到了一只狗，我朝它挥了挥手，那只狗也摇着尾巴对我做出了回应。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对句子\"凌晨一点，我在回家的路上看到了一只狗，我...\"的自由翻译。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "回到家以后，我感觉特别困倦，尽管如此，我仍然把电视打开了。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对句子\"回到家后，我感到非常困，但还是打开了电视...\"的自由翻译。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我不停地切换了很多个频道，不管是看ABC的节目、看到坦克的画面、看到CCTV新闻里的熊猫、BBC新闻里的彩虹、NBC新闻里的牛和警察，甚至连CNN新闻里的灾难和骷髅头画面，我都笑了出来。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对句子\"我换了好几个频道，看了 abc 的节目，...\"的自由翻译。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "到了最后，我看见电视里有两个人正在争吵，我觉得挺没意思的，于是就把电视关了，准备上床睡觉了。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对句子\"最后，我看到电视里两个人在吵架，感到有些...\"的自由翻译。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "unit_id": "sent_001",
+    "unit_type": "sentence",
+    "text": "汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。",
+    "task_label_zh": "语义透明度分析",
+    "task_label_en": "Semantic Transparency",
+    "value": "低透明度 (Low)",
+    "confidence": 0.85,
+    "llm_used": true,
+    "annotator_note": "涉及抽象的职场博弈与逻辑转折。符号系统在处理‘观点认可’这类非物理交互时，透明度大幅下降。"
+  },
+  {
+    "unit_id": "sent_002",
+    "unit_type": "sentence",
+    "text": "我感到一阵强烈的便意，赶紧冲向洗手间。",
+    "task_label_zh": "语义透明度分析",
+    "task_label_en": "Semantic Transparency",
+    "value": "高透明度 (High)",
+    "confidence": 0.98,
+    "llm_used": true,
+    "annotator_note": "典型的生理驱动行为。地书使用‘急迫符号+厕所图标’即可完美还原语义，跨文化理解力极强。"
+  },
+  {
+    "unit_id": "sent_003",
+    "unit_type": "sentence",
+    "text": "警察对我的说法感到有些疑惑，我紧张得流了汗。",
+    "task_label_zh": "语义透明度分析",
+    "task_label_en": "Semantic Transparency",
+    "value": "中透明度 (Medium)",
+    "confidence": 0.8,
+    "llm_used": true,
+    "annotator_note": "生理反应（汗水）透明度高，但社会身份（警察）与特定心理（疑惑）的耦合需要一定的符号认知基础。"
+  },
+  {
+    "unit_id": "sent_004",
+    "unit_type": "sentence",
+    "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "task_label_zh": "语义透明度分析",
+    "task_label_en": "Semantic Transparency",
+    "value": "极高透明度 (Max)",
+    "confidence": 1.0,
+    "llm_used": true,
+    "annotator_note": "全人类通用的生理状态。地书映射：🌙+Zzz。语义传递几乎无损，具有极强的普适性。"
+  }
+]

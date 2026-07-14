@@ -1,0 +1,229 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:45:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "职场社交文本",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "会议后的社交与邀约",
+    "source": "教师提供",
+    "raw_text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。\n我心情愉快地在 MSN 上和一位女士聊了起来。很快就到了下班时间，我打印完最后一点文件，准备离开公司。\n走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。电话接通后，她笑着问是谁。我笑着告诉她是我，并邀请她晚上一起见面。她在电话那头确认了时间，我高兴地答应了。最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+    "notes": "包含会议结束、社交软件互动、电话邀约等场景。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "会议结束后，我受到了大家的掌声鼓励，心情非常不错。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 25,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。",
+      "sentence_index": 2,
+      "char_start": 25,
+      "char_end": 110,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在 MSN 上和一位女士聊了起来。",
+      "sentence_index": 3,
+      "char_start": 112,
+      "char_end": 138,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "很快就到了下班时间，我打印完最后一点文件，准备离开公司。",
+      "sentence_index": 4,
+      "char_start": 140,
+      "char_end": 166,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。",
+      "sentence_index": 5,
+      "char_start": 168,
+      "char_end": 200,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "电话接通后，她笑着问是谁。",
+      "sentence_index": 6,
+      "char_start": 200,
+      "char_end": 213,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我笑着告诉她是我，并邀请她晚上一起见面。",
+      "sentence_index": 7,
+      "char_start": 213,
+      "char_end": 236,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "她在电话那头确认了时间，我高兴地答应了。",
+      "sentence_index": 8,
+      "char_start": 236,
+      "char_end": 258,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！”",
+      "sentence_index": 9,
+      "char_start": 258,
+      "char_end": 292,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "全文第一个句子，作为整个事件的起始。描述了会议结束后主人公的积极心情。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在会议结束后心情不错的状态下，主人公拿出手机查看社交软件。是时间上的顺承动作。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因为看到了有人在MSN上约喝酒，所以主人公心情愉快地在MSN上和一位女士聊了起来。前一句是原因（看到邀约），后一句是结果（开始聊天）。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在MSN聊天之后，时间推移到了下班，主人公开始准备离开公司。时间顺序的顺承。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "准备离开公司后，主人公走出大楼并打电话。是动作的自然顺承。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "拨打电话之后，电话接通了，对方说话。是电话通话流程的顺承。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对话的继续。在对方问“是谁”之后，主人公回答并发出邀请。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因为主人公发出了邀请，所以对方确认了时间，主人公答应了（此处“答应了”应理解为对方确认后主人公表示同意，或两人达成一致）。是邀请行为带来的结果。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对“她确认了时间，我答应了”这一结果的进一步细化描述，具体展示了对方开心的反应和确认的话语。"
+    }
+  ]
+}

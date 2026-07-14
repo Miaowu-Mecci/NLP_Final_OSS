@@ -1,0 +1,674 @@
+{
+  "project": {
+    "schema_version": "1.0",
+    "created_at": "2026-05-06T13:28:35+08:00"
+  },
+  "student": {
+    "student_id": "1191230414",
+    "student_name": "陈思思"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我拿出手机，翻看了一下社交软件，看到有人在 Twitter 上为我点赞，还有人在 Facebook 上给我发了大笑的表情，更有人在 MSN 上约我晚上一起喝酒。",
+      "char_start": 0,
+      "char_end": 80
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我心情愉快地在 MSN 上和一位女士聊了起来。",
+      "char_start": 80,
+      "char_end": 103
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "很快就到了下班时间，我打印完最后一点文件，准备离开公司。",
+      "char_start": 103,
+      "char_end": 131
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "走出公司大楼，我拿出手机，找到那位女士的电话号码，拨了过去。",
+      "char_start": 131,
+      "char_end": 161
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "电话接通后，她笑着问是谁。",
+      "char_start": 161,
+      "char_end": 174
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我笑着告诉她是我，并邀请她晚上一起见面。",
+      "char_start": 174,
+      "char_end": 194
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "她在电话那头确认了时间，我高兴地答应了。",
+      "char_start": 194,
+      "char_end": 214
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "最后，她在电话里比了个 OK 手势，开心地说：“好的，没问题！",
+      "char_start": 214,
+      "char_end": 245
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "”\n\n18:00\n下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。",
+      "char_start": 245,
+      "char_end": 283
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我从冰箱里拿出饮料，惬意地喝了一口。",
+      "char_start": 283,
+      "char_end": 301
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。",
+      "char_start": 301,
+      "char_end": 350
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "我吹了吹头发，听着音乐，心情格外舒畅。",
+      "char_start": 350,
+      "char_end": 369
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "与此同时，她也在家忙碌着。",
+      "char_start": 369,
+      "char_end": 382
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。",
+      "char_start": 382,
+      "char_end": 420
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "她也在听着音乐，准备出门。",
+      "char_start": 420,
+      "char_end": 433
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "我选好了鞋子和配饰，准备出门。",
+      "char_start": 433,
+      "char_end": 448
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "出门前，我给她发了条消息，确认了时间。",
+      "char_start": 448,
+      "char_end": 467
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "然后关掉空调和手机，离开了家。",
+      "char_start": 467,
+      "char_end": 482
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "刚出门不久，她的电话就打了过来，我有点紧张地接了电话。",
+      "char_start": 482,
+      "char_end": 509
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "挂了电话后，我直奔花店，买了 12 朵漂亮的花。",
+      "char_start": 509,
+      "char_end": 533
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我拿着花，心里想着她，想象着她收到花时开心的样子。",
+      "char_start": 533,
+      "char_end": 558
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "终于，我见到了她，把花递给了她。",
+      "char_start": 558,
+      "char_end": 574
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "她开心地接过花，我们相视而笑。",
+      "char_start": 574,
+      "char_end": 589
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我们一起去了约定的酒吧。",
+      "char_start": 589,
+      "char_end": 601
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。",
+      "char_start": 601,
+      "char_end": 630
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "我们点了啤酒，聊着天。",
+      "char_start": 630,
+      "char_end": 641
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "突然，我看到一些奇怪的东西，感到有些惊讶。",
+      "char_start": 641,
+      "char_end": 662
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。",
+      "char_start": 662,
+      "char_end": 704
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "char_start": 704,
+      "char_end": 725
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "char_start": 725,
+      "char_end": 742
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "char_start": 742,
+      "char_end": 763
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "char_start": 763,
+      "char_end": 792
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "char_start": 792,
+      "char_end": 808
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "文本开篇起始句，开启叙事场景。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句提及MSN上有人约喝酒，当前句紧接着开始与一位女士聊天，是时间上的先后顺序。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句描述聊天场景，后句描述下班时间到来并准备离开，按时间顺序发生。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句描述下班准备离开，当前句接着描述走出大楼并打电话，是时间上相继发生的动作。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句拨打电话，后句电话接通，是时间顺序关系。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句是对前一句的回应，延续了对话事件。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句邀请见面，当前句确认时间并答应，是前一句动作的延续和回应。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句确认时间并答应，当前句进一步描述她做出OK手势和口头确认，是事件的延续"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "开始新的场景或话题"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句描述回家后紧接着的另一个动作，与前一动作形成时间上的延续。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句描述喝饮料的动作，后一句用“然后”引出后续一系列活动，表示时间上的顺承关系。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句是对前句所述事件（洗完澡后）的后续动作和状态的延续。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "other",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "两句分别描述两个不同主体在同一时间进行的活动，构成时间上的并行关系，但标签列表中无直接对应项。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句详细描述了前一句中“忙碌”的具体行为。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句补充了前一句准备出门过程中的一个细节：她也在听音乐。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前后句分别描述“她”和“我”都在准备出门的动作，属于并列延续同一场景。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句说准备出门，当前句描述出门前发的消息，两件事按时间顺序发生。"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句发消息确认时间，后句接着关空调离开家，表示时间上先后顺序。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句描述离开家，当前句紧接着说出门后发生的事件，形成时间顺序关系。"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句是接电话，后一句是挂电话后去花店，表示时间上的先后顺序。"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "后句是前句动作后的自然延续，描述了拿着花时的心理活动。"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句描述拿着花想象，后一句实现见面递花，是时间上的先后顺序。"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "后一句是前一句动作之后发生的自然接续。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前后两个动作在时间上依次发生，先接过花相视而笑，然后一起去酒吧。"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句通过“但”字转折，表达了与前一句“一起去酒吧”后续发展的不同意愿。"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句具体描述了前一句中“多待一会儿”的活动内容，即点啤酒聊天，是对前一句的进一步详述。"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句描述持续的场景，后句突然出现意外事件，形成转折关系。"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "sent_028",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "contrast",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句惊讶与后句愉快形成转折对比"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "sent_029",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "other",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "两句内容无明显逻辑关联"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "sent_030",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "当前句详细描述了前句场景中的环境细节，即路上的安静状态和脚步声。"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "sent_031",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前一句描述环境安静，后一句描述依次经过地点，属于时间上的顺序关系。"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "sent_032",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "描述了两件事在时间上的先后顺序，先经过门口和警察局，然后继续走并看到女人。"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "sent_033",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句描述了行走过程中的一个插曲，后句是最终抵达家的结果。"
+    }
+  ]
+}

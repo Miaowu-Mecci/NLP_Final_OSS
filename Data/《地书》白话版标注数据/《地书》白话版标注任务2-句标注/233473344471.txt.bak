@@ -1,0 +1,1704 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T11:58:45+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "张三",
+    "assigned_section": "第一组文本",
+    "word_task_type": "",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "第一组文本",
+    "source": "教师提供",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。\n就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。\n我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+    "notes": "句级任务：free_translation，对每个句子进行自然、完整、通顺的中文重述。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 14,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "下午五点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "到了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "！",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 13,
+      "char_end": 14
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 14,
+      "char_end": 48,
+      "children": [
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011",
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021",
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025"
+      ]
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 14,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "整理好",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 17,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "桌上",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 20,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 22,
+      "char_end": 23
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "文件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 23,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "、",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 25,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "书本",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 28,
+      "char_end": 29
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "计算器",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 29,
+      "char_end": 32
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 32,
+      "char_end": 33
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "处理完",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 33,
+      "char_end": 36
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 13,
+      "char_start": 36,
+      "char_end": 38
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "几封",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 14,
+      "char_start": 38,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "邮件",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 15,
+      "char_start": 40,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 16,
+      "char_start": 42,
+      "char_end": 43
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "关上",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 17,
+      "char_start": 43,
+      "char_end": 45
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "电脑",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 18,
+      "char_start": 45,
+      "char_end": 47
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 19,
+      "char_start": 47,
+      "char_end": 48
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 48,
+      "char_end": 72,
+      "children": [
+        "word_026",
+        "word_027",
+        "word_028",
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038"
+      ]
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "一整天",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 48,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 51,
+      "char_end": 52
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "工作",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 52,
+      "char_end": 54
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "让",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 54,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 55,
+      "char_end": 56
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 56,
+      "char_end": 58
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "疲惫不堪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 58,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 62,
+      "char_end": 63
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "只想",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 63,
+      "char_end": 65
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "快点",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 65,
+      "char_end": 67
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 67,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "休息",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 69,
+      "char_end": 71
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 71,
+      "char_end": 72
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "char_start": 73,
+      "char_end": 99,
+      "children": [
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053",
+        "word_054",
+        "word_055"
+      ]
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "就在",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 73,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 75,
+      "char_end": 76
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "离开",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "时",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 80,
+      "char_end": 81
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 81,
+      "char_end": 82
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "领导",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 82,
+      "char_end": 84
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "叫住",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 84,
+      "char_end": 86
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 86,
+      "char_end": 87
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 87,
+      "char_end": 88
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 11,
+      "char_start": 88,
+      "char_end": 89
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "问",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 12,
+      "char_start": 89,
+      "char_end": 90
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 13,
+      "char_start": 90,
+      "char_end": 91
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "晚上",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 14,
+      "char_start": 91,
+      "char_end": 93
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "有没有",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 15,
+      "char_start": 93,
+      "char_end": 96
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "安排",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 16,
+      "char_start": 96,
+      "char_end": 98
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 17,
+      "char_start": 98,
+      "char_end": 99
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "char_start": 99,
+      "char_end": 113,
+      "children": [
+        "word_056",
+        "word_057",
+        "word_058",
+        "word_059",
+        "word_060",
+        "word_061",
+        "word_062",
+        "word_063",
+        "word_064"
+      ]
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 99,
+      "char_end": 100
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "有些",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 100,
+      "char_end": 102
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "紧张",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 102,
+      "char_end": 104
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 104,
+      "char_end": 105
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 105,
+      "char_end": 106
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 106,
+      "char_end": 108
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "如实",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7,
+      "char_start": 108,
+      "char_end": 110
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "回答",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8,
+      "char_start": 110,
+      "char_end": 112
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9,
+      "char_start": 112,
+      "char_end": 113
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "char_start": 113,
+      "char_end": 131,
+      "children": [
+        "word_065",
+        "word_066",
+        "word_067",
+        "word_068",
+        "word_069",
+        "word_070",
+        "word_071",
+        "word_072",
+        "word_073",
+        "word_074",
+        "word_075",
+        "word_076"
+      ]
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "领导",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 113,
+      "char_end": 115
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 115,
+      "char_end": 117
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "同意",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 117,
+      "char_end": 119
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 119,
+      "char_end": 120
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "下班",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 120,
+      "char_end": 122
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 122,
+      "char_end": 123
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "并",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 123,
+      "char_end": 124
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "让",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8,
+      "char_start": 124,
+      "char_end": 125
+    },
+    {
+      "unit_id": "word_073",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 9,
+      "char_start": 125,
+      "char_end": 126
+    },
+    {
+      "unit_id": "word_074",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 10,
+      "char_start": 126,
+      "char_end": 128
+    },
+    {
+      "unit_id": "word_075",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 11,
+      "char_start": 128,
+      "char_end": 130
+    },
+    {
+      "unit_id": "word_076",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 12,
+      "char_start": 130,
+      "char_end": 131
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "char_start": 131,
+      "char_end": 150,
+      "children": [
+        "word_077",
+        "word_078",
+        "word_079",
+        "word_080",
+        "word_081",
+        "word_082",
+        "word_083",
+        "word_084",
+        "word_085",
+        "word_086"
+      ]
+    },
+    {
+      "unit_id": "word_077",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 131,
+      "char_end": 132
+    },
+    {
+      "unit_id": "word_078",
+      "unit_type": "word",
+      "text": "顿时",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 132,
+      "char_end": 134
+    },
+    {
+      "unit_id": "word_079",
+      "unit_type": "word",
+      "text": "松了一口气",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 134,
+      "char_end": 139
+    },
+    {
+      "unit_id": "word_080",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 139,
+      "char_end": 140
+    },
+    {
+      "unit_id": "word_081",
+      "unit_type": "word",
+      "text": "开心",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5,
+      "char_start": 140,
+      "char_end": 142
+    },
+    {
+      "unit_id": "word_082",
+      "unit_type": "word",
+      "text": "地",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6,
+      "char_start": 142,
+      "char_end": 143
+    },
+    {
+      "unit_id": "word_083",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7,
+      "char_start": 143,
+      "char_end": 145
+    },
+    {
+      "unit_id": "word_084",
+      "unit_type": "word",
+      "text": "离开",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8,
+      "char_start": 145,
+      "char_end": 147
+    },
+    {
+      "unit_id": "word_085",
+      "unit_type": "word",
+      "text": "公司",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9,
+      "char_start": 147,
+      "char_end": 149
+    },
+    {
+      "unit_id": "word_086",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 10,
+      "char_start": 149,
+      "char_end": 150
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。",
+      "sentence_index": 8,
+      "char_start": 151,
+      "char_end": 175,
+      "children": [
+        "word_087",
+        "word_088",
+        "word_089",
+        "word_090",
+        "word_091",
+        "word_092",
+        "word_093",
+        "word_094",
+        "word_095",
+        "word_096",
+        "word_097",
+        "word_098",
+        "word_099",
+        "word_100"
+      ]
+    },
+    {
+      "unit_id": "word_087",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 151,
+      "char_end": 152
+    },
+    {
+      "unit_id": "word_088",
+      "unit_type": "word",
+      "text": "先",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 152,
+      "char_end": 153
+    },
+    {
+      "unit_id": "word_089",
+      "unit_type": "word",
+      "text": "坐",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 153,
+      "char_end": 154
+    },
+    {
+      "unit_id": "word_090",
+      "unit_type": "word",
+      "text": "电梯",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 154,
+      "char_end": 156
+    },
+    {
+      "unit_id": "word_091",
+      "unit_type": "word",
+      "text": "下楼",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5,
+      "char_start": 156,
+      "char_end": 158
+    },
+    {
+      "unit_id": "word_092",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6,
+      "char_start": 158,
+      "char_end": 159
+    },
+    {
+      "unit_id": "word_093",
+      "unit_type": "word",
+      "text": "去了趟",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 7,
+      "char_start": 159,
+      "char_end": 162
+    },
+    {
+      "unit_id": "word_094",
+      "unit_type": "word",
+      "text": "洗手间",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 8,
+      "char_start": 162,
+      "char_end": 165
+    },
+    {
+      "unit_id": "word_095",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 9,
+      "char_start": 165,
+      "char_end": 166
+    },
+    {
+      "unit_id": "word_096",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 10,
+      "char_start": 166,
+      "char_end": 168
+    },
+    {
+      "unit_id": "word_097",
+      "unit_type": "word",
+      "text": "快步",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 11,
+      "char_start": 168,
+      "char_end": 170
+    },
+    {
+      "unit_id": "word_098",
+      "unit_type": "word",
+      "text": "走出",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 12,
+      "char_start": 170,
+      "char_end": 172
+    },
+    {
+      "unit_id": "word_099",
+      "unit_type": "word",
+      "text": "大楼",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 13,
+      "char_start": 172,
+      "char_end": 174
+    },
+    {
+      "unit_id": "word_100",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 14,
+      "char_start": 174,
+      "char_end": 175
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 9,
+      "char_start": 175,
+      "char_end": 200,
+      "children": [
+        "word_101",
+        "word_102",
+        "word_103",
+        "word_104",
+        "word_105",
+        "word_106",
+        "word_107",
+        "word_108",
+        "word_109",
+        "word_110",
+        "word_111",
+        "word_112",
+        "word_113",
+        "word_114"
+      ]
+    },
+    {
+      "unit_id": "word_101",
+      "unit_type": "word",
+      "text": "站在",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 1,
+      "char_start": 175,
+      "char_end": 177
+    },
+    {
+      "unit_id": "word_102",
+      "unit_type": "word",
+      "text": "路边",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 2,
+      "char_start": 177,
+      "char_end": 179
+    },
+    {
+      "unit_id": "word_103",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 3,
+      "char_start": 179,
+      "char_end": 180
+    },
+    {
+      "unit_id": "word_104",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 4,
+      "char_start": 180,
+      "char_end": 181
+    },
+    {
+      "unit_id": "word_105",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 5,
+      "char_start": 181,
+      "char_end": 183
+    },
+    {
+      "unit_id": "word_106",
+      "unit_type": "word",
+      "text": "拥挤",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6,
+      "char_start": 183,
+      "char_end": 185
+    },
+    {
+      "unit_id": "word_107",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 7,
+      "char_start": 185,
+      "char_end": 186
+    },
+    {
+      "unit_id": "word_108",
+      "unit_type": "word",
+      "text": "地铁入口",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 8,
+      "char_start": 186,
+      "char_end": 190
+    },
+    {
+      "unit_id": "word_109",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 9,
+      "char_start": 190,
+      "char_end": 191
+    },
+    {
+      "unit_id": "word_110",
+      "unit_type": "word",
+      "text": "决定",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 10,
+      "char_start": 191,
+      "char_end": 193
+    },
+    {
+      "unit_id": "word_111",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 11,
+      "char_start": 193,
+      "char_end": 195
+    },
+    {
+      "unit_id": "word_112",
+      "unit_type": "word",
+      "text": "打车",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 12,
+      "char_start": 195,
+      "char_end": 197
+    },
+    {
+      "unit_id": "word_113",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 13,
+      "char_start": 197,
+      "char_end": 199
+    },
+    {
+      "unit_id": "word_114",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 14,
+      "char_start": 199,
+      "char_end": 200
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我用手机确认了回家的路线，然后上了一辆出租车。",
+      "sentence_index": 10,
+      "char_start": 200,
+      "char_end": 223,
+      "children": [
+        "word_115",
+        "word_116",
+        "word_117",
+        "word_118",
+        "word_119",
+        "word_120",
+        "word_121",
+        "word_122",
+        "word_123",
+        "word_124",
+        "word_125",
+        "word_126",
+        "word_127",
+        "word_128"
+      ]
+    },
+    {
+      "unit_id": "word_115",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 1,
+      "char_start": 200,
+      "char_end": 201
+    },
+    {
+      "unit_id": "word_116",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 2,
+      "char_start": 201,
+      "char_end": 202
+    },
+    {
+      "unit_id": "word_117",
+      "unit_type": "word",
+      "text": "手机",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 3,
+      "char_start": 202,
+      "char_end": 204
+    },
+    {
+      "unit_id": "word_118",
+      "unit_type": "word",
+      "text": "确认",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 4,
+      "char_start": 204,
+      "char_end": 206
+    },
+    {
+      "unit_id": "word_119",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 5,
+      "char_start": 206,
+      "char_end": 207
+    },
+    {
+      "unit_id": "word_120",
+      "unit_type": "word",
+      "text": "回家",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 6,
+      "char_start": 207,
+      "char_end": 209
+    },
+    {
+      "unit_id": "word_121",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 7,
+      "char_start": 209,
+      "char_end": 210
+    },
+    {
+      "unit_id": "word_122",
+      "unit_type": "word",
+      "text": "路线",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 8,
+      "char_start": 210,
+      "char_end": 212
+    },
+    {
+      "unit_id": "word_123",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 9,
+      "char_start": 212,
+      "char_end": 213
+    },
+    {
+      "unit_id": "word_124",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 10,
+      "char_start": 213,
+      "char_end": 215
+    },
+    {
+      "unit_id": "word_125",
+      "unit_type": "word",
+      "text": "上了",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 11,
+      "char_start": 215,
+      "char_end": 217
+    },
+    {
+      "unit_id": "word_126",
+      "unit_type": "word",
+      "text": "一辆",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 12,
+      "char_start": 217,
+      "char_end": 219
+    },
+    {
+      "unit_id": "word_127",
+      "unit_type": "word",
+      "text": "出租车",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 13,
+      "char_start": 219,
+      "char_end": 222
+    },
+    {
+      "unit_id": "word_128",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_010",
+      "word_index_in_sentence": 14,
+      "char_start": 222,
+      "char_end": 223
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 11,
+      "char_start": 223,
+      "char_end": 247,
+      "children": [
+        "word_129",
+        "word_130",
+        "word_131",
+        "word_132",
+        "word_133",
+        "word_134",
+        "word_135",
+        "word_136",
+        "word_137",
+        "word_138",
+        "word_139",
+        "word_140",
+        "word_141",
+        "word_142"
+      ]
+    },
+    {
+      "unit_id": "word_129",
+      "unit_type": "word",
+      "text": "一路上",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 1,
+      "char_start": 223,
+      "char_end": 226
+    },
+    {
+      "unit_id": "word_130",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 2,
+      "char_start": 226,
+      "char_end": 227
+    },
+    {
+      "unit_id": "word_131",
+      "unit_type": "word",
+      "text": "虽然",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 3,
+      "char_start": 227,
+      "char_end": 229
+    },
+    {
+      "unit_id": "word_132",
+      "unit_type": "word",
+      "text": "遇到了",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 4,
+      "char_start": 229,
+      "char_end": 232
+    },
+    {
+      "unit_id": "word_133",
+      "unit_type": "word",
+      "text": "红灯",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 5,
+      "char_start": 232,
+      "char_end": 234
+    },
+    {
+      "unit_id": "word_134",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 6,
+      "char_start": 234,
+      "char_end": 235
+    },
+    {
+      "unit_id": "word_135",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 7,
+      "char_start": 235,
+      "char_end": 236
+    },
+    {
+      "unit_id": "word_136",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 8,
+      "char_start": 236,
+      "char_end": 237
+    },
+    {
+      "unit_id": "word_137",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 9,
+      "char_start": 237,
+      "char_end": 239
+    },
+    {
+      "unit_id": "word_138",
+      "unit_type": "word",
+      "text": "顺利",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 10,
+      "char_start": 239,
+      "char_end": 241
+    },
+    {
+      "unit_id": "word_139",
+      "unit_type": "word",
+      "text": "地",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 11,
+      "char_start": 241,
+      "char_end": 242
+    },
+    {
+      "unit_id": "word_140",
+      "unit_type": "word",
+      "text": "回到了",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 12,
+      "char_start": 242,
+      "char_end": 245
+    },
+    {
+      "unit_id": "word_141",
+      "unit_type": "word",
+      "text": "家",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 13,
+      "char_start": 245,
+      "char_end": 246
+    },
+    {
+      "unit_id": "word_142",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_011",
+      "word_index_in_sentence": 14,
+      "char_start": 246,
+      "char_end": 247
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "下午五点时，期待已久的下班时间终于到了。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我立刻把桌上的文件、书本和计算器收拾好，又处理完剩下的几封邮件，然后关闭了电脑。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "忙了一整天后，我已经非常疲惫，现在只想尽快回家好好休息。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "正当我准备离开的时候，领导突然叫住我，询问我晚上是否已经有安排。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我虽然有点紧张，但还是按照真实情况回答了领导的问题。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "领导态度轻松地同意我下班，还让我赶快回家。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "听到领导允许我离开后，我马上放松下来，心情很好地准备离开公司。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我先乘电梯下楼，又去了一趟洗手间，随后加快脚步走出了办公大楼。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我站在路边看到地铁入口人很多，于是决定不坐地铁，改为打车回家。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我先用手机确认回家的路线，然后坐上了一辆出租车。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "回家途中虽然碰到了一些红灯等待，但总体上没有耽误，我还是顺利到家了。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "在保留原句核心信息的基础上，用更自然、完整、通顺的中文重述句意。"
+    }
+  ]
+}

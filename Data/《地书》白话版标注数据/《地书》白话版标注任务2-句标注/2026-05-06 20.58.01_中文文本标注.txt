@@ -1,0 +1,559 @@
+{
+  "project": {
+    "project_name": "《地书》自然语言标注",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:52:19+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "23点；24点；次日3点",
+    "word_task_type": "literal_gloss",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "23点车祸现场",
+    "source": "教师提供",
+    "raw_text": "晚上十一点，我在回家的路上，看到前面发生了一起车祸。两辆车撞在了一起，车主们正在激烈地争吵，互相指责对方的过错。我感到非常惊讶，停下脚步观看。\n很快，警察赶到了现场。他们介入调查，询问了两位车主的情况。警察也向我询问了事情的经过，我笑着配合调查，给他们看了我的手机和电脑记录，证明我与此事无关。\n警察对我的说法感到有些疑惑，我紧张得流了汗。他们查看了我的手机记录后，让我先在一旁等待，然后继续调查另一位车主。我站在那里，看着警察忙碌的身影，心里想着这场车祸到底是谁的责任。",
+    "notes": "23:00时间段文本 - 任务2：语句划分及篇章关系标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "晚上十一点",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 5,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我在回家的路上",
+      "sentence_index": 2,
+      "char_start": 6,
+      "char_end": 13,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "看到前面发生了一起车祸",
+      "sentence_index": 3,
+      "char_start": 14,
+      "char_end": 26,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "两辆车撞在了一起",
+      "sentence_index": 4,
+      "char_start": 27,
+      "char_end": 36,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "车主们正在激烈地争吵",
+      "sentence_index": 5,
+      "char_start": 37,
+      "char_end": 48,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "互相指责对方的过错",
+      "sentence_index": 6,
+      "char_start": 49,
+      "char_end": 59,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我感到非常惊讶",
+      "sentence_index": 7,
+      "char_start": 60,
+      "char_end": 67,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "停下脚步观看",
+      "sentence_index": 8,
+      "char_start": 68,
+      "char_end": 74,
+      "children": []
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "很快，",
+      "sentence_index": 9,
+      "char_start": 0,
+      "char_end": 3,
+      "children": []
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "警察赶到了现场。",
+      "sentence_index": 10,
+      "char_start": 4,
+      "char_end": 12,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "他们介入调查，",
+      "sentence_index": 11,
+      "char_start": 13,
+      "char_end": 19,
+      "children": []
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "询问了两位车主的情况。",
+      "sentence_index": 12,
+      "char_start": 20,
+      "char_end": 32,
+      "children": []
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "警察也向我询问了事情的经过，",
+      "sentence_index": 13,
+      "char_start": 33,
+      "char_end": 48,
+      "children": []
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我笑着配合调查，",
+      "sentence_index": 14,
+      "char_start": 49,
+      "char_end": 57,
+      "children": []
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "给他们看了我的手机和电脑记录，",
+      "sentence_index": 15,
+      "char_start": 58,
+      "char_end": 74,
+      "children": []
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "证明我与此事无关。",
+      "sentence_index": 16,
+      "char_start": 75,
+      "char_end": 85,
+      "children": []
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "警察对我的说法感到有些疑惑，",
+      "sentence_index": 17,
+      "char_start": 0,
+      "char_end": 15,
+      "children": []
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我紧张得流了汗。",
+      "sentence_index": 18,
+      "char_start": 16,
+      "char_end": 25,
+      "children": []
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "他们查看了我的手机记录后，",
+      "sentence_index": 19,
+      "char_start": 26,
+      "char_end": 40,
+      "children": []
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "让我先在一旁等待，",
+      "sentence_index": 20,
+      "char_start": 41,
+      "char_end": 51,
+      "children": []
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "然后继续调查另一位车主。",
+      "sentence_index": 21,
+      "char_start": 52,
+      "char_end": 65,
+      "children": []
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "我站在那里，",
+      "sentence_index": 22,
+      "char_start": 66,
+      "char_end": 72,
+      "children": []
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "看着警察忙碌的身影，",
+      "sentence_index": 23,
+      "char_start": 73,
+      "char_end": 85,
+      "children": []
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "心里想着这场车祸到底是谁的责任。",
+      "sentence_index": 24,
+      "char_start": 86,
+      "char_end": 104,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "全文第一句，作为起始"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对前句时间点的具体情境进行补充说明"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "在回家的路上接着发生了看到车祸的事件，时间先后顺序"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对前句提到的车祸进行具体描述"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前句，继续描述车祸后的场景"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对前句争吵的具体内容进行细化说明"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句描述的车祸和争吵场景导致了我惊讶的情绪"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前句的惊讶情绪，继续描述我的后续动作"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前文，继续叙述事件的发展"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上紧接着前句，警察到达现场"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "对警察到达后的行动进行细化说明"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "进一步说明介入调查的具体内容"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "继续叙述警察的调查行为，转向询问叙述者"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上紧接着警察询问，叙述者做出反应"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "细化配合调查的具体行动"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "purpose",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "展示记录的目的是为了证明自己清白"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "承接前文，继续叙述事件发展"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "前句警察的疑惑导致我紧张出汗"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上接续前句，警察进行下一步行动"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "查看记录后紧接着让我等待"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "时间上接续前句，警察继续另一项调查"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "延续前句情境，描述我的状态"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.8,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "细化说明站在那里时的所见"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "进一步说明当时内心的想法"
+    }
+  ]
+}

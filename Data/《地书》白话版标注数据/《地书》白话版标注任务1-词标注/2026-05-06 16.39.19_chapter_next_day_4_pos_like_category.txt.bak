@@ -1,0 +1,316 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "1191230105",
+    "student_name": "徐梓瑞",
+    "assigned_section": "次日4点",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "dishu_chapter_next_day_4",
+    "title": "《地书》指定章节自然语言文本：次日4点",
+    "source": "教师提供",
+    "raw_text": "次日4点：凌晨四点，我终于进入了深度睡眠，睡得很香。",
+    "notes": "本文件只包含该章节的词性/符号性质标注。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "次日4点：凌晨四点，我终于进入了深度睡眠，睡得很香。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 26,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "次日4点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "：",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 4,
+      "char_end": 5
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "凌晨四点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 9,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "进入了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 13,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "深度睡眠",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 16,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 20,
+      "char_end": 21
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "睡得很香",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 21,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 25,
+      "char_end": 26
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“次日4点”在该语境中标为numeral_like。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“：”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“凌晨四点”在该语境中标为numeral_like。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“终于”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“进入了”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“深度睡眠”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“睡得很香”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    }
+  ]
+}

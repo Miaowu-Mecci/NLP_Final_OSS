@@ -1,0 +1,193 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T12:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Qwen"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "24点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "24点",
+    "title": "午夜的独行",
+    "source": "Student Assignment",
+    "raw_text": "午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。\n我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。\n沿着长长的脚印，我终于走到了家。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。"
+    },
+    {
+      "unit_id": "sent_002",
+      "type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。"
+    },
+    {
+      "unit_id": "sent_003",
+      "type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。"
+    },
+    {
+      "unit_id": "sent_004",
+      "type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。"
+    },
+    {
+      "unit_id": "sent_005",
+      "type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。"
+    },
+    {
+      "unit_id": "sent_006",
+      "type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。"
+    },
+    {
+      "unit_id": "word_001",
+      "type": "word",
+      "text": "午夜十二点",
+      "parent_id": "sent_001"
+    },
+    {
+      "unit_id": "word_002",
+      "type": "word",
+      "text": "步行",
+      "parent_id": "sent_001"
+    },
+    {
+      "unit_id": "word_003",
+      "type": "word",
+      "text": "脚印",
+      "parent_id": "sent_002"
+    },
+    {
+      "unit_id": "word_004",
+      "type": "word",
+      "text": "安静",
+      "parent_id": "sent_003"
+    },
+    {
+      "unit_id": "word_005",
+      "type": "word",
+      "text": "警察局",
+      "parent_id": "sent_004"
+    },
+    {
+      "unit_id": "word_006",
+      "type": "word",
+      "text": "抬头",
+      "parent_id": "sent_005"
+    },
+    {
+      "unit_id": "word_007",
+      "type": "word",
+      "text": "长长",
+      "parent_id": "sent_006"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "指深夜最寂静的时刻。在这里暗示了故事发生的神秘或孤独氛围，也解释了为什么路上行人稀少。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "时间状语，定下全文的基调。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "用脚走路。在这里暗示了主人公想要放慢节奏，或者享受独处的时光，与‘开车’的匆忙形成对比。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "体现主人公此时的心态是放松或沉思的。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "脚踩过的痕迹。在这里具有双重含义：既指实际走过的路，也可能暗示这是跟随前人（或某种线索）留下的痕迹，带有一种追寻感。",
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "核心意象，既是路标也是线索。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "没有声音，寂静。在这里突出了环境的空旷和主人公的孤独感，‘只有脚步声’更反衬出环境的安静。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "环境描写，烘托氛围。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "执法机构。在这里作为一个具体的路标，同时也可能象征着安全或秩序，与午夜的神秘感形成微妙对比。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "具体的场景细节。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "向上看的动作。在这里暗示了那个女人在观察环境、看天气，或者是在寻找什么（如方向、星星），表现了一种停顿和思考。",
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "描写路人的一个小动作。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "距离大，持续时间久。在这里修饰‘脚印’，暗示了归途的漫长和艰辛，也强调了坚持走到终点的不易。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "Qwen",
+      "annotator_note": "强调路途的遥远。"
+    }
+  ]
+}

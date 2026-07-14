@@ -1,0 +1,155 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-07T14:30:20+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "豆包大模型"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "次日03:00 时段文本",
+    "word_task_type": "semantic_primitives",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_006",
+    "title": "《地书》白话版次日03:00时段",
+    "source": "课程提供《地书》白话版素材",
+    "raw_text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "句标注任务：自由翻译，豆包大模型辅助标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 22,
+      "children": []
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 2,
+      "char_start": 23,
+      "char_end": 40,
+      "children": []
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 3,
+      "char_start": 41,
+      "char_end": 72,
+      "children": []
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 4,
+      "char_start": 73,
+      "char_end": 96,
+      "children": []
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 5,
+      "char_start": 97,
+      "char_end": 118,
+      "children": []
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 6,
+      "char_start": 119,
+      "char_end": 144,
+      "children": []
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 7,
+      "char_start": 145,
+      "char_end": 168,
+      "children": []
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 8,
+      "char_start": 169,
+      "char_end": 186,
+      "children": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨三点钟，蚊子嗡嗡的叫声把我从睡梦中吵醒。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "通俗改写，保留原意"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "屋外传来有人争吵的声音，让我心里十分烦闷焦躁。",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "细化情绪表达，语句更流畅"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "折腾许久之后，我总算打死了一只蚊子，手上也沾到了血迹。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "简化叙事，语义完整自然"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我关掉桌上的台灯，这下终于能安安稳稳睡个好觉了。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "豆包大模型",
+      "annotator_note": "口语化转述，贴合生活语境"
+    }
+  ]
+}

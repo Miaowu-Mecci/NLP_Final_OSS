@@ -1,0 +1,401 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T13:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini"
+    ]
+  },
+  "student": {
+    "student_id": "1191230424",
+    "student_name": "周筱然",
+    "assigned_section": "次日4点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_006",
+    "title": "下班回家的旅程",
+    "source": "Student Assignment",
+    "raw_text": "下午五点，终于到了下班时间！我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。一整天的工作让我感到疲惫不堪，只想快点回家休息。就在我准备离开时，领导叫住了我，问我晚上有没有安排。我有些紧张，但还是如实回答。领导笑着同意我下班，并让我赶紧回家。我顿时松了一口气，开心地准备离开公司。我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。站在路边，我看着拥挤的地铁入口，决定还是打车回家。我用手机确认了回家的路线，然后上了一辆出租车。一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+    "notes": "包含动作序列、心理转折及决策过程的完整叙事"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "下午五点，终于到了下班时间！",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 14,
+      "children": ["word_001", "word_002"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我赶紧整理好桌上的文件、书本和计算器，处理完最后几封邮件，关上电脑。",
+      "sentence_index": 2,
+      "char_start": 14,
+      "char_end": 48,
+      "children": ["word_003"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "一整天的工作让我感到疲惫不堪，只想快点回家休息。",
+      "sentence_index": 3,
+      "char_start": 48,
+      "char_end": 72,
+      "children": ["word_004"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "就在我准备离开时，领导叫住了我，问我晚上有没有安排。",
+      "sentence_index": 4,
+      "char_start": 72,
+      "char_end": 98,
+      "children": ["word_005"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我有些紧张，但还是如实回答。",
+      "sentence_index": 5,
+      "char_start": 98,
+      "char_end": 112,
+      "children": ["word_006"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "领导笑着同意我下班，并让我赶紧回家。",
+      "sentence_index": 6,
+      "char_start": 112,
+      "char_end": 130,
+      "children": ["word_007"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "我顿时松了一口气，开心地准备离开公司。",
+      "sentence_index": 7,
+      "char_start": 130,
+      "char_end": 150,
+      "children": ["word_008"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我先坐电梯下楼，去了趟洗手间，然后快步走出大楼。",
+      "sentence_index": 8,
+      "char_start": 150,
+      "char_end": 175,
+      "children": ["word_009"]
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "站在路边，我看着拥挤的地铁入口，决定还是打车回家。",
+      "sentence_index": 9,
+      "char_start": 175,
+      "char_end": 201,
+      "children": ["word_010"]
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我用手机确认了回家的路线，然后上了一辆出租车。",
+      "sentence_index": 10,
+      "char_start": 201,
+      "char_end": 224,
+      "children": []
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "一路上，虽然遇到了红灯，但我还是顺利地回到了家。",
+      "sentence_index": 11,
+      "char_start": 224,
+      "char_end": 248,
+      "children": []
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 5,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "下班时间",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "赶紧",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "疲惫不堪",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 58,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "叫住了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 82,
+      "char_end": 85
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "紧张",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 101,
+      "char_end": 103
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "笑着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 114,
+      "char_end": 116
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "松了一口气",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 133,
+      "char_end": 138
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "快步",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 11,
+      "char_start": 169,
+      "char_end": 171
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "拥挤",
+      "sentence_id": "sent_009",
+      "word_index_in_sentence": 6,
+      "char_start": 184,
+      "char_end": 186
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "annotator_note": "首句，交代叙事背景时间。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "按动作先后顺序描述下班前的行政准备工作。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "解释急于回家的心理动机，是对前句动作的深层说明。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "原本顺畅的离港流程被领导意外打断，产生叙事转折。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "描述面对询问时的直接心理与行为反应，是对话流的延续。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "前序对话产生的最终正面结果（准许离开）。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "承接上句的解脱感，继续描述心理状态。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "描述物理移动的空间序列动作。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "观察到地铁拥挤这一事实后做出的交通决策结果。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "summary",
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "总结全段落，交代最终完成“回家”这一目标的结局。"
+    },
+    {
+      "annotation_id": "ann_w001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "强调了对结束工作的急切期盼。暗示了之前的工作时间可能充满了压力或单调的重复，使得这个时间点的到来具有某种‘解脱’的仪式感。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "副词暗示主观期待感"
+    },
+    {
+      "annotation_id": "ann_w003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "传达出一种生理性的紧迫感。反映出主人公不仅在身体上想离开办公室，在心理上也已经处于‘离岗’状态，不愿在工作场所多留一秒。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动作副词反映急切心理"
+    },
+    {
+      "annotation_id": "ann_w005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "在下班语境下具有‘强制性暂停’的意味。暗示了权力的介入，使得原本自主的行动被外部因素阻断，引发了下文的紧张感。",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "动词短语暗示权力的被动干预"
+    },
+    {
+      "annotation_id": "ann_w008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "生动地描述了从压力状态骤然释放的心理生理反应。这个词作为全篇的情绪高潮，标志着心理负担的彻底卸下。",
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "习语描述情感状态的瞬间转变"
+    }
+  ]
+}

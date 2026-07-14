@@ -1,0 +1,383 @@
+{
+    "project": {
+        "project_name": "《地书》与自然语言文本差异性分析",
+        "data_type": "natural_language_text",
+        "schema_version": "1.0",
+        "annotation_language": "zh-CN",
+        "created_at": "2026-04-26T20:30:00+08:00",
+        "llm_assisted": true,
+        "llm_tools": ["ChatGPT", "DeepSeek"]
+    },
+    "student": {
+        "student_id": "1191230232",
+        "student_name": "李钟仁",
+        "assigned_section": "第6组文本",
+        "word_task_type": "semantic_primitives",
+        "sentence_task_type": "free_translation"
+    },
+    "source_text": {
+        "text_id": "text_006",
+        "title": "多时段个人叙事文本",
+        "source": "学生自主文本",
+        "raw_text": "下午三点，我整理好文件，深吸一口气，走向会议室。我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。我将 U 盘插入电脑，打开投影仪，准备开始我的汇报。我面带微笑，尽量让自己看起来自信从容。我一边看着电脑上的演示文稿，一边对着麦克风讲解，并时不时地邀请大家提问。汇报过程并非一帆风顺，我的一些观点得到了认可，但也有些地方被直接否定了。面对领导们的注视，我感到了不小的压力。我开始解释一些关于汽车、预算的问题，试图说服大家。会议上，大家展开了激烈的讨论，气氛一度有些紧张。我再次感到心跳加速，手心也冒出了汗。然而，当我展示完核心内容后，会议室里响起了热烈的掌声。领导们也对我投来了赞许的目光，甚至给我的工作打了满分。他们对我制作的演示文稿感到非常惊讶和满意。我继续播放着后面的内容，虽然中间提到了一些打印和警告的问题，但整体还算顺利。会议结束后，我感到一阵强烈的便意，赶紧冲向洗手间。在厕所里待了好一会儿，感觉稍微舒服了一些。出来后，我又忍不住看了一眼手机里的照片，陷入了沉思。午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。沿着长长的脚印，我终于走到了家。凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。回到家后，我感到非常困，但还是打开了电视。我换了好几个频道，看了 abc 的节目，笑了；看了坦克的画面，也笑了；看了 CCTV 的新闻，看到熊猫，笑了；看了 BBC 的新闻，看到彩虹，笑了；看了 NBC 的新闻，看到牛和警察，笑了；看了 CNN 的新闻，看到灾难和骷髅头，竟然也笑了。最后，我看到电视里两个人在吵架，感到有些无聊，于是关掉了电视，准备睡觉。凌晨四点，我终于进入了深度睡眠，睡得很香。",
+        "notes": "15点、24点、次日1点、次日4点多时段心理与行为叙事标注文本"
+    },
+    "units": [
+        {
+            "unit_id": "sent_001",
+            "unit_type": "sentence",
+            "text": "下午三点，我整理好文件，深吸一口气，走向会议室。",
+            "sentence_index": 1,
+            "char_start": 0,
+            "char_end": 46,
+            "children": ["word_001","word_002","word_003","word_004","word_005","word_006"]
+        },
+        {
+            "unit_id": "sent_002",
+            "unit_type": "sentence",
+            "text": "我能感觉到自己的心跳在加速，脸上也微微发烫，毕竟是要向领导和同事们汇报工作。",
+            "sentence_index": 2,
+            "char_start": 47,
+            "char_end": 110,
+            "children": ["word_007","word_008","word_009","word_010"]
+        },
+        {
+            "unit_id": "sent_003",
+            "unit_type": "sentence",
+            "text": "午夜十二点，我没有开车，而是选择步行回家。",
+            "sentence_index": 8,
+            "char_start": 386,
+            "char_end": 422,
+            "children": ["word_035","word_036","word_037"]
+        },
+        {
+            "unit_id": "sent_004",
+            "unit_type": "sentence",
+            "text": "凌晨一点，我在回家的路上看到了一只狗，我向它挥手，它也摇着尾巴回应我。",
+            "sentence_index": 11,
+            "char_start": 512,
+            "char_end": 580,
+            "children": ["word_038","word_039","word_040","word_041"]
+        },
+        {
+            "unit_id": "sent_005",
+            "unit_type": "sentence",
+            "text": "凌晨四点，我终于进入了深度睡眠，睡得很香。",
+            "sentence_index": 13,
+            "char_start": 786,
+            "char_end": 820,
+            "children": ["word_042","word_043","word_044"]
+        },
+        {
+            "unit_id": "word_001",
+            "unit_type": "word",
+            "text": "下午三点",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 1,
+            "char_start": 0,
+            "char_end": 4
+        },
+        {
+            "unit_id": "word_002",
+            "unit_type": "word",
+            "text": "文件",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 2,
+            "char_start": 11,
+            "char_end": 13
+        },
+        {
+            "unit_id": "word_003",
+            "unit_type": "word",
+            "text": "深吸",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 3,
+            "char_start": 17,
+            "char_end": 19
+        },
+        {
+            "unit_id": "word_004",
+            "unit_type": "word",
+            "text": "一口气",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 4,
+            "char_start": 20,
+            "char_end": 23
+        },
+        {
+            "unit_id": "word_005",
+            "unit_type": "word",
+            "text": "走向",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 5,
+            "char_start": 25,
+            "char_end": 27
+        },
+        {
+            "unit_id": "word_006",
+            "unit_type": "word",
+            "text": "会议室",
+            "sentence_id": "sent_001",
+            "word_index_in_sentence": 6,
+            "char_start": 28,
+            "char_end": 31
+        },
+        {
+            "unit_id": "word_007",
+            "unit_type": "word",
+            "text": "心跳",
+            "sentence_id": "sent_002",
+            "word_index_in_sentence": 3,
+            "char_start": 61,
+            "char_end": 63
+        },
+        {
+            "unit_id": "word_008",
+            "unit_type": "word",
+            "text": "脸上",
+            "sentence_id": "sent_002",
+            "word_index_in_sentence": 5,
+            "char_start": 75,
+            "char_end": 77
+        },
+        {
+            "unit_id": "word_009",
+            "unit_type": "word",
+            "text": "领导",
+            "sentence_id": "sent_002",
+            "word_index_in_sentence": 9,
+            "char_start": 96,
+            "char_end": 98
+        },
+        {
+            "unit_id": "word_010",
+            "unit_type": "word",
+            "text": "工作",
+            "sentence_id": "sent_002",
+            "word_index_in_sentence": 11,
+            "char_start": 106,
+            "char_end": 108
+        },
+        {
+            "unit_id": "word_035",
+            "unit_type": "word",
+            "text": "午夜十二点",
+            "sentence_id": "sent_003",
+            "word_index_in_sentence": 1,
+            "char_start": 386,
+            "char_end": 392
+        },
+        {
+            "unit_id": "word_036",
+            "unit_type": "word",
+            "text": "开车",
+            "sentence_id": "sent_003",
+            "word_index_in_sentence": 3,
+            "char_start": 402,
+            "char_end": 404
+        },
+        {
+            "unit_id": "word_037",
+            "unit_type": "word",
+            "text": "步行",
+            "sentence_id": "sent_003",
+            "word_index_in_sentence": 5,
+            "char_start": 411,
+            "char_end": 413
+        },
+        {
+            "unit_id": "word_038",
+            "unit_type": "word",
+            "text": "凌晨一点",
+            "sentence_id": "sent_004",
+            "word_index_in_sentence": 1,
+            "char_start": 512,
+            "char_end": 518
+        },
+        {
+            "unit_id": "word_039",
+            "unit_type": "word",
+            "text": "狗",
+            "sentence_id": "sent_004",
+            "word_index_in_sentence": 6,
+            "char_start": 536,
+            "char_end": 537
+        },
+        {
+            "unit_id": "word_040",
+            "unit_type": "word",
+            "text": "挥手",
+            "sentence_id": "sent_004",
+            "word_index_in_sentence": 8,
+            "char_start": 547,
+            "char_end": 549
+        },
+        {
+            "unit_id": "word_041",
+            "unit_type": "word",
+            "text": "尾巴",
+            "sentence_id": "sent_004",
+            "word_index_in_sentence": 10,
+            "char_start": 564,
+            "char_end": 566
+        },
+        {
+            "unit_id": "word_042",
+            "unit_type": "word",
+            "text": "凌晨四点",
+            "sentence_id": "sent_005",
+            "word_index_in_sentence": 1,
+            "char_start": 786,
+            "char_end": 792
+        },
+        {
+            "unit_id": "word_043",
+            "unit_type": "word",
+            "text": "睡眠",
+            "sentence_id": "sent_005",
+            "word_index_in_sentence": 4,
+            "char_start": 805,
+            "char_end": 807
+        },
+        {
+            "unit_id": "word_044",
+            "unit_type": "word",
+            "text": "香",
+            "sentence_id": "sent_005",
+            "word_index_in_sentence": 6,
+            "char_start": 816,
+            "char_end": 817
+        }
+    ],
+    "annotations": [
+        {
+            "annotation_id": "ann_001",
+            "target_id": "word_001",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["time"],
+            "confidence": 0.98,
+            "llm_used": true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "标示事件发生的具体时间节点。"
+        },
+        {
+            "annotation_id": "ann_002",
+            "target_id": "word_006",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["place","object"],
+            "confidence": 0.95,
+            "llm_used": true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "开展工作汇报的特定场所。"
+        },
+        {
+            "annotation_id": "ann_007",
+            "target_id": "word_007",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["state","perception"],
+            "confidence": 0.92,
+            "llm_used": true,
+            "llm_name": "DeepSeek",
+            "annotator_note": "人体生理状态，反映内心紧张情绪。"
+        },
+        {
+            "annotation_id": "ann_035",
+            "target_id": "word_035",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["time"],
+            "confidence": 0.98,
+            "llm_used": true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "深夜时间，对应夜间出行场景。"
+        },
+        {
+            "annotation_id": "ann_039",
+            "target_id": "word_039",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["object","animal"],
+            "confidence": 1.0,
+            "llm_used": true,
+            "llm_name": "DeepSeek",
+            "annotator_note": "路上遇到的动物对象。"
+        },
+        {
+            "annotation_id": "ann_042",
+            "target_id": "word_042",
+            "target_type": "word",
+            "task_id": "semantic_primitives",
+            "task_label_zh": "语义基元",
+            "task_label_en": "Semantic Primitives",
+            "value": ["time"],
+            "confidence": 0.98,
+            llm_used: true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "凌晨深夜的时间节点。"
+        },
+        {
+            "annotation_id": "ann_s001",
+            "target_id": "sent_001",
+            "target_type": "sentence",
+            "task_id": "free_translation",
+            "task_label_zh": "自由翻译",
+            "task_label_en": "Free Translation",
+            "value": "At three in the afternoon, I sorted out my documents, took a deep breath and walked towards the meeting room.",
+            "confidence": 0.95,
+            "llm_used": true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "完整自然的英文转述，贴合原文语境。"
+        },
+        {
+            "annotation_id": "ann_s002",
+            "target_id": "sent_003",
+            "target_type": "sentence",
+            "task_id": "free_translation",
+            "task_label_zh": "自由翻译",
+            "task_label_en": "Free Translation",
+            "value": "At midnight, I did not drive and chose to walk home instead.",
+            "confidence": 0.95,
+            "llm_used": true,
+            "llm_name": "DeepSeek",
+            "annotator_note": "简洁流畅的英文自由译写。"
+        },
+        {
+            "annotation_id": "ann_s003",
+            "target_id": "sent_004",
+            "task_id": "free_translation",
+            "task_label_zh": "自由翻译",
+            "task_label_en": "Free Translation",
+            "value": "At one o'clock in the early morning, I saw a dog on my way home. I waved to it, and it wagged its tail in response.",
+            "confidence": 0.93,
+            "llm_used": true,
+            "llm_name": "ChatGPT",
+            "annotator_note": "保留人物与动物互动的细节。"
+        },
+        {
+            "annotation_id": "ann_s004",
+            "target_id": "sent_005",
+            "target_type": "sentence",
+            "task_id": "free_translation",
+            "task_label_zh": "自由翻译",
+            "task_label_en": "Free Translation",
+            "value": "At four o'clock in the early morning, I finally fell into deep sleep and slept soundly.",
+            "confidence": 0.96,
+            "llm_used": true,
+            "llm_name": "DeepSeek",
+            "annotator_note": "贴合结尾放松入睡的状态描写。"
+        }
+    ]
+}

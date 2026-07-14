@@ -1,0 +1,203 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T14:10:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "Gemini"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "24点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "discourse_relation"
+  },
+  "units": [
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 22,
+      "char_start": 503,
+      "char_end": 525
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 23,
+      "char_start": 525,
+      "char_end": 546
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 24,
+      "char_start": 546,
+      "char_end": 563
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 25,
+      "char_start": 563,
+      "char_end": 584
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 26,
+      "char_start": 584,
+      "char_end": 614
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 27,
+      "char_start": 614,
+      "char_end": 630
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "午夜十二点",
+      "sentence_id": "sent_022",
+      "word_index_in_sentence": 1,
+      "char_start": 503,
+      "char_end": 508
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "一步步",
+      "sentence_id": "sent_023",
+      "word_index_in_sentence": 8,
+      "char_start": 540,
+      "char_end": 543
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "走着走着",
+      "sentence_id": "sent_026",
+      "word_index_in_sentence": 1,
+      "char_start": 584,
+      "char_end": 588
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_s022",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "turning_point",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间切入午夜，从酒吧的热闹转为孤独的步行，叙事基调发生转折。"
+    },
+    {
+      "annotation_id": "ann_s023",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "continuation",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "描述步行的具体过程，动作的延续。"
+    },
+    {
+      "annotation_id": "ann_s024",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "对环境氛围进行补充说明，强化深夜的静谧感。"
+    },
+    {
+      "annotation_id": "ann_s026",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "在步行途中偶遇他人的动作序列。"
+    },
+    {
+      "annotation_id": "ann_s027",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "summary",
+      "confidence": 1.0,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "全篇结束，交代最终回家的状态，与开头呼应。"
+    },
+    {
+      "annotation_id": "ann_w014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "象征着一天的彻底终结，也是私密与孤独感最强的时刻。在语境中暗示了约会后的沉淀期。",
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "时间词暗示情绪转折"
+    },
+    {
+      "annotation_id": "ann_w015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "不仅描述动作节奏，更反映了主人公此刻内心的平静或疲惫，有一种对生活轨迹的踏实感。",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "叠词强化节奏感"
+    },
+    {
+      "annotation_id": "ann_w016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "pragmatic_meaning",
+      "task_label_zh": "语境实际含义",
+      "task_label_en": "Pragmatic Meaning",
+      "value": "体现了时间的流逝和机械性动作的重复。暗示在寂静的深夜中，思维开始游离或沉思的状态。",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "Gemini",
+      "annotator_note": "短语暗示心流或沉思状态"
+    }
+  ]
+}

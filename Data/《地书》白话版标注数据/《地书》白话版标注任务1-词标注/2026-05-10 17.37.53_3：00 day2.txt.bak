@@ -1,0 +1,1435 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-10T15:21:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": ["ChatGPT", "DeepSeek"]
+  },
+  "student": {
+    "student_id": "20240123",
+    "student_name": "张三",
+    "assigned_section": "第3组文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "深夜灭蚊片段",
+    "source": "教师提供",
+    "raw_text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。我听到外面有人在吵架，感到非常烦躁。我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。最后，我终于打死了一只蚊子，手上沾满了血。我关掉台灯，终于可以安心睡觉了。",
+    "notes": "用于中文自然文本标注示例，词级任务为类形态特征标注"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "凌晨三点，我被蚊子的嗡嗡声吵醒了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 17,
+      "children": ["word_001", "word_002", "word_003", "word_004", "word_005", "word_006", "word_007", "word_008"]
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我听到外面有人在吵架，感到非常烦躁。",
+      "sentence_index": 2,
+      "char_start": 17,
+      "char_end": 36,
+      "children": ["word_009", "word_010", "word_011", "word_012", "word_013", "word_014", "word_015", "word_016", "word_017", "word_018"]
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "我开始用手拍蚊子，并用杀虫剂喷它们，但蚊子总是飞来飞去，很难打到。",
+      "sentence_index": 3,
+      "char_start": 36,
+      "char_end": 68,
+      "children": ["word_019", "word_020", "word_021", "word_022", "word_023", "word_024", "word_025", "word_026", "word_027", "word_028", "word_029", "word_030", "word_031", "word_032", "word_033", "word_034", "word_035", "word_036", "word_037"]
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我关掉电视和灯，准备睡觉，但蚊子还是不停地骚扰我。",
+      "sentence_index": 4,
+      "char_start": 68,
+      "char_end": 90,
+      "children": ["word_038", "word_039", "word_040", "word_041", "word_042", "word_043", "word_044", "word_045", "word_046", "word_047", "word_048", "word_049", "word_050", "word_051"]
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我打开台灯，继续用杀虫剂和苍蝇拍消灭蚊子。",
+      "sentence_index": 5,
+      "char_start": 90,
+      "char_end": 108,
+      "children": ["word_052", "word_053", "word_054", "word_055", "word_056", "word_057", "word_058", "word_059", "word_060", "word_061", "word_062", "word_063"]
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我追着蚊子跑，上下挥舞着杀虫剂，累得满头大汗。",
+      "sentence_index": 6,
+      "char_start": 108,
+      "char_end": 131,
+      "children": ["word_064", "word_065", "word_066", "word_067", "word_068", "word_069", "word_070", "word_071", "word_072", "word_073", "word_074", "word_075", "word_076", "word_077"]
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "最后，我终于打死了一只蚊子，手上沾满了血。",
+      "sentence_index": 7,
+      "char_start": 131,
+      "char_end": 152,
+      "children": ["word_078", "word_079", "word_080", "word_081", "word_082", "word_083", "word_084", "word_085", "word_086", "word_087", "word_088", "word_089", "word_090", "word_091", "word_092"]
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我关掉台灯，终于可以安心睡觉了。",
+      "sentence_index": 8,
+      "char_start": 152,
+      "char_end": 167,
+      "children": ["word_093", "word_094", "word_095", "word_096", "word_097", "word_098", "word_099", "word_100", "word_101"]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "凌晨三点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "被",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 6,
+      "char_end": 7
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 9,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "嗡嗡声",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 10,
+      "char_end": 13
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "吵醒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 13,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 15,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 17,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "听到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 18,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "外面",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 20,
+      "char_end": 22
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "有",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 22,
+      "char_end": 23
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 23,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "在",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "吵架",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 25,
+      "char_end": 27
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "感到",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "非常",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 30,
+      "char_end": 32
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "烦躁",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 32,
+      "char_end": 34
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 36,
+      "char_end": 37
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 37,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 39,
+      "char_end": 40
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "手",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 40,
+      "char_end": 41
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "拍",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 41,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 42,
+      "char_end": 44
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "并",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 45,
+      "char_end": 46
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 46,
+      "char_end": 47
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 47,
+      "char_end": 50
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "喷",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 50,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "它们",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 11,
+      "char_start": 51,
+      "char_end": 53
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 12,
+      "char_start": 54,
+      "char_end": 55
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 13,
+      "char_start": 55,
+      "char_end": 57
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "总是",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 14,
+      "char_start": 57,
+      "char_end": 59
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "飞来飞去",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 15,
+      "char_start": 59,
+      "char_end": 63
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "很",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 17,
+      "char_start": 64,
+      "char_end": 65
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "难",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 18,
+      "char_start": 65,
+      "char_end": 66
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "打",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 19,
+      "char_start": 66,
+      "char_end": 67
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "到",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 20,
+      "char_start": 67,
+      "char_end": 68
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 68,
+      "char_end": 69
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "关掉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 69,
+      "char_end": 71
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "电视",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 71,
+      "char_end": 73
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 73,
+      "char_end": 74
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "灯",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 74,
+      "char_end": 75
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "准备",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 76,
+      "char_end": 78
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 78,
+      "char_end": 80
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 81,
+      "char_end": 82
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 82,
+      "char_end": 84
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 84,
+      "char_end": 86
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "不停地",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 11,
+      "char_start": 86,
+      "char_end": 89
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "骚扰",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 12,
+      "char_start": 89,
+      "char_end": 91
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 13,
+      "char_start": 91,
+      "char_end": 92
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 14,
+      "char_start": 92,
+      "char_end": 93
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 93,
+      "char_end": 94
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "打开",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 94,
+      "char_end": 96
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "台灯",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 96,
+      "char_end": 98
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "继续",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 99,
+      "char_end": 101
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "用",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 101,
+      "char_end": 102
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 102,
+      "char_end": 105
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7,
+      "char_start": 105,
+      "char_end": 106
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "苍蝇拍",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8,
+      "char_start": 106,
+      "char_end": 109
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "消灭",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9,
+      "char_start": 109,
+      "char_end": 111
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 10,
+      "char_start": 111,
+      "char_end": 113
+    },
+    {
+      "unit_id": "word_062",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 11,
+      "char_start": 113,
+      "char_end": 114
+    },
+    {
+      "unit_id": "word_063",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 114,
+      "char_end": 115
+    },
+    {
+      "unit_id": "word_064",
+      "unit_type": "word",
+      "text": "追着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 115,
+      "char_end": 117
+    },
+    {
+      "unit_id": "word_065",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 117,
+      "char_end": 119
+    },
+    {
+      "unit_id": "word_066",
+      "unit_type": "word",
+      "text": "跑",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 119,
+      "char_end": 120
+    },
+    {
+      "unit_id": "word_067",
+      "unit_type": "word",
+      "text": "上下",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 121,
+      "char_end": 123
+    },
+    {
+      "unit_id": "word_068",
+      "unit_type": "word",
+      "text": "挥舞着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 123,
+      "char_end": 126
+    },
+    {
+      "unit_id": "word_069",
+      "unit_type": "word",
+      "text": "杀虫剂",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8,
+      "char_start": 126,
+      "char_end": 129
+    },
+    {
+      "unit_id": "word_070",
+      "unit_type": "word",
+      "text": "累得",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 9,
+      "char_start": 130,
+      "char_end": 132
+    },
+    {
+      "unit_id": "word_071",
+      "unit_type": "word",
+      "text": "满头大汗",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 10,
+      "char_start": 132,
+      "char_end": 136
+    },
+    {
+      "unit_id": "word_072",
+      "unit_type": "word",
+      "text": "最后",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 1,
+      "char_start": 137,
+      "char_end": 139
+    },
+    {
+      "unit_id": "word_073",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 2,
+      "char_start": 140,
+      "char_end": 141
+    },
+    {
+      "unit_id": "word_074",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 3,
+      "char_start": 141,
+      "char_end": 143
+    },
+    {
+      "unit_id": "word_075",
+      "unit_type": "word",
+      "text": "打死",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 4,
+      "char_start": 143,
+      "char_end": 145
+    },
+    {
+      "unit_id": "word_076",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 5,
+      "char_start": 145,
+      "char_end": 146
+    },
+    {
+      "unit_id": "word_077",
+      "unit_type": "word",
+      "text": "一只",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 6,
+      "char_start": 146,
+      "char_end": 148
+    },
+    {
+      "unit_id": "word_078",
+      "unit_type": "word",
+      "text": "蚊子",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 7,
+      "char_start": 148,
+      "char_end": 150
+    },
+    {
+      "unit_id": "word_079",
+      "unit_type": "word",
+      "text": "手上",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 8,
+      "char_start": 151,
+      "char_end": 153
+    },
+    {
+      "unit_id": "word_080",
+      "unit_type": "word",
+      "text": "沾满了",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 9,
+      "char_start": 153,
+      "char_end": 156
+    },
+    {
+      "unit_id": "word_081",
+      "unit_type": "word",
+      "text": "血",
+      "sentence_id": "sent_007",
+      "word_index_in_sentence": 10,
+      "char_start": 156,
+      "char_end": 157
+    },
+    {
+      "unit_id": "word_082",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 1,
+      "char_start": 158,
+      "char_end": 159
+    },
+    {
+      "unit_id": "word_083",
+      "unit_type": "word",
+      "text": "关掉",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 2,
+      "char_start": 159,
+      "char_end": 161
+    },
+    {
+      "unit_id": "word_084",
+      "unit_type": "word",
+      "text": "台灯",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 3,
+      "char_start": 161,
+      "char_end": 163
+    },
+    {
+      "unit_id": "word_085",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 4,
+      "char_start": 164,
+      "char_end": 166
+    },
+    {
+      "unit_id": "word_086",
+      "unit_type": "word",
+      "text": "可以",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 5,
+      "char_start": 166,
+      "char_end": 168
+    },
+    {
+      "unit_id": "word_087",
+      "unit_type": "word",
+      "text": "安心",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 6,
+      "char_start": 168,
+      "char_end": 170
+    },
+    {
+      "unit_id": "word_088",
+      "unit_type": "word",
+      "text": "睡觉",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 7,
+      "char_start": 170,
+      "char_end": 172
+    },
+    {
+      "unit_id": "word_089",
+      "unit_type": "word",
+      "text": "了",
+      "sentence_id": "sent_008",
+      "word_index_in_sentence": 8,
+      "char_start": 172,
+      "char_end": 173
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["multi_character_word", "compound_word", "temporal_noun"],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“凌晨三点”为多字时间名词复合词"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "personal_pronoun"],
+      "confidence": 0.98,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“我”为单字第一人称代词"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "preposition", "passive_marker"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“被”为单字介词，表被动"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "noun"],
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“蚊子”为双字复合名词"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["three_character_word", "reduplicative", "onomatopoeia", "noun"],
+      "confidence": 0.89,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“嗡嗡声”为三字拟声重叠式名词"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_result", "action_verb"],
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“吵醒”为双字结果补语动词"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "aspectual_particle"],
+      "confidence": 0.97,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“了”为单字动态助词"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "perception_verb"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“听到”为双字复合听觉感知动词"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_verb", "coordinative"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“吵架”为双字并列结构动词"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "emotion_verb"],
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“感到”为双字复合情感动词"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adverb", "degree"],
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“非常”为双字程度副词"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adjective"],
+      "confidence": 0.89,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“烦躁”为双字复合形容词"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "inchoative_verb"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“开始”为双字起始义动词"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "action_verb"],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“拍”为单字动作动词"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["three_character_word", "compound_word", "noun"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“杀虫剂”为三字复合名词"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["four_character_word", "reduplicative", "verb", "motion"],
+      "confidence": 0.87,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“飞来飞去”为四字动词重叠式，表示来回飞"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "adverb", "degree"],
+      "confidence": 0.96,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“很”为单字程度副词"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["single_character_word", "adjective", "difficulty"],
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“难”为单字形容词"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_result", "action_verb"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“关掉”为双字结果补语动词"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adverb"],
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“还是”为双字语气副词"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["three_character_word", "derived_word", "adverb"],
+      "confidence": 0.87,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“不停地”为三字派生副词（动词+地）"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "action_verb"],
+      "confidence": 0.89,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“骚扰”为双字动作动词"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_053",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_result", "action_verb"],
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“打开”为双字结果补语动词"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_059",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["three_character_word", "compound_word", "noun"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“苍蝇拍”为三字复合名词"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_060",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "action_verb"],
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“消灭”为双字动作动词"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_064",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_suffix", "action_verb"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“追着”为双字动词+态后缀"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_067",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "directional_noun"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“上下”为双字复合方位词"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_071",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["four_character_word", "idiomatic", "adjective"],
+      "confidence": 0.86,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“满头大汗”为四字习语性形容词短语"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_072",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adverb", "temporal"],
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“最后”为双字时间副词"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_074",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adverb"],
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“终于”为双字时间副词"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_075",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "verb_result", "action_verb"],
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“打死”为双字结果补语动词"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_080",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["three_character_word", "verb_suffix", "action_verb"],
+      "confidence": 0.88,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“沾满了”为三字动词+动态助词+补语"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_087",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": ["two_character_word", "compound_word", "adjective"],
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "“安心”为双字复合形容词"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "start",
+      "confidence": 1.0,
+      "llm_used": false,
+      "llm_name": null,
+      "annotator_note": "全文第一句，交代时间（凌晨三点）和初始事件（被蚊子吵醒）"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.92,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "被吵醒后，进一步说明听到吵架声并感到烦躁"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.91,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "因烦躁而开始用手拍蚊子、用杀虫剂喷，但效果不佳"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "temporal",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "尝试灭蚊失败后，关掉电视和灯准备睡觉，但仍被骚扰"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "sequence",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "接着打开台灯，继续用更多工具灭蚊"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "elaboration",
+      "confidence": 0.89,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "详细描述灭蚊过程：追跑、挥舞、累得出汗"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.93,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "经过努力，最终打死一只蚊子"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "discourse_relation",
+      "task_label_zh": "与前一组的篇章关系",
+      "task_label_en": "Discourse Relation",
+      "value": "result",
+      "confidence": 0.94,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": "打死蚊子后关灯，终于可以安心睡觉"
+    }
+  ]
+}

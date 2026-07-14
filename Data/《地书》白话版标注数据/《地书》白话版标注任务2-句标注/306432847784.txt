@@ -1,0 +1,90 @@
+{
+  "project": {
+    "name": "《地书》人工辅助标注",
+    "task_type": "句标注任务"
+  },
+  "student": {
+    "university": "江南大学",
+    "major": "数字媒体技术",
+    "grade": "大三"
+  },
+  "source_text": {
+    "content": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？她喜欢香奈儿，可我没钱，买不起。走着走着，我看到一家书店，想到书也是个不错的礼物。我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。我想到世贸中心被炸了，有点惊讶。我查了去美国的航班、机场、酒店和攻略。各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。我刷卡结账，想着买两本书当礼物。付了钱，拿到了礼物，想到她会很开心。我看着礼物，纠结要不要送她。走出书店，想到她的生日，又回头看了看。我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。我想到她和游戏，还是去结账吧。结完账，走出书店，看了看时间，回公司。刷了工牌，走进电梯，看到快递的牌子，有点惊讶。按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。走到工位，坐下。"
+  },
+  "units": [
+    {
+      "id": "s1",
+      "token": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？她喜欢香奈儿，可我没钱，买不起。"
+    },
+    {
+      "id": "s2",
+      "token": "走着走着，我看到一家书店，想到书也是个不错的礼物。我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。"
+    },
+    {
+      "id": "s3",
+      "token": "坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”"
+    },
+    {
+      "id": "s4",
+      "token": "电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。我想到世贸中心被炸了，有点惊讶。我查了去美国的航班、机场、酒店和攻略。"
+    },
+    {
+      "id": "s5",
+      "token": "各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。"
+    },
+    {
+      "id": "s6",
+      "token": "我刷卡结账，想着买两本书当礼物。付了钱，拿到了礼物，想到她会很开心。我看着礼物，纠结要不要送她。走出书店，想到她的生日，又回头看了看。"
+    },
+    {
+      "id": "s7",
+      "token": "我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。我想到她和游戏，还是去结账吧。结完账，走出书店，看了看时间，回公司。"
+    },
+    {
+      "id": "s8",
+      "token": "刷了工牌，走进电梯，看到快递的牌子，有点惊讶。按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。走到工位，坐下。"
+    }
+  ],
+  "annotations": [
+    {
+      "unit_id": "s1",
+      "discourse_relation": "篇章起点 (Initiation) —— 交代人物所处现实环境，并引出全文核心的心理矛盾与动机。",
+      "free_translation": "Walking on the zebra crossing, I was pondering over a birthday gift for her—she's turning 30 soon. Then I thought, if I gave her a proposal gift, we could get married, but what should I give? She likes Chanel, but I have no money and can't afford it."
+    },
+    {
+      "unit_id": "s2",
+      "discourse_relation": "顺承关系 (Sequential) —— 从外部街道步入书店，叙事从现实行动流畅地滑入超现实的心理意识流想象。",
+      "free_translation": "As I walked, I saw a bookstore and thought a book would be a nice gift too. I went in, flipped through some books, and suddenly thought of putting a rose inside, but roses wither quickly, and my heart broke along with it. I also imagined a bad guy hiding in the book, pointing a gun at me, and felt a bit scared."
+    },
+    {
+      "unit_id": "s3",
+      "discourse_relation": "顺承与突转 (Sequential & Abrupt Shift) —— 意识流发生跳跃，从危险想象迅速切回到关于旅行和结婚的甜蜜畅想，并伴随实际的社交动作（发消息）。",
+      "free_translation": "The bad guy shot at me, I dodged it, feeling a little angry. Looking at the flight tickets, I wanted to travel and couldn't help but smile. I thought about our honeymoon after getting married and smiled again. I picked up my phone and texted her. I asked, 'Where do you want to go for our honeymoon?' She replied, 'I want to see the Statue of Liberty, and the Eiffel Tower...'"
+    },
+    {
+      "unit_id": "s4",
+      "discourse_relation": "顺承与发散 (Sequential & Divergence) —— 承接女方的回复，思维进一步发散至全球各地的地标，最终聚焦美国并引发具体的联想与规划。",
+      "free_translation": "The phone rang. Looking at the tickets, I wanted to go to the Sydney Opera House, Mount Fuji, the Taj Mahal, Canada, the Pyramids... ultimately, I chose the US. Attractions there include the White House, Disney, Monroe, stadiums, the Statue of Liberty, and the World Trade Center. I remembered the World Trade Center was bombed and was a bit surprised. I looked up flights, airports, hotels, and guides for the US."
+    },
+    {
+      "unit_id": "s5",
+      "discourse_relation": "平行与空间交叠 (Parallel & Spatial Overlap) —— 将虚拟的手机查阅与现实的书店踱步动作交织在一起，空间在书店门口与巴黎之间来回拉扯。",
+      "free_translation": "Various hotels were listed—five-star, three-star, budget—along with museums, theaters, and various luxury brands. I liked it, smiled, and kept flipping through the book. Walking on, I reached the doorway; a red light appeared, and I stopped. Thinking of her, I turned back and then looked up attractions in Paris: Notre-Dame, Mona Lisa, the Eiffel Tower... reaching the doorway again."
+    },
+    {
+      "unit_id": "s6",
+      "discourse_relation": "转折与反复 (Contrast & Repetition) —— 记录了购买行为完成后的心理纠结与反复，体现了送礼决策上的不确定性。",
+      "free_translation": "I swiped my card to check out, thinking of buying two books as a gift. I paid, got the gift, and thought she'd be very happy. Looking at the gift, I agonized over whether to give it to her. Stepping out of the bookstore, I thought of her birthday and looked back once more."
+    },
+    {
+      "unit_id": "s7",
+      "discourse_relation": "解释与结果 (Explanation & Result) —— 对前文的纠结进行逻辑解释（基于价格考量），最终敲定送游戏的决策，并彻底结束书店的场景。",
+      "free_translation": "I figured: a camera is too expensive, pass; a tablet is too expensive, pass; a skateboard is too expensive, pass; a game isn't expensive—bought it, and I couldn't help but smile. Thinking of her and the game, I decided to go pay. After checking out, I left the bookstore, checked the time, and headed back to the office."
+    },
+    {
+      "unit_id": "s8",
+      "discourse_relation": "顺承关系 (Sequential - Action Chain) —— 剔除了所有的心理活动，采用极简的动作短句序列，表现回归现实工作后机械、按部就班的节奏。",
+      "free_translation": "Swiped my badge, got into the elevator, and saw a delivery sign, feeling a bit surprised. I pressed the button, the elevator passed floors 1, 2... up to 89, the red light stopped, the doors opened, and I stepped out. Turn left, go straight, turn, go straight, turn again, go straight, clock in, swipe my phone, open the door. Walked to my desk and sat down."
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-09T10:00:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT",
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "第3组文本",
+    "word_task_type": "morphological_like_features",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "text_003",
+    "title": "照顾醉酒老友",
+    "source": "教师提供",
+    "raw_text": "晚上十点，我和刚失恋的老友已经喝了很多酒。他喝醉了，开始胡言乱语，一会儿说他爱的不是那个男人，而是我，一会儿又因为失恋而哭泣，说自己心碎了，需要医生。我禁止他再喝酒，但他还是喝多了，睡着了。我问他有没有钱，他没有，于是我付了账单。然后，我叫了一辆车，准备送他回家。到了他家门口，我按了门铃，然后用他的钥匙打开了门。他喝醉了吐了一地，我帮他收拾干净，找到了他的钱包、手机和钥匙。他的狗看到我们回来了，非常兴奋。我把他扶到床上，他还在说胡话。我照顾了他很久，他又吐了一次。看着他熟睡的样子，我感到既无奈又心疼。最后，我在他家门口喝了一杯酒，看着天上的月亮，心里想着他什么时候才能好起来。",
+    "notes": "叙事文本，描述照顾醉酒老友的过程"
+  },
+  "units": [
+    {
+      "unit_id": "w1",
+      "unit_type": "word",
+      "text": "晚上十点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 4
+    },
+    {
+      "unit_id": "w2",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 5,
+      "char_end": 6
+    },
+    {
+      "unit_id": "w3",
+      "unit_type": "word",
+      "text": "和",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 6,
+      "char_end": 7
+    },
+    {
+      "unit_id": "w4",
+      "unit_type": "word",
+      "text": "刚失恋",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 7,
+      "char_end": 10
+    },
+    {
+      "unit_id": "w5",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "w6",
+      "unit_type": "word",
+      "text": "老友",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 11,
+      "char_end": 13
+    },
+    {
+      "unit_id": "w7",
+      "unit_type": "word",
+      "text": "已经",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 13,
+      "char_end": 15
+    },
+    {
+      "unit_id": "w8",
+      "unit_type": "word",
+      "text": "喝了",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 15,
+      "char_end": 17
+    },
+    {
+      "unit_id": "w9",
+      "unit_type": "word",
+      "text": "很多",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 17,
+      "char_end": 19
+    },
+    {
+      "unit_id": "w10",
+      "unit_type": "word",
+      "text": "酒",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 19,
+      "char_end": 20
+    },
+    {
+      "unit_id": "w11",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 22,
+      "char_end": 23
+    },
+    {
+      "unit_id": "w12",
+      "unit_type": "word",
+      "text": "喝醉了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 23,
+      "char_end": 26
+    },
+    {
+      "unit_id": "w13",
+      "unit_type": "word",
+      "text": "开始",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "w14",
+      "unit_type": "word",
+      "text": "胡言乱语",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 28,
+      "char_end": 32
+    },
+    {
+      "unit_id": "w15",
+      "unit_type": "word",
+      "text": "一会儿",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 32,
+      "char_end": 35
+    },
+    {
+      "unit_id": "w16",
+      "unit_type": "word",
+      "text": "说",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 35,
+      "char_end": 36
+    },
+    {
+      "unit_id": "w17",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 36,
+      "char_end": 37
+    },
+    {
+      "unit_id": "w18",
+      "unit_type": "word",
+      "text": "爱",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 37,
+      "char_end": 38
+    },
+    {
+      "unit_id": "w19",
+      "unit_type": "word",
+      "text": "的",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 38,
+      "char_end": 39
+    },
+    {
+      "unit_id": "w20",
+      "unit_type": "word",
+      "text": "不是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 39,
+      "char_end": 41
+    },
+    {
+      "unit_id": "w21",
+      "unit_type": "word",
+      "text": "那个",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 11,
+      "char_start": 41,
+      "char_end": 43
+    },
+    {
+      "unit_id": "w22",
+      "unit_type": "word",
+      "text": "男人",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 12,
+      "char_start": 43,
+      "char_end": 45
+    },
+    {
+      "unit_id": "w23",
+      "unit_type": "word",
+      "text": "而是",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 13,
+      "char_start": 46,
+      "char_end": 48
+    },
+    {
+      "unit_id": "w24",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 14,
+      "char_start": 48,
+      "char_end": 49
+    },
+    {
+      "unit_id": "w25",
+      "unit_type": "word",
+      "text": "一会儿",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 15,
+      "char_start": 50,
+      "char_end": 53
+    },
+    {
+      "unit_id": "w26",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 16,
+      "char_start": 53,
+      "char_end": 54
+    },
+    {
+      "unit_id": "w27",
+      "unit_type": "word",
+      "text": "因为",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 17,
+      "char_start": 54,
+      "char_end": 56
+    },
+    {
+      "unit_id": "w28",
+      "unit_type": "word",
+      "text": "失恋",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 18,
+      "char_start": 56,
+      "char_end": 58
+    },
+    {
+      "unit_id": "w29",
+      "unit_type": "word",
+      "text": "而",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 19,
+      "char_start": 58,
+      "char_end": 59
+    },
+    {
+      "unit_id": "w30",
+      "unit_type": "word",
+      "text": "哭泣",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 20,
+      "char_start": 59,
+      "char_end": 61
+    },
+    {
+      "unit_id": "w31",
+      "unit_type": "word",
+      "text": "说",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 21,
+      "char_start": 62,
+      "char_end": 63
+    },
+    {
+      "unit_id": "w32",
+      "unit_type": "word",
+      "text": "自己",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 22,
+      "char_start": 63,
+      "char_end": 65
+    },
+    {
+      "unit_id": "w33",
+      "unit_type": "word",
+      "text": "心碎了",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 23,
+      "char_start": 65,
+      "char_end": 68
+    },
+    {
+      "unit_id": "w34",
+      "unit_type": "word",
+      "text": "需要",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 24,
+      "char_start": 69,
+      "char_end": 71
+    },
+    {
+      "unit_id": "w35",
+      "unit_type": "word",
+      "text": "医生",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 25,
+      "char_start": 71,
+      "char_end": 73
+    },
+    {
+      "unit_id": "w36",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 79,
+      "char_end": 80
+    },
+    {
+      "unit_id": "w37",
+      "unit_type": "word",
+      "text": "禁止",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 80,
+      "char_end": 82
+    },
+    {
+      "unit_id": "w38",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 82,
+      "char_end": 83
+    },
+    {
+      "unit_id": "w39",
+      "unit_type": "word",
+      "text": "再",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 83,
+      "char_end": 84
+    },
+    {
+      "unit_id": "w40",
+      "unit_type": "word",
+      "text": "喝酒",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 84,
+      "char_end": 86
+    },
+    {
+      "unit_id": "w41",
+      "unit_type": "word",
+      "text": "但",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 87,
+      "char_end": 88
+    },
+    {
+      "unit_id": "w42",
+      "unit_type": "word",
+      "text": "他",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 88,
+      "char_end": 89
+    },
+    {
+      "unit_id": "w43",
+      "unit_type": "word",
+      "text": "还是",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 8,
+      "char_start": 89,
+      "char_end": 91
+    },
+    {
+      "unit_id": "w44",
+      "unit_type": "word",
+      "text": "喝多了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 9,
+      "char_start": 91,
+      "char_end": 94
+    },
+    {
+      "unit_id": "w45",
+      "unit_type": "word",
+      "text": "睡着了",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 10,
+      "char_start": 94,
+      "char_end": 97
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "w8",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "aspect_marker"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "\"了\"表示完成体"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "w12",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "resultative_complement"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "\"醉\"是结果补语"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "w33",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "resultative_complement",
+        "aspect_marker"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "\"碎\"是结果补语，\"了\"是体标记"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "w44",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "resultative_complement"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "\"多\"是结果补语"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "w45",
+      "target_type": "word",
+      "task_id": "morphological_like_features",
+      "task_label_zh": "类形态特征",
+      "task_label_en": "Morphological-like Features",
+      "value": [
+        "resultative_complement"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "\"着\"表示状态持续"
+    }
+  ]
+}

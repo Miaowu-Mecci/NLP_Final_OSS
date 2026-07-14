@@ -1,0 +1,1123 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:22:34.253656",
+    "llm_assisted": true,
+    "llm_tools": [
+      "DeepSeek"
+    ]
+  },
+  "student": {
+    "student_id": "1191230205",
+    "student_name": "熊子妍",
+    "assigned_section": "13点；18点；次日2点",
+    "word_task_type": "pragmatic_meaning",
+    "sentence_task_type": "free_translation"
+  },
+  "source_text": {
+    "text_id": "text_001",
+    "title": "《地书》白话版选段",
+    "source": "教师提供",
+    "raw_text": "===13点===\n我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。\n我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？\n她喜欢香奈儿，可我没钱，买不起。\n走着走着，我看到一家书店，想到书也是个不错的礼物。\n我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。我又想到书里藏着坏人，用枪指着我，有点害怕。\n\n坏人开枪打我，我躲开了，有点生气。我看着机票，想去旅行，忍不住笑了。\n我想到我们结婚后去度蜜月，笑了。我拿起手机给她发消息。\n我问她：“结婚后想去哪度蜜月？”她回：“想去自由女神像，还有埃菲尔铁塔……”\n电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。\n美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。\n我想到世贸中心被炸了，有点惊讶。\n我查了去美国的航班、机场、酒店和攻略。\n各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。\n我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。\n我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。\n\n我刷卡结账，想着买两本书当礼物。\n付了钱，拿到了礼物，想到她会很开心。\n我看着礼物，纠结要不要送她。\n走出书店，想到她的生日，又回头看了看。\n我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。\n\n我想到她和游戏，还是去结账吧。\n结完账，走出书店，看了看时间，回公司。\n刷了工牌，走进电梯，看到快递的牌子，有点惊讶。\n按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。\n左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。\n走到工位，坐下。\n\n===18点===\n下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。我从冰箱里拿出饮料，惬意地喝了一口。然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。我吹了吹头发，听着音乐，心情格外舒畅。\n与此同时，她也在家忙碌着。她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。她也在听着音乐，准备出门。\n我选好了鞋子和配饰，准备出门。出门前，我给她发了条消息，确认了时间。然后关掉空调和手机，离开了家。刚出门不久，她的电话就打了过来，我有点紧张地接了电话。挂了电话后，我直奔花店，买了 12 朵漂亮的花。\n我拿着花，心里想着她，想象着她收到花时开心的样子。终于，我见到了她，把花递给了她。她开心地接过花，我们相视而笑。\n我们一起去了约定的酒吧。在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。我们点了啤酒，聊着天。突然，我看到一些奇怪的东西，感到有些惊讶。不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。\n\n===次日2点===\n凌晨两点，我躺在床上，很快就进入了梦乡。在梦里，我看到两个人在激烈地争吵。接着，我梦见了 2012 年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+    "notes": "包含13点、18点、次日2点三个章节"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "我走在斑马线上，心里盘算着给她准备一份生日礼物——她马上就要30岁了。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 35
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我又想到，要是送她一份求婚礼物，我们就能结婚了，可送什么好呢？",
+      "sentence_index": 2,
+      "char_start": 35,
+      "char_end": 66
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "她喜欢香奈儿，可我没钱，买不起。",
+      "sentence_index": 3,
+      "char_start": 66,
+      "char_end": 82
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一家书店，想到书也是个不错的礼物。",
+      "sentence_index": 4,
+      "char_start": 82,
+      "char_end": 107
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "我走进书店，翻了翻书，突然想到可以在书里夹一朵玫瑰，可玫瑰很快就枯萎了，我的心也跟着碎了。",
+      "sentence_index": 5,
+      "char_start": 107,
+      "char_end": 152
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "我又想到书里藏着坏人，用枪指着我，有点害怕。",
+      "sentence_index": 6,
+      "char_start": 152,
+      "char_end": 174
+    },
+    {
+      "unit_id": "sent_007",
+      "unit_type": "sentence",
+      "text": "坏人开枪打我，我躲开了，有点生气。",
+      "sentence_index": 7,
+      "char_start": 174,
+      "char_end": 191
+    },
+    {
+      "unit_id": "sent_008",
+      "unit_type": "sentence",
+      "text": "我看着机票，想去旅行，忍不住笑了。",
+      "sentence_index": 8,
+      "char_start": 191,
+      "char_end": 208
+    },
+    {
+      "unit_id": "sent_009",
+      "unit_type": "sentence",
+      "text": "我想到我们结婚后去度蜜月，笑了。",
+      "sentence_index": 9,
+      "char_start": 208,
+      "char_end": 224
+    },
+    {
+      "unit_id": "sent_010",
+      "unit_type": "sentence",
+      "text": "我拿起手机给她发消息。",
+      "sentence_index": 10,
+      "char_start": 224,
+      "char_end": 235
+    },
+    {
+      "unit_id": "sent_011",
+      "unit_type": "sentence",
+      "text": "我问她：“结婚后想去哪度蜜月？”",
+      "sentence_index": 11,
+      "char_start": 235,
+      "char_end": 252
+    },
+    {
+      "unit_id": "sent_012",
+      "unit_type": "sentence",
+      "text": "”她回：“想去自由女神像，还有埃菲尔铁塔……”电话响了，我看着机票，想去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后选了美国。",
+      "sentence_index": 12,
+      "char_start": 251,
+      "char_end": 317
+    },
+    {
+      "unit_id": "sent_013",
+      "unit_type": "sentence",
+      "text": "美国的景点有白宫、迪士尼、梦露、体育馆、自由女神像、世贸中心。",
+      "sentence_index": 13,
+      "char_start": 316,
+      "char_end": 348
+    },
+    {
+      "unit_id": "sent_014",
+      "unit_type": "sentence",
+      "text": "我想到世贸中心被炸了，有点惊讶。",
+      "sentence_index": 14,
+      "char_start": 348,
+      "char_end": 364
+    },
+    {
+      "unit_id": "sent_015",
+      "unit_type": "sentence",
+      "text": "我查了去美国的航班、机场、酒店和攻略。",
+      "sentence_index": 15,
+      "char_start": 364,
+      "char_end": 383
+    },
+    {
+      "unit_id": "sent_016",
+      "unit_type": "sentence",
+      "text": "各种酒店都列了出来，五星的、三星的、经济型的，还有博物馆、剧院，各种奢侈品品牌。",
+      "sentence_index": 16,
+      "char_start": 383,
+      "char_end": 423
+    },
+    {
+      "unit_id": "sent_017",
+      "unit_type": "sentence",
+      "text": "我点了赞，笑着继续翻书，走着走着到了门口，红灯亮了，停了下来。",
+      "sentence_index": 17,
+      "char_start": 423,
+      "char_end": 454
+    },
+    {
+      "unit_id": "sent_018",
+      "unit_type": "sentence",
+      "text": "我想到她，转身往回走，又查了巴黎的景点，巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……到了门口。",
+      "sentence_index": 18,
+      "char_start": 454,
+      "char_end": 497
+    },
+    {
+      "unit_id": "sent_019",
+      "unit_type": "sentence",
+      "text": "我刷卡结账，想着买两本书当礼物。",
+      "sentence_index": 19,
+      "char_start": 497,
+      "char_end": 513
+    },
+    {
+      "unit_id": "sent_020",
+      "unit_type": "sentence",
+      "text": "付了钱，拿到了礼物，想到她会很开心。",
+      "sentence_index": 20,
+      "char_start": 513,
+      "char_end": 531
+    },
+    {
+      "unit_id": "sent_021",
+      "unit_type": "sentence",
+      "text": "我看着礼物，纠结要不要送她。",
+      "sentence_index": 21,
+      "char_start": 531,
+      "char_end": 545
+    },
+    {
+      "unit_id": "sent_022",
+      "unit_type": "sentence",
+      "text": "走出书店，想到她的生日，又回头看了看。",
+      "sentence_index": 22,
+      "char_start": 545,
+      "char_end": 564
+    },
+    {
+      "unit_id": "sent_023",
+      "unit_type": "sentence",
+      "text": "我想着相机太贵，不买；平板太贵，不买；滑板太贵，不买；游戏不贵，买了，忍不住笑了。",
+      "sentence_index": 23,
+      "char_start": 564,
+      "char_end": 605
+    },
+    {
+      "unit_id": "sent_024",
+      "unit_type": "sentence",
+      "text": "我想到她和游戏，还是去结账吧。",
+      "sentence_index": 24,
+      "char_start": 605,
+      "char_end": 620
+    },
+    {
+      "unit_id": "sent_025",
+      "unit_type": "sentence",
+      "text": "结完账，走出书店，看了看时间，回公司。",
+      "sentence_index": 25,
+      "char_start": 620,
+      "char_end": 639
+    },
+    {
+      "unit_id": "sent_026",
+      "unit_type": "sentence",
+      "text": "刷了工牌，走进电梯，看到快递的牌子，有点惊讶。",
+      "sentence_index": 26,
+      "char_start": 639,
+      "char_end": 662
+    },
+    {
+      "unit_id": "sent_027",
+      "unit_type": "sentence",
+      "text": "按了电梯，电梯到了1、2……89楼，红灯停了，开门，出去。",
+      "sentence_index": 27,
+      "char_start": 662,
+      "char_end": 691
+    },
+    {
+      "unit_id": "sent_028",
+      "unit_type": "sentence",
+      "text": "左转，直行，转弯，直行，再转弯，直行，打卡，刷手机，开门。",
+      "sentence_index": 28,
+      "char_start": 691,
+      "char_end": 720
+    },
+    {
+      "unit_id": "sent_029",
+      "unit_type": "sentence",
+      "text": "走到工位，坐下。",
+      "sentence_index": 29,
+      "char_start": 720,
+      "char_end": 728
+    },
+    {
+      "unit_id": "sent_030",
+      "unit_type": "sentence",
+      "text": "下午六点，我回到家，第一件事就是打开空调，让自己凉快下来。",
+      "sentence_index": 30,
+      "char_start": 728,
+      "char_end": 757
+    },
+    {
+      "unit_id": "sent_031",
+      "unit_type": "sentence",
+      "text": "我从冰箱里拿出饮料，惬意地喝了一口。",
+      "sentence_index": 31,
+      "char_start": 757,
+      "char_end": 775
+    },
+    {
+      "unit_id": "sent_032",
+      "unit_type": "sentence",
+      "text": "然后，我走进浴室冲了个澡，出来后开始精心挑选晚上约会要穿的衣服，试了好几套，终于找到了满意的搭配。",
+      "sentence_index": 32,
+      "char_start": 775,
+      "char_end": 824
+    },
+    {
+      "unit_id": "sent_033",
+      "unit_type": "sentence",
+      "text": "我吹了吹头发，听着音乐，心情格外舒畅。",
+      "sentence_index": 33,
+      "char_start": 824,
+      "char_end": 843
+    },
+    {
+      "unit_id": "sent_034",
+      "unit_type": "sentence",
+      "text": "与此同时，她也在家忙碌着。",
+      "sentence_index": 34,
+      "char_start": 843,
+      "char_end": 856
+    },
+    {
+      "unit_id": "sent_035",
+      "unit_type": "sentence",
+      "text": "她戴上眼镜和帽子，仔细地挑选口红颜色，涂好口红后，又认真地化了妆，吹了头发。",
+      "sentence_index": 35,
+      "char_start": 856,
+      "char_end": 894
+    },
+    {
+      "unit_id": "sent_036",
+      "unit_type": "sentence",
+      "text": "她也在听着音乐，准备出门。",
+      "sentence_index": 36,
+      "char_start": 894,
+      "char_end": 907
+    },
+    {
+      "unit_id": "sent_037",
+      "unit_type": "sentence",
+      "text": "我选好了鞋子和配饰，准备出门。",
+      "sentence_index": 37,
+      "char_start": 907,
+      "char_end": 922
+    },
+    {
+      "unit_id": "sent_038",
+      "unit_type": "sentence",
+      "text": "出门前，我给她发了条消息，确认了时间。",
+      "sentence_index": 38,
+      "char_start": 922,
+      "char_end": 941
+    },
+    {
+      "unit_id": "sent_039",
+      "unit_type": "sentence",
+      "text": "然后关掉空调和手机，离开了家。",
+      "sentence_index": 39,
+      "char_start": 941,
+      "char_end": 956
+    },
+    {
+      "unit_id": "sent_040",
+      "unit_type": "sentence",
+      "text": "刚出门不久，她的电话就打了过来，我有点紧张地接了电话。",
+      "sentence_index": 40,
+      "char_start": 956,
+      "char_end": 983
+    },
+    {
+      "unit_id": "sent_041",
+      "unit_type": "sentence",
+      "text": "挂了电话后，我直奔花店，买了12朵漂亮的花。",
+      "sentence_index": 41,
+      "char_start": 983,
+      "char_end": 1007
+    },
+    {
+      "unit_id": "sent_042",
+      "unit_type": "sentence",
+      "text": "我拿着花，心里想着她，想象着她收到花时开心的样子。",
+      "sentence_index": 42,
+      "char_start": 1005,
+      "char_end": 1032
+    },
+    {
+      "unit_id": "sent_043",
+      "unit_type": "sentence",
+      "text": "终于，我见到了她，把花递给了她。",
+      "sentence_index": 43,
+      "char_start": 1030,
+      "char_end": 1048
+    },
+    {
+      "unit_id": "sent_044",
+      "unit_type": "sentence",
+      "text": "她开心地接过花，我们相视而笑。",
+      "sentence_index": 44,
+      "char_start": 1046,
+      "char_end": 1063
+    },
+    {
+      "unit_id": "sent_045",
+      "unit_type": "sentence",
+      "text": "我们一起去了约定的酒吧。",
+      "sentence_index": 45,
+      "char_start": 1061,
+      "char_end": 1075
+    },
+    {
+      "unit_id": "sent_046",
+      "unit_type": "sentence",
+      "text": "在酒吧里，她问我要不要回家，但我更想和她在这里多待一会儿。",
+      "sentence_index": 46,
+      "char_start": 1073,
+      "char_end": 1104
+    },
+    {
+      "unit_id": "sent_047",
+      "unit_type": "sentence",
+      "text": "我们点了啤酒，聊着天。",
+      "sentence_index": 47,
+      "char_start": 1102,
+      "char_end": 1115
+    },
+    {
+      "unit_id": "sent_048",
+      "unit_type": "sentence",
+      "text": "突然，我看到一些奇怪的东西，感到有些惊讶。",
+      "sentence_index": 48,
+      "char_start": 1113,
+      "char_end": 1136
+    },
+    {
+      "unit_id": "sent_049",
+      "unit_type": "sentence",
+      "text": "不过，和她在一起的时光总是很愉快，虽然中途我去了趟洗手间，但这并不影响我们的好心情。",
+      "sentence_index": 49,
+      "char_start": 1134,
+      "char_end": 1178
+    },
+    {
+      "unit_id": "sent_050",
+      "unit_type": "sentence",
+      "text": "凌晨两点，我躺在床上，很快就进入了梦乡。",
+      "sentence_index": 50,
+      "char_start": 1176,
+      "char_end": 1198
+    },
+    {
+      "unit_id": "sent_051",
+      "unit_type": "sentence",
+      "text": "在梦里，我看到两个人在激烈地争吵。",
+      "sentence_index": 51,
+      "char_start": 1196,
+      "char_end": 1215
+    },
+    {
+      "unit_id": "sent_052",
+      "unit_type": "sentence",
+      "text": "接着，我梦见了2012年世界末日的场景，巨大的海浪淹没了地球，人们纷纷逃到山上避难。",
+      "sentence_index": 52,
+      "char_start": 1213,
+      "char_end": 1259
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_779",
+      "target_id": "sent_001",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我一边过马路，一边在心里琢磨着该给她买什么生日礼物，毕竟她马上就30岁了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_780",
+      "target_id": "sent_002",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我又冒出个念头：要是送她一件求婚礼物，那我们就能结婚了，可是该送什么呢？",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_781",
+      "target_id": "sent_003",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她喜欢香奈儿，可我没那么多钱，根本买不起。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_782",
+      "target_id": "sent_004",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "走着走着，我瞧见一家书店，心想送本书当礼物也挺好的。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_783",
+      "target_id": "sent_005",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我走进书店，随手翻了几本书，突然想到可以在书里夹一朵玫瑰，可玫瑰花很快就枯萎了，我的心情也跟着支离破碎。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_784",
+      "target_id": "sent_006",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我又想到书里说不定藏着坏人，拿枪指着我，心里不免有些害怕。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_785",
+      "target_id": "sent_007",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "坏人朝我开枪，我敏捷地躲开了，心里有点来气。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_786",
+      "target_id": "sent_008",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我盯着机票看，特别想去旅行，忍不住笑了起来。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_787",
+      "target_id": "sent_009",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我幻想着我俩结婚后去度蜜月的场景，不由得笑了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_788",
+      "target_id": "sent_010",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我拿起手机，给她发了条消息。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_789",
+      "target_id": "sent_011",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我问她：“结婚以后你想去哪儿度蜜月呀？”",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_790",
+      "target_id": "sent_012",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她回我：“想去自由女神像，还有埃菲尔铁塔……”这时电话响了，我看着机票，心里想着要去悉尼歌剧院、富士山、泰姬陵、加拿大、金字塔……最后定了去美国。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_791",
+      "target_id": "sent_013",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "美国那边的景点可多了，有白宫、迪士尼、梦露雕像、体育馆、自由女神像，还有世贸中心。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_792",
+      "target_id": "sent_014",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我猛然想起世贸中心被炸过，吃了一惊。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_793",
+      "target_id": "sent_015",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我赶紧查了去美国的航班、机场、酒店和旅行攻略。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_794",
+      "target_id": "sent_016",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "各种酒店都列出来了，五星级的、三星级的、经济型的都有，还有博物馆、剧院，以及各种各样的奢侈品牌。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_795",
+      "target_id": "sent_017",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我顺手点了个赞，笑着继续翻书，走着走着就到了书店门口，正好红灯亮了，我便停了下来。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_796",
+      "target_id": "sent_018",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "想到她，我又转身往回走，顺手搜了搜巴黎的景点——巴黎圣母院、蒙娜丽莎、埃菲尔铁塔……不知不觉又走到了书店门口。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_797",
+      "target_id": "sent_019",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我刷了卡结账，心里盘算着买两本书当作礼物送给她。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_798",
+      "target_id": "sent_020",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "付完钱拿到礼物后，想着她收到一定会特别开心。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_799",
+      "target_id": "sent_021",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我盯着手里的礼物，陷入了纠结，不知道该不该送给她。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_800",
+      "target_id": "sent_022",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "走出书店后，又想起了她的生日，忍不住回头望了望。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_801",
+      "target_id": "sent_023",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我在心里琢磨着：相机太贵了，不买；平板也太贵，不买；滑板还是太贵，不买；游戏不算贵，那就买了吧，想着想着忍不住笑出了声。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_802",
+      "target_id": "sent_024",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "想到她和游戏，我还是决定去把账结了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_803",
+      "target_id": "sent_025",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "结完账走出书店，我看了眼时间，就回公司去了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_804",
+      "target_id": "sent_026",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "刷工牌进了大楼，走进电梯时看到快递的牌子，心里有点意外。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_805",
+      "target_id": "sent_027",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "按了电梯按钮，电梯一路经过1楼、2楼……最后到了89楼，红灯亮了电梯停下，门一开我就走了出去。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_806",
+      "target_id": "sent_028",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "左转、直行、转弯、再直行、转弯、直行，然后打卡、刷手机、开门。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_807",
+      "target_id": "sent_029",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "走到自己的工位前，坐了下来。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_808",
+      "target_id": "sent_030",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "下午六点，我回到家里，第一件事就是打开空调，让自己凉快凉快。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_809",
+      "target_id": "sent_031",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我从冰箱里拿出一瓶饮料，舒舒服服地喝了一大口。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_810",
+      "target_id": "sent_032",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "然后我去浴室冲了个澡，出来以后就开始精心挑选晚上约会要穿的衣服，试了好几套，总算是找到了满意的搭配。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_811",
+      "target_id": "sent_033",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我吹了吹头发，放着音乐，心情格外舒畅。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_812",
+      "target_id": "sent_034",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "与此同时，她也在家里忙着准备。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_813",
+      "target_id": "sent_035",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她戴上眼镜和帽子，仔细地挑了口红的颜色，涂完后又开始认真化妆，还把头发吹干了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_814",
+      "target_id": "sent_036",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她也一边听着音乐，一边准备出门。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_815",
+      "target_id": "sent_037",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我也挑好了鞋子和搭配的饰品，准备出发。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_816",
+      "target_id": "sent_038",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "临出门前，我给她发了条信息，又确认了一遍时间。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_817",
+      "target_id": "sent_039",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "然后关掉空调和手机，离开了家。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_818",
+      "target_id": "sent_040",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "刚出门没一会儿，她的电话就打过来了，我有些紧张地接通了。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_819",
+      "target_id": "sent_041",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "挂了电话后，我直奔花店，买了12朵漂亮的花。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_820",
+      "target_id": "sent_042",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我手捧着花，心里一直想着她，想象着她收到花时那开心的模样。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_821",
+      "target_id": "sent_043",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "终于见到她了，我把花递了过去。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_822",
+      "target_id": "sent_044",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "她开心地接过花，我俩相视而笑。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_823",
+      "target_id": "sent_045",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们一起去了约定好的那家酒吧。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_824",
+      "target_id": "sent_046",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "在酒吧里，她问我是不是想回家了，可我却更想和她在这儿多待上一会儿。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_825",
+      "target_id": "sent_047",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "我们点了啤酒，一边喝一边聊。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_826",
+      "target_id": "sent_048",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "突然，我看到了一些怪怪的东西，觉得有点惊讶。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_827",
+      "target_id": "sent_049",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "不过话说回来，和她在一起的时光总是那么开心，虽然中途我去了一趟卫生间，但这丝毫不影响我们的好心情。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_828",
+      "target_id": "sent_050",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "凌晨两点，我躺在床上，不一会儿就进入了梦乡。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_829",
+      "target_id": "sent_051",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "梦里，我看见两个人正在激烈地争吵。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    },
+    {
+      "annotation_id": "ann_830",
+      "target_id": "sent_052",
+      "target_type": "sentence",
+      "task_id": "free_translation",
+      "task_label_zh": "自由翻译",
+      "task_label_en": "Free Translation",
+      "value": "接着，我梦到了2012年世界末日的景象，滔天巨浪淹没了整个地球，人们纷纷逃到山上躲避。",
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "DeepSeek",
+      "annotator_note": ""
+    }
+  ]
+}

@@ -1,0 +1,1620 @@
+{
+  "project": {
+    "project_name": "《地书》与自然语言文本差异性分析",
+    "data_type": "natural_language_text",
+    "schema_version": "1.0",
+    "annotation_language": "zh-CN",
+    "created_at": "2026-05-06T20:30:00+08:00",
+    "llm_assisted": true,
+    "llm_tools": [
+      "ChatGPT"
+    ]
+  },
+  "student": {
+    "student_id": "",
+    "student_name": "",
+    "assigned_section": "24点",
+    "word_task_type": "pos_like_category",
+    "sentence_task_type": "discourse_relation"
+  },
+  "source_text": {
+    "text_id": "dishu_chapter_24",
+    "title": "《地书》指定章节自然语言文本：24点",
+    "source": "教师提供",
+    "raw_text": "24点：午夜十二点，我没有开车，而是选择步行回家。我看着地图，沿着脚下的脚印，一步步向前走。路上很安静，只有我一个人的脚步声。\n我经过了一个门口，又经过了一个警察局门口。走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。\n沿着长长的脚印，我终于走到了家。",
+    "notes": "本文件只包含该章节的词性/符号性质标注。"
+  },
+  "units": [
+    {
+      "unit_id": "sent_001",
+      "unit_type": "sentence",
+      "text": "24点：午夜十二点，我没有开车，而是选择步行回家。",
+      "sentence_index": 1,
+      "char_start": 0,
+      "char_end": 25,
+      "children": [
+        "word_001",
+        "word_002",
+        "word_003",
+        "word_004",
+        "word_005",
+        "word_006",
+        "word_007",
+        "word_008",
+        "word_009",
+        "word_010",
+        "word_011"
+      ]
+    },
+    {
+      "unit_id": "word_001",
+      "unit_type": "word",
+      "text": "24点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 1,
+      "char_start": 0,
+      "char_end": 3
+    },
+    {
+      "unit_id": "word_002",
+      "unit_type": "word",
+      "text": "：",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 2,
+      "char_start": 3,
+      "char_end": 4
+    },
+    {
+      "unit_id": "word_003",
+      "unit_type": "word",
+      "text": "午夜十二点",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 3,
+      "char_start": 4,
+      "char_end": 9
+    },
+    {
+      "unit_id": "word_004",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 4,
+      "char_start": 9,
+      "char_end": 10
+    },
+    {
+      "unit_id": "word_005",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 5,
+      "char_start": 10,
+      "char_end": 11
+    },
+    {
+      "unit_id": "word_006",
+      "unit_type": "word",
+      "text": "没有开车",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 6,
+      "char_start": 11,
+      "char_end": 15
+    },
+    {
+      "unit_id": "word_007",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 7,
+      "char_start": 15,
+      "char_end": 16
+    },
+    {
+      "unit_id": "word_008",
+      "unit_type": "word",
+      "text": "而是",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 8,
+      "char_start": 16,
+      "char_end": 18
+    },
+    {
+      "unit_id": "word_009",
+      "unit_type": "word",
+      "text": "选择",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 9,
+      "char_start": 18,
+      "char_end": 20
+    },
+    {
+      "unit_id": "word_010",
+      "unit_type": "word",
+      "text": "步行回家",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 10,
+      "char_start": 20,
+      "char_end": 24
+    },
+    {
+      "unit_id": "word_011",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_001",
+      "word_index_in_sentence": 11,
+      "char_start": 24,
+      "char_end": 25
+    },
+    {
+      "unit_id": "sent_002",
+      "unit_type": "sentence",
+      "text": "我看着地图，沿着脚下的脚印，一步步向前走。",
+      "sentence_index": 2,
+      "char_start": 25,
+      "char_end": 46,
+      "children": [
+        "word_012",
+        "word_013",
+        "word_014",
+        "word_015",
+        "word_016",
+        "word_017",
+        "word_018",
+        "word_019",
+        "word_020",
+        "word_021"
+      ]
+    },
+    {
+      "unit_id": "word_012",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 1,
+      "char_start": 25,
+      "char_end": 26
+    },
+    {
+      "unit_id": "word_013",
+      "unit_type": "word",
+      "text": "看着",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 2,
+      "char_start": 26,
+      "char_end": 28
+    },
+    {
+      "unit_id": "word_014",
+      "unit_type": "word",
+      "text": "地图",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 3,
+      "char_start": 28,
+      "char_end": 30
+    },
+    {
+      "unit_id": "word_015",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 4,
+      "char_start": 30,
+      "char_end": 31
+    },
+    {
+      "unit_id": "word_016",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 5,
+      "char_start": 31,
+      "char_end": 33
+    },
+    {
+      "unit_id": "word_017",
+      "unit_type": "word",
+      "text": "脚下的脚印",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 6,
+      "char_start": 33,
+      "char_end": 38
+    },
+    {
+      "unit_id": "word_018",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 7,
+      "char_start": 38,
+      "char_end": 39
+    },
+    {
+      "unit_id": "word_019",
+      "unit_type": "word",
+      "text": "一步步",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 8,
+      "char_start": 39,
+      "char_end": 42
+    },
+    {
+      "unit_id": "word_020",
+      "unit_type": "word",
+      "text": "向前走",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 9,
+      "char_start": 42,
+      "char_end": 45
+    },
+    {
+      "unit_id": "word_021",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_002",
+      "word_index_in_sentence": 10,
+      "char_start": 45,
+      "char_end": 46
+    },
+    {
+      "unit_id": "sent_003",
+      "unit_type": "sentence",
+      "text": "路上很安静，只有我一个人的脚步声。",
+      "sentence_index": 3,
+      "char_start": 46,
+      "char_end": 63,
+      "children": [
+        "word_022",
+        "word_023",
+        "word_024",
+        "word_025",
+        "word_026",
+        "word_027",
+        "word_028"
+      ]
+    },
+    {
+      "unit_id": "word_022",
+      "unit_type": "word",
+      "text": "路上",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 1,
+      "char_start": 46,
+      "char_end": 48
+    },
+    {
+      "unit_id": "word_023",
+      "unit_type": "word",
+      "text": "很",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 2,
+      "char_start": 48,
+      "char_end": 49
+    },
+    {
+      "unit_id": "word_024",
+      "unit_type": "word",
+      "text": "安静",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 3,
+      "char_start": 49,
+      "char_end": 51
+    },
+    {
+      "unit_id": "word_025",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 4,
+      "char_start": 51,
+      "char_end": 52
+    },
+    {
+      "unit_id": "word_026",
+      "unit_type": "word",
+      "text": "只有",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 5,
+      "char_start": 52,
+      "char_end": 54
+    },
+    {
+      "unit_id": "word_027",
+      "unit_type": "word",
+      "text": "我一个人的脚步声",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 6,
+      "char_start": 54,
+      "char_end": 62
+    },
+    {
+      "unit_id": "word_028",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_003",
+      "word_index_in_sentence": 7,
+      "char_start": 62,
+      "char_end": 63
+    },
+    {
+      "unit_id": "sent_004",
+      "unit_type": "sentence",
+      "text": "我经过了一个门口，又经过了一个警察局门口。",
+      "sentence_index": 4,
+      "char_start": 64,
+      "char_end": 85,
+      "children": [
+        "word_029",
+        "word_030",
+        "word_031",
+        "word_032",
+        "word_033",
+        "word_034",
+        "word_035",
+        "word_036",
+        "word_037",
+        "word_038"
+      ]
+    },
+    {
+      "unit_id": "word_029",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 1,
+      "char_start": 64,
+      "char_end": 65
+    },
+    {
+      "unit_id": "word_030",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 2,
+      "char_start": 65,
+      "char_end": 68
+    },
+    {
+      "unit_id": "word_031",
+      "unit_type": "word",
+      "text": "一个",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 3,
+      "char_start": 68,
+      "char_end": 70
+    },
+    {
+      "unit_id": "word_032",
+      "unit_type": "word",
+      "text": "门口",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 4,
+      "char_start": 70,
+      "char_end": 72
+    },
+    {
+      "unit_id": "word_033",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 5,
+      "char_start": 72,
+      "char_end": 73
+    },
+    {
+      "unit_id": "word_034",
+      "unit_type": "word",
+      "text": "又",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 6,
+      "char_start": 73,
+      "char_end": 74
+    },
+    {
+      "unit_id": "word_035",
+      "unit_type": "word",
+      "text": "经过了",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 7,
+      "char_start": 74,
+      "char_end": 77
+    },
+    {
+      "unit_id": "word_036",
+      "unit_type": "word",
+      "text": "一个",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 8,
+      "char_start": 77,
+      "char_end": 79
+    },
+    {
+      "unit_id": "word_037",
+      "unit_type": "word",
+      "text": "警察局门口",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 9,
+      "char_start": 79,
+      "char_end": 84
+    },
+    {
+      "unit_id": "word_038",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_004",
+      "word_index_in_sentence": 10,
+      "char_start": 84,
+      "char_end": 85
+    },
+    {
+      "unit_id": "sent_005",
+      "unit_type": "sentence",
+      "text": "走着走着，我看到一个女人，抬头看了看天空，然后继续往前走。",
+      "sentence_index": 5,
+      "char_start": 85,
+      "char_end": 114,
+      "children": [
+        "word_039",
+        "word_040",
+        "word_041",
+        "word_042",
+        "word_043",
+        "word_044",
+        "word_045",
+        "word_046",
+        "word_047",
+        "word_048",
+        "word_049",
+        "word_050",
+        "word_051",
+        "word_052",
+        "word_053"
+      ]
+    },
+    {
+      "unit_id": "word_039",
+      "unit_type": "word",
+      "text": "走着走着",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 1,
+      "char_start": 85,
+      "char_end": 89
+    },
+    {
+      "unit_id": "word_040",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 2,
+      "char_start": 89,
+      "char_end": 90
+    },
+    {
+      "unit_id": "word_041",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 3,
+      "char_start": 90,
+      "char_end": 91
+    },
+    {
+      "unit_id": "word_042",
+      "unit_type": "word",
+      "text": "看到",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 4,
+      "char_start": 91,
+      "char_end": 93
+    },
+    {
+      "unit_id": "word_043",
+      "unit_type": "word",
+      "text": "一个",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 5,
+      "char_start": 93,
+      "char_end": 95
+    },
+    {
+      "unit_id": "word_044",
+      "unit_type": "word",
+      "text": "女人",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 6,
+      "char_start": 95,
+      "char_end": 97
+    },
+    {
+      "unit_id": "word_045",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 7,
+      "char_start": 97,
+      "char_end": 98
+    },
+    {
+      "unit_id": "word_046",
+      "unit_type": "word",
+      "text": "抬头",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 8,
+      "char_start": 98,
+      "char_end": 100
+    },
+    {
+      "unit_id": "word_047",
+      "unit_type": "word",
+      "text": "看了看",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 9,
+      "char_start": 100,
+      "char_end": 103
+    },
+    {
+      "unit_id": "word_048",
+      "unit_type": "word",
+      "text": "天空",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 10,
+      "char_start": 103,
+      "char_end": 105
+    },
+    {
+      "unit_id": "word_049",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 11,
+      "char_start": 105,
+      "char_end": 106
+    },
+    {
+      "unit_id": "word_050",
+      "unit_type": "word",
+      "text": "然后",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 12,
+      "char_start": 106,
+      "char_end": 108
+    },
+    {
+      "unit_id": "word_051",
+      "unit_type": "word",
+      "text": "继续",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 13,
+      "char_start": 108,
+      "char_end": 110
+    },
+    {
+      "unit_id": "word_052",
+      "unit_type": "word",
+      "text": "往前走",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 14,
+      "char_start": 110,
+      "char_end": 113
+    },
+    {
+      "unit_id": "word_053",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_005",
+      "word_index_in_sentence": 15,
+      "char_start": 113,
+      "char_end": 114
+    },
+    {
+      "unit_id": "sent_006",
+      "unit_type": "sentence",
+      "text": "沿着长长的脚印，我终于走到了家。",
+      "sentence_index": 6,
+      "char_start": 115,
+      "char_end": 131,
+      "children": [
+        "word_054",
+        "word_055",
+        "word_056",
+        "word_057",
+        "word_058",
+        "word_059",
+        "word_060",
+        "word_061"
+      ]
+    },
+    {
+      "unit_id": "word_054",
+      "unit_type": "word",
+      "text": "沿着",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 1,
+      "char_start": 115,
+      "char_end": 117
+    },
+    {
+      "unit_id": "word_055",
+      "unit_type": "word",
+      "text": "长长的脚印",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 2,
+      "char_start": 117,
+      "char_end": 122
+    },
+    {
+      "unit_id": "word_056",
+      "unit_type": "word",
+      "text": "，",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 3,
+      "char_start": 122,
+      "char_end": 123
+    },
+    {
+      "unit_id": "word_057",
+      "unit_type": "word",
+      "text": "我",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 4,
+      "char_start": 123,
+      "char_end": 124
+    },
+    {
+      "unit_id": "word_058",
+      "unit_type": "word",
+      "text": "终于",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 5,
+      "char_start": 124,
+      "char_end": 126
+    },
+    {
+      "unit_id": "word_059",
+      "unit_type": "word",
+      "text": "走到了",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 6,
+      "char_start": 126,
+      "char_end": 129
+    },
+    {
+      "unit_id": "word_060",
+      "unit_type": "word",
+      "text": "家",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 7,
+      "char_start": 129,
+      "char_end": 130
+    },
+    {
+      "unit_id": "word_061",
+      "unit_type": "word",
+      "text": "。",
+      "sentence_id": "sent_006",
+      "word_index_in_sentence": 8,
+      "char_start": 130,
+      "char_end": 131
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "target_id": "word_001",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“24点”在该语境中标为numeral_like。"
+    },
+    {
+      "annotation_id": "ann_002",
+      "target_id": "word_002",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“：”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_003",
+      "target_id": "word_003",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“午夜十二点”在该语境中标为numeral_like。"
+    },
+    {
+      "annotation_id": "ann_004",
+      "target_id": "word_004",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_005",
+      "target_id": "word_005",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_006",
+      "target_id": "word_006",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“没有开车”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_007",
+      "target_id": "word_007",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_008",
+      "target_id": "word_008",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“而是”在该语境中标为conjunction_like。"
+    },
+    {
+      "annotation_id": "ann_009",
+      "target_id": "word_009",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“选择”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_010",
+      "target_id": "word_010",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“步行回家”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_011",
+      "target_id": "word_011",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_012",
+      "target_id": "word_012",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_013",
+      "target_id": "word_013",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“看着”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_014",
+      "target_id": "word_014",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“地图”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_015",
+      "target_id": "word_015",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_016",
+      "target_id": "word_016",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“沿着”在该语境中标为preposition_like。"
+    },
+    {
+      "annotation_id": "ann_017",
+      "target_id": "word_017",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“脚下的脚印”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_018",
+      "target_id": "word_018",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_019",
+      "target_id": "word_019",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“一步步”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_020",
+      "target_id": "word_020",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“向前走”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_021",
+      "target_id": "word_021",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_022",
+      "target_id": "word_022",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“路上”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_023",
+      "target_id": "word_023",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“很”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_024",
+      "target_id": "word_024",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adjective_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“安静”在该语境中标为adjective_like。"
+    },
+    {
+      "annotation_id": "ann_025",
+      "target_id": "word_025",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_026",
+      "target_id": "word_026",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“只有”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_027",
+      "target_id": "word_027",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我一个人的脚步声”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_028",
+      "target_id": "word_028",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_029",
+      "target_id": "word_029",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_030",
+      "target_id": "word_030",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“经过了”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_031",
+      "target_id": "word_031",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like",
+        "classifier_like"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“一个”在该语境中标为numeral_like、classifier_like。"
+    },
+    {
+      "annotation_id": "ann_032",
+      "target_id": "word_032",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“门口”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_033",
+      "target_id": "word_033",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_034",
+      "target_id": "word_034",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“又”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_035",
+      "target_id": "word_035",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“经过了”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_036",
+      "target_id": "word_036",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like",
+        "classifier_like"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“一个”在该语境中标为numeral_like、classifier_like。"
+    },
+    {
+      "annotation_id": "ann_037",
+      "target_id": "word_037",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“警察局门口”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_038",
+      "target_id": "word_038",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_039",
+      "target_id": "word_039",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“走着走着”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_040",
+      "target_id": "word_040",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_041",
+      "target_id": "word_041",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_042",
+      "target_id": "word_042",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“看到”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_043",
+      "target_id": "word_043",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "numeral_like",
+        "classifier_like"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“一个”在该语境中标为numeral_like、classifier_like。"
+    },
+    {
+      "annotation_id": "ann_044",
+      "target_id": "word_044",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“女人”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_045",
+      "target_id": "word_045",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_046",
+      "target_id": "word_046",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“抬头”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_047",
+      "target_id": "word_047",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“看了看”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_048",
+      "target_id": "word_048",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“天空”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_049",
+      "target_id": "word_049",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_050",
+      "target_id": "word_050",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "conjunction_like",
+        "adverb_like"
+      ],
+      "confidence": 0.85,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“然后”在该语境中标为conjunction_like、adverb_like。"
+    },
+    {
+      "annotation_id": "ann_051",
+      "target_id": "word_051",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“继续”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_052",
+      "target_id": "word_052",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“往前走”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_053",
+      "target_id": "word_053",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_054",
+      "target_id": "word_054",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "preposition_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“沿着”在该语境中标为preposition_like。"
+    },
+    {
+      "annotation_id": "ann_055",
+      "target_id": "word_055",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“长长的脚印”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_056",
+      "target_id": "word_056",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“，”在该语境中标为punctuation_or_symbol。"
+    },
+    {
+      "annotation_id": "ann_057",
+      "target_id": "word_057",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "pronoun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“我”在该语境中标为pronoun_like。"
+    },
+    {
+      "annotation_id": "ann_058",
+      "target_id": "word_058",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "adverb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“终于”在该语境中标为adverb_like。"
+    },
+    {
+      "annotation_id": "ann_059",
+      "target_id": "word_059",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "verb_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“走到了”在该语境中标为verb_like。"
+    },
+    {
+      "annotation_id": "ann_060",
+      "target_id": "word_060",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "noun_like"
+      ],
+      "confidence": 0.9,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“家”在该语境中标为noun_like。"
+    },
+    {
+      "annotation_id": "ann_061",
+      "target_id": "word_061",
+      "target_type": "word",
+      "task_id": "pos_like_category",
+      "task_label_zh": "词性/符号性质",
+      "task_label_en": "POS-like Category",
+      "value": [
+        "punctuation_or_symbol"
+      ],
+      "confidence": 0.95,
+      "llm_used": true,
+      "llm_name": "ChatGPT",
+      "annotator_note": "“。”在该语境中标为punctuation_or_symbol。"
+    }
+  ]
+}
